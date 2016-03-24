@@ -1,0 +1,1390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="AbstractIterable(Of TElem, TIterable, TBuilder) class">
+    <HelpKINode Title="AbstractIterable(TElem, TIterable, TBuilder) Class" Url="html/7a74dc40-0467-eb03-f665-a951a18cf918.htm" />
+    <HelpKINode Title="about AbstractIterable(Of TElem, TIterable, TBuilder) class" Url="html/7a74dc40-0467-eb03-f665-a951a18cf918.htm" />
+    <HelpKINode Title="constructor" Url="html/34a3a437-b786-8b1a-24a7-b804422a6593.htm" />
+    <HelpKINode Title="methods" Url="html/d979963f-15c4-36e9-61d3-754b995af3bc.htm" />
+    <HelpKINode Title="properties" Url="html/84b94875-aaa7-0281-56b8-c8bf43de6ee2.htm" />
+    <HelpKINode Title="type conversions" Url="html/03a30817-d867-afd5-1f5c-ec30637bcaed.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AbstractIterable(Of TElem, TIterable, TBuilder) to TIterable conversion" Url="html/60c4f6ff-5f51-9540-3e9d-117720fd7f40.htm" />
+  <HelpKINode Title="AbstractIterable(Of TElem, TIterable, TBuilder).AbstractIterable constructor" Url="html/34a3a437-b786-8b1a-24a7-b804422a6593.htm" />
+  <HelpKINode Title="AbstractIterable(Of TElem, TIterable, TBuilder).Aggregate method" Url="html/282b54f5-9561-9682-642a-4b919808ba7d.htm" />
+  <HelpKINode Title="AbstractIterable(Of TElem, TIterable, TBuilder).All method" Url="html/5196b85b-5679-91d2-de4e-d42dc8153c4d.htm" />
+  <HelpKINode Title="AbstractIterable(Of TElem, TIterable, TBuilder).Any method" Url="html/555789ac-3cfd-4786-7049-4927d7e200f8.htm" />
+  <HelpKINode Title="AbstractIterable(Of TElem, TIterable, TBuilder).BuilderFrom method" Url="html/3a2ea004-c7d8-ea79-02b8-643719c64ef0.htm" />
+  <HelpKINode Title="AbstractIterable(Of TElem, TIterable, TBuilder).CopyTo method" Url="html/6a31ecf9-937d-8b0c-9580-979d6f7723fe.htm" />
+  <HelpKINode Title="AbstractIterable(Of TElem, TIterable, TBuilder).Count method" Url="html/566d6600-b9ad-e348-3030-aa730212604d.htm" />
+  <HelpKINode Title="AbstractIterable(Of TElem, TIterable, TBuilder).DebuggerDisplay property" Url="html/452ca5f8-9a72-74d7-0422-fb615e89b37c.htm" />
+  <HelpKINode Title="AbstractIterable(Of TElem, TIterable, TBuilder).Empty property" Url="html/f7ee8043-0687-17d6-7128-75af5c7047c5.htm" />
+  <HelpKINode Title="AbstractIterable(Of TElem, TIterable, TBuilder).EmptyBuilder property" Url="html/f08b8151-b441-7052-5ded-1d35a5a4db82.htm" />
+  <HelpKINode Title="AbstractIterable(Of TElem, TIterable, TBuilder).Find method" Url="html/129f64cb-4272-49b6-3679-260089a0d519.htm" />
+  <HelpKINode Title="AbstractIterable(Of TElem, TIterable, TBuilder).ForEach method" Url="html/a5b753dc-0351-e370-1ff3-263954cd7486.htm" />
+  <HelpKINode Title="AbstractIterable(Of TElem, TIterable, TBuilder).ForEachWhile method" Url="html/bb41b1ee-a8b7-0e10-1856-82b8090a4158.htm" />
+  <HelpKINode Title="AbstractIterable(Of TElem, TIterable, TBuilder).GetEnumerator method" Url="html/2022e803-8b81-ee29-b6ac-5cc9446b689e.htm" />
+  <HelpKINode Title="AbstractIterable(Of TElem, TIterable, TBuilder).IsEmpty property" Url="html/f2b7e03c-cc06-b854-1883-dbad9a7ace52.htm" />
+  <HelpKINode Title="AbstractIterable(Of TElem, TIterable, TBuilder).Length property" Url="html/302ebf65-5b86-9e2c-52e7-60c8237d2f4c.htm" />
+  <HelpKINode Title="AbstractIterable(Of TElem, TIterable, TBuilder).Pick(Of TResult) method" Url="html/ee677af8-412a-3a95-4bf2-21331aa9fcff.htm" />
+  <HelpKINode Title="AbstractIterable(Of TElem, TIterable, TBuilder).Print method" Url="html/65f80661-85cc-8672-4d64-5ef997b266e6.htm" />
+  <HelpKINode Title="AbstractIterable(Of TElem, TIterable, TBuilder).Single method" Url="html/31373923-bd9a-9e48-eaf7-e3f4ee8be90d.htm" />
+  <HelpKINode Title="AbstractIterable(Of TElem, TIterable, TBuilder).ToArray method" Url="html/da7dfdbb-dc59-b5b1-7443-b99e578f57a9.htm" />
+  <HelpKINode Title="AbstractIterable(Of TElem, TIterable, TBuilder).UnderlyingCollection property" Url="html/6b804a7b-1f1b-1bd5-7c62-ca8264822b9b.htm" />
+  <HelpKINode Title="AbstractIterable(Of TElem, TIterable, TBuilder).Where method" Url="html/244773cc-2009-06f1-6490-46abc4dd1e05.htm" />
+  <HelpKINode Title="AbstractIterable(Of TElem, TIterable, TBuilder)._Cartesian(Of TRight, TOut, TOIter) method" Url="html/cde09702-82d7-eb77-9727-6623881e6879.htm" />
+  <HelpKINode Title="AbstractIterable(Of TElem, TIterable, TBuilder)._Cast(Of TOut, TOIter) method" Url="html/2b26b2d6-fd7c-90a0-be4a-ffb8e8388a60.htm" />
+  <HelpKINode Title="AbstractIterable(Of TElem, TIterable, TBuilder)._Choose(Of TOut, TOutIter) method" Url="html/b08ba45e-5764-30c1-1c2b-6b73e71d70ea.htm" />
+  <HelpKINode Title="AbstractIterable(Of TElem, TIterable, TBuilder)._GroupBy method" Url="html/93788592-d79d-f8e1-a519-bfbc3c28ca38.htm" />
+  <HelpKINode Title="AbstractIterable(Of TElem, TIterable, TBuilder)._GroupJoin(Of TOut, TOutIter, TInner, TKey) method" Url="html/a87becbb-7f33-941f-5d3d-1d6290a90976.htm" />
+  <HelpKINode Title="AbstractIterable(Of TElem, TIterable, TBuilder)._Join(Of TOut, TOutIter, TInner, TKey) method" Url="html/5a3d2c91-8739-042e-b6d3-0dd029fa6cf7.htm" />
+  <HelpKINode Title="AbstractIterable(Of TElem, TIterable, TBuilder)._OrderBy(Of TRList) method" Url="html/ddddc0a9-cd90-0db8-57ca-b65970f3ec96.htm" />
+  <HelpKINode Title="AbstractIterable(Of TElem, TIterable, TBuilder)._Scan(Of TElem2, TRSeq) method" Url="html/87e22706-1142-87dd-5b07-78f327f2d0a6.htm" />
+  <HelpKINode Title="AbstractIterable(Of TElem, TIterable, TBuilder)._Select(Of TElem2, TRSeq) method" Url="html/8ad08dbc-a750-10f1-e95c-d33d8be7ed26.htm" />
+  <HelpKINode Title="AbstractIterable(Of TElem, TIterable, TBuilder)._SelectMany method" Url="html/89aaf158-b724-7dd8-23da-5a51646e8d93.htm" />
+  <HelpKINode Title="AbstractIterable&lt;TElem, TIterable, TBuilder&gt; class">
+    <HelpKINode Title="AbstractIterable(TElem, TIterable, TBuilder) Class" Url="html/7a74dc40-0467-eb03-f665-a951a18cf918.htm" />
+    <HelpKINode Title="about AbstractIterable&lt;TElem, TIterable, TBuilder&gt; class" Url="html/7a74dc40-0467-eb03-f665-a951a18cf918.htm" />
+    <HelpKINode Title="constructor" Url="html/34a3a437-b786-8b1a-24a7-b804422a6593.htm" />
+    <HelpKINode Title="methods" Url="html/d979963f-15c4-36e9-61d3-754b995af3bc.htm" />
+    <HelpKINode Title="properties" Url="html/84b94875-aaa7-0281-56b8-c8bf43de6ee2.htm" />
+    <HelpKINode Title="type conversions" Url="html/03a30817-d867-afd5-1f5c-ec30637bcaed.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AbstractIterable&lt;TElem, TIterable, TBuilder&gt; to TIterable conversion" Url="html/60c4f6ff-5f51-9540-3e9d-117720fd7f40.htm" />
+  <HelpKINode Title="AbstractIterable&lt;TElem, TIterable, TBuilder&gt;.AbstractIterable constructor" Url="html/34a3a437-b786-8b1a-24a7-b804422a6593.htm" />
+  <HelpKINode Title="AbstractIterable&lt;TElem, TIterable, TBuilder&gt;.Aggregate method" Url="html/282b54f5-9561-9682-642a-4b919808ba7d.htm" />
+  <HelpKINode Title="AbstractIterable&lt;TElem, TIterable, TBuilder&gt;.All method" Url="html/5196b85b-5679-91d2-de4e-d42dc8153c4d.htm" />
+  <HelpKINode Title="AbstractIterable&lt;TElem, TIterable, TBuilder&gt;.Any method" Url="html/555789ac-3cfd-4786-7049-4927d7e200f8.htm" />
+  <HelpKINode Title="AbstractIterable&lt;TElem, TIterable, TBuilder&gt;.BuilderFrom method" Url="html/3a2ea004-c7d8-ea79-02b8-643719c64ef0.htm" />
+  <HelpKINode Title="AbstractIterable&lt;TElem, TIterable, TBuilder&gt;.CopyTo method" Url="html/6a31ecf9-937d-8b0c-9580-979d6f7723fe.htm" />
+  <HelpKINode Title="AbstractIterable&lt;TElem, TIterable, TBuilder&gt;.Count method" Url="html/566d6600-b9ad-e348-3030-aa730212604d.htm" />
+  <HelpKINode Title="AbstractIterable&lt;TElem, TIterable, TBuilder&gt;.DebuggerDisplay property" Url="html/452ca5f8-9a72-74d7-0422-fb615e89b37c.htm" />
+  <HelpKINode Title="AbstractIterable&lt;TElem, TIterable, TBuilder&gt;.Empty property" Url="html/f7ee8043-0687-17d6-7128-75af5c7047c5.htm" />
+  <HelpKINode Title="AbstractIterable&lt;TElem, TIterable, TBuilder&gt;.EmptyBuilder property" Url="html/f08b8151-b441-7052-5ded-1d35a5a4db82.htm" />
+  <HelpKINode Title="AbstractIterable&lt;TElem, TIterable, TBuilder&gt;.Find method" Url="html/129f64cb-4272-49b6-3679-260089a0d519.htm" />
+  <HelpKINode Title="AbstractIterable&lt;TElem, TIterable, TBuilder&gt;.ForEach method" Url="html/a5b753dc-0351-e370-1ff3-263954cd7486.htm" />
+  <HelpKINode Title="AbstractIterable&lt;TElem, TIterable, TBuilder&gt;.ForEachWhile method" Url="html/bb41b1ee-a8b7-0e10-1856-82b8090a4158.htm" />
+  <HelpKINode Title="AbstractIterable&lt;TElem, TIterable, TBuilder&gt;.GetEnumerator method" Url="html/2022e803-8b81-ee29-b6ac-5cc9446b689e.htm" />
+  <HelpKINode Title="AbstractIterable&lt;TElem, TIterable, TBuilder&gt;.IsEmpty property" Url="html/f2b7e03c-cc06-b854-1883-dbad9a7ace52.htm" />
+  <HelpKINode Title="AbstractIterable&lt;TElem, TIterable, TBuilder&gt;.Length property" Url="html/302ebf65-5b86-9e2c-52e7-60c8237d2f4c.htm" />
+  <HelpKINode Title="AbstractIterable&lt;TElem, TIterable, TBuilder&gt;.Pick&lt;TResult&gt; method" Url="html/ee677af8-412a-3a95-4bf2-21331aa9fcff.htm" />
+  <HelpKINode Title="AbstractIterable&lt;TElem, TIterable, TBuilder&gt;.Print method" Url="html/65f80661-85cc-8672-4d64-5ef997b266e6.htm" />
+  <HelpKINode Title="AbstractIterable&lt;TElem, TIterable, TBuilder&gt;.Single method" Url="html/31373923-bd9a-9e48-eaf7-e3f4ee8be90d.htm" />
+  <HelpKINode Title="AbstractIterable&lt;TElem, TIterable, TBuilder&gt;.ToArray method" Url="html/da7dfdbb-dc59-b5b1-7443-b99e578f57a9.htm" />
+  <HelpKINode Title="AbstractIterable&lt;TElem, TIterable, TBuilder&gt;.UnderlyingCollection property" Url="html/6b804a7b-1f1b-1bd5-7c62-ca8264822b9b.htm" />
+  <HelpKINode Title="AbstractIterable&lt;TElem, TIterable, TBuilder&gt;.Where method" Url="html/244773cc-2009-06f1-6490-46abc4dd1e05.htm" />
+  <HelpKINode Title="AbstractIterable&lt;TElem, TIterable, TBuilder&gt;._Cartesian&lt;TRight, TOut, TOIter&gt; method" Url="html/cde09702-82d7-eb77-9727-6623881e6879.htm" />
+  <HelpKINode Title="AbstractIterable&lt;TElem, TIterable, TBuilder&gt;._Cast&lt;TOut, TOIter&gt; method" Url="html/2b26b2d6-fd7c-90a0-be4a-ffb8e8388a60.htm" />
+  <HelpKINode Title="AbstractIterable&lt;TElem, TIterable, TBuilder&gt;._Choose&lt;TOut, TOutIter&gt; method" Url="html/b08ba45e-5764-30c1-1c2b-6b73e71d70ea.htm" />
+  <HelpKINode Title="AbstractIterable&lt;TElem, TIterable, TBuilder&gt;._GroupBy method" Url="html/93788592-d79d-f8e1-a519-bfbc3c28ca38.htm" />
+  <HelpKINode Title="AbstractIterable&lt;TElem, TIterable, TBuilder&gt;._GroupJoin&lt;TOut, TOutIter, TInner, TKey&gt; method" Url="html/a87becbb-7f33-941f-5d3d-1d6290a90976.htm" />
+  <HelpKINode Title="AbstractIterable&lt;TElem, TIterable, TBuilder&gt;._Join&lt;TOut, TOutIter, TInner, TKey&gt; method" Url="html/5a3d2c91-8739-042e-b6d3-0dd029fa6cf7.htm" />
+  <HelpKINode Title="AbstractIterable&lt;TElem, TIterable, TBuilder&gt;._OrderBy&lt;TRList&gt; method" Url="html/ddddc0a9-cd90-0db8-57ca-b65970f3ec96.htm" />
+  <HelpKINode Title="AbstractIterable&lt;TElem, TIterable, TBuilder&gt;._Scan&lt;TElem2, TRSeq&gt; method" Url="html/87e22706-1142-87dd-5b07-78f327f2d0a6.htm" />
+  <HelpKINode Title="AbstractIterable&lt;TElem, TIterable, TBuilder&gt;._Select&lt;TElem2, TRSeq&gt; method" Url="html/8ad08dbc-a750-10f1-e95c-d33d8be7ed26.htm" />
+  <HelpKINode Title="AbstractIterable&lt;TElem, TIterable, TBuilder&gt;._SelectMany method" Url="html/89aaf158-b724-7dd8-23da-5a51646e8d93.htm" />
+  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap) class">
+    <HelpKINode Title="AbstractMap(TKey, TValue, TMap) Class" Url="html/ceda73cd-8b35-c050-982c-12a7e78b555f.htm" />
+    <HelpKINode Title="about AbstractMap(Of TKey, TValue, TMap) class" Url="html/ceda73cd-8b35-c050-982c-12a7e78b555f.htm" />
+    <HelpKINode Title="constructor" Url="html/16fcc31e-a24b-e898-2a46-835d53de4660.htm" />
+    <HelpKINode Title="methods" Url="html/7a551579-f3c1-4169-7a3f-b6f7f833a524.htm" />
+    <HelpKINode Title="properties" Url="html/3d6d1169-38a3-80ab-718e-592c369f44c6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).AbstractMap constructor" Url="html/16fcc31e-a24b-e898-2a46-835d53de4660.htm" />
+  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Add method" Url="html/5121ca11-4c25-020e-e1bd-65fc053c66b8.htm" />
+  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).AddRange method" Url="html/07b34ea1-6003-a69b-739b-dbccad394824.htm" />
+  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Aggregate method" Url="html/01150132-16f9-c2df-efd8-2ebe45a612d2.htm" />
+  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).All method" Url="html/ce2cce04-fa86-b42e-1ba5-b5a6336bfd43.htm" />
+  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Any method" Url="html/e889bccd-4976-2149-fab3-cbb023dc97ae.htm" />
+  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).ContainsKey method" Url="html/6287a2e6-e142-6a13-06e7-c4b7271d50d5.htm" />
+  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Count method" Url="html/b8606f50-d94a-9de5-1c88-502ea2643ba2.htm" />
+  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Difference method" Url="html/7c988d12-9328-cb95-6b0c-6a4c21dc05aa.htm" />
+  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Find method" Url="html/cb60d6fb-8630-c0e3-96f8-0282e556ad04.htm" />
+  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).ForEach method" Url="html/c915a027-9b12-8bd1-663e-61fe94bc797b.htm" />
+  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).ForEachWhile method" Url="html/3061ddaa-c7c3-b21d-1feb-9154726018a6.htm" />
+  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).IsCompatibleWith method" Url="html/41e6a0c2-605a-3a5a-cb00-24f8ab0ea701.htm" />
+  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Item property" Url="html/cf0411e6-ee30-84bc-3b2f-ae1deac6595d.htm" />
+  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Join method" Url="html/9b5f02ce-806b-21c7-fc31-bb4ca60973a9.htm" />
+  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Keys property" Url="html/88c05b85-5462-2cad-f221-b5049a5d0e50.htm" />
+  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).MapEquals method" Url="html/00b971d6-aa62-8a01-7797-d8fa91ae4d58.htm" />
+  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Merge method" Url="html/11422af4-ad0a-2d83-7fc8-7e20f12ae81d.htm" />
+  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Pick method" Url="html/010a8ad0-a9de-6292-4211-fd5a444513af.htm" />
+  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Remove method" Url="html/65d1f57a-dba6-af60-0cb0-2faf8b7f08d9.htm" />
+  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).RemoveRange method" Url="html/ffa5a994-6124-5c84-e1ff-c0932fcc602e.htm" />
+  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Set method" Url="html/f2ede50d-cc00-609c-bab7-4bfe0c5d3401.htm" />
+  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).SetRange method" Url="html/3f2d21f3-d2df-f269-4a56-3555b7e16f24.htm" />
+  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Subtract method" Url="html/e8dcc5c5-1dcd-140d-c20b-bea231841ff2.htm" />
+  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).TryGet method" Url="html/17d121cf-f9d6-9761-3c21-980fd8505c2e.htm" />
+  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).TryGetKvp method" Url="html/33b428e9-a928-5edc-766d-ad8f20e47f99.htm" />
+  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Values property" Url="html/f875173c-2844-ad23-df85-e67d101ae518.htm" />
+  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap)._Join method" Url="html/f7ca90e1-b096-9d0b-7460-9f344d699edb.htm" />
+  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt; class">
+    <HelpKINode Title="AbstractMap(TKey, TValue, TMap) Class" Url="html/ceda73cd-8b35-c050-982c-12a7e78b555f.htm" />
+    <HelpKINode Title="about AbstractMap&lt;TKey, TValue, TMap&gt; class" Url="html/ceda73cd-8b35-c050-982c-12a7e78b555f.htm" />
+    <HelpKINode Title="constructor" Url="html/16fcc31e-a24b-e898-2a46-835d53de4660.htm" />
+    <HelpKINode Title="methods" Url="html/7a551579-f3c1-4169-7a3f-b6f7f833a524.htm" />
+    <HelpKINode Title="properties" Url="html/3d6d1169-38a3-80ab-718e-592c369f44c6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.AbstractMap constructor" Url="html/16fcc31e-a24b-e898-2a46-835d53de4660.htm" />
+  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Add method" Url="html/5121ca11-4c25-020e-e1bd-65fc053c66b8.htm" />
+  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.AddRange method" Url="html/07b34ea1-6003-a69b-739b-dbccad394824.htm" />
+  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Aggregate method" Url="html/01150132-16f9-c2df-efd8-2ebe45a612d2.htm" />
+  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.All method" Url="html/ce2cce04-fa86-b42e-1ba5-b5a6336bfd43.htm" />
+  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Any method" Url="html/e889bccd-4976-2149-fab3-cbb023dc97ae.htm" />
+  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.ContainsKey method" Url="html/6287a2e6-e142-6a13-06e7-c4b7271d50d5.htm" />
+  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Count method" Url="html/b8606f50-d94a-9de5-1c88-502ea2643ba2.htm" />
+  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Difference method" Url="html/7c988d12-9328-cb95-6b0c-6a4c21dc05aa.htm" />
+  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Find method" Url="html/cb60d6fb-8630-c0e3-96f8-0282e556ad04.htm" />
+  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.ForEach method" Url="html/c915a027-9b12-8bd1-663e-61fe94bc797b.htm" />
+  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.ForEachWhile method" Url="html/3061ddaa-c7c3-b21d-1feb-9154726018a6.htm" />
+  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.IsCompatibleWith method" Url="html/41e6a0c2-605a-3a5a-cb00-24f8ab0ea701.htm" />
+  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Item property" Url="html/cf0411e6-ee30-84bc-3b2f-ae1deac6595d.htm" />
+  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Join method" Url="html/9b5f02ce-806b-21c7-fc31-bb4ca60973a9.htm" />
+  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Keys property" Url="html/88c05b85-5462-2cad-f221-b5049a5d0e50.htm" />
+  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.MapEquals method" Url="html/00b971d6-aa62-8a01-7797-d8fa91ae4d58.htm" />
+  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Merge method" Url="html/11422af4-ad0a-2d83-7fc8-7e20f12ae81d.htm" />
+  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Pick method" Url="html/010a8ad0-a9de-6292-4211-fd5a444513af.htm" />
+  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Remove method" Url="html/65d1f57a-dba6-af60-0cb0-2faf8b7f08d9.htm" />
+  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.RemoveRange method" Url="html/ffa5a994-6124-5c84-e1ff-c0932fcc602e.htm" />
+  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Set method" Url="html/f2ede50d-cc00-609c-bab7-4bfe0c5d3401.htm" />
+  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.SetRange method" Url="html/3f2d21f3-d2df-f269-4a56-3555b7e16f24.htm" />
+  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Subtract method" Url="html/e8dcc5c5-1dcd-140d-c20b-bea231841ff2.htm" />
+  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.TryGet method" Url="html/17d121cf-f9d6-9761-3c21-980fd8505c2e.htm" />
+  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.TryGetKvp method" Url="html/33b428e9-a928-5edc-766d-ad8f20e47f99.htm" />
+  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Values property" Url="html/f875173c-2844-ad23-df85-e67d101ae518.htm" />
+  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;._Join method" Url="html/f7ca90e1-b096-9d0b-7460-9f344d699edb.htm" />
+  <HelpKINode Title="AbstractSequential(Of TElem, TList) class">
+    <HelpKINode Title="AbstractSequential(TElem, TList) Class" Url="html/aec77615-b72f-b8ab-e345-47b88dc2a893.htm" />
+    <HelpKINode Title="about AbstractSequential(Of TElem, TList) class" Url="html/aec77615-b72f-b8ab-e345-47b88dc2a893.htm" />
+    <HelpKINode Title="constructor" Url="html/5b380ae1-b8ca-d5d9-a8e9-889d2f168ee4.htm" />
+    <HelpKINode Title="methods" Url="html/e4b2dc6d-dc48-53c2-29f0-b7c7e60bef6e.htm" />
+    <HelpKINode Title="operators" Url="html/1e2ba77f-39c8-8a42-7f6d-0d5ebb80bf3f.htm" />
+    <HelpKINode Title="properties" Url="html/c5efa7e6-77d4-154e-ae6d-64a5a8f5aac3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AbstractSequential(Of TElem, TList).AbstractSequential constructor" Url="html/5b380ae1-b8ca-d5d9-a8e9-889d2f168ee4.htm" />
+  <HelpKINode Title="AbstractSequential(Of TElem, TList).AggregateBack method" Url="html/fc613dc0-349b-306d-119b-4c2d825e2e22.htm" />
+  <HelpKINode Title="AbstractSequential(Of TElem, TList).CopyTo method" Url="html/1cd8a319-cfcb-50fc-bcaa-5417a13537fd.htm" />
+  <HelpKINode Title="AbstractSequential(Of TElem, TList).Equality operator" Url="html/9e10cdcb-1a4e-e8a7-c30f-4f11d86a1823.htm" />
+  <HelpKINode Title="AbstractSequential(Of TElem, TList).Equals method" Url="html/04be40b2-f395-8d90-4c67-7e6e88d5b65c.htm" />
+  <HelpKINode Title="AbstractSequential(Of TElem, TList).FindIndex method" Url="html/84c70799-1ccb-c40a-e3ed-46347ede92ba.htm" />
+  <HelpKINode Title="AbstractSequential(Of TElem, TList).FindLast method" Url="html/7fe37e06-0f71-7e76-10bc-b4f2bb40463e.htm" />
+  <HelpKINode Title="AbstractSequential(Of TElem, TList).FindLastIndex method" Url="html/4c5164bf-a841-0686-f4b4-6f4b458222e8.htm" />
+  <HelpKINode Title="AbstractSequential(Of TElem, TList).First property" Url="html/64622f37-ce67-da76-c953-f2d7344f2aaf.htm" />
+  <HelpKINode Title="AbstractSequential(Of TElem, TList).ForEachBack method" Url="html/27dc6770-471f-6709-4943-db2da27afb51.htm" />
+  <HelpKINode Title="AbstractSequential(Of TElem, TList).ForEachBackWhile method" Url="html/cc8e9bac-d6e7-f2e7-b85b-48d758b5d350.htm" />
+  <HelpKINode Title="AbstractSequential(Of TElem, TList).GetHashCode method" Url="html/0d7e5b22-9dd9-614e-4015-4aaab5481189.htm" />
+  <HelpKINode Title="AbstractSequential(Of TElem, TList).GetItem method" Url="html/5adf077b-d10d-1300-e595-6b8c472236bc.htm" />
+  <HelpKINode Title="AbstractSequential(Of TElem, TList).GetRange method" Url="html/3c3722f4-8612-9a47-1cf4-a0a651580150.htm" />
+  <HelpKINode Title="AbstractSequential(Of TElem, TList).Inequality operator" Url="html/d0f443b3-3931-c00d-6e75-47a6b479e86a.htm" />
+  <HelpKINode Title="AbstractSequential(Of TElem, TList).Item property" Url="html/f117293c-6c94-c324-fba6-3c7894557230.htm" />
+  <HelpKINode Title="AbstractSequential(Of TElem, TList).Last property" Url="html/9766edba-f059-6bd1-a354-024ce138b796.htm" />
+  <HelpKINode Title="AbstractSequential(Of TElem, TList).Reverse method" Url="html/0c5c6322-d9ec-8372-1d7a-3cae2505ada8.htm" />
+  <HelpKINode Title="AbstractSequential(Of TElem, TList).SequenceEquals method" Url="html/db949961-e657-e387-15d2-ea7ac2a5e438.htm" />
+  <HelpKINode Title="AbstractSequential(Of TElem, TList).Skip method" Url="html/1bcad9e5-d1ad-709a-9e86-2e273d0603cc.htm" />
+  <HelpKINode Title="AbstractSequential(Of TElem, TList).SkipWhile method" Url="html/8c3cb434-d937-f2b1-cb74-493096315866.htm" />
+  <HelpKINode Title="AbstractSequential(Of TElem, TList).Take method" Url="html/ad581855-9a24-2867-b501-ede4bfc93086.htm" />
+  <HelpKINode Title="AbstractSequential(Of TElem, TList).TakeWhile method" Url="html/2a096f7d-0a57-1c03-3aff-fceb44eaea5d.htm" />
+  <HelpKINode Title="AbstractSequential(Of TElem, TList).TryFirst property" Url="html/ac59ef1e-055b-6cc8-892a-496dada514f8.htm" />
+  <HelpKINode Title="AbstractSequential(Of TElem, TList).TryGet method" Url="html/703189c4-eca4-bb8b-df4e-39694b0e549b.htm" />
+  <HelpKINode Title="AbstractSequential(Of TElem, TList).TryLast property" Url="html/c11d4bed-42b4-e710-ee5a-6e6cc723e1da.htm" />
+  <HelpKINode Title="AbstractSequential(Of TElem, TList)._ScanBack(Of TElem2, TRSeq) method" Url="html/f5e6f620-79b3-fbb6-c9b1-ca1aadb33552.htm" />
+  <HelpKINode Title="AbstractSequential(Of TElem, TList)._Zip(Of TRElem, TRSeq, TInner) method" Url="html/440bfad1-890d-1ace-bfb2-7ec1c4fea4bb.htm" />
+  <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt; class">
+    <HelpKINode Title="AbstractSequential(TElem, TList) Class" Url="html/aec77615-b72f-b8ab-e345-47b88dc2a893.htm" />
+    <HelpKINode Title="about AbstractSequential&lt;TElem, TList&gt; class" Url="html/aec77615-b72f-b8ab-e345-47b88dc2a893.htm" />
+    <HelpKINode Title="constructor" Url="html/5b380ae1-b8ca-d5d9-a8e9-889d2f168ee4.htm" />
+    <HelpKINode Title="methods" Url="html/e4b2dc6d-dc48-53c2-29f0-b7c7e60bef6e.htm" />
+    <HelpKINode Title="operators" Url="html/1e2ba77f-39c8-8a42-7f6d-0d5ebb80bf3f.htm" />
+    <HelpKINode Title="properties" Url="html/c5efa7e6-77d4-154e-ae6d-64a5a8f5aac3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;.AbstractSequential constructor" Url="html/5b380ae1-b8ca-d5d9-a8e9-889d2f168ee4.htm" />
+  <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;.AggregateBack method" Url="html/fc613dc0-349b-306d-119b-4c2d825e2e22.htm" />
+  <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;.CopyTo method" Url="html/1cd8a319-cfcb-50fc-bcaa-5417a13537fd.htm" />
+  <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;.Equality operator" Url="html/9e10cdcb-1a4e-e8a7-c30f-4f11d86a1823.htm" />
+  <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;.Equals method" Url="html/04be40b2-f395-8d90-4c67-7e6e88d5b65c.htm" />
+  <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;.FindIndex method" Url="html/84c70799-1ccb-c40a-e3ed-46347ede92ba.htm" />
+  <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;.FindLast method" Url="html/7fe37e06-0f71-7e76-10bc-b4f2bb40463e.htm" />
+  <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;.FindLastIndex method" Url="html/4c5164bf-a841-0686-f4b4-6f4b458222e8.htm" />
+  <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;.First property" Url="html/64622f37-ce67-da76-c953-f2d7344f2aaf.htm" />
+  <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;.ForEachBack method" Url="html/27dc6770-471f-6709-4943-db2da27afb51.htm" />
+  <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;.ForEachBackWhile method" Url="html/cc8e9bac-d6e7-f2e7-b85b-48d758b5d350.htm" />
+  <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;.GetHashCode method" Url="html/0d7e5b22-9dd9-614e-4015-4aaab5481189.htm" />
+  <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;.GetItem method" Url="html/5adf077b-d10d-1300-e595-6b8c472236bc.htm" />
+  <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;.GetRange method" Url="html/3c3722f4-8612-9a47-1cf4-a0a651580150.htm" />
+  <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;.Inequality operator" Url="html/d0f443b3-3931-c00d-6e75-47a6b479e86a.htm" />
+  <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;.Item property" Url="html/f117293c-6c94-c324-fba6-3c7894557230.htm" />
+  <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;.Last property" Url="html/9766edba-f059-6bd1-a354-024ce138b796.htm" />
+  <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;.Reverse method" Url="html/0c5c6322-d9ec-8372-1d7a-3cae2505ada8.htm" />
+  <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;.SequenceEquals method" Url="html/db949961-e657-e387-15d2-ea7ac2a5e438.htm" />
+  <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;.Skip method" Url="html/1bcad9e5-d1ad-709a-9e86-2e273d0603cc.htm" />
+  <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;.SkipWhile method" Url="html/8c3cb434-d937-f2b1-cb74-493096315866.htm" />
+  <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;.Take method" Url="html/ad581855-9a24-2867-b501-ede4bfc93086.htm" />
+  <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;.TakeWhile method" Url="html/2a096f7d-0a57-1c03-3aff-fceb44eaea5d.htm" />
+  <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;.TryFirst property" Url="html/ac59ef1e-055b-6cc8-892a-496dada514f8.htm" />
+  <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;.TryGet method" Url="html/703189c4-eca4-bb8b-df4e-39694b0e549b.htm" />
+  <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;.TryLast property" Url="html/c11d4bed-42b4-e710-ee5a-6e6cc723e1da.htm" />
+  <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;._ScanBack&lt;TElem2, TRSeq&gt; method" Url="html/f5e6f620-79b3-fbb6-c9b1-ca1aadb33552.htm" />
+  <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;._Zip&lt;TRElem, TRSeq, TInner&gt; method" Url="html/440bfad1-890d-1ace-bfb2-7ec1c4fea4bb.htm" />
+  <HelpKINode Title="AbstractSet(Of TElem, TSet) class">
+    <HelpKINode Title="AbstractSet(TElem, TSet) Class" Url="html/81e7e607-be61-0ba4-d925-abd811d7cc37.htm" />
+    <HelpKINode Title="about AbstractSet(Of TElem, TSet) class" Url="html/81e7e607-be61-0ba4-d925-abd811d7cc37.htm" />
+    <HelpKINode Title="constructor" Url="html/f48ad551-63ec-caea-c6f5-c939c8f7dfb9.htm" />
+    <HelpKINode Title="methods" Url="html/587af8e6-1998-7e90-6f04-ce4f051aa102.htm" />
+    <HelpKINode Title="properties" Url="html/0c7c3b61-181a-831c-29ae-f494e299f02a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AbstractSet(Of TElem, TSet).AbstractSet constructor" Url="html/f48ad551-63ec-caea-c6f5-c939c8f7dfb9.htm" />
+  <HelpKINode Title="AbstractSet(Of TElem, TSet).Add method" Url="html/ad47a4fa-d749-a8d1-3954-82b969beec4d.htm" />
+  <HelpKINode Title="AbstractSet(Of TElem, TSet).AddRange method" Url="html/91f25e75-6ba4-355b-3d03-0a89b38f75b0.htm" />
+  <HelpKINode Title="AbstractSet(Of TElem, TSet).Contains method" Url="html/358aff0e-f76d-892a-89ed-1ac302fde620.htm" />
+  <HelpKINode Title="AbstractSet(Of TElem, TSet).Difference method" Url="html/82dedbd0-590f-c09f-869c-0407cccd7830.htm" />
+  <HelpKINode Title="AbstractSet(Of TElem, TSet).Except method" Url="html/778a62a4-1f51-fd46-284c-f27761406cfa.htm" />
+  <HelpKINode Title="AbstractSet(Of TElem, TSet).ExceptInverse method" Url="html/2c0888fa-c2a6-7324-435c-0f97e535595e.htm" />
+  <HelpKINode Title="AbstractSet(Of TElem, TSet).Intersect method" Url="html/2a4569d9-af37-bdb7-4ec1-23a71fc26316.htm" />
+  <HelpKINode Title="AbstractSet(Of TElem, TSet).IsCompatibleWith method" Url="html/08fea142-9a9f-593c-7e9a-624787db124a.htm" />
+  <HelpKINode Title="AbstractSet(Of TElem, TSet).IsDisjointWith method" Url="html/c802b8aa-f427-9135-4bcf-e1db0c76672e.htm" />
+  <HelpKINode Title="AbstractSet(Of TElem, TSet).IsProperSubsetOf method" Url="html/fa2982b8-eff7-dd0e-d937-0d6700829569.htm" />
+  <HelpKINode Title="AbstractSet(Of TElem, TSet).IsProperSupersetOf method" Url="html/ddfd4b34-f6ed-ea0a-d2b8-85c496dab475.htm" />
+  <HelpKINode Title="AbstractSet(Of TElem, TSet).IsSubsetOf method" Url="html/db3d69de-68cb-88ec-bfb2-1ebf36c0311f.htm" />
+  <HelpKINode Title="AbstractSet(Of TElem, TSet).IsSupersetOf method" Url="html/25288960-ab6b-575b-5239-59b7ea90d473.htm" />
+  <HelpKINode Title="AbstractSet(Of TElem, TSet).Item property" Url="html/3e883615-b066-4ee2-2e05-f935d02b4525.htm" />
+  <HelpKINode Title="AbstractSet(Of TElem, TSet).RelatesTo method" Url="html/c51addb0-537a-1282-a656-1ac64ca1896e.htm" />
+  <HelpKINode Title="AbstractSet(Of TElem, TSet).Remove method" Url="html/a9cbaa3a-ba5d-358c-78a3-2bb39e733a6f.htm" />
+  <HelpKINode Title="AbstractSet(Of TElem, TSet).SetEquals method" Url="html/8c9c6461-3154-c368-a205-9f560a53f0eb.htm" />
+  <HelpKINode Title="AbstractSet(Of TElem, TSet).TryGet method" Url="html/3f0d1a1c-4fd6-9938-2788-f6c1d6a0cc86.htm" />
+  <HelpKINode Title="AbstractSet(Of TElem, TSet).Union method" Url="html/02f8d67f-01c4-a273-32de-2d8072631a06.htm" />
+  <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt; class">
+    <HelpKINode Title="AbstractSet(TElem, TSet) Class" Url="html/81e7e607-be61-0ba4-d925-abd811d7cc37.htm" />
+    <HelpKINode Title="about AbstractSet&lt;TElem, TSet&gt; class" Url="html/81e7e607-be61-0ba4-d925-abd811d7cc37.htm" />
+    <HelpKINode Title="constructor" Url="html/f48ad551-63ec-caea-c6f5-c939c8f7dfb9.htm" />
+    <HelpKINode Title="methods" Url="html/587af8e6-1998-7e90-6f04-ce4f051aa102.htm" />
+    <HelpKINode Title="properties" Url="html/0c7c3b61-181a-831c-29ae-f494e299f02a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.AbstractSet constructor" Url="html/f48ad551-63ec-caea-c6f5-c939c8f7dfb9.htm" />
+  <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.Add method" Url="html/ad47a4fa-d749-a8d1-3954-82b969beec4d.htm" />
+  <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.AddRange method" Url="html/91f25e75-6ba4-355b-3d03-0a89b38f75b0.htm" />
+  <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.Contains method" Url="html/358aff0e-f76d-892a-89ed-1ac302fde620.htm" />
+  <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.Difference method" Url="html/82dedbd0-590f-c09f-869c-0407cccd7830.htm" />
+  <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.Except method" Url="html/778a62a4-1f51-fd46-284c-f27761406cfa.htm" />
+  <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.ExceptInverse method" Url="html/2c0888fa-c2a6-7324-435c-0f97e535595e.htm" />
+  <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.Intersect method" Url="html/2a4569d9-af37-bdb7-4ec1-23a71fc26316.htm" />
+  <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.IsCompatibleWith method" Url="html/08fea142-9a9f-593c-7e9a-624787db124a.htm" />
+  <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.IsDisjointWith method" Url="html/c802b8aa-f427-9135-4bcf-e1db0c76672e.htm" />
+  <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.IsProperSubsetOf method" Url="html/fa2982b8-eff7-dd0e-d937-0d6700829569.htm" />
+  <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.IsProperSupersetOf method" Url="html/ddfd4b34-f6ed-ea0a-d2b8-85c496dab475.htm" />
+  <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.IsSubsetOf method" Url="html/db3d69de-68cb-88ec-bfb2-1ebf36c0311f.htm" />
+  <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.IsSupersetOf method" Url="html/25288960-ab6b-575b-5239-59b7ea90d473.htm" />
+  <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.Item property" Url="html/3e883615-b066-4ee2-2e05-f935d02b4525.htm" />
+  <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.RelatesTo method" Url="html/c51addb0-537a-1282-a656-1ac64ca1896e.htm" />
+  <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.Remove method" Url="html/a9cbaa3a-ba5d-358c-78a3-2bb39e733a6f.htm" />
+  <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.SetEquals method" Url="html/8c9c6461-3154-c368-a205-9f560a53f0eb.htm" />
+  <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.TryGet method" Url="html/3f0d1a1c-4fd6-9938-2788-f6c1d6a0cc86.htm" />
+  <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.Union method" Url="html/02f8d67f-01c4-a273-32de-2d8072631a06.htm" />
+  <HelpKINode Title="Add method">
+    <HelpKINode Title="AbstractMap(TKey, TValue, TMap).Add Method " Url="html/5121ca11-4c25-020e-e1bd-65fc053c66b8.htm" />
+    <HelpKINode Title="AbstractSet(TElem, TSet).Add Method " Url="html/ad47a4fa-d749-a8d1-3954-82b969beec4d.htm" />
+    <HelpKINode Title="IAnyIterableBuilder(TElem).Add Method " Url="html/4ad25a1b-9f25-56f9-9774-538ce939eb1c.htm" />
+    <HelpKINode Title="ImmMap(TKey, TValue).Add Method " Url="html/1de4db49-6ca1-4599-725e-0238030a82b5.htm" />
+    <HelpKINode Title="ImmSet(T).Add Method " Url="html/5e67f478-ae39-b398-e0cb-8e976ad8cd12.htm" />
+    <HelpKINode Title="ImmSortedSet(T).Add Method " Url="html/4bf13cd2-5a13-3d02-16f5-40ccabcd6391.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddFirst method" Url="html/fe2ccb5a-6ee0-c10c-8ce2-2534ab45c901.htm" />
+  <HelpKINode Title="AddFirstRange method">
+    <HelpKINode Title="ImmList(T).AddFirstRange Method " Url="html/097b3b13-829f-8c1e-acf4-b27c649bc0f7.htm" />
+    <HelpKINode Title="ImmVector(T).AddFirstRange Method " Url="html/2e5828bb-eaa0-a9a4-9ddd-5e2b552b1e8c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddLast method">
+    <HelpKINode Title="ImmList(T).AddLast Method " Url="html/8f06dcfa-c39f-4663-752a-5c1cb2bb1a37.htm" />
+    <HelpKINode Title="ImmVector(T).AddLast Method " Url="html/aae909a0-5e19-6e77-11cd-6e1fcd860c35.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddLastRange method">
+    <HelpKINode Title="ImmList(T).AddLastRange Method " Url="html/48cab16b-3c04-18a7-6514-cc99227cac88.htm" />
+    <HelpKINode Title="ImmVector(T).AddLastRange Method " Url="html/cb7e14a0-2740-6422-ae30-cf55aeebd6f4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddRange method">
+    <HelpKINode Title="AbstractMap(TKey, TValue, TMap).AddRange Method " Url="html/07b34ea1-6003-a69b-739b-dbccad394824.htm" />
+    <HelpKINode Title="AbstractSet(TElem, TSet).AddRange Method " Url="html/91f25e75-6ba4-355b-3d03-0a89b38f75b0.htm" />
+    <HelpKINode Title="IAnyIterableBuilder(TElem).AddRange Method " Url="html/d796026b-b044-0941-8636-b9887d5fac89.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Aggregate method">
+    <HelpKINode Title="AbstractIterable(TElem, TIterable, TBuilder).Aggregate Method " Url="html/282b54f5-9561-9682-642a-4b919808ba7d.htm" />
+    <HelpKINode Title="AbstractMap(TKey, TValue, TMap).Aggregate Method " Url="html/01150132-16f9-c2df-efd8-2ebe45a612d2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AggregateBack method" Url="html/fc613dc0-349b-306d-119b-4c2d825e2e22.htm" />
+  <HelpKINode Title="All method">
+    <HelpKINode Title="AbstractIterable(TElem, TIterable, TBuilder).All Method " Url="html/5196b85b-5679-91d2-de4e-d42dc8153c4d.htm" />
+    <HelpKINode Title="AbstractMap(TKey, TValue, TMap).All Method " Url="html/ce2cce04-fa86-b42e-1ba5-b5a6336bfd43.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Any method">
+    <HelpKINode Title="AbstractIterable(TElem, TIterable, TBuilder).Any Method " Url="html/555789ac-3cfd-4786-7049-4927d7e200f8.htm" />
+    <HelpKINode Title="AbstractMap(TKey, TValue, TMap).Any Method " Url="html/e889bccd-4976-2149-fab3-cbb023dc97ae.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AnyNone class">
+    <HelpKINode Title="AnyNone Class" Url="html/b548e490-67a1-7193-ba58-8064415f3caa.htm" />
+    <HelpKINode Title="about AnyNone class" Url="html/b548e490-67a1-7193-ba58-8064415f3caa.htm" />
+    <HelpKINode Title="methods" Url="html/99cfd178-e1df-fbed-4702-a1e8a840193f.htm" />
+    <HelpKINode Title="properties" Url="html/2e215aea-3f76-edb7-1fd8-3023ee3bc7c2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AnyNone to Optional(Of T) conversion" Url="html/f576aa19-bf72-1d22-ad4d-7952a8ecde81.htm" />
+  <HelpKINode Title="AnyNone to Optional&lt;T&gt; conversion" Url="html/f576aa19-bf72-1d22-ad4d-7952a8ecde81.htm" />
+  <HelpKINode Title="AnyNone.IsNone property" Url="html/f9f7e6b4-0dd7-e6e5-de59-00fc3daf0d4c.htm" />
+  <HelpKINode Title="AnyNone.IsSome property" Url="html/0226a751-1bb6-b1f5-8ff6-67d248b7ebea.htm" />
+  <HelpKINode Title="AnyNone.Value property" Url="html/14db4ffa-b7da-b949-8a4d-24bb269b992b.htm" />
+  <HelpKINode Title="As(Of TOut) method" Url="html/5ffb3251-7da9-4a3d-bdce-a93cc6cb6b02.htm" />
+  <HelpKINode Title="As&lt;TOut&gt; method" Url="html/5ffb3251-7da9-4a3d-bdce-a93cc6cb6b02.htm" />
+  <HelpKINode Title="AsOptional method" Url="html/e1a475fb-bca1-d877-75c1-d9177315d3b4.htm" />
+  <HelpKINode Title="AsSeq property">
+    <HelpKINode Title="ImmList(T).AsSeq Property " Url="html/89e3cd72-7759-0316-d1f7-731959ecdadd.htm" />
+    <HelpKINode Title="ImmVector(T).AsSeq Property " Url="html/a331e989-1e09-0ee3-54d3-2d21a20affed.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AsSome(Of T) method" Url="html/3ea5a5b3-f3c6-a2bd-8abb-2e8fbc305ef0.htm" />
+  <HelpKINode Title="AsSome&lt;T&gt; method" Url="html/3ea5a5b3-f3c6-a2bd-8abb-2e8fbc305ef0.htm" />
+  <HelpKINode Title="AsString method" Url="html/5c931746-1b4b-f888-080e-e64273b2f611.htm" />
+  <HelpKINode Title="BitwiseOr operator" Url="html/2cfe2eba-b330-9258-95d8-15c61db1414b.htm" />
+  <HelpKINode Title="BuilderFrom method" Url="html/3a2ea004-c7d8-ea79-02b8-643719c64ef0.htm" />
+  <HelpKINode Title="ByOrder method">
+    <HelpKINode Title="ImmSortedMap(TKey, TValue).ByOrder Method " Url="html/f25c6657-4a7e-47df-bcbc-816064f7ab79.htm" />
+    <HelpKINode Title="ImmSortedSet(T).ByOrder Method " Url="html/f2b81f9b-54bf-9a68-ccbc-7e95dd7e20df.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cast(Of TOut) method" Url="html/54133f39-b882-7587-67e3-5e0ea10992b5.htm" />
+  <HelpKINode Title="Cast(Of TRElem) method">
+    <HelpKINode Title="ImmList(T).Cast(TRElem) Method " Url="html/be4e2dad-4eaa-5629-8b62-130dbd336a54.htm" />
+    <HelpKINode Title="ImmVector(T).Cast(TRElem) Method " Url="html/c4a2741b-e9a5-f2d7-4f74-39621e09f8ef.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cast&lt;TOut&gt; method" Url="html/54133f39-b882-7587-67e3-5e0ea10992b5.htm" />
+  <HelpKINode Title="Cast&lt;TRElem&gt; method">
+    <HelpKINode Title="ImmList(T).Cast(TRElem) Method " Url="html/be4e2dad-4eaa-5629-8b62-130dbd336a54.htm" />
+    <HelpKINode Title="ImmVector(T).Cast(TRElem) Method " Url="html/c4a2741b-e9a5-f2d7-4f74-39621e09f8ef.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Choose(Of TRElem) method">
+    <HelpKINode Title="ImmList(T).Choose(TRElem) Method " Url="html/19a3e8a6-cf64-6617-8b50-9d28e5c142c1.htm" />
+    <HelpKINode Title="ImmVector(T).Choose(TRElem) Method " Url="html/58b0e9e2-2f95-135d-ab26-b2e490bfeff3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Choose&lt;TRElem&gt; method">
+    <HelpKINode Title="ImmList(T).Choose(TRElem) Method " Url="html/19a3e8a6-cf64-6617-8b50-9d28e5c142c1.htm" />
+    <HelpKINode Title="ImmVector(T).Choose(TRElem) Method " Url="html/58b0e9e2-2f95-135d-ab26-b2e490bfeff3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CompareTo method" Url="html/678bbef6-4285-db96-3e5b-ac4fb9272c9c.htm" />
+  <HelpKINode Title="Contains method">
+    <HelpKINode Title="AbstractSet(TElem, TSet).Contains Method " Url="html/358aff0e-f76d-892a-89ed-1ac302fde620.htm" />
+    <HelpKINode Title="IAnySetBuilder(TElem).Contains Method " Url="html/91f85e95-2944-d168-bc6b-7d7f8e751dd9.htm" />
+    <HelpKINode Title="ImmSet(T).Contains Method " Url="html/4650c83b-be7c-ebb1-0b4f-e6b8246982eb.htm" />
+    <HelpKINode Title="ImmSortedSet(T).Contains Method " Url="html/f3f82509-c5ea-072f-ab2e-a9eebfbee8e6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContainsKey method" Url="html/6287a2e6-e142-6a13-06e7-c4b7271d50d5.htm" />
+  <HelpKINode Title="CopyTo method">
+    <HelpKINode Title="AbstractIterable(TElem, TIterable, TBuilder).CopyTo Method " Url="html/6a31ecf9-937d-8b0c-9580-979d6f7723fe.htm" />
+    <HelpKINode Title="AbstractSequential(TElem, TList).CopyTo Method " Url="html/1cd8a319-cfcb-50fc-bcaa-5417a13537fd.htm" />
+    <HelpKINode Title="ImmVector(T).CopyTo Method " Url="html/00ecba84-3753-1564-820e-100c21b2ba25.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Count method">
+    <HelpKINode Title="AbstractIterable(TElem, TIterable, TBuilder).Count Method " Url="html/566d6600-b9ad-e348-3030-aa730212604d.htm" />
+    <HelpKINode Title="AbstractMap(TKey, TValue, TMap).Count Method " Url="html/b8606f50-d94a-9de5-1c88-502ea2643ba2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CreateMap(Of TKey, TValue) method" Url="html/5f2d49c1-6711-2c91-d759-a259da48a772.htm" />
+  <HelpKINode Title="CreateMap&lt;TKey, TValue&gt; method" Url="html/5f2d49c1-6711-2c91-d759-a259da48a772.htm" />
+  <HelpKINode Title="CreateOrderedMap(Of TKey, TValue) method" Url="html/b8646ec8-4872-036a-c780-efc7fc891000.htm" />
+  <HelpKINode Title="CreateOrderedMap&lt;TKey, TValue&gt; method" Url="html/b8646ec8-4872-036a-c780-efc7fc891000.htm" />
+  <HelpKINode Title="CreateOrderedSet(Of T) method" Url="html/7134c618-cc0d-5846-202f-f4c2ec3e0755.htm" />
+  <HelpKINode Title="CreateOrderedSet&lt;T&gt; method" Url="html/7134c618-cc0d-5846-202f-f4c2ec3e0755.htm" />
+  <HelpKINode Title="CreateSet(Of T) method" Url="html/a5e4de7c-f6cb-6422-bee1-0ca69ddc5ac8.htm" />
+  <HelpKINode Title="CreateSet&lt;T&gt; method" Url="html/a5e4de7c-f6cb-6422-bee1-0ca69ddc5ac8.htm" />
+  <HelpKINode Title="DebuggerDisplay property" Url="html/452ca5f8-9a72-74d7-0422-fb615e89b37c.htm" />
+  <HelpKINode Title="Difference method">
+    <HelpKINode Title="AbstractMap(TKey, TValue, TMap).Difference Method " Url="html/7c988d12-9328-cb95-6b0c-6a4c21dc05aa.htm" />
+    <HelpKINode Title="AbstractSet(TElem, TSet).Difference Method " Url="html/82dedbd0-590f-c09f-869c-0407cccd7830.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Disjoint enumeration member" Url="html/77ea3a4f-75e9-79bc-23e4-81ba7cf5737d.htm" />
+  <HelpKINode Title="Empty method">
+    <HelpKINode Title="ImmMap(TKey, TValue).Empty Method " Url="html/fed144e4-a360-eada-10d6-0feaebfd3e83.htm" />
+    <HelpKINode Title="ImmSet(T).Empty Method " Url="html/5fc5b335-da81-2a64-2fbe-c4f4555994a7.htm" />
+    <HelpKINode Title="ImmSortedMap(TKey, TValue).Empty Method " Url="html/fb00e13e-0ead-98c0-a42e-c02dc2dc8ff3.htm" />
+    <HelpKINode Title="ImmSortedMap.Empty Method " Url="html/ea848e47-2c18-6852-6c9a-0c71965a163a.htm" />
+    <HelpKINode Title="ImmSortedSet(T).Empty Method " Url="html/923eddc5-6169-05eb-d5c2-0cf6f1d53996.htm" />
+    <HelpKINode Title="ImmSortedSet.Empty Method " Url="html/94ef8b03-626d-0d3d-d856-588cb3c632f3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Empty property">
+    <HelpKINode Title="AbstractIterable(TElem, TIterable, TBuilder).Empty Property " Url="html/f7ee8043-0687-17d6-7128-75af5c7047c5.htm" />
+    <HelpKINode Title="ImmList(T).Empty Property " Url="html/89cb7449-2e01-2cf0-f4bd-613281651476.htm" />
+    <HelpKINode Title="ImmVector(T).Empty Property " Url="html/b7b46606-1395-7410-c0c8-0d9a8cf96109.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Empty(Of T) method">
+    <HelpKINode Title="ImmList.Empty(T) Method " Url="html/0545230b-6cba-9f99-1dae-0b8bfb208eb5.htm" />
+    <HelpKINode Title="ImmSet.Empty(T) Method " Url="html/26fe4a07-0d55-fc7f-4537-cde17e3f92c9.htm" />
+    <HelpKINode Title="ImmVector.Empty(T) Method " Url="html/3ac3a3e3-b67a-ebc2-7d12-06ad7863b749.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Empty(Of TKey, TValue) method" Url="html/e122ca49-011d-c887-b7e4-b8f94de2fd6d.htm" />
+  <HelpKINode Title="Empty&lt;T&gt; method">
+    <HelpKINode Title="ImmList.Empty(T) Method " Url="html/0545230b-6cba-9f99-1dae-0b8bfb208eb5.htm" />
+    <HelpKINode Title="ImmSet.Empty(T) Method " Url="html/26fe4a07-0d55-fc7f-4537-cde17e3f92c9.htm" />
+    <HelpKINode Title="ImmVector.Empty(T) Method " Url="html/3ac3a3e3-b67a-ebc2-7d12-06ad7863b749.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Empty&lt;TKey, TValue&gt; method" Url="html/e122ca49-011d-c887-b7e4-b8f94de2fd6d.htm" />
+  <HelpKINode Title="EmptyBuilder property">
+    <HelpKINode Title="AbstractIterable(TElem, TIterable, TBuilder).EmptyBuilder Property " Url="html/f08b8151-b441-7052-5ded-1d35a5a4db82.htm" />
+    <HelpKINode Title="IBuilderFactory(TBuilder).EmptyBuilder Property " Url="html/d4b1e1dd-0b99-46c4-7d47-7f6fadbee825.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Equal enumeration member" Url="html/77ea3a4f-75e9-79bc-23e4-81ba7cf5737d.htm" />
+  <HelpKINode Title="Equality operator">
+    <HelpKINode Title="AbstractSequential(TElem, TList).Equality Operator " Url="html/9e10cdcb-1a4e-e8a7-c30f-4f11d86a1823.htm" />
+    <HelpKINode Title="Optional(T).Equality Operator " Url="html/983c88a3-fac2-9f36-b488-74678aec1854.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Equals method">
+    <HelpKINode Title="AbstractSequential(TElem, TList).Equals Method " Url="html/04be40b2-f395-8d90-4c67-7e6e88d5b65c.htm" />
+    <HelpKINode Title="Optional(T).Equals Method " Url="html/67171016-6d86-c60a-32ae-e3a2b9e4f31e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Except method" Url="html/778a62a4-1f51-fd46-284c-f27761406cfa.htm" />
+  <HelpKINode Title="ExceptInverse method" Url="html/2c0888fa-c2a6-7324-435c-0f97e535595e.htm" />
+  <HelpKINode Title="Find method">
+    <HelpKINode Title="AbstractIterable(TElem, TIterable, TBuilder).Find Method " Url="html/129f64cb-4272-49b6-3679-260089a0d519.htm" />
+    <HelpKINode Title="AbstractMap(TKey, TValue, TMap).Find Method " Url="html/cb60d6fb-8630-c0e3-96f8-0282e556ad04.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FindIndex method" Url="html/84c70799-1ccb-c40a-e3ed-46347ede92ba.htm" />
+  <HelpKINode Title="FindLast method" Url="html/7fe37e06-0f71-7e76-10bc-b4f2bb40463e.htm" />
+  <HelpKINode Title="FindLastIndex method" Url="html/4c5164bf-a841-0686-f4b4-6f4b458222e8.htm" />
+  <HelpKINode Title="First property">
+    <HelpKINode Title="AbstractSequential(TElem, TList).First Property " Url="html/64622f37-ce67-da76-c953-f2d7344f2aaf.htm" />
+    <HelpKINode Title="ImmList(T).First Property " Url="html/672ece85-c2d2-6d95-c50a-3fd625488bdd.htm" />
+    <HelpKINode Title="ImmVector(T).First Property " Url="html/59b2de94-aa76-7902-3d76-45618db913fa.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ForEach method">
+    <HelpKINode Title="AbstractIterable(TElem, TIterable, TBuilder).ForEach Method " Url="html/a5b753dc-0351-e370-1ff3-263954cd7486.htm" />
+    <HelpKINode Title="AbstractMap(TKey, TValue, TMap).ForEach Method " Url="html/c915a027-9b12-8bd1-663e-61fe94bc797b.htm" />
+    <HelpKINode Title="ImmList(T).ForEach Method " Url="html/7e40febb-946b-4d46-2462-e5ff4d47349b.htm" />
+    <HelpKINode Title="ImmVector(T).ForEach Method " Url="html/c388d732-04b7-991b-a5c5-858b6f7c89c7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ForEachBack method">
+    <HelpKINode Title="AbstractSequential(TElem, TList).ForEachBack Method " Url="html/27dc6770-471f-6709-4943-db2da27afb51.htm" />
+    <HelpKINode Title="ImmList(T).ForEachBack Method " Url="html/804c8ce2-21f5-8de1-ac1b-8d887d2df099.htm" />
+    <HelpKINode Title="ImmVector(T).ForEachBack Method " Url="html/59629164-a685-d012-5458-45c5041cf061.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ForEachBackWhile method">
+    <HelpKINode Title="AbstractSequential(TElem, TList).ForEachBackWhile Method " Url="html/cc8e9bac-d6e7-f2e7-b85b-48d758b5d350.htm" />
+    <HelpKINode Title="ImmList(T).ForEachBackWhile Method " Url="html/4786c76b-3189-e6d0-fe58-83a4b0a72596.htm" />
+    <HelpKINode Title="ImmVector(T).ForEachBackWhile Method " Url="html/8df6d778-6b46-bcbd-fab8-28f82db8e35f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ForEachWhile method">
+    <HelpKINode Title="AbstractIterable(TElem, TIterable, TBuilder).ForEachWhile Method " Url="html/bb41b1ee-a8b7-0e10-1856-82b8090a4158.htm" />
+    <HelpKINode Title="AbstractMap(TKey, TValue, TMap).ForEachWhile Method " Url="html/3061ddaa-c7c3-b21d-1feb-9154726018a6.htm" />
+    <HelpKINode Title="ImmList(T).ForEachWhile Method " Url="html/d8f9d119-91da-870c-e13a-04590475ade2.htm" />
+    <HelpKINode Title="ImmMap(TKey, TValue).ForEachWhile Method " Url="html/0d4d602b-3013-e5ba-1cbe-89b0f386177f.htm" />
+    <HelpKINode Title="ImmSet(T).ForEachWhile Method " Url="html/c399f4f8-bafe-6f39-817e-a2ea6410a037.htm" />
+    <HelpKINode Title="ImmSortedMap(TKey, TValue).ForEachWhile Method " Url="html/cdd4a412-e0a4-c870-36f2-aeca25aabdb6.htm" />
+    <HelpKINode Title="ImmSortedSet(T).ForEachWhile Method " Url="html/611f2f31-7c07-272c-e1c2-50fad454ca54.htm" />
+    <HelpKINode Title="ImmVector(T).ForEachWhile Method " Url="html/77b81a4a-9b2a-e434-8371-66b59fe74076.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FromItems(Of T) method">
+    <HelpKINode Title="ImmList.FromItems(T) Method " Url="html/f2c63e4d-6412-af3f-6e3f-6bc2b1370afb.htm" />
+    <HelpKINode Title="ImmVector.FromItems(T) Method " Url="html/203dc780-9b7a-00ad-bfa0-841501398ab5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FromItems&lt;T&gt; method">
+    <HelpKINode Title="ImmList.FromItems(T) Method " Url="html/f2c63e4d-6412-af3f-6e3f-6bc2b1370afb.htm" />
+    <HelpKINode Title="ImmVector.FromItems(T) Method " Url="html/203dc780-9b7a-00ad-bfa0-841501398ab5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetEnumerator method">
+    <HelpKINode Title="AbstractIterable(TElem, TIterable, TBuilder).GetEnumerator Method " Url="html/2022e803-8b81-ee29-b6ac-5cc9446b689e.htm" />
+    <HelpKINode Title="ImmList(T).GetEnumerator Method " Url="html/44510af8-812b-e4f4-57d2-149227b07604.htm" />
+    <HelpKINode Title="ImmMap(TKey, TValue).GetEnumerator Method " Url="html/86579af8-b21a-9cbf-4efb-2dfb62e67546.htm" />
+    <HelpKINode Title="ImmSet(T).GetEnumerator Method " Url="html/43b890bc-b46b-4901-5cb2-bdf4890bd3e8.htm" />
+    <HelpKINode Title="ImmSortedMap(TKey, TValue).GetEnumerator Method " Url="html/7598e2ac-ed00-913d-751a-ff391952bd76.htm" />
+    <HelpKINode Title="ImmSortedSet(T).GetEnumerator Method " Url="html/f44af867-f595-36de-c9b1-838ebc550c27.htm" />
+    <HelpKINode Title="ImmVector(T).GetEnumerator Method " Url="html/2ca27342-e60d-80e9-7c1e-8793b252ad8f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetHashCode method">
+    <HelpKINode Title="AbstractSequential(TElem, TList).GetHashCode Method " Url="html/0d7e5b22-9dd9-614e-4015-4aaab5481189.htm" />
+    <HelpKINode Title="Optional(T).GetHashCode Method " Url="html/4787bb61-a028-486c-6316-f720471e1ce3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetItem method" Url="html/5adf077b-d10d-1300-e595-6b8c472236bc.htm" />
+  <HelpKINode Title="GetRange method" Url="html/3c3722f4-8612-9a47-1cf4-a0a651580150.htm" />
+  <HelpKINode Title="GroupBy method">
+    <HelpKINode Title="ImmList(T).GroupBy Method " Url="html/ff7bd26c-93ec-9960-a32f-14c3beb4ba2c.htm" />
+    <HelpKINode Title="ImmVector(T).GroupBy Method " Url="html/6c82e3bc-955b-6edc-0358-e5cb982c087e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IAnyIterableBuilder(Of TElem) interface">
+    <HelpKINode Title="IAnyIterableBuilder(TElem) Interface" Url="html/83953da2-cbd5-6bcb-236b-7c8a38fa8779.htm" />
+    <HelpKINode Title="about IAnyIterableBuilder(Of TElem) interface" Url="html/83953da2-cbd5-6bcb-236b-7c8a38fa8779.htm" />
+    <HelpKINode Title="methods" Url="html/bc816f25-18ed-9562-4de5-ba06a4784108.htm" />
+    <HelpKINode Title="properties" Url="html/e238d278-64d2-bdfd-9241-1c58e6d95e2f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IAnyIterableBuilder(Of TElem).Add method" Url="html/4ad25a1b-9f25-56f9-9774-538ce939eb1c.htm" />
+  <HelpKINode Title="IAnyIterableBuilder(Of TElem).AddRange method" Url="html/d796026b-b044-0941-8636-b9887d5fac89.htm" />
+  <HelpKINode Title="IAnyIterableBuilder(Of TElem).Length property" Url="html/3fc77192-4303-226d-a24b-da05a2583df6.htm" />
+  <HelpKINode Title="IAnyIterableBuilder&lt;TElem&gt; interface">
+    <HelpKINode Title="IAnyIterableBuilder(TElem) Interface" Url="html/83953da2-cbd5-6bcb-236b-7c8a38fa8779.htm" />
+    <HelpKINode Title="about IAnyIterableBuilder&lt;TElem&gt; interface" Url="html/83953da2-cbd5-6bcb-236b-7c8a38fa8779.htm" />
+    <HelpKINode Title="methods" Url="html/bc816f25-18ed-9562-4de5-ba06a4784108.htm" />
+    <HelpKINode Title="properties" Url="html/e238d278-64d2-bdfd-9241-1c58e6d95e2f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IAnyIterableBuilder&lt;TElem&gt;.Add method" Url="html/4ad25a1b-9f25-56f9-9774-538ce939eb1c.htm" />
+  <HelpKINode Title="IAnyIterableBuilder&lt;TElem&gt;.AddRange method" Url="html/d796026b-b044-0941-8636-b9887d5fac89.htm" />
+  <HelpKINode Title="IAnyIterableBuilder&lt;TElem&gt;.Length property" Url="html/3fc77192-4303-226d-a24b-da05a2583df6.htm" />
+  <HelpKINode Title="IAnyMapBuilder(Of TKey, TValue) interface">
+    <HelpKINode Title="IAnyMapBuilder(TKey, TValue) Interface" Url="html/022dfbc5-8f43-6a16-fa4b-7390927caed1.htm" />
+    <HelpKINode Title="about IAnyMapBuilder(Of TKey, TValue) interface" Url="html/022dfbc5-8f43-6a16-fa4b-7390927caed1.htm" />
+    <HelpKINode Title="methods" Url="html/10910ca6-5ca2-1094-7807-5e3d22473a42.htm" />
+    <HelpKINode Title="properties" Url="html/4f8460fa-0356-2ba1-df29-506a3781bf45.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IAnyMapBuilder(Of TKey, TValue).Remove method" Url="html/6fafaf61-9dc7-f52d-620a-70b6fe7c3d3e.htm" />
+  <HelpKINode Title="IAnyMapBuilder(Of TKey, TValue).TryGetKvp method" Url="html/e9fb70d7-aec7-7611-e39c-b655eacea3f9.htm" />
+  <HelpKINode Title="IAnyMapBuilder&lt;TKey, TValue&gt; interface">
+    <HelpKINode Title="IAnyMapBuilder(TKey, TValue) Interface" Url="html/022dfbc5-8f43-6a16-fa4b-7390927caed1.htm" />
+    <HelpKINode Title="about IAnyMapBuilder&lt;TKey, TValue&gt; interface" Url="html/022dfbc5-8f43-6a16-fa4b-7390927caed1.htm" />
+    <HelpKINode Title="methods" Url="html/10910ca6-5ca2-1094-7807-5e3d22473a42.htm" />
+    <HelpKINode Title="properties" Url="html/4f8460fa-0356-2ba1-df29-506a3781bf45.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IAnyMapBuilder&lt;TKey, TValue&gt;.Remove method" Url="html/6fafaf61-9dc7-f52d-620a-70b6fe7c3d3e.htm" />
+  <HelpKINode Title="IAnyMapBuilder&lt;TKey, TValue&gt;.TryGetKvp method" Url="html/e9fb70d7-aec7-7611-e39c-b655eacea3f9.htm" />
+  <HelpKINode Title="IAnyOptional interface">
+    <HelpKINode Title="IAnyOptional Interface" Url="html/8115406f-a72d-8cd1-326c-3c205db4228e.htm" />
+    <HelpKINode Title="about IAnyOptional interface" Url="html/8115406f-a72d-8cd1-326c-3c205db4228e.htm" />
+    <HelpKINode Title="properties" Url="html/f8ea81f9-0234-4f06-6524-e017d5574fda.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IAnyOptional.IsNone property" Url="html/3edfaab4-9cb6-035b-f7f2-f35e4064a2ad.htm" />
+  <HelpKINode Title="IAnyOptional.IsSome property" Url="html/fbcf5cd4-7a29-dde1-60dd-1ade39c1f31b.htm" />
+  <HelpKINode Title="IAnyOptional.Value property" Url="html/c1993c5c-2057-91b9-cdd1-7e2bf480e84b.htm" />
+  <HelpKINode Title="IAnySetBuilder(Of TElem) interface">
+    <HelpKINode Title="IAnySetBuilder(TElem) Interface" Url="html/7767490d-4a95-3920-3701-b3390b1b943b.htm" />
+    <HelpKINode Title="about IAnySetBuilder(Of TElem) interface" Url="html/7767490d-4a95-3920-3701-b3390b1b943b.htm" />
+    <HelpKINode Title="methods" Url="html/461e988e-62db-3560-511b-d7ae91a2e562.htm" />
+    <HelpKINode Title="properties" Url="html/f58647d4-6f2f-9858-0487-af89fe669775.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IAnySetBuilder(Of TElem).Contains method" Url="html/91f85e95-2944-d168-bc6b-7d7f8e751dd9.htm" />
+  <HelpKINode Title="IAnySetBuilder(Of TElem).Remove method" Url="html/0ce9421e-ed0e-1bf2-b924-3233179b7918.htm" />
+  <HelpKINode Title="IAnySetBuilder&lt;TElem&gt; interface">
+    <HelpKINode Title="IAnySetBuilder(TElem) Interface" Url="html/7767490d-4a95-3920-3701-b3390b1b943b.htm" />
+    <HelpKINode Title="about IAnySetBuilder&lt;TElem&gt; interface" Url="html/7767490d-4a95-3920-3701-b3390b1b943b.htm" />
+    <HelpKINode Title="methods" Url="html/461e988e-62db-3560-511b-d7ae91a2e562.htm" />
+    <HelpKINode Title="properties" Url="html/f58647d4-6f2f-9858-0487-af89fe669775.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IAnySetBuilder&lt;TElem&gt;.Contains method" Url="html/91f85e95-2944-d168-bc6b-7d7f8e751dd9.htm" />
+  <HelpKINode Title="IAnySetBuilder&lt;TElem&gt;.Remove method" Url="html/0ce9421e-ed0e-1bf2-b924-3233179b7918.htm" />
+  <HelpKINode Title="IBuilderFactory(Of TBuilder) interface">
+    <HelpKINode Title="IBuilderFactory(TBuilder) Interface" Url="html/b73fb31c-0f41-a5a8-b7a8-48ba3f9e88a5.htm" />
+    <HelpKINode Title="about IBuilderFactory(Of TBuilder) interface" Url="html/b73fb31c-0f41-a5a8-b7a8-48ba3f9e88a5.htm" />
+    <HelpKINode Title="properties" Url="html/334a085d-a41f-fbb7-443a-af52e451e52b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IBuilderFactory(Of TBuilder).EmptyBuilder property" Url="html/d4b1e1dd-0b99-46c4-7d47-7f6fadbee825.htm" />
+  <HelpKINode Title="IBuilderFactory&lt;TBuilder&gt; interface">
+    <HelpKINode Title="IBuilderFactory(TBuilder) Interface" Url="html/b73fb31c-0f41-a5a8-b7a8-48ba3f9e88a5.htm" />
+    <HelpKINode Title="about IBuilderFactory&lt;TBuilder&gt; interface" Url="html/b73fb31c-0f41-a5a8-b7a8-48ba3f9e88a5.htm" />
+    <HelpKINode Title="properties" Url="html/334a085d-a41f-fbb7-443a-af52e451e52b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IBuilderFactory&lt;TBuilder&gt;.EmptyBuilder property" Url="html/d4b1e1dd-0b99-46c4-7d47-7f6fadbee825.htm" />
+  <HelpKINode Title="IIterableBuilder(Of TElem, TResult) interface">
+    <HelpKINode Title="IIterableBuilder(TElem, TResult) Interface" Url="html/4523cf8b-9894-ccbc-d697-ff8be185a043.htm" />
+    <HelpKINode Title="about IIterableBuilder(Of TElem, TResult) interface" Url="html/4523cf8b-9894-ccbc-d697-ff8be185a043.htm" />
+    <HelpKINode Title="methods" Url="html/2a3ff08f-5820-3cb9-a4ad-4a9569b700df.htm" />
+    <HelpKINode Title="properties" Url="html/809c7e3a-b2dd-1688-4346-65d53eaffb66.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IIterableBuilder(Of TElem, TResult).Produce method" Url="html/b3bc425e-84c0-23a0-cb5d-563eaa59379f.htm" />
+  <HelpKINode Title="IIterableBuilder&lt;TElem, TResult&gt; interface">
+    <HelpKINode Title="IIterableBuilder(TElem, TResult) Interface" Url="html/4523cf8b-9894-ccbc-d697-ff8be185a043.htm" />
+    <HelpKINode Title="about IIterableBuilder&lt;TElem, TResult&gt; interface" Url="html/4523cf8b-9894-ccbc-d697-ff8be185a043.htm" />
+    <HelpKINode Title="methods" Url="html/2a3ff08f-5820-3cb9-a4ad-4a9569b700df.htm" />
+    <HelpKINode Title="properties" Url="html/809c7e3a-b2dd-1688-4346-65d53eaffb66.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IIterableBuilder&lt;TElem, TResult&gt;.Produce method" Url="html/b3bc425e-84c0-23a0-cb5d-563eaa59379f.htm" />
+  <HelpKINode Title="IMapBuilder(Of TKey, TValue, TMap) interface">
+    <HelpKINode Title="IMapBuilder(TKey, TValue, TMap) Interface" Url="html/73cbc262-2dc5-3cae-ddc9-06f34f12e804.htm" />
+    <HelpKINode Title="about IMapBuilder(Of TKey, TValue, TMap) interface" Url="html/73cbc262-2dc5-3cae-ddc9-06f34f12e804.htm" />
+    <HelpKINode Title="methods" Url="html/922d412f-c65e-8ae1-1416-ead56c426971.htm" />
+    <HelpKINode Title="properties" Url="html/cc93d0eb-cb76-c7ad-f589-6a2516af958a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IMapBuilder&lt;TKey, TValue, TMap&gt; interface">
+    <HelpKINode Title="IMapBuilder(TKey, TValue, TMap) Interface" Url="html/73cbc262-2dc5-3cae-ddc9-06f34f12e804.htm" />
+    <HelpKINode Title="about IMapBuilder&lt;TKey, TValue, TMap&gt; interface" Url="html/73cbc262-2dc5-3cae-ddc9-06f34f12e804.htm" />
+    <HelpKINode Title="methods" Url="html/922d412f-c65e-8ae1-1416-ead56c426971.htm" />
+    <HelpKINode Title="properties" Url="html/cc93d0eb-cb76-c7ad-f589-6a2516af958a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ImmList class">
+    <HelpKINode Title="ImmList Class" Url="html/583d51dd-9637-6a95-ba43-6ff3ba7d06ee.htm" />
+    <HelpKINode Title="about ImmList class" Url="html/583d51dd-9637-6a95-ba43-6ff3ba7d06ee.htm" />
+    <HelpKINode Title="methods" Url="html/a83a0d4d-8c16-6ded-0f0f-93146fc1ff34.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ImmList(Of T) class">
+    <HelpKINode Title="ImmList(T) Class" Url="html/e60c9c81-1c21-5444-1330-35b73823ec34.htm" />
+    <HelpKINode Title="about ImmList(Of T) class" Url="html/e60c9c81-1c21-5444-1330-35b73823ec34.htm" />
+    <HelpKINode Title="methods" Url="html/fee8249a-f20a-8473-2821-e442aefcba7e.htm" />
+    <HelpKINode Title="properties" Url="html/b78da258-0e93-27a3-e981-07ec3cde47ce.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ImmList(Of T).AddFirst method" Url="html/fe2ccb5a-6ee0-c10c-8ce2-2534ab45c901.htm" />
+  <HelpKINode Title="ImmList(Of T).AddFirstRange method" Url="html/097b3b13-829f-8c1e-acf4-b27c649bc0f7.htm" />
+  <HelpKINode Title="ImmList(Of T).AddLast method" Url="html/8f06dcfa-c39f-4663-752a-5c1cb2bb1a37.htm" />
+  <HelpKINode Title="ImmList(Of T).AddLastRange method" Url="html/48cab16b-3c04-18a7-6514-cc99227cac88.htm" />
+  <HelpKINode Title="ImmList(Of T).AsSeq property" Url="html/89e3cd72-7759-0316-d1f7-731959ecdadd.htm" />
+  <HelpKINode Title="ImmList(Of T).Cast(Of TRElem) method" Url="html/be4e2dad-4eaa-5629-8b62-130dbd336a54.htm" />
+  <HelpKINode Title="ImmList(Of T).Choose(Of TRElem) method" Url="html/19a3e8a6-cf64-6617-8b50-9d28e5c142c1.htm" />
+  <HelpKINode Title="ImmList(Of T).Empty property" Url="html/89cb7449-2e01-2cf0-f4bd-613281651476.htm" />
+  <HelpKINode Title="ImmList(Of T).First property" Url="html/672ece85-c2d2-6d95-c50a-3fd625488bdd.htm" />
+  <HelpKINode Title="ImmList(Of T).ForEach method" Url="html/7e40febb-946b-4d46-2462-e5ff4d47349b.htm" />
+  <HelpKINode Title="ImmList(Of T).ForEachBack method" Url="html/804c8ce2-21f5-8de1-ac1b-8d887d2df099.htm" />
+  <HelpKINode Title="ImmList(Of T).ForEachBackWhile method" Url="html/4786c76b-3189-e6d0-fe58-83a4b0a72596.htm" />
+  <HelpKINode Title="ImmList(Of T).ForEachWhile method" Url="html/d8f9d119-91da-870c-e13a-04590475ade2.htm" />
+  <HelpKINode Title="ImmList(Of T).GetEnumerator method" Url="html/44510af8-812b-e4f4-57d2-149227b07604.htm" />
+  <HelpKINode Title="ImmList(Of T).GroupBy method" Url="html/ff7bd26c-93ec-9960-a32f-14c3beb4ba2c.htm" />
+  <HelpKINode Title="ImmList(Of T).Insert method" Url="html/2831d945-40c4-a2a5-d2bc-7a5788d55e01.htm" />
+  <HelpKINode Title="ImmList(Of T).InsertRange method" Url="html/448c4f11-a568-b5e0-8c51-261dac9e1e2f.htm" />
+  <HelpKINode Title="ImmList(Of T).IsEmpty property" Url="html/c26ec5b1-d1f3-aa8c-1ab4-16cbc33e067c.htm" />
+  <HelpKINode Title="ImmList(Of T).Join method" Url="html/421c40b4-d48a-3558-ac33-1029950c435b.htm" />
+  <HelpKINode Title="ImmList(Of T).Last property" Url="html/7caf348d-2b5c-6eb0-7ef1-d2428d498f9d.htm" />
+  <HelpKINode Title="ImmList(Of T).Length property" Url="html/19bcafcd-832d-74c9-cb69-c013c0481e85.htm" />
+  <HelpKINode Title="ImmList(Of T).RemoveAt method" Url="html/111a70cf-0be3-ca95-bdda-08aff7b3400f.htm" />
+  <HelpKINode Title="ImmList(Of T).RemoveFirst method" Url="html/b1fd8637-5d36-4de3-ac51-947133dcff04.htm" />
+  <HelpKINode Title="ImmList(Of T).RemoveLast method" Url="html/0a0906f7-8991-7c02-38ca-b830e29ee20a.htm" />
+  <HelpKINode Title="ImmList(Of T).Reverse method" Url="html/c9543fac-3cfc-ee8c-1eda-0e9be25bbc54.htm" />
+  <HelpKINode Title="ImmList(Of T).Scan(Of TRElem) method" Url="html/465cf12d-2661-3aa5-0dea-4919c92f97b1.htm" />
+  <HelpKINode Title="ImmList(Of T).ScanBack(Of TRElem) method" Url="html/f5b42c3a-1ff6-6080-95f8-8934c409f28f.htm" />
+  <HelpKINode Title="ImmList(Of T).Select method" Url="html/ff98426a-71ad-fc43-8fb8-e9a6ce34bde5.htm" />
+  <HelpKINode Title="ImmList(Of T).SelectMany method" Url="html/e09fbc7a-81ba-b1b5-004f-95b37a5c5dd6.htm" />
+  <HelpKINode Title="ImmList(Of T).Update method" Url="html/a788f40d-af2c-c554-15d0-d20c3a0c73f4.htm" />
+  <HelpKINode Title="ImmList(Of T).Zip method" Url="html/b4203b0f-0a34-95fe-7869-65012c5d4a22.htm" />
+  <HelpKINode Title="ImmList.Empty(Of T) method" Url="html/0545230b-6cba-9f99-1dae-0b8bfb208eb5.htm" />
+  <HelpKINode Title="ImmList.Empty&lt;T&gt; method" Url="html/0545230b-6cba-9f99-1dae-0b8bfb208eb5.htm" />
+  <HelpKINode Title="ImmList.FromItems(Of T) method" Url="html/f2c63e4d-6412-af3f-6e3f-6bc2b1370afb.htm" />
+  <HelpKINode Title="ImmList.FromItems&lt;T&gt; method" Url="html/f2c63e4d-6412-af3f-6e3f-6bc2b1370afb.htm" />
+  <HelpKINode Title="ImmList.ToImmList(Of T) method" Url="html/befc4233-a114-d78f-b86f-32c09b113096.htm" />
+  <HelpKINode Title="ImmList.ToImmList&lt;T&gt; method" Url="html/befc4233-a114-d78f-b86f-32c09b113096.htm" />
+  <HelpKINode Title="ImmList&lt;T&gt; class">
+    <HelpKINode Title="ImmList(T) Class" Url="html/e60c9c81-1c21-5444-1330-35b73823ec34.htm" />
+    <HelpKINode Title="about ImmList&lt;T&gt; class" Url="html/e60c9c81-1c21-5444-1330-35b73823ec34.htm" />
+    <HelpKINode Title="methods" Url="html/fee8249a-f20a-8473-2821-e442aefcba7e.htm" />
+    <HelpKINode Title="properties" Url="html/b78da258-0e93-27a3-e981-07ec3cde47ce.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ImmList&lt;T&gt;.AddFirst method" Url="html/fe2ccb5a-6ee0-c10c-8ce2-2534ab45c901.htm" />
+  <HelpKINode Title="ImmList&lt;T&gt;.AddFirstRange method" Url="html/097b3b13-829f-8c1e-acf4-b27c649bc0f7.htm" />
+  <HelpKINode Title="ImmList&lt;T&gt;.AddLast method" Url="html/8f06dcfa-c39f-4663-752a-5c1cb2bb1a37.htm" />
+  <HelpKINode Title="ImmList&lt;T&gt;.AddLastRange method" Url="html/48cab16b-3c04-18a7-6514-cc99227cac88.htm" />
+  <HelpKINode Title="ImmList&lt;T&gt;.AsSeq property" Url="html/89e3cd72-7759-0316-d1f7-731959ecdadd.htm" />
+  <HelpKINode Title="ImmList&lt;T&gt;.Cast&lt;TRElem&gt; method" Url="html/be4e2dad-4eaa-5629-8b62-130dbd336a54.htm" />
+  <HelpKINode Title="ImmList&lt;T&gt;.Choose&lt;TRElem&gt; method" Url="html/19a3e8a6-cf64-6617-8b50-9d28e5c142c1.htm" />
+  <HelpKINode Title="ImmList&lt;T&gt;.Empty property" Url="html/89cb7449-2e01-2cf0-f4bd-613281651476.htm" />
+  <HelpKINode Title="ImmList&lt;T&gt;.First property" Url="html/672ece85-c2d2-6d95-c50a-3fd625488bdd.htm" />
+  <HelpKINode Title="ImmList&lt;T&gt;.ForEach method" Url="html/7e40febb-946b-4d46-2462-e5ff4d47349b.htm" />
+  <HelpKINode Title="ImmList&lt;T&gt;.ForEachBack method" Url="html/804c8ce2-21f5-8de1-ac1b-8d887d2df099.htm" />
+  <HelpKINode Title="ImmList&lt;T&gt;.ForEachBackWhile method" Url="html/4786c76b-3189-e6d0-fe58-83a4b0a72596.htm" />
+  <HelpKINode Title="ImmList&lt;T&gt;.ForEachWhile method" Url="html/d8f9d119-91da-870c-e13a-04590475ade2.htm" />
+  <HelpKINode Title="ImmList&lt;T&gt;.GetEnumerator method" Url="html/44510af8-812b-e4f4-57d2-149227b07604.htm" />
+  <HelpKINode Title="ImmList&lt;T&gt;.GroupBy method" Url="html/ff7bd26c-93ec-9960-a32f-14c3beb4ba2c.htm" />
+  <HelpKINode Title="ImmList&lt;T&gt;.Insert method" Url="html/2831d945-40c4-a2a5-d2bc-7a5788d55e01.htm" />
+  <HelpKINode Title="ImmList&lt;T&gt;.InsertRange method" Url="html/448c4f11-a568-b5e0-8c51-261dac9e1e2f.htm" />
+  <HelpKINode Title="ImmList&lt;T&gt;.IsEmpty property" Url="html/c26ec5b1-d1f3-aa8c-1ab4-16cbc33e067c.htm" />
+  <HelpKINode Title="ImmList&lt;T&gt;.Join method" Url="html/421c40b4-d48a-3558-ac33-1029950c435b.htm" />
+  <HelpKINode Title="ImmList&lt;T&gt;.Last property" Url="html/7caf348d-2b5c-6eb0-7ef1-d2428d498f9d.htm" />
+  <HelpKINode Title="ImmList&lt;T&gt;.Length property" Url="html/19bcafcd-832d-74c9-cb69-c013c0481e85.htm" />
+  <HelpKINode Title="ImmList&lt;T&gt;.RemoveAt method" Url="html/111a70cf-0be3-ca95-bdda-08aff7b3400f.htm" />
+  <HelpKINode Title="ImmList&lt;T&gt;.RemoveFirst method" Url="html/b1fd8637-5d36-4de3-ac51-947133dcff04.htm" />
+  <HelpKINode Title="ImmList&lt;T&gt;.RemoveLast method" Url="html/0a0906f7-8991-7c02-38ca-b830e29ee20a.htm" />
+  <HelpKINode Title="ImmList&lt;T&gt;.Reverse method" Url="html/c9543fac-3cfc-ee8c-1eda-0e9be25bbc54.htm" />
+  <HelpKINode Title="ImmList&lt;T&gt;.Scan&lt;TRElem&gt; method" Url="html/465cf12d-2661-3aa5-0dea-4919c92f97b1.htm" />
+  <HelpKINode Title="ImmList&lt;T&gt;.ScanBack&lt;TRElem&gt; method" Url="html/f5b42c3a-1ff6-6080-95f8-8934c409f28f.htm" />
+  <HelpKINode Title="ImmList&lt;T&gt;.Select method" Url="html/ff98426a-71ad-fc43-8fb8-e9a6ce34bde5.htm" />
+  <HelpKINode Title="ImmList&lt;T&gt;.SelectMany method" Url="html/e09fbc7a-81ba-b1b5-004f-95b37a5c5dd6.htm" />
+  <HelpKINode Title="ImmList&lt;T&gt;.Update method" Url="html/a788f40d-af2c-c554-15d0-d20c3a0c73f4.htm" />
+  <HelpKINode Title="ImmList&lt;T&gt;.Zip method" Url="html/b4203b0f-0a34-95fe-7869-65012c5d4a22.htm" />
+  <HelpKINode Title="ImmMap class">
+    <HelpKINode Title="ImmMap Class" Url="html/ff7dd084-419d-f658-848c-f0bd60d3866b.htm" />
+    <HelpKINode Title="about ImmMap class" Url="html/ff7dd084-419d-f658-848c-f0bd60d3866b.htm" />
+    <HelpKINode Title="methods" Url="html/42926111-98bc-309c-8eeb-c1952f6680a2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ImmMap(Of TKey, TValue) class">
+    <HelpKINode Title="ImmMap(TKey, TValue) Class" Url="html/6dfdbced-d12f-5288-692c-78277b0617b0.htm" />
+    <HelpKINode Title="about ImmMap(Of TKey, TValue) class" Url="html/6dfdbced-d12f-5288-692c-78277b0617b0.htm" />
+    <HelpKINode Title="methods" Url="html/549a53bb-9f9c-a60c-acd0-670b34a48a00.htm" />
+    <HelpKINode Title="properties" Url="html/44495555-fc79-2f44-865a-8038dd88a420.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ImmMap(Of TKey, TValue).Add method" Url="html/1de4db49-6ca1-4599-725e-0238030a82b5.htm" />
+  <HelpKINode Title="ImmMap(Of TKey, TValue).Empty method" Url="html/fed144e4-a360-eada-10d6-0feaebfd3e83.htm" />
+  <HelpKINode Title="ImmMap(Of TKey, TValue).ForEachWhile method" Url="html/0d4d602b-3013-e5ba-1cbe-89b0f386177f.htm" />
+  <HelpKINode Title="ImmMap(Of TKey, TValue).GetEnumerator method" Url="html/86579af8-b21a-9cbf-4efb-2dfb62e67546.htm" />
+  <HelpKINode Title="ImmMap(Of TKey, TValue).IsEmpty property" Url="html/de67c9d1-85ce-f394-928d-80ea0c90b6ea.htm" />
+  <HelpKINode Title="ImmMap(Of TKey, TValue).Length property" Url="html/53f770dd-57cf-8906-3955-3b9db6b353b0.htm" />
+  <HelpKINode Title="ImmMap(Of TKey, TValue).Remove method" Url="html/50eb1240-b48f-3eba-278b-2cd5c9f46fd9.htm" />
+  <HelpKINode Title="ImmMap(Of TKey, TValue).RemoveRange method" Url="html/92a7fad4-a9bd-ea9b-621c-de0c855a607d.htm" />
+  <HelpKINode Title="ImmMap(Of TKey, TValue).Subtract method" Url="html/ead517c6-02e9-d351-edcb-f1ee67c1426f.htm" />
+  <HelpKINode Title="ImmMap(Of TKey, TValue).TryGet method" Url="html/25142230-6c91-8434-2282-9cf24cef4d78.htm" />
+  <HelpKINode Title="ImmMap.CreateMap(Of TKey, TValue) method" Url="html/5f2d49c1-6711-2c91-d759-a259da48a772.htm" />
+  <HelpKINode Title="ImmMap.CreateMap&lt;TKey, TValue&gt; method" Url="html/5f2d49c1-6711-2c91-d759-a259da48a772.htm" />
+  <HelpKINode Title="ImmMap.Empty(Of TKey, TValue) method" Url="html/e122ca49-011d-c887-b7e4-b8f94de2fd6d.htm" />
+  <HelpKINode Title="ImmMap.Empty&lt;TKey, TValue&gt; method" Url="html/e122ca49-011d-c887-b7e4-b8f94de2fd6d.htm" />
+  <HelpKINode Title="ImmMap.ToImmMap method" Url="html/ca352393-f528-44c9-c898-e3eade9d939e.htm" />
+  <HelpKINode Title="ImmMap&lt;TKey, TValue&gt; class">
+    <HelpKINode Title="ImmMap(TKey, TValue) Class" Url="html/6dfdbced-d12f-5288-692c-78277b0617b0.htm" />
+    <HelpKINode Title="about ImmMap&lt;TKey, TValue&gt; class" Url="html/6dfdbced-d12f-5288-692c-78277b0617b0.htm" />
+    <HelpKINode Title="methods" Url="html/549a53bb-9f9c-a60c-acd0-670b34a48a00.htm" />
+    <HelpKINode Title="properties" Url="html/44495555-fc79-2f44-865a-8038dd88a420.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ImmMap&lt;TKey, TValue&gt;.Add method" Url="html/1de4db49-6ca1-4599-725e-0238030a82b5.htm" />
+  <HelpKINode Title="ImmMap&lt;TKey, TValue&gt;.Empty method" Url="html/fed144e4-a360-eada-10d6-0feaebfd3e83.htm" />
+  <HelpKINode Title="ImmMap&lt;TKey, TValue&gt;.ForEachWhile method" Url="html/0d4d602b-3013-e5ba-1cbe-89b0f386177f.htm" />
+  <HelpKINode Title="ImmMap&lt;TKey, TValue&gt;.GetEnumerator method" Url="html/86579af8-b21a-9cbf-4efb-2dfb62e67546.htm" />
+  <HelpKINode Title="ImmMap&lt;TKey, TValue&gt;.IsEmpty property" Url="html/de67c9d1-85ce-f394-928d-80ea0c90b6ea.htm" />
+  <HelpKINode Title="ImmMap&lt;TKey, TValue&gt;.Length property" Url="html/53f770dd-57cf-8906-3955-3b9db6b353b0.htm" />
+  <HelpKINode Title="ImmMap&lt;TKey, TValue&gt;.Remove method" Url="html/50eb1240-b48f-3eba-278b-2cd5c9f46fd9.htm" />
+  <HelpKINode Title="ImmMap&lt;TKey, TValue&gt;.RemoveRange method" Url="html/92a7fad4-a9bd-ea9b-621c-de0c855a607d.htm" />
+  <HelpKINode Title="ImmMap&lt;TKey, TValue&gt;.Subtract method" Url="html/ead517c6-02e9-d351-edcb-f1ee67c1426f.htm" />
+  <HelpKINode Title="ImmMap&lt;TKey, TValue&gt;.TryGet method" Url="html/25142230-6c91-8434-2282-9cf24cef4d78.htm" />
+  <HelpKINode Title="Imms namespace" Url="html/73a23029-9bfb-1cf2-dd26-9fb785aede39.htm" />
+  <HelpKINode Title="Imms.Abstract namespace" Url="html/07be3f3b-f3f3-92a0-405b-18b2e298a399.htm" />
+  <HelpKINode Title="Imms.Abstract.AbstractIterable(Of TElem, TIterable, TBuilder) class" Url="html/7a74dc40-0467-eb03-f665-a951a18cf918.htm" />
+  <HelpKINode Title="Imms.Abstract.AbstractIterable&lt;TElem, TIterable, TBuilder&gt; class" Url="html/7a74dc40-0467-eb03-f665-a951a18cf918.htm" />
+  <HelpKINode Title="Imms.Abstract.AbstractMap(Of TKey, TValue, TMap) class" Url="html/ceda73cd-8b35-c050-982c-12a7e78b555f.htm" />
+  <HelpKINode Title="Imms.Abstract.AbstractMap&lt;TKey, TValue, TMap&gt; class" Url="html/ceda73cd-8b35-c050-982c-12a7e78b555f.htm" />
+  <HelpKINode Title="Imms.Abstract.AbstractSequential(Of TElem, TList) class" Url="html/aec77615-b72f-b8ab-e345-47b88dc2a893.htm" />
+  <HelpKINode Title="Imms.Abstract.AbstractSequential&lt;TElem, TList&gt; class" Url="html/aec77615-b72f-b8ab-e345-47b88dc2a893.htm" />
+  <HelpKINode Title="Imms.Abstract.AbstractSet(Of TElem, TSet) class" Url="html/81e7e607-be61-0ba4-d925-abd811d7cc37.htm" />
+  <HelpKINode Title="Imms.Abstract.AbstractSet&lt;TElem, TSet&gt; class" Url="html/81e7e607-be61-0ba4-d925-abd811d7cc37.htm" />
+  <HelpKINode Title="Imms.Abstract.IAnyIterableBuilder(Of TElem) interface" Url="html/83953da2-cbd5-6bcb-236b-7c8a38fa8779.htm" />
+  <HelpKINode Title="Imms.Abstract.IAnyIterableBuilder&lt;TElem&gt; interface" Url="html/83953da2-cbd5-6bcb-236b-7c8a38fa8779.htm" />
+  <HelpKINode Title="Imms.Abstract.IAnyMapBuilder(Of TKey, TValue) interface" Url="html/022dfbc5-8f43-6a16-fa4b-7390927caed1.htm" />
+  <HelpKINode Title="Imms.Abstract.IAnyMapBuilder&lt;TKey, TValue&gt; interface" Url="html/022dfbc5-8f43-6a16-fa4b-7390927caed1.htm" />
+  <HelpKINode Title="Imms.Abstract.IAnySetBuilder(Of TElem) interface" Url="html/7767490d-4a95-3920-3701-b3390b1b943b.htm" />
+  <HelpKINode Title="Imms.Abstract.IAnySetBuilder&lt;TElem&gt; interface" Url="html/7767490d-4a95-3920-3701-b3390b1b943b.htm" />
+  <HelpKINode Title="Imms.Abstract.IBuilderFactory(Of TBuilder) interface" Url="html/b73fb31c-0f41-a5a8-b7a8-48ba3f9e88a5.htm" />
+  <HelpKINode Title="Imms.Abstract.IBuilderFactory&lt;TBuilder&gt; interface" Url="html/b73fb31c-0f41-a5a8-b7a8-48ba3f9e88a5.htm" />
+  <HelpKINode Title="Imms.Abstract.IIterableBuilder(Of TElem, TResult) interface" Url="html/4523cf8b-9894-ccbc-d697-ff8be185a043.htm" />
+  <HelpKINode Title="Imms.Abstract.IIterableBuilder&lt;TElem, TResult&gt; interface" Url="html/4523cf8b-9894-ccbc-d697-ff8be185a043.htm" />
+  <HelpKINode Title="Imms.Abstract.IMapBuilder(Of TKey, TValue, TMap) interface" Url="html/73cbc262-2dc5-3cae-ddc9-06f34f12e804.htm" />
+  <HelpKINode Title="Imms.Abstract.IMapBuilder&lt;TKey, TValue, TMap&gt; interface" Url="html/73cbc262-2dc5-3cae-ddc9-06f34f12e804.htm" />
+  <HelpKINode Title="Imms.Abstract.ISequentialBuilder(Of TElem, TList) interface" Url="html/2c4c106d-9f0a-339f-bc83-7adb98eabbd9.htm" />
+  <HelpKINode Title="Imms.Abstract.ISequentialBuilder&lt;TElem, TList&gt; interface" Url="html/2c4c106d-9f0a-339f-bc83-7adb98eabbd9.htm" />
+  <HelpKINode Title="Imms.Abstract.ISetBuilder(Of TElem, TSet) interface" Url="html/b26fe853-1fb2-70ce-dc99-e71ee91f63e5.htm" />
+  <HelpKINode Title="Imms.Abstract.ISetBuilder&lt;TElem, TSet&gt; interface" Url="html/b26fe853-1fb2-70ce-dc99-e71ee91f63e5.htm" />
+  <HelpKINode Title="Imms.AnyNone class" Url="html/b548e490-67a1-7193-ba58-8064415f3caa.htm" />
+  <HelpKINode Title="Imms.IAnyOptional interface" Url="html/8115406f-a72d-8cd1-326c-3c205db4228e.htm" />
+  <HelpKINode Title="Imms.ImmList class" Url="html/583d51dd-9637-6a95-ba43-6ff3ba7d06ee.htm" />
+  <HelpKINode Title="Imms.ImmList(Of T) class" Url="html/e60c9c81-1c21-5444-1330-35b73823ec34.htm" />
+  <HelpKINode Title="Imms.ImmList&lt;T&gt; class" Url="html/e60c9c81-1c21-5444-1330-35b73823ec34.htm" />
+  <HelpKINode Title="Imms.ImmMap class" Url="html/ff7dd084-419d-f658-848c-f0bd60d3866b.htm" />
+  <HelpKINode Title="Imms.ImmMap(Of TKey, TValue) class" Url="html/6dfdbced-d12f-5288-692c-78277b0617b0.htm" />
+  <HelpKINode Title="Imms.ImmMap&lt;TKey, TValue&gt; class" Url="html/6dfdbced-d12f-5288-692c-78277b0617b0.htm" />
+  <HelpKINode Title="Imms.ImmSet class" Url="html/7d7d0046-0b33-275a-aeab-46e5d6dc15f7.htm" />
+  <HelpKINode Title="Imms.ImmSet(Of T) class" Url="html/b5e3eba0-8429-d9b9-0477-2cc4feb8d13c.htm" />
+  <HelpKINode Title="Imms.ImmSet&lt;T&gt; class" Url="html/b5e3eba0-8429-d9b9-0477-2cc4feb8d13c.htm" />
+  <HelpKINode Title="Imms.ImmSortedMap class" Url="html/92909169-965b-cb7f-7655-6aa65c76df49.htm" />
+  <HelpKINode Title="Imms.ImmSortedMap(Of TKey, TValue) class" Url="html/1e1acfa6-c3f9-e927-a5d0-6abf946c5b5a.htm" />
+  <HelpKINode Title="Imms.ImmSortedMap&lt;TKey, TValue&gt; class" Url="html/1e1acfa6-c3f9-e927-a5d0-6abf946c5b5a.htm" />
+  <HelpKINode Title="Imms.ImmSortedSet class" Url="html/a04f1fd3-b227-cc1b-e956-e4b21ae0de08.htm" />
+  <HelpKINode Title="Imms.ImmSortedSet(Of T) class" Url="html/846e4ad9-d0a6-5f91-2372-9cdab73d9c1d.htm" />
+  <HelpKINode Title="Imms.ImmSortedSet&lt;T&gt; class" Url="html/846e4ad9-d0a6-5f91-2372-9cdab73d9c1d.htm" />
+  <HelpKINode Title="Imms.ImmVector class" Url="html/98efddcc-00a0-f17c-bf80-a07b90f5b33a.htm" />
+  <HelpKINode Title="Imms.ImmVector(Of T) class" Url="html/a8ee2487-9069-9c04-d050-da08328ee945.htm" />
+  <HelpKINode Title="Imms.ImmVector&lt;T&gt; class" Url="html/a8ee2487-9069-9c04-d050-da08328ee945.htm" />
+  <HelpKINode Title="Imms.Kvp class" Url="html/7a205ca9-6fc8-70cb-05ba-5d7f0d6f2fd7.htm" />
+  <HelpKINode Title="Imms.NoValueException class" Url="html/ca01849a-bf82-7e22-5aa7-c2eb918a8d9c.htm" />
+  <HelpKINode Title="Imms.Optional class" Url="html/9c99e38a-a81a-75f3-baba-2aa18be85263.htm" />
+  <HelpKINode Title="Imms.Optional(Of T) structure" Url="html/6288190b-e33e-f645-293f-fb870e7f60b4.htm" />
+  <HelpKINode Title="Imms.Optional&lt;T&gt; structure" Url="html/6288190b-e33e-f645-293f-fb870e7f60b4.htm" />
+  <HelpKINode Title="Imms.OptionalExt class" Url="html/ea06f557-cc81-7834-59ba-1de1c62554fa.htm" />
+  <HelpKINode Title="Imms.SetRelation enumeration" Url="html/77ea3a4f-75e9-79bc-23e4-81ba7cf5737d.htm" />
+  <HelpKINode Title="Imms.ValueSelector(Of TKey, TVal1, TVal2, TOut) delegate" Url="html/65db18f6-3b92-8030-dad8-1bd7775bc01c.htm" />
+  <HelpKINode Title="Imms.ValueSelector&lt;TKey, TVal1, TVal2, TOut&gt; delegate" Url="html/65db18f6-3b92-8030-dad8-1bd7775bc01c.htm" />
+  <HelpKINode Title="ImmSet class">
+    <HelpKINode Title="ImmSet Class" Url="html/7d7d0046-0b33-275a-aeab-46e5d6dc15f7.htm" />
+    <HelpKINode Title="about ImmSet class" Url="html/7d7d0046-0b33-275a-aeab-46e5d6dc15f7.htm" />
+    <HelpKINode Title="methods" Url="html/59272164-dc6b-191d-f5de-4b9a0524d8a7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ImmSet(Of T) class">
+    <HelpKINode Title="ImmSet(T) Class" Url="html/b5e3eba0-8429-d9b9-0477-2cc4feb8d13c.htm" />
+    <HelpKINode Title="about ImmSet(Of T) class" Url="html/b5e3eba0-8429-d9b9-0477-2cc4feb8d13c.htm" />
+    <HelpKINode Title="methods" Url="html/e88ba9fa-0e17-2013-f1ce-67d1acc15f4b.htm" />
+    <HelpKINode Title="properties" Url="html/c3102d95-0b90-2eae-167a-11abf324b1e4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ImmSet(Of T).Add method" Url="html/5e67f478-ae39-b398-e0cb-8e976ad8cd12.htm" />
+  <HelpKINode Title="ImmSet(Of T).Contains method" Url="html/4650c83b-be7c-ebb1-0b4f-e6b8246982eb.htm" />
+  <HelpKINode Title="ImmSet(Of T).Empty method" Url="html/5fc5b335-da81-2a64-2fbe-c4f4555994a7.htm" />
+  <HelpKINode Title="ImmSet(Of T).ForEachWhile method" Url="html/c399f4f8-bafe-6f39-817e-a2ea6410a037.htm" />
+  <HelpKINode Title="ImmSet(Of T).GetEnumerator method" Url="html/43b890bc-b46b-4901-5cb2-bdf4890bd3e8.htm" />
+  <HelpKINode Title="ImmSet(Of T).IsEmpty property" Url="html/a32fbfc1-457a-6373-0f0c-a2bda929fc07.htm" />
+  <HelpKINode Title="ImmSet(Of T).Length property" Url="html/46c4787a-2b6e-307b-ae55-0998b58f688b.htm" />
+  <HelpKINode Title="ImmSet(Of T).Remove method" Url="html/7931cbf2-a41d-bde2-701b-350c08486310.htm" />
+  <HelpKINode Title="ImmSet.CreateSet(Of T) method" Url="html/a5e4de7c-f6cb-6422-bee1-0ca69ddc5ac8.htm" />
+  <HelpKINode Title="ImmSet.CreateSet&lt;T&gt; method" Url="html/a5e4de7c-f6cb-6422-bee1-0ca69ddc5ac8.htm" />
+  <HelpKINode Title="ImmSet.Empty(Of T) method" Url="html/26fe4a07-0d55-fc7f-4537-cde17e3f92c9.htm" />
+  <HelpKINode Title="ImmSet.Empty&lt;T&gt; method" Url="html/26fe4a07-0d55-fc7f-4537-cde17e3f92c9.htm" />
+  <HelpKINode Title="ImmSet.ToImmSet(Of T) method" Url="html/47ee3497-f72f-7af8-bfef-8998156d9a53.htm" />
+  <HelpKINode Title="ImmSet.ToImmSet&lt;T&gt; method" Url="html/47ee3497-f72f-7af8-bfef-8998156d9a53.htm" />
+  <HelpKINode Title="ImmSet&lt;T&gt; class">
+    <HelpKINode Title="ImmSet(T) Class" Url="html/b5e3eba0-8429-d9b9-0477-2cc4feb8d13c.htm" />
+    <HelpKINode Title="about ImmSet&lt;T&gt; class" Url="html/b5e3eba0-8429-d9b9-0477-2cc4feb8d13c.htm" />
+    <HelpKINode Title="methods" Url="html/e88ba9fa-0e17-2013-f1ce-67d1acc15f4b.htm" />
+    <HelpKINode Title="properties" Url="html/c3102d95-0b90-2eae-167a-11abf324b1e4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ImmSet&lt;T&gt;.Add method" Url="html/5e67f478-ae39-b398-e0cb-8e976ad8cd12.htm" />
+  <HelpKINode Title="ImmSet&lt;T&gt;.Contains method" Url="html/4650c83b-be7c-ebb1-0b4f-e6b8246982eb.htm" />
+  <HelpKINode Title="ImmSet&lt;T&gt;.Empty method" Url="html/5fc5b335-da81-2a64-2fbe-c4f4555994a7.htm" />
+  <HelpKINode Title="ImmSet&lt;T&gt;.ForEachWhile method" Url="html/c399f4f8-bafe-6f39-817e-a2ea6410a037.htm" />
+  <HelpKINode Title="ImmSet&lt;T&gt;.GetEnumerator method" Url="html/43b890bc-b46b-4901-5cb2-bdf4890bd3e8.htm" />
+  <HelpKINode Title="ImmSet&lt;T&gt;.IsEmpty property" Url="html/a32fbfc1-457a-6373-0f0c-a2bda929fc07.htm" />
+  <HelpKINode Title="ImmSet&lt;T&gt;.Length property" Url="html/46c4787a-2b6e-307b-ae55-0998b58f688b.htm" />
+  <HelpKINode Title="ImmSet&lt;T&gt;.Remove method" Url="html/7931cbf2-a41d-bde2-701b-350c08486310.htm" />
+  <HelpKINode Title="ImmSortedMap class">
+    <HelpKINode Title="ImmSortedMap Class" Url="html/92909169-965b-cb7f-7655-6aa65c76df49.htm" />
+    <HelpKINode Title="about ImmSortedMap class" Url="html/92909169-965b-cb7f-7655-6aa65c76df49.htm" />
+    <HelpKINode Title="methods" Url="html/453307dc-bec6-d842-1ec9-b698ac1e5b54.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ImmSortedMap(Of TKey, TValue) class">
+    <HelpKINode Title="ImmSortedMap(TKey, TValue) Class" Url="html/1e1acfa6-c3f9-e927-a5d0-6abf946c5b5a.htm" />
+    <HelpKINode Title="about ImmSortedMap(Of TKey, TValue) class" Url="html/1e1acfa6-c3f9-e927-a5d0-6abf946c5b5a.htm" />
+    <HelpKINode Title="methods" Url="html/6006c2b7-0079-aaf4-c8f0-3e142a562e5f.htm" />
+    <HelpKINode Title="properties" Url="html/38019c54-8189-f40c-0e7b-cc10879d90e0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ImmSortedMap(Of TKey, TValue).ByOrder method" Url="html/f25c6657-4a7e-47df-bcbc-816064f7ab79.htm" />
+  <HelpKINode Title="ImmSortedMap(Of TKey, TValue).Empty method" Url="html/fb00e13e-0ead-98c0-a42e-c02dc2dc8ff3.htm" />
+  <HelpKINode Title="ImmSortedMap(Of TKey, TValue).ForEachWhile method" Url="html/cdd4a412-e0a4-c870-36f2-aeca25aabdb6.htm" />
+  <HelpKINode Title="ImmSortedMap(Of TKey, TValue).GetEnumerator method" Url="html/7598e2ac-ed00-913d-751a-ff391952bd76.htm" />
+  <HelpKINode Title="ImmSortedMap(Of TKey, TValue).IndexOf method" Url="html/0bc022bb-44e3-c7f5-d43e-9e08c2cb4961.htm" />
+  <HelpKINode Title="ImmSortedMap(Of TKey, TValue).IsEmpty property" Url="html/a3d90a35-126c-d51f-396b-836244e358e0.htm" />
+  <HelpKINode Title="ImmSortedMap(Of TKey, TValue).Length property" Url="html/553e8427-a0cc-ffb1-4a67-2eebdd512331.htm" />
+  <HelpKINode Title="ImmSortedMap(Of TKey, TValue).MaxItem property" Url="html/1c4a1fdf-14e5-c66e-91b8-24656455df1c.htm" />
+  <HelpKINode Title="ImmSortedMap(Of TKey, TValue).Merge method" Url="html/f67ebe54-285c-31cf-9f47-ac6cb898a2b3.htm" />
+  <HelpKINode Title="ImmSortedMap(Of TKey, TValue).MinItem property" Url="html/2036beaf-ce89-6933-7e45-21a36cc0631a.htm" />
+  <HelpKINode Title="ImmSortedMap(Of TKey, TValue).Remove method" Url="html/851f5cc5-c309-33d2-650e-badd9b5fb280.htm" />
+  <HelpKINode Title="ImmSortedMap(Of TKey, TValue).RemoveMax method" Url="html/e15d5678-cdc1-9740-7903-36d97d4f0df6.htm" />
+  <HelpKINode Title="ImmSortedMap(Of TKey, TValue).RemoveMin method" Url="html/c3a59b4b-d2d9-ecbe-2f26-4de06fd4d2c3.htm" />
+  <HelpKINode Title="ImmSortedMap(Of TKey, TValue).RemoveRange method" Url="html/2f4cb488-5a56-d6cc-582a-2641239200d5.htm" />
+  <HelpKINode Title="ImmSortedMap(Of TKey, TValue).Slice method" Url="html/a12d18a9-9307-7be0-3545-f2814bff21a4.htm" />
+  <HelpKINode Title="ImmSortedMap(Of TKey, TValue).Subtract method" Url="html/f356068a-c88e-08d6-dfad-cb58b7f374d5.htm" />
+  <HelpKINode Title="ImmSortedMap(Of TKey, TValue).TryGet method" Url="html/9770d68c-78f0-5262-660e-6b10f6960591.htm" />
+  <HelpKINode Title="ImmSortedMap.CreateOrderedMap(Of TKey, TValue) method" Url="html/b8646ec8-4872-036a-c780-efc7fc891000.htm" />
+  <HelpKINode Title="ImmSortedMap.CreateOrderedMap&lt;TKey, TValue&gt; method" Url="html/b8646ec8-4872-036a-c780-efc7fc891000.htm" />
+  <HelpKINode Title="ImmSortedMap.Empty method" Url="html/ea848e47-2c18-6852-6c9a-0c71965a163a.htm" />
+  <HelpKINode Title="ImmSortedMap.ToImmSortedMap method" Url="html/6e40882f-fdfb-0078-e079-d6a22088c9ca.htm" />
+  <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt; class">
+    <HelpKINode Title="ImmSortedMap(TKey, TValue) Class" Url="html/1e1acfa6-c3f9-e927-a5d0-6abf946c5b5a.htm" />
+    <HelpKINode Title="about ImmSortedMap&lt;TKey, TValue&gt; class" Url="html/1e1acfa6-c3f9-e927-a5d0-6abf946c5b5a.htm" />
+    <HelpKINode Title="methods" Url="html/6006c2b7-0079-aaf4-c8f0-3e142a562e5f.htm" />
+    <HelpKINode Title="properties" Url="html/38019c54-8189-f40c-0e7b-cc10879d90e0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.ByOrder method" Url="html/f25c6657-4a7e-47df-bcbc-816064f7ab79.htm" />
+  <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.Empty method" Url="html/fb00e13e-0ead-98c0-a42e-c02dc2dc8ff3.htm" />
+  <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.ForEachWhile method" Url="html/cdd4a412-e0a4-c870-36f2-aeca25aabdb6.htm" />
+  <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.GetEnumerator method" Url="html/7598e2ac-ed00-913d-751a-ff391952bd76.htm" />
+  <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.IndexOf method" Url="html/0bc022bb-44e3-c7f5-d43e-9e08c2cb4961.htm" />
+  <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.IsEmpty property" Url="html/a3d90a35-126c-d51f-396b-836244e358e0.htm" />
+  <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.Length property" Url="html/553e8427-a0cc-ffb1-4a67-2eebdd512331.htm" />
+  <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.MaxItem property" Url="html/1c4a1fdf-14e5-c66e-91b8-24656455df1c.htm" />
+  <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.Merge method" Url="html/f67ebe54-285c-31cf-9f47-ac6cb898a2b3.htm" />
+  <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.MinItem property" Url="html/2036beaf-ce89-6933-7e45-21a36cc0631a.htm" />
+  <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.Remove method" Url="html/851f5cc5-c309-33d2-650e-badd9b5fb280.htm" />
+  <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.RemoveMax method" Url="html/e15d5678-cdc1-9740-7903-36d97d4f0df6.htm" />
+  <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.RemoveMin method" Url="html/c3a59b4b-d2d9-ecbe-2f26-4de06fd4d2c3.htm" />
+  <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.RemoveRange method" Url="html/2f4cb488-5a56-d6cc-582a-2641239200d5.htm" />
+  <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.Slice method" Url="html/a12d18a9-9307-7be0-3545-f2814bff21a4.htm" />
+  <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.Subtract method" Url="html/f356068a-c88e-08d6-dfad-cb58b7f374d5.htm" />
+  <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.TryGet method" Url="html/9770d68c-78f0-5262-660e-6b10f6960591.htm" />
+  <HelpKINode Title="ImmSortedSet class">
+    <HelpKINode Title="ImmSortedSet Class" Url="html/a04f1fd3-b227-cc1b-e956-e4b21ae0de08.htm" />
+    <HelpKINode Title="about ImmSortedSet class" Url="html/a04f1fd3-b227-cc1b-e956-e4b21ae0de08.htm" />
+    <HelpKINode Title="methods" Url="html/4779664a-5b2a-9afd-db6e-c05b3bd9e1bd.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ImmSortedSet(Of T) class">
+    <HelpKINode Title="ImmSortedSet(T) Class" Url="html/846e4ad9-d0a6-5f91-2372-9cdab73d9c1d.htm" />
+    <HelpKINode Title="about ImmSortedSet(Of T) class" Url="html/846e4ad9-d0a6-5f91-2372-9cdab73d9c1d.htm" />
+    <HelpKINode Title="methods" Url="html/492e83f7-82dc-0847-ef56-78672d10e11c.htm" />
+    <HelpKINode Title="properties" Url="html/3b27c724-a88e-0d6d-a9fe-2a4d22debc08.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ImmSortedSet(Of T).Add method" Url="html/4bf13cd2-5a13-3d02-16f5-40ccabcd6391.htm" />
+  <HelpKINode Title="ImmSortedSet(Of T).ByOrder method" Url="html/f2b81f9b-54bf-9a68-ccbc-7e95dd7e20df.htm" />
+  <HelpKINode Title="ImmSortedSet(Of T).Contains method" Url="html/f3f82509-c5ea-072f-ab2e-a9eebfbee8e6.htm" />
+  <HelpKINode Title="ImmSortedSet(Of T).Empty method" Url="html/923eddc5-6169-05eb-d5c2-0cf6f1d53996.htm" />
+  <HelpKINode Title="ImmSortedSet(Of T).ForEachWhile method" Url="html/611f2f31-7c07-272c-e1c2-50fad454ca54.htm" />
+  <HelpKINode Title="ImmSortedSet(Of T).GetEnumerator method" Url="html/f44af867-f595-36de-c9b1-838ebc550c27.htm" />
+  <HelpKINode Title="ImmSortedSet(Of T).IndexOf method" Url="html/723603c9-8b6d-4878-3a93-dd5d4a5d8c55.htm" />
+  <HelpKINode Title="ImmSortedSet(Of T).IsEmpty property" Url="html/1093ceac-7081-e06e-9692-c9ffa4583c11.htm" />
+  <HelpKINode Title="ImmSortedSet(Of T).Length property" Url="html/eb85220c-9424-1180-5ee6-c7905790178f.htm" />
+  <HelpKINode Title="ImmSortedSet(Of T).MaxItem property" Url="html/c2083f1d-833c-9288-1f33-fe57db7ec85e.htm" />
+  <HelpKINode Title="ImmSortedSet(Of T).MinItem property" Url="html/c28adf07-b0b4-1138-1c92-6fde6d445e7e.htm" />
+  <HelpKINode Title="ImmSortedSet(Of T).Remove method" Url="html/edb705cf-4d6e-5558-bdca-7290f8501ba3.htm" />
+  <HelpKINode Title="ImmSortedSet(Of T).RemoveMax method" Url="html/27e83d86-a8b7-c662-a35e-f217825ba812.htm" />
+  <HelpKINode Title="ImmSortedSet(Of T).RemoveMin method" Url="html/df86c42e-642a-1f38-e26f-31011557450b.htm" />
+  <HelpKINode Title="ImmSortedSet(Of T).Slice method" Url="html/03b4e2f4-d2bb-7165-12bd-580cc01b7572.htm" />
+  <HelpKINode Title="ImmSortedSet(Of T).Union method" Url="html/a933599f-e717-bccb-49ee-87421b4d6580.htm" />
+  <HelpKINode Title="ImmSortedSet.CreateOrderedSet(Of T) method" Url="html/7134c618-cc0d-5846-202f-f4c2ec3e0755.htm" />
+  <HelpKINode Title="ImmSortedSet.CreateOrderedSet&lt;T&gt; method" Url="html/7134c618-cc0d-5846-202f-f4c2ec3e0755.htm" />
+  <HelpKINode Title="ImmSortedSet.Empty method" Url="html/94ef8b03-626d-0d3d-d856-588cb3c632f3.htm" />
+  <HelpKINode Title="ImmSortedSet.ToImmSortedSet method" Url="html/5e78ccbc-bce5-cb10-508e-0d968174e9a3.htm" />
+  <HelpKINode Title="ImmSortedSet&lt;T&gt; class">
+    <HelpKINode Title="ImmSortedSet(T) Class" Url="html/846e4ad9-d0a6-5f91-2372-9cdab73d9c1d.htm" />
+    <HelpKINode Title="about ImmSortedSet&lt;T&gt; class" Url="html/846e4ad9-d0a6-5f91-2372-9cdab73d9c1d.htm" />
+    <HelpKINode Title="methods" Url="html/492e83f7-82dc-0847-ef56-78672d10e11c.htm" />
+    <HelpKINode Title="properties" Url="html/3b27c724-a88e-0d6d-a9fe-2a4d22debc08.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ImmSortedSet&lt;T&gt;.Add method" Url="html/4bf13cd2-5a13-3d02-16f5-40ccabcd6391.htm" />
+  <HelpKINode Title="ImmSortedSet&lt;T&gt;.ByOrder method" Url="html/f2b81f9b-54bf-9a68-ccbc-7e95dd7e20df.htm" />
+  <HelpKINode Title="ImmSortedSet&lt;T&gt;.Contains method" Url="html/f3f82509-c5ea-072f-ab2e-a9eebfbee8e6.htm" />
+  <HelpKINode Title="ImmSortedSet&lt;T&gt;.Empty method" Url="html/923eddc5-6169-05eb-d5c2-0cf6f1d53996.htm" />
+  <HelpKINode Title="ImmSortedSet&lt;T&gt;.ForEachWhile method" Url="html/611f2f31-7c07-272c-e1c2-50fad454ca54.htm" />
+  <HelpKINode Title="ImmSortedSet&lt;T&gt;.GetEnumerator method" Url="html/f44af867-f595-36de-c9b1-838ebc550c27.htm" />
+  <HelpKINode Title="ImmSortedSet&lt;T&gt;.IndexOf method" Url="html/723603c9-8b6d-4878-3a93-dd5d4a5d8c55.htm" />
+  <HelpKINode Title="ImmSortedSet&lt;T&gt;.IsEmpty property" Url="html/1093ceac-7081-e06e-9692-c9ffa4583c11.htm" />
+  <HelpKINode Title="ImmSortedSet&lt;T&gt;.Length property" Url="html/eb85220c-9424-1180-5ee6-c7905790178f.htm" />
+  <HelpKINode Title="ImmSortedSet&lt;T&gt;.MaxItem property" Url="html/c2083f1d-833c-9288-1f33-fe57db7ec85e.htm" />
+  <HelpKINode Title="ImmSortedSet&lt;T&gt;.MinItem property" Url="html/c28adf07-b0b4-1138-1c92-6fde6d445e7e.htm" />
+  <HelpKINode Title="ImmSortedSet&lt;T&gt;.Remove method" Url="html/edb705cf-4d6e-5558-bdca-7290f8501ba3.htm" />
+  <HelpKINode Title="ImmSortedSet&lt;T&gt;.RemoveMax method" Url="html/27e83d86-a8b7-c662-a35e-f217825ba812.htm" />
+  <HelpKINode Title="ImmSortedSet&lt;T&gt;.RemoveMin method" Url="html/df86c42e-642a-1f38-e26f-31011557450b.htm" />
+  <HelpKINode Title="ImmSortedSet&lt;T&gt;.Slice method" Url="html/03b4e2f4-d2bb-7165-12bd-580cc01b7572.htm" />
+  <HelpKINode Title="ImmSortedSet&lt;T&gt;.Union method" Url="html/a933599f-e717-bccb-49ee-87421b4d6580.htm" />
+  <HelpKINode Title="ImmVector class">
+    <HelpKINode Title="ImmVector Class" Url="html/98efddcc-00a0-f17c-bf80-a07b90f5b33a.htm" />
+    <HelpKINode Title="about ImmVector class" Url="html/98efddcc-00a0-f17c-bf80-a07b90f5b33a.htm" />
+    <HelpKINode Title="methods" Url="html/cb86acd4-adee-f5f7-01ac-77a1bc7ee613.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ImmVector(Of T) class">
+    <HelpKINode Title="ImmVector(T) Class" Url="html/a8ee2487-9069-9c04-d050-da08328ee945.htm" />
+    <HelpKINode Title="about ImmVector(Of T) class" Url="html/a8ee2487-9069-9c04-d050-da08328ee945.htm" />
+    <HelpKINode Title="fields" Url="html/d6f8cf0a-be08-becd-d416-d15d697661c8.htm" />
+    <HelpKINode Title="methods" Url="html/f608bf7d-377c-e00f-b4d3-18f81b1aa4ba.htm" />
+    <HelpKINode Title="properties" Url="html/fd2ba9ed-3015-1e8b-49e7-aa22aade1c8a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ImmVector(Of T).AddFirstRange method" Url="html/2e5828bb-eaa0-a9a4-9ddd-5e2b552b1e8c.htm" />
+  <HelpKINode Title="ImmVector(Of T).AddLast method" Url="html/aae909a0-5e19-6e77-11cd-6e1fcd860c35.htm" />
+  <HelpKINode Title="ImmVector(Of T).AddLastRange method" Url="html/cb7e14a0-2740-6422-ae30-cf55aeebd6f4.htm" />
+  <HelpKINode Title="ImmVector(Of T).AsSeq property" Url="html/a331e989-1e09-0ee3-54d3-2d21a20affed.htm" />
+  <HelpKINode Title="ImmVector(Of T).Cast(Of TRElem) method" Url="html/c4a2741b-e9a5-f2d7-4f74-39621e09f8ef.htm" />
+  <HelpKINode Title="ImmVector(Of T).Choose(Of TRElem) method" Url="html/58b0e9e2-2f95-135d-ab26-b2e490bfeff3.htm" />
+  <HelpKINode Title="ImmVector(Of T).CopyTo method" Url="html/00ecba84-3753-1564-820e-100c21b2ba25.htm" />
+  <HelpKINode Title="ImmVector(Of T).Empty property" Url="html/b7b46606-1395-7410-c0c8-0d9a8cf96109.htm" />
+  <HelpKINode Title="ImmVector(Of T).First property" Url="html/59b2de94-aa76-7902-3d76-45618db913fa.htm" />
+  <HelpKINode Title="ImmVector(Of T).ForEach method" Url="html/c388d732-04b7-991b-a5c5-858b6f7c89c7.htm" />
+  <HelpKINode Title="ImmVector(Of T).ForEachBack method" Url="html/59629164-a685-d012-5458-45c5041cf061.htm" />
+  <HelpKINode Title="ImmVector(Of T).ForEachBackWhile method" Url="html/8df6d778-6b46-bcbd-fab8-28f82db8e35f.htm" />
+  <HelpKINode Title="ImmVector(Of T).ForEachWhile method" Url="html/77b81a4a-9b2a-e434-8371-66b59fe74076.htm" />
+  <HelpKINode Title="ImmVector(Of T).GetEnumerator method" Url="html/2ca27342-e60d-80e9-7c1e-8793b252ad8f.htm" />
+  <HelpKINode Title="ImmVector(Of T).GroupBy method" Url="html/6c82e3bc-955b-6edc-0358-e5cb982c087e.htm" />
+  <HelpKINode Title="ImmVector(Of T).Insert method" Url="html/cf6d0f1c-f221-0cf8-6aaf-6b0ffb19fcd2.htm" />
+  <HelpKINode Title="ImmVector(Of T).InsertRange method" Url="html/375df23e-12ac-bf4e-cabc-07a25acb2328.htm" />
+  <HelpKINode Title="ImmVector(Of T).IsEmpty property" Url="html/bb44a4de-f4dc-1a51-d257-c0db76f28239.htm" />
+  <HelpKINode Title="ImmVector(Of T).Join method" Url="html/1cd1297e-de3b-a612-1081-4af5dccaa298.htm" />
+  <HelpKINode Title="ImmVector(Of T).Last property" Url="html/af9d361c-5c13-630d-9d5f-c73d302ce6ed.htm" />
+  <HelpKINode Title="ImmVector(Of T).Length property" Url="html/aabcff29-745d-73cc-0251-6bfdb25adf0c.htm" />
+  <HelpKINode Title="ImmVector(Of T).MaxCapacity field" Url="html/f9cddcd3-d5b3-b420-7cc3-c3885534905e.htm" />
+  <HelpKINode Title="ImmVector(Of T).RemoveAt method" Url="html/0aea7e10-309f-2333-2946-af9f3b4e6c22.htm" />
+  <HelpKINode Title="ImmVector(Of T).RemoveLast method" Url="html/4cc2bf62-85e2-adad-be8b-0e090be257f8.htm" />
+  <HelpKINode Title="ImmVector(Of T).Scan(Of TRElem) method" Url="html/e025b3ec-9444-e58f-5dc6-608fb5ad9348.htm" />
+  <HelpKINode Title="ImmVector(Of T).ScanBack(Of TRElem) method" Url="html/5b7b1320-213c-7902-ef27-b253c40519c0.htm" />
+  <HelpKINode Title="ImmVector(Of T).Select method" Url="html/262b13b8-0a20-1828-f609-da8722445707.htm" />
+  <HelpKINode Title="ImmVector(Of T).SelectMany method" Url="html/b24f4406-2223-0014-98ef-df8cb8c2dee3.htm" />
+  <HelpKINode Title="ImmVector(Of T).Skip method" Url="html/f471a57a-b92f-f976-d3be-d1a03416b38a.htm" />
+  <HelpKINode Title="ImmVector(Of T).Take method" Url="html/437fc629-2196-2823-d4af-941f4582b298.htm" />
+  <HelpKINode Title="ImmVector(Of T).Update method" Url="html/24e7c1fb-bddc-f7f5-bcb4-06d5fcfb29e8.htm" />
+  <HelpKINode Title="ImmVector(Of T).Zip method" Url="html/77bd3a85-b875-f20d-85b0-70f4b82f6308.htm" />
+  <HelpKINode Title="ImmVector.Empty(Of T) method" Url="html/3ac3a3e3-b67a-ebc2-7d12-06ad7863b749.htm" />
+  <HelpKINode Title="ImmVector.Empty&lt;T&gt; method" Url="html/3ac3a3e3-b67a-ebc2-7d12-06ad7863b749.htm" />
+  <HelpKINode Title="ImmVector.FromItems(Of T) method" Url="html/203dc780-9b7a-00ad-bfa0-841501398ab5.htm" />
+  <HelpKINode Title="ImmVector.FromItems&lt;T&gt; method" Url="html/203dc780-9b7a-00ad-bfa0-841501398ab5.htm" />
+  <HelpKINode Title="ImmVector.ToImmVector(Of T) method" Url="html/2fd8a2ea-4252-ad4c-597f-5f25f8055684.htm" />
+  <HelpKINode Title="ImmVector.ToImmVector&lt;T&gt; method" Url="html/2fd8a2ea-4252-ad4c-597f-5f25f8055684.htm" />
+  <HelpKINode Title="ImmVector&lt;T&gt; class">
+    <HelpKINode Title="ImmVector(T) Class" Url="html/a8ee2487-9069-9c04-d050-da08328ee945.htm" />
+    <HelpKINode Title="about ImmVector&lt;T&gt; class" Url="html/a8ee2487-9069-9c04-d050-da08328ee945.htm" />
+    <HelpKINode Title="fields" Url="html/d6f8cf0a-be08-becd-d416-d15d697661c8.htm" />
+    <HelpKINode Title="methods" Url="html/f608bf7d-377c-e00f-b4d3-18f81b1aa4ba.htm" />
+    <HelpKINode Title="properties" Url="html/fd2ba9ed-3015-1e8b-49e7-aa22aade1c8a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ImmVector&lt;T&gt;.AddFirstRange method" Url="html/2e5828bb-eaa0-a9a4-9ddd-5e2b552b1e8c.htm" />
+  <HelpKINode Title="ImmVector&lt;T&gt;.AddLast method" Url="html/aae909a0-5e19-6e77-11cd-6e1fcd860c35.htm" />
+  <HelpKINode Title="ImmVector&lt;T&gt;.AddLastRange method" Url="html/cb7e14a0-2740-6422-ae30-cf55aeebd6f4.htm" />
+  <HelpKINode Title="ImmVector&lt;T&gt;.AsSeq property" Url="html/a331e989-1e09-0ee3-54d3-2d21a20affed.htm" />
+  <HelpKINode Title="ImmVector&lt;T&gt;.Cast&lt;TRElem&gt; method" Url="html/c4a2741b-e9a5-f2d7-4f74-39621e09f8ef.htm" />
+  <HelpKINode Title="ImmVector&lt;T&gt;.Choose&lt;TRElem&gt; method" Url="html/58b0e9e2-2f95-135d-ab26-b2e490bfeff3.htm" />
+  <HelpKINode Title="ImmVector&lt;T&gt;.CopyTo method" Url="html/00ecba84-3753-1564-820e-100c21b2ba25.htm" />
+  <HelpKINode Title="ImmVector&lt;T&gt;.Empty property" Url="html/b7b46606-1395-7410-c0c8-0d9a8cf96109.htm" />
+  <HelpKINode Title="ImmVector&lt;T&gt;.First property" Url="html/59b2de94-aa76-7902-3d76-45618db913fa.htm" />
+  <HelpKINode Title="ImmVector&lt;T&gt;.ForEach method" Url="html/c388d732-04b7-991b-a5c5-858b6f7c89c7.htm" />
+  <HelpKINode Title="ImmVector&lt;T&gt;.ForEachBack method" Url="html/59629164-a685-d012-5458-45c5041cf061.htm" />
+  <HelpKINode Title="ImmVector&lt;T&gt;.ForEachBackWhile method" Url="html/8df6d778-6b46-bcbd-fab8-28f82db8e35f.htm" />
+  <HelpKINode Title="ImmVector&lt;T&gt;.ForEachWhile method" Url="html/77b81a4a-9b2a-e434-8371-66b59fe74076.htm" />
+  <HelpKINode Title="ImmVector&lt;T&gt;.GetEnumerator method" Url="html/2ca27342-e60d-80e9-7c1e-8793b252ad8f.htm" />
+  <HelpKINode Title="ImmVector&lt;T&gt;.GroupBy method" Url="html/6c82e3bc-955b-6edc-0358-e5cb982c087e.htm" />
+  <HelpKINode Title="ImmVector&lt;T&gt;.Insert method" Url="html/cf6d0f1c-f221-0cf8-6aaf-6b0ffb19fcd2.htm" />
+  <HelpKINode Title="ImmVector&lt;T&gt;.InsertRange method" Url="html/375df23e-12ac-bf4e-cabc-07a25acb2328.htm" />
+  <HelpKINode Title="ImmVector&lt;T&gt;.IsEmpty property" Url="html/bb44a4de-f4dc-1a51-d257-c0db76f28239.htm" />
+  <HelpKINode Title="ImmVector&lt;T&gt;.Join method" Url="html/1cd1297e-de3b-a612-1081-4af5dccaa298.htm" />
+  <HelpKINode Title="ImmVector&lt;T&gt;.Last property" Url="html/af9d361c-5c13-630d-9d5f-c73d302ce6ed.htm" />
+  <HelpKINode Title="ImmVector&lt;T&gt;.Length property" Url="html/aabcff29-745d-73cc-0251-6bfdb25adf0c.htm" />
+  <HelpKINode Title="ImmVector&lt;T&gt;.MaxCapacity field" Url="html/f9cddcd3-d5b3-b420-7cc3-c3885534905e.htm" />
+  <HelpKINode Title="ImmVector&lt;T&gt;.RemoveAt method" Url="html/0aea7e10-309f-2333-2946-af9f3b4e6c22.htm" />
+  <HelpKINode Title="ImmVector&lt;T&gt;.RemoveLast method" Url="html/4cc2bf62-85e2-adad-be8b-0e090be257f8.htm" />
+  <HelpKINode Title="ImmVector&lt;T&gt;.Scan&lt;TRElem&gt; method" Url="html/e025b3ec-9444-e58f-5dc6-608fb5ad9348.htm" />
+  <HelpKINode Title="ImmVector&lt;T&gt;.ScanBack&lt;TRElem&gt; method" Url="html/5b7b1320-213c-7902-ef27-b253c40519c0.htm" />
+  <HelpKINode Title="ImmVector&lt;T&gt;.Select method" Url="html/262b13b8-0a20-1828-f609-da8722445707.htm" />
+  <HelpKINode Title="ImmVector&lt;T&gt;.SelectMany method" Url="html/b24f4406-2223-0014-98ef-df8cb8c2dee3.htm" />
+  <HelpKINode Title="ImmVector&lt;T&gt;.Skip method" Url="html/f471a57a-b92f-f976-d3be-d1a03416b38a.htm" />
+  <HelpKINode Title="ImmVector&lt;T&gt;.Take method" Url="html/437fc629-2196-2823-d4af-941f4582b298.htm" />
+  <HelpKINode Title="ImmVector&lt;T&gt;.Update method" Url="html/24e7c1fb-bddc-f7f5-bcb4-06d5fcfb29e8.htm" />
+  <HelpKINode Title="ImmVector&lt;T&gt;.Zip method" Url="html/77bd3a85-b875-f20d-85b0-70f4b82f6308.htm" />
+  <HelpKINode Title="IndexOf method">
+    <HelpKINode Title="ImmSortedMap(TKey, TValue).IndexOf Method " Url="html/0bc022bb-44e3-c7f5-d43e-9e08c2cb4961.htm" />
+    <HelpKINode Title="ImmSortedSet(T).IndexOf Method " Url="html/723603c9-8b6d-4878-3a93-dd5d4a5d8c55.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Inequality operator">
+    <HelpKINode Title="AbstractSequential(TElem, TList).Inequality Operator " Url="html/d0f443b3-3931-c00d-6e75-47a6b479e86a.htm" />
+    <HelpKINode Title="Optional(T).Inequality Operator " Url="html/7f450c83-5dbe-3c5e-be1c-f1d1dddd60b1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Insert method">
+    <HelpKINode Title="ImmList(T).Insert Method " Url="html/2831d945-40c4-a2a5-d2bc-7a5788d55e01.htm" />
+    <HelpKINode Title="ImmVector(T).Insert Method " Url="html/cf6d0f1c-f221-0cf8-6aaf-6b0ffb19fcd2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InsertRange method">
+    <HelpKINode Title="ImmList(T).InsertRange Method " Url="html/448c4f11-a568-b5e0-8c51-261dac9e1e2f.htm" />
+    <HelpKINode Title="ImmVector(T).InsertRange Method " Url="html/375df23e-12ac-bf4e-cabc-07a25acb2328.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Intersect method" Url="html/2a4569d9-af37-bdb7-4ec1-23a71fc26316.htm" />
+  <HelpKINode Title="IsCompatibleWith method">
+    <HelpKINode Title="AbstractMap(TKey, TValue, TMap).IsCompatibleWith Method " Url="html/41e6a0c2-605a-3a5a-cb00-24f8ab0ea701.htm" />
+    <HelpKINode Title="AbstractSet(TElem, TSet).IsCompatibleWith Method " Url="html/08fea142-9a9f-593c-7e9a-624787db124a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsDisjointWith method" Url="html/c802b8aa-f427-9135-4bcf-e1db0c76672e.htm" />
+  <HelpKINode Title="IsEmpty property">
+    <HelpKINode Title="AbstractIterable(TElem, TIterable, TBuilder).IsEmpty Property " Url="html/f2b7e03c-cc06-b854-1883-dbad9a7ace52.htm" />
+    <HelpKINode Title="ImmList(T).IsEmpty Property " Url="html/c26ec5b1-d1f3-aa8c-1ab4-16cbc33e067c.htm" />
+    <HelpKINode Title="ImmMap(TKey, TValue).IsEmpty Property " Url="html/de67c9d1-85ce-f394-928d-80ea0c90b6ea.htm" />
+    <HelpKINode Title="ImmSet(T).IsEmpty Property " Url="html/a32fbfc1-457a-6373-0f0c-a2bda929fc07.htm" />
+    <HelpKINode Title="ImmSortedMap(TKey, TValue).IsEmpty Property " Url="html/a3d90a35-126c-d51f-396b-836244e358e0.htm" />
+    <HelpKINode Title="ImmSortedSet(T).IsEmpty Property " Url="html/1093ceac-7081-e06e-9692-c9ffa4583c11.htm" />
+    <HelpKINode Title="ImmVector(T).IsEmpty Property " Url="html/bb44a4de-f4dc-1a51-d257-c0db76f28239.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ISequentialBuilder(Of TElem, TList) interface">
+    <HelpKINode Title="ISequentialBuilder(TElem, TList) Interface" Url="html/2c4c106d-9f0a-339f-bc83-7adb98eabbd9.htm" />
+    <HelpKINode Title="about ISequentialBuilder(Of TElem, TList) interface" Url="html/2c4c106d-9f0a-339f-bc83-7adb98eabbd9.htm" />
+    <HelpKINode Title="methods" Url="html/1fa09b93-704c-aed2-424f-4dcb1aad7e34.htm" />
+    <HelpKINode Title="properties" Url="html/07c2c3f3-eb0b-c0b4-8f54-9cd109bf3952.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ISequentialBuilder&lt;TElem, TList&gt; interface">
+    <HelpKINode Title="ISequentialBuilder(TElem, TList) Interface" Url="html/2c4c106d-9f0a-339f-bc83-7adb98eabbd9.htm" />
+    <HelpKINode Title="about ISequentialBuilder&lt;TElem, TList&gt; interface" Url="html/2c4c106d-9f0a-339f-bc83-7adb98eabbd9.htm" />
+    <HelpKINode Title="methods" Url="html/1fa09b93-704c-aed2-424f-4dcb1aad7e34.htm" />
+    <HelpKINode Title="properties" Url="html/07c2c3f3-eb0b-c0b4-8f54-9cd109bf3952.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ISetBuilder(Of TElem, TSet) interface">
+    <HelpKINode Title="ISetBuilder(TElem, TSet) Interface" Url="html/b26fe853-1fb2-70ce-dc99-e71ee91f63e5.htm" />
+    <HelpKINode Title="about ISetBuilder(Of TElem, TSet) interface" Url="html/b26fe853-1fb2-70ce-dc99-e71ee91f63e5.htm" />
+    <HelpKINode Title="methods" Url="html/26175e48-a786-b38f-828b-d605bd227cc5.htm" />
+    <HelpKINode Title="properties" Url="html/41df6c6d-d52b-eb39-d7d2-245c8ec3b4ca.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ISetBuilder&lt;TElem, TSet&gt; interface">
+    <HelpKINode Title="ISetBuilder(TElem, TSet) Interface" Url="html/b26fe853-1fb2-70ce-dc99-e71ee91f63e5.htm" />
+    <HelpKINode Title="about ISetBuilder&lt;TElem, TSet&gt; interface" Url="html/b26fe853-1fb2-70ce-dc99-e71ee91f63e5.htm" />
+    <HelpKINode Title="methods" Url="html/26175e48-a786-b38f-828b-d605bd227cc5.htm" />
+    <HelpKINode Title="properties" Url="html/41df6c6d-d52b-eb39-d7d2-245c8ec3b4ca.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsNone property">
+    <HelpKINode Title="AnyNone.IsNone Property " Url="html/f9f7e6b4-0dd7-e6e5-de59-00fc3daf0d4c.htm" />
+    <HelpKINode Title="IAnyOptional.IsNone Property " Url="html/3edfaab4-9cb6-035b-f7f2-f35e4064a2ad.htm" />
+    <HelpKINode Title="Optional(T).IsNone Property " Url="html/541ec121-44f5-053d-d25c-ab68ef369d35.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsProperSubsetOf method" Url="html/fa2982b8-eff7-dd0e-d937-0d6700829569.htm" />
+  <HelpKINode Title="IsProperSupersetOf method" Url="html/ddfd4b34-f6ed-ea0a-d2b8-85c496dab475.htm" />
+  <HelpKINode Title="IsSome property">
+    <HelpKINode Title="AnyNone.IsSome Property " Url="html/0226a751-1bb6-b1f5-8ff6-67d248b7ebea.htm" />
+    <HelpKINode Title="IAnyOptional.IsSome Property " Url="html/fbcf5cd4-7a29-dde1-60dd-1ade39c1f31b.htm" />
+    <HelpKINode Title="Optional(T).IsSome Property " Url="html/e1e4c1c6-8256-f4bd-785c-c3be377ca0c6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsSubsetOf method" Url="html/db3d69de-68cb-88ec-bfb2-1ebf36c0311f.htm" />
+  <HelpKINode Title="IsSupersetOf method" Url="html/25288960-ab6b-575b-5239-59b7ea90d473.htm" />
+  <HelpKINode Title="Item property">
+    <HelpKINode Title="AbstractMap(TKey, TValue, TMap).Item Property " Url="html/cf0411e6-ee30-84bc-3b2f-ae1deac6595d.htm" />
+    <HelpKINode Title="AbstractSequential(TElem, TList).Item Property " Url="html/f117293c-6c94-c324-fba6-3c7894557230.htm" />
+    <HelpKINode Title="AbstractSet(TElem, TSet).Item Property " Url="html/3e883615-b066-4ee2-2e05-f935d02b4525.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Join method">
+    <HelpKINode Title="AbstractMap(TKey, TValue, TMap).Join Method " Url="html/9b5f02ce-806b-21c7-fc31-bb4ca60973a9.htm" />
+    <HelpKINode Title="ImmList(T).Join Method " Url="html/421c40b4-d48a-3558-ac33-1029950c435b.htm" />
+    <HelpKINode Title="ImmVector(T).Join Method " Url="html/1cd1297e-de3b-a612-1081-4af5dccaa298.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Keys property" Url="html/88c05b85-5462-2cad-f221-b5049a5d0e50.htm" />
+  <HelpKINode Title="Kvp class">
+    <HelpKINode Title="Kvp Class" Url="html/7a205ca9-6fc8-70cb-05ba-5d7f0d6f2fd7.htm" />
+    <HelpKINode Title="about Kvp class" Url="html/7a205ca9-6fc8-70cb-05ba-5d7f0d6f2fd7.htm" />
+    <HelpKINode Title="methods" Url="html/35bc45e6-1897-f2d7-ba98-586ee4db080c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Kvp.Of method" Url="html/a526344c-2788-b121-3d4a-16b9ce9cc1d5.htm" />
+  <HelpKINode Title="Kvp.ToTuple(Of TKey, TValue) method" Url="html/fbca38c7-6b00-a561-8b72-10afdb658579.htm" />
+  <HelpKINode Title="Kvp.ToTuple&lt;TKey, TValue&gt; method" Url="html/fbca38c7-6b00-a561-8b72-10afdb658579.htm" />
+  <HelpKINode Title="Last property">
+    <HelpKINode Title="AbstractSequential(TElem, TList).Last Property " Url="html/9766edba-f059-6bd1-a354-024ce138b796.htm" />
+    <HelpKINode Title="ImmList(T).Last Property " Url="html/7caf348d-2b5c-6eb0-7ef1-d2428d498f9d.htm" />
+    <HelpKINode Title="ImmVector(T).Last Property " Url="html/af9d361c-5c13-630d-9d5f-c73d302ce6ed.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Length property">
+    <HelpKINode Title="AbstractIterable(TElem, TIterable, TBuilder).Length Property " Url="html/302ebf65-5b86-9e2c-52e7-60c8237d2f4c.htm" />
+    <HelpKINode Title="IAnyIterableBuilder(TElem).Length Property " Url="html/3fc77192-4303-226d-a24b-da05a2583df6.htm" />
+    <HelpKINode Title="ImmList(T).Length Property " Url="html/19bcafcd-832d-74c9-cb69-c013c0481e85.htm" />
+    <HelpKINode Title="ImmMap(TKey, TValue).Length Property " Url="html/53f770dd-57cf-8906-3955-3b9db6b353b0.htm" />
+    <HelpKINode Title="ImmSet(T).Length Property " Url="html/46c4787a-2b6e-307b-ae55-0998b58f688b.htm" />
+    <HelpKINode Title="ImmSortedMap(TKey, TValue).Length Property " Url="html/553e8427-a0cc-ffb1-4a67-2eebdd512331.htm" />
+    <HelpKINode Title="ImmSortedSet(T).Length Property " Url="html/eb85220c-9424-1180-5ee6-c7905790178f.htm" />
+    <HelpKINode Title="ImmVector(T).Length Property " Url="html/aabcff29-745d-73cc-0251-6bfdb25adf0c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Map method" Url="html/64eeb660-e4e0-f59b-e8ee-3615002d283d.htm" />
+  <HelpKINode Title="MapEquals method" Url="html/00b971d6-aa62-8a01-7797-d8fa91ae4d58.htm" />
+  <HelpKINode Title="MaxCapacity field" Url="html/f9cddcd3-d5b3-b420-7cc3-c3885534905e.htm" />
+  <HelpKINode Title="MaxItem property">
+    <HelpKINode Title="ImmSortedMap(TKey, TValue).MaxItem Property " Url="html/1c4a1fdf-14e5-c66e-91b8-24656455df1c.htm" />
+    <HelpKINode Title="ImmSortedSet(T).MaxItem Property " Url="html/c2083f1d-833c-9288-1f33-fe57db7ec85e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Merge method">
+    <HelpKINode Title="AbstractMap(TKey, TValue, TMap).Merge Method " Url="html/11422af4-ad0a-2d83-7fc8-7e20f12ae81d.htm" />
+    <HelpKINode Title="ImmSortedMap(TKey, TValue).Merge Method " Url="html/f67ebe54-285c-31cf-9f47-ac6cb898a2b3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MinItem property">
+    <HelpKINode Title="ImmSortedMap(TKey, TValue).MinItem Property " Url="html/2036beaf-ce89-6933-7e45-21a36cc0631a.htm" />
+    <HelpKINode Title="ImmSortedSet(T).MinItem Property " Url="html/c28adf07-b0b4-1138-1c92-6fde6d445e7e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="None enumeration member" Url="html/77ea3a4f-75e9-79bc-23e4-81ba7cf5737d.htm" />
+  <HelpKINode Title="None property">
+    <HelpKINode Title="Optional(T).None Property " Url="html/f193af4a-74ee-6f76-8ea8-adf9e4a21892.htm" />
+    <HelpKINode Title="Optional.None Property " Url="html/b14a3e1f-6967-a63e-1cfc-3383ab094f8a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NoneOf(Of T) method" Url="html/dbd06bc7-3538-9566-d22e-2eee9955b183.htm" />
+  <HelpKINode Title="NoneOf&lt;T&gt; method" Url="html/dbd06bc7-3538-9566-d22e-2eee9955b183.htm" />
+  <HelpKINode Title="NoValueException class">
+    <HelpKINode Title="NoValueException Class" Url="html/ca01849a-bf82-7e22-5aa7-c2eb918a8d9c.htm" />
+    <HelpKINode Title="about NoValueException class" Url="html/ca01849a-bf82-7e22-5aa7-c2eb918a8d9c.htm" />
+    <HelpKINode Title="events" Url="html/c2e8e527-324e-4ba3-8265-e532529f74b8.htm" />
+    <HelpKINode Title="methods" Url="html/8d1d6227-9ace-246e-09a9-d4841e68901d.htm" />
+    <HelpKINode Title="properties" Url="html/b7016935-6f72-efaa-49b3-f54739c9c3f3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Of method" Url="html/a526344c-2788-b121-3d4a-16b9ce9cc1d5.htm" />
+  <HelpKINode Title="Optional class">
+    <HelpKINode Title="Optional Class" Url="html/9c99e38a-a81a-75f3-baba-2aa18be85263.htm" />
+    <HelpKINode Title="about Optional class" Url="html/9c99e38a-a81a-75f3-baba-2aa18be85263.htm" />
+    <HelpKINode Title="methods" Url="html/d5935056-2e91-be8c-3f3f-63b06a148274.htm" />
+    <HelpKINode Title="properties" Url="html/d2c628e0-5ea0-f343-c038-683c4cd102e6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Optional(Of T) structure">
+    <HelpKINode Title="Optional(T) Structure" Url="html/6288190b-e33e-f645-293f-fb870e7f60b4.htm" />
+    <HelpKINode Title="about Optional(Of T) structure" Url="html/6288190b-e33e-f645-293f-fb870e7f60b4.htm" />
+    <HelpKINode Title="methods" Url="html/2561c0de-d319-aa37-eb49-ee7d3e08bc02.htm" />
+    <HelpKINode Title="operators and type conversions" Url="html/8277a482-9ef4-f7c9-887d-99db897f4f3b.htm" />
+    <HelpKINode Title="properties" Url="html/2f941bb8-ecc5-2772-59b4-57a072270c40.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Optional(Of T).As(Of TOut) method" Url="html/5ffb3251-7da9-4a3d-bdce-a93cc6cb6b02.htm" />
+  <HelpKINode Title="Optional(Of T).BitwiseOr operator" Url="html/2cfe2eba-b330-9258-95d8-15c61db1414b.htm" />
+  <HelpKINode Title="Optional(Of T).Cast(Of TOut) method" Url="html/54133f39-b882-7587-67e3-5e0ea10992b5.htm" />
+  <HelpKINode Title="Optional(Of T).Equality operator" Url="html/983c88a3-fac2-9f36-b488-74678aec1854.htm" />
+  <HelpKINode Title="Optional(Of T).Equals method" Url="html/67171016-6d86-c60a-32ae-e3a2b9e4f31e.htm" />
+  <HelpKINode Title="Optional(Of T).GetHashCode method" Url="html/4787bb61-a028-486c-6316-f720471e1ce3.htm" />
+  <HelpKINode Title="Optional(Of T).Inequality operator" Url="html/7f450c83-5dbe-3c5e-be1c-f1d1dddd60b1.htm" />
+  <HelpKINode Title="Optional(Of T).IsNone property" Url="html/541ec121-44f5-053d-d25c-ab68ef369d35.htm" />
+  <HelpKINode Title="Optional(Of T).IsSome property" Url="html/e1e4c1c6-8256-f4bd-785c-c3be377ca0c6.htm" />
+  <HelpKINode Title="Optional(Of T).None property" Url="html/f193af4a-74ee-6f76-8ea8-adf9e4a21892.htm" />
+  <HelpKINode Title="Optional(Of T).Or method" Url="html/e4615397-8fd5-ea5b-4863-1f20afc6518a.htm" />
+  <HelpKINode Title="Optional(Of T).OrMaybe method" Url="html/980b6edc-26ea-baa9-3dd6-f34f0db638ba.htm" />
+  <HelpKINode Title="Optional(Of T).Some method" Url="html/8dc43b75-d24e-914f-08b4-ed86c67f8f49.htm" />
+  <HelpKINode Title="Optional(Of T).ToString method" Url="html/c9d0c3cb-8cc2-a393-7042-ba93bb9682e8.htm" />
+  <HelpKINode Title="Optional(Of T).Value property" Url="html/b517eb53-1524-3f11-0666-1bc3de20f2bb.htm" />
+  <HelpKINode Title="Optional.None property" Url="html/b14a3e1f-6967-a63e-1cfc-3383ab094f8a.htm" />
+  <HelpKINode Title="Optional.NoneOf(Of T) method" Url="html/dbd06bc7-3538-9566-d22e-2eee9955b183.htm" />
+  <HelpKINode Title="Optional.NoneOf&lt;T&gt; method" Url="html/dbd06bc7-3538-9566-d22e-2eee9955b183.htm" />
+  <HelpKINode Title="Optional.Some(Of T) method" Url="html/78665f47-68c2-3d70-42b2-d2e1817d6114.htm" />
+  <HelpKINode Title="Optional.Some&lt;T&gt; method" Url="html/78665f47-68c2-3d70-42b2-d2e1817d6114.htm" />
+  <HelpKINode Title="Optional&lt;T&gt; structure">
+    <HelpKINode Title="Optional(T) Structure" Url="html/6288190b-e33e-f645-293f-fb870e7f60b4.htm" />
+    <HelpKINode Title="about Optional&lt;T&gt; structure" Url="html/6288190b-e33e-f645-293f-fb870e7f60b4.htm" />
+    <HelpKINode Title="methods" Url="html/2561c0de-d319-aa37-eb49-ee7d3e08bc02.htm" />
+    <HelpKINode Title="operators and type conversions" Url="html/8277a482-9ef4-f7c9-887d-99db897f4f3b.htm" />
+    <HelpKINode Title="properties" Url="html/2f941bb8-ecc5-2772-59b4-57a072270c40.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Optional&lt;T&gt;.As&lt;TOut&gt; method" Url="html/5ffb3251-7da9-4a3d-bdce-a93cc6cb6b02.htm" />
+  <HelpKINode Title="Optional&lt;T&gt;.BitwiseOr operator" Url="html/2cfe2eba-b330-9258-95d8-15c61db1414b.htm" />
+  <HelpKINode Title="Optional&lt;T&gt;.Cast&lt;TOut&gt; method" Url="html/54133f39-b882-7587-67e3-5e0ea10992b5.htm" />
+  <HelpKINode Title="Optional&lt;T&gt;.Equality operator" Url="html/983c88a3-fac2-9f36-b488-74678aec1854.htm" />
+  <HelpKINode Title="Optional&lt;T&gt;.Equals method" Url="html/67171016-6d86-c60a-32ae-e3a2b9e4f31e.htm" />
+  <HelpKINode Title="Optional&lt;T&gt;.GetHashCode method" Url="html/4787bb61-a028-486c-6316-f720471e1ce3.htm" />
+  <HelpKINode Title="Optional&lt;T&gt;.Inequality operator" Url="html/7f450c83-5dbe-3c5e-be1c-f1d1dddd60b1.htm" />
+  <HelpKINode Title="Optional&lt;T&gt;.IsNone property" Url="html/541ec121-44f5-053d-d25c-ab68ef369d35.htm" />
+  <HelpKINode Title="Optional&lt;T&gt;.IsSome property" Url="html/e1e4c1c6-8256-f4bd-785c-c3be377ca0c6.htm" />
+  <HelpKINode Title="Optional&lt;T&gt;.None property" Url="html/f193af4a-74ee-6f76-8ea8-adf9e4a21892.htm" />
+  <HelpKINode Title="Optional&lt;T&gt;.Or method" Url="html/e4615397-8fd5-ea5b-4863-1f20afc6518a.htm" />
+  <HelpKINode Title="Optional&lt;T&gt;.OrMaybe method" Url="html/980b6edc-26ea-baa9-3dd6-f34f0db638ba.htm" />
+  <HelpKINode Title="Optional&lt;T&gt;.Some method" Url="html/8dc43b75-d24e-914f-08b4-ed86c67f8f49.htm" />
+  <HelpKINode Title="Optional&lt;T&gt;.ToString method" Url="html/c9d0c3cb-8cc2-a393-7042-ba93bb9682e8.htm" />
+  <HelpKINode Title="Optional&lt;T&gt;.Value property" Url="html/b517eb53-1524-3f11-0666-1bc3de20f2bb.htm" />
+  <HelpKINode Title="OptionalExt class">
+    <HelpKINode Title="OptionalExt Class" Url="html/ea06f557-cc81-7834-59ba-1de1c62554fa.htm" />
+    <HelpKINode Title="about OptionalExt class" Url="html/ea06f557-cc81-7834-59ba-1de1c62554fa.htm" />
+    <HelpKINode Title="methods" Url="html/e65a7073-6762-eb55-9529-969cce387f78.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OptionalExt.AsOptional method" Url="html/e1a475fb-bca1-d877-75c1-d9177315d3b4.htm" />
+  <HelpKINode Title="OptionalExt.AsSome(Of T) method" Url="html/3ea5a5b3-f3c6-a2bd-8abb-2e8fbc305ef0.htm" />
+  <HelpKINode Title="OptionalExt.AsSome&lt;T&gt; method" Url="html/3ea5a5b3-f3c6-a2bd-8abb-2e8fbc305ef0.htm" />
+  <HelpKINode Title="OptionalExt.AsString method" Url="html/5c931746-1b4b-f888-080e-e64273b2f611.htm" />
+  <HelpKINode Title="OptionalExt.CompareTo method" Url="html/678bbef6-4285-db96-3e5b-ac4fb9272c9c.htm" />
+  <HelpKINode Title="OptionalExt.Map method" Url="html/64eeb660-e4e0-f59b-e8ee-3615002d283d.htm" />
+  <HelpKINode Title="OptionalExt.ValueOrError(Of T) method" Url="html/6ad9122a-8919-7aa8-88fa-f591fdadbbdc.htm" />
+  <HelpKINode Title="OptionalExt.ValueOrError&lt;T&gt; method" Url="html/6ad9122a-8919-7aa8-88fa-f591fdadbbdc.htm" />
+  <HelpKINode Title="Or method" Url="html/e4615397-8fd5-ea5b-4863-1f20afc6518a.htm" />
+  <HelpKINode Title="OrMaybe method" Url="html/980b6edc-26ea-baa9-3dd6-f34f0db638ba.htm" />
+  <HelpKINode Title="Pick method" Url="html/010a8ad0-a9de-6292-4211-fd5a444513af.htm" />
+  <HelpKINode Title="Pick(Of TResult) method" Url="html/ee677af8-412a-3a95-4bf2-21331aa9fcff.htm" />
+  <HelpKINode Title="Pick&lt;TResult&gt; method" Url="html/ee677af8-412a-3a95-4bf2-21331aa9fcff.htm" />
+  <HelpKINode Title="Print method" Url="html/65f80661-85cc-8672-4d64-5ef997b266e6.htm" />
+  <HelpKINode Title="Produce method" Url="html/b3bc425e-84c0-23a0-cb5d-563eaa59379f.htm" />
+  <HelpKINode Title="ProperSubsetOf enumeration member" Url="html/77ea3a4f-75e9-79bc-23e4-81ba7cf5737d.htm" />
+  <HelpKINode Title="ProperSupersetOf enumeration member" Url="html/77ea3a4f-75e9-79bc-23e4-81ba7cf5737d.htm" />
+  <HelpKINode Title="RelatesTo method" Url="html/c51addb0-537a-1282-a656-1ac64ca1896e.htm" />
+  <HelpKINode Title="Remove method">
+    <HelpKINode Title="AbstractMap(TKey, TValue, TMap).Remove Method " Url="html/65d1f57a-dba6-af60-0cb0-2faf8b7f08d9.htm" />
+    <HelpKINode Title="AbstractSet(TElem, TSet).Remove Method " Url="html/a9cbaa3a-ba5d-358c-78a3-2bb39e733a6f.htm" />
+    <HelpKINode Title="IAnyMapBuilder(TKey, TValue).Remove Method " Url="html/6fafaf61-9dc7-f52d-620a-70b6fe7c3d3e.htm" />
+    <HelpKINode Title="IAnySetBuilder(TElem).Remove Method " Url="html/0ce9421e-ed0e-1bf2-b924-3233179b7918.htm" />
+    <HelpKINode Title="ImmMap(TKey, TValue).Remove Method " Url="html/50eb1240-b48f-3eba-278b-2cd5c9f46fd9.htm" />
+    <HelpKINode Title="ImmSet(T).Remove Method " Url="html/7931cbf2-a41d-bde2-701b-350c08486310.htm" />
+    <HelpKINode Title="ImmSortedMap(TKey, TValue).Remove Method " Url="html/851f5cc5-c309-33d2-650e-badd9b5fb280.htm" />
+    <HelpKINode Title="ImmSortedSet(T).Remove Method " Url="html/edb705cf-4d6e-5558-bdca-7290f8501ba3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RemoveAt method">
+    <HelpKINode Title="ImmList(T).RemoveAt Method " Url="html/111a70cf-0be3-ca95-bdda-08aff7b3400f.htm" />
+    <HelpKINode Title="ImmVector(T).RemoveAt Method " Url="html/0aea7e10-309f-2333-2946-af9f3b4e6c22.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RemoveFirst method" Url="html/b1fd8637-5d36-4de3-ac51-947133dcff04.htm" />
+  <HelpKINode Title="RemoveLast method">
+    <HelpKINode Title="ImmList(T).RemoveLast Method " Url="html/0a0906f7-8991-7c02-38ca-b830e29ee20a.htm" />
+    <HelpKINode Title="ImmVector(T).RemoveLast Method " Url="html/4cc2bf62-85e2-adad-be8b-0e090be257f8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RemoveMax method">
+    <HelpKINode Title="ImmSortedMap(TKey, TValue).RemoveMax Method " Url="html/e15d5678-cdc1-9740-7903-36d97d4f0df6.htm" />
+    <HelpKINode Title="ImmSortedSet(T).RemoveMax Method " Url="html/27e83d86-a8b7-c662-a35e-f217825ba812.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RemoveMin method">
+    <HelpKINode Title="ImmSortedMap(TKey, TValue).RemoveMin Method " Url="html/c3a59b4b-d2d9-ecbe-2f26-4de06fd4d2c3.htm" />
+    <HelpKINode Title="ImmSortedSet(T).RemoveMin Method " Url="html/df86c42e-642a-1f38-e26f-31011557450b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RemoveRange method">
+    <HelpKINode Title="AbstractMap(TKey, TValue, TMap).RemoveRange Method " Url="html/ffa5a994-6124-5c84-e1ff-c0932fcc602e.htm" />
+    <HelpKINode Title="ImmMap(TKey, TValue).RemoveRange Method " Url="html/92a7fad4-a9bd-ea9b-621c-de0c855a607d.htm" />
+    <HelpKINode Title="ImmSortedMap(TKey, TValue).RemoveRange Method " Url="html/2f4cb488-5a56-d6cc-582a-2641239200d5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Reverse method">
+    <HelpKINode Title="AbstractSequential(TElem, TList).Reverse Method " Url="html/0c5c6322-d9ec-8372-1d7a-3cae2505ada8.htm" />
+    <HelpKINode Title="ImmList(T).Reverse Method " Url="html/c9543fac-3cfc-ee8c-1eda-0e9be25bbc54.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Scan(Of TRElem) method">
+    <HelpKINode Title="ImmList(T).Scan(TRElem) Method " Url="html/465cf12d-2661-3aa5-0dea-4919c92f97b1.htm" />
+    <HelpKINode Title="ImmVector(T).Scan(TRElem) Method " Url="html/e025b3ec-9444-e58f-5dc6-608fb5ad9348.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Scan&lt;TRElem&gt; method">
+    <HelpKINode Title="ImmList(T).Scan(TRElem) Method " Url="html/465cf12d-2661-3aa5-0dea-4919c92f97b1.htm" />
+    <HelpKINode Title="ImmVector(T).Scan(TRElem) Method " Url="html/e025b3ec-9444-e58f-5dc6-608fb5ad9348.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ScanBack(Of TRElem) method">
+    <HelpKINode Title="ImmList(T).ScanBack(TRElem) Method " Url="html/f5b42c3a-1ff6-6080-95f8-8934c409f28f.htm" />
+    <HelpKINode Title="ImmVector(T).ScanBack(TRElem) Method " Url="html/5b7b1320-213c-7902-ef27-b253c40519c0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ScanBack&lt;TRElem&gt; method">
+    <HelpKINode Title="ImmList(T).ScanBack(TRElem) Method " Url="html/f5b42c3a-1ff6-6080-95f8-8934c409f28f.htm" />
+    <HelpKINode Title="ImmVector(T).ScanBack(TRElem) Method " Url="html/5b7b1320-213c-7902-ef27-b253c40519c0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Select method">
+    <HelpKINode Title="ImmList(T).Select Method " Url="html/ff98426a-71ad-fc43-8fb8-e9a6ce34bde5.htm" />
+    <HelpKINode Title="ImmVector(T).Select Method " Url="html/262b13b8-0a20-1828-f609-da8722445707.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SelectMany method">
+    <HelpKINode Title="ImmList(T).SelectMany Method " Url="html/e09fbc7a-81ba-b1b5-004f-95b37a5c5dd6.htm" />
+    <HelpKINode Title="ImmVector(T).SelectMany Method " Url="html/b24f4406-2223-0014-98ef-df8cb8c2dee3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SequenceEquals method" Url="html/db949961-e657-e387-15d2-ea7ac2a5e438.htm" />
+  <HelpKINode Title="Set method" Url="html/f2ede50d-cc00-609c-bab7-4bfe0c5d3401.htm" />
+  <HelpKINode Title="SetEquals method" Url="html/8c9c6461-3154-c368-a205-9f560a53f0eb.htm" />
+  <HelpKINode Title="SetRange method" Url="html/3f2d21f3-d2df-f269-4a56-3555b7e16f24.htm" />
+  <HelpKINode Title="SetRelation enumeration" Url="html/77ea3a4f-75e9-79bc-23e4-81ba7cf5737d.htm" />
+  <HelpKINode Title="Single method" Url="html/31373923-bd9a-9e48-eaf7-e3f4ee8be90d.htm" />
+  <HelpKINode Title="Skip method">
+    <HelpKINode Title="AbstractSequential(TElem, TList).Skip Method " Url="html/1bcad9e5-d1ad-709a-9e86-2e273d0603cc.htm" />
+    <HelpKINode Title="ImmVector(T).Skip Method " Url="html/f471a57a-b92f-f976-d3be-d1a03416b38a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SkipWhile method" Url="html/8c3cb434-d937-f2b1-cb74-493096315866.htm" />
+  <HelpKINode Title="Slice method">
+    <HelpKINode Title="ImmSortedMap(TKey, TValue).Slice Method " Url="html/a12d18a9-9307-7be0-3545-f2814bff21a4.htm" />
+    <HelpKINode Title="ImmSortedSet(T).Slice Method " Url="html/03b4e2f4-d2bb-7165-12bd-580cc01b7572.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Some method" Url="html/8dc43b75-d24e-914f-08b4-ed86c67f8f49.htm" />
+  <HelpKINode Title="Some(Of T) method" Url="html/78665f47-68c2-3d70-42b2-d2e1817d6114.htm" />
+  <HelpKINode Title="Some&lt;T&gt; method" Url="html/78665f47-68c2-3d70-42b2-d2e1817d6114.htm" />
+  <HelpKINode Title="Subtract method">
+    <HelpKINode Title="AbstractMap(TKey, TValue, TMap).Subtract Method " Url="html/e8dcc5c5-1dcd-140d-c20b-bea231841ff2.htm" />
+    <HelpKINode Title="ImmMap(TKey, TValue).Subtract Method " Url="html/ead517c6-02e9-d351-edcb-f1ee67c1426f.htm" />
+    <HelpKINode Title="ImmSortedMap(TKey, TValue).Subtract Method " Url="html/f356068a-c88e-08d6-dfad-cb58b7f374d5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="T to Optional(Of T) conversion" Url="html/0e0e35bd-1f9d-5f4b-4ae5-20706399768b.htm" />
+  <HelpKINode Title="T to Optional&lt;T&gt; conversion" Url="html/0e0e35bd-1f9d-5f4b-4ae5-20706399768b.htm" />
+  <HelpKINode Title="Take method">
+    <HelpKINode Title="AbstractSequential(TElem, TList).Take Method " Url="html/ad581855-9a24-2867-b501-ede4bfc93086.htm" />
+    <HelpKINode Title="ImmVector(T).Take Method " Url="html/437fc629-2196-2823-d4af-941f4582b298.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TakeWhile method" Url="html/2a096f7d-0a57-1c03-3aff-fceb44eaea5d.htm" />
+  <HelpKINode Title="ToArray method" Url="html/da7dfdbb-dc59-b5b1-7443-b99e578f57a9.htm" />
+  <HelpKINode Title="ToImmList(Of T) method" Url="html/befc4233-a114-d78f-b86f-32c09b113096.htm" />
+  <HelpKINode Title="ToImmList&lt;T&gt; method" Url="html/befc4233-a114-d78f-b86f-32c09b113096.htm" />
+  <HelpKINode Title="ToImmMap method" Url="html/ca352393-f528-44c9-c898-e3eade9d939e.htm" />
+  <HelpKINode Title="ToImmSet(Of T) method" Url="html/47ee3497-f72f-7af8-bfef-8998156d9a53.htm" />
+  <HelpKINode Title="ToImmSet&lt;T&gt; method" Url="html/47ee3497-f72f-7af8-bfef-8998156d9a53.htm" />
+  <HelpKINode Title="ToImmSortedMap method" Url="html/6e40882f-fdfb-0078-e079-d6a22088c9ca.htm" />
+  <HelpKINode Title="ToImmSortedSet method" Url="html/5e78ccbc-bce5-cb10-508e-0d968174e9a3.htm" />
+  <HelpKINode Title="ToImmVector(Of T) method" Url="html/2fd8a2ea-4252-ad4c-597f-5f25f8055684.htm" />
+  <HelpKINode Title="ToImmVector&lt;T&gt; method" Url="html/2fd8a2ea-4252-ad4c-597f-5f25f8055684.htm" />
+  <HelpKINode Title="ToString method" Url="html/c9d0c3cb-8cc2-a393-7042-ba93bb9682e8.htm" />
+  <HelpKINode Title="ToTuple(Of TKey, TValue) method" Url="html/fbca38c7-6b00-a561-8b72-10afdb658579.htm" />
+  <HelpKINode Title="ToTuple&lt;TKey, TValue&gt; method" Url="html/fbca38c7-6b00-a561-8b72-10afdb658579.htm" />
+  <HelpKINode Title="TryFirst property" Url="html/ac59ef1e-055b-6cc8-892a-496dada514f8.htm" />
+  <HelpKINode Title="TryGet method">
+    <HelpKINode Title="AbstractMap(TKey, TValue, TMap).TryGet Method " Url="html/17d121cf-f9d6-9761-3c21-980fd8505c2e.htm" />
+    <HelpKINode Title="AbstractSequential(TElem, TList).TryGet Method " Url="html/703189c4-eca4-bb8b-df4e-39694b0e549b.htm" />
+    <HelpKINode Title="AbstractSet(TElem, TSet).TryGet Method " Url="html/3f0d1a1c-4fd6-9938-2788-f6c1d6a0cc86.htm" />
+    <HelpKINode Title="ImmMap(TKey, TValue).TryGet Method " Url="html/25142230-6c91-8434-2282-9cf24cef4d78.htm" />
+    <HelpKINode Title="ImmSortedMap(TKey, TValue).TryGet Method " Url="html/9770d68c-78f0-5262-660e-6b10f6960591.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TryGetKvp method">
+    <HelpKINode Title="AbstractMap(TKey, TValue, TMap).TryGetKvp Method " Url="html/33b428e9-a928-5edc-766d-ad8f20e47f99.htm" />
+    <HelpKINode Title="IAnyMapBuilder(TKey, TValue).TryGetKvp Method " Url="html/e9fb70d7-aec7-7611-e39c-b655eacea3f9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TryLast property" Url="html/c11d4bed-42b4-e710-ee5a-6e6cc723e1da.htm" />
+  <HelpKINode Title="UnderlyingCollection property" Url="html/6b804a7b-1f1b-1bd5-7c62-ca8264822b9b.htm" />
+  <HelpKINode Title="Union method">
+    <HelpKINode Title="AbstractSet(TElem, TSet).Union Method " Url="html/02f8d67f-01c4-a273-32de-2d8072631a06.htm" />
+    <HelpKINode Title="ImmSortedSet(T).Union Method " Url="html/a933599f-e717-bccb-49ee-87421b4d6580.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Update method">
+    <HelpKINode Title="ImmList(T).Update Method " Url="html/a788f40d-af2c-c554-15d0-d20c3a0c73f4.htm" />
+    <HelpKINode Title="ImmVector(T).Update Method " Url="html/24e7c1fb-bddc-f7f5-bcb4-06d5fcfb29e8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Value property">
+    <HelpKINode Title="AnyNone.Value Property " Url="html/14db4ffa-b7da-b949-8a4d-24bb269b992b.htm" />
+    <HelpKINode Title="IAnyOptional.Value Property " Url="html/c1993c5c-2057-91b9-cdd1-7e2bf480e84b.htm" />
+    <HelpKINode Title="Optional(T).Value Property " Url="html/b517eb53-1524-3f11-0666-1bc3de20f2bb.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ValueOrError(Of T) method" Url="html/6ad9122a-8919-7aa8-88fa-f591fdadbbdc.htm" />
+  <HelpKINode Title="ValueOrError&lt;T&gt; method" Url="html/6ad9122a-8919-7aa8-88fa-f591fdadbbdc.htm" />
+  <HelpKINode Title="Values property" Url="html/f875173c-2844-ad23-df85-e67d101ae518.htm" />
+  <HelpKINode Title="ValueSelector(Of TKey, TVal1, TVal2, TOut) delegate" Url="html/65db18f6-3b92-8030-dad8-1bd7775bc01c.htm" />
+  <HelpKINode Title="ValueSelector&lt;TKey, TVal1, TVal2, TOut&gt; delegate" Url="html/65db18f6-3b92-8030-dad8-1bd7775bc01c.htm" />
+  <HelpKINode Title="Welcome" Url="html/10379587-fd94-4976-be24-1d08720511b3.htm" />
+  <HelpKINode Title="Where method" Url="html/244773cc-2009-06f1-6490-46abc4dd1e05.htm" />
+  <HelpKINode Title="Zip method">
+    <HelpKINode Title="ImmList(T).Zip Method " Url="html/b4203b0f-0a34-95fe-7869-65012c5d4a22.htm" />
+    <HelpKINode Title="ImmVector(T).Zip Method " Url="html/77bd3a85-b875-f20d-85b0-70f4b82f6308.htm" />
+  </HelpKINode>
+  <HelpKINode Title="_Cartesian(Of TRight, TOut, TOIter) method" Url="html/cde09702-82d7-eb77-9727-6623881e6879.htm" />
+  <HelpKINode Title="_Cartesian&lt;TRight, TOut, TOIter&gt; method" Url="html/cde09702-82d7-eb77-9727-6623881e6879.htm" />
+  <HelpKINode Title="_Cast(Of TOut, TOIter) method" Url="html/2b26b2d6-fd7c-90a0-be4a-ffb8e8388a60.htm" />
+  <HelpKINode Title="_Cast&lt;TOut, TOIter&gt; method" Url="html/2b26b2d6-fd7c-90a0-be4a-ffb8e8388a60.htm" />
+  <HelpKINode Title="_Choose(Of TOut, TOutIter) method" Url="html/b08ba45e-5764-30c1-1c2b-6b73e71d70ea.htm" />
+  <HelpKINode Title="_Choose&lt;TOut, TOutIter&gt; method" Url="html/b08ba45e-5764-30c1-1c2b-6b73e71d70ea.htm" />
+  <HelpKINode Title="_GroupBy method" Url="html/93788592-d79d-f8e1-a519-bfbc3c28ca38.htm" />
+  <HelpKINode Title="_GroupJoin(Of TOut, TOutIter, TInner, TKey) method" Url="html/a87becbb-7f33-941f-5d3d-1d6290a90976.htm" />
+  <HelpKINode Title="_GroupJoin&lt;TOut, TOutIter, TInner, TKey&gt; method" Url="html/a87becbb-7f33-941f-5d3d-1d6290a90976.htm" />
+  <HelpKINode Title="_Join method" Url="html/f7ca90e1-b096-9d0b-7460-9f344d699edb.htm" />
+  <HelpKINode Title="_Join(Of TOut, TOutIter, TInner, TKey) method" Url="html/5a3d2c91-8739-042e-b6d3-0dd029fa6cf7.htm" />
+  <HelpKINode Title="_Join&lt;TOut, TOutIter, TInner, TKey&gt; method" Url="html/5a3d2c91-8739-042e-b6d3-0dd029fa6cf7.htm" />
+  <HelpKINode Title="_OrderBy(Of TRList) method" Url="html/ddddc0a9-cd90-0db8-57ca-b65970f3ec96.htm" />
+  <HelpKINode Title="_OrderBy&lt;TRList&gt; method" Url="html/ddddc0a9-cd90-0db8-57ca-b65970f3ec96.htm" />
+  <HelpKINode Title="_Scan(Of TElem2, TRSeq) method" Url="html/87e22706-1142-87dd-5b07-78f327f2d0a6.htm" />
+  <HelpKINode Title="_Scan&lt;TElem2, TRSeq&gt; method" Url="html/87e22706-1142-87dd-5b07-78f327f2d0a6.htm" />
+  <HelpKINode Title="_ScanBack(Of TElem2, TRSeq) method" Url="html/f5e6f620-79b3-fbb6-c9b1-ca1aadb33552.htm" />
+  <HelpKINode Title="_ScanBack&lt;TElem2, TRSeq&gt; method" Url="html/f5e6f620-79b3-fbb6-c9b1-ca1aadb33552.htm" />
+  <HelpKINode Title="_Select(Of TElem2, TRSeq) method" Url="html/8ad08dbc-a750-10f1-e95c-d33d8be7ed26.htm" />
+  <HelpKINode Title="_Select&lt;TElem2, TRSeq&gt; method" Url="html/8ad08dbc-a750-10f1-e95c-d33d8be7ed26.htm" />
+  <HelpKINode Title="_SelectMany method" Url="html/89aaf158-b724-7dd8-23da-5a51646e8d93.htm" />
+  <HelpKINode Title="_Zip(Of TRElem, TRSeq, TInner) method" Url="html/440bfad1-890d-1ace-bfb2-7ec1c4fea4bb.htm" />
+  <HelpKINode Title="_Zip&lt;TRElem, TRSeq, TInner&gt; method" Url="html/440bfad1-890d-1ace-bfb2-7ec1c4fea4bb.htm" />
+</HelpKI>
