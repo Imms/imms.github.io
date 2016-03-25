@@ -1,8 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Topics>
-  <Topic id="10379587-fd94-4976-be24-1d08720511b3" visible="True" isDefault="true" isSelected="true" title="Introduction">
-    <HelpKeywords>
-      <HelpKeyword index="K" term="Welcome" />
-    </HelpKeywords>
-  </Topic>
+  <Topic id="Imms_Root" visible="True" isDefault="true" isSelected="true" apiParentMode="InsertAsChild" title="Imms API" />
 </Topics>

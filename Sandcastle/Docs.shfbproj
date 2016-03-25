@@ -32,36 +32,31 @@
     </DocumentationSources>
     <BuildAssemblerVerbosity>OnlyWarningsAndErrors</BuildAssemblerVerbosity>
     <HelpFileFormat>Website</HelpFileFormat>
-    <IndentHtml>False</IndentHtml>
+    <IndentHtml>True</IndentHtml>
     <KeepLogFile>True</KeepLogFile>
     <DisableCodeBlockComponent>False</DisableCodeBlockComponent>
     <CleanIntermediates>True</CleanIntermediates>
     <HelpFileVersion>1.0.0.0</HelpFileVersion>
     <MaximumGroupParts>2</MaximumGroupParts>
-    <NamespaceGrouping>True</NamespaceGrouping>
+    <NamespaceGrouping>False</NamespaceGrouping>
     <SyntaxFilters>C#</SyntaxFilters>
     <SdkLinkTarget>Blank</SdkLinkTarget>
     <RootNamespaceContainer>False</RootNamespaceContainer>
     <PresentationStyle>VS2013</PresentationStyle>
-    <Preliminary>True</Preliminary>
-    <NamingMethod>Guid</NamingMethod>
+    <Preliminary>False</Preliminary>
+    <NamingMethod>MemberName</NamingMethod>
     <HelpTitle>Imms API</HelpTitle>
     <ContentPlacement>AboveNamespaces</ContentPlacement>
     <VisibleItems>Attributes, InheritedMembers, InheritedFrameworkMembers, Protected, ProtectedInternalAsProtected</VisibleItems>
     <MissingTags>Summary, AutoDocumentCtors, Namespace, AutoDocumentDispose</MissingTags>
     <NamespaceSummaries>
       <NamespaceSummaryItem name="Imms.Abstract" isDocumented="True" xmlns="" />
-<NamespaceSummaryItem name="Imms.FSharp" isDocumented="True" xmlns="" />
-<NamespaceSummaryItem name="Imms.FSharp.Implementation" isDocumented="True" xmlns="" /></NamespaceSummaries>
+      <NamespaceSummaryItem name="Imms.FSharp" isDocumented="True" xmlns="" />
+      <NamespaceSummaryItem name="Imms.FSharp.Implementation" isDocumented="True" xmlns="" />
+    </NamespaceSummaries>
     <ApiFilter>
-      <Filter entryType="Namespace" fullName="Imms.FSharp.Implementation" isExposed="True" xmlns="">
-  <Filter entryType="Class" fullName="Imms.FSharp.Implementation.BuilderTypes" filterName="BuilderTypes" isExposed="False" />
-  <Filter entryType="Class" fullName="Imms.FSharp.Implementation.BuilderTypes.GenericBuilder`3" filterName="BuilderTypes.GenericBuilder`3" isExposed="False" />
-  <Filter entryType="Class" fullName="Imms.FSharp.Implementation.BuilderTypes.GenericStep`2" filterName="BuilderTypes.GenericStep`2" isExposed="False" />
-  <Filter entryType="Class" fullName="Imms.FSharp.Implementation.Compatibility" filterName="Compatibility" isExposed="False" />
-  <Filter entryType="Class" fullName="Imms.FSharp.Implementation.Ops" filterName="Ops" isExposed="False" />
-</Filter>
     </ApiFilter>
+    <ex>..\Imms\Imms\Imms.Collections\Examples\Examples.cs</ex>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in order for Visual Studio to perform
 			 the build.  The others are optional common platform types that may appear. -->
@@ -88,6 +83,7 @@
     <Folder Include="media" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Content\OptionalValues.aml" />
     <None Include="Content\VersionHistory\v1.0.0.0.aml" />
     <None Include="Content\VersionHistory\VersionHistory.aml" />
     <None Include="Content\Welcome.aml" />
@@ -98,15 +94,33 @@
   <ItemGroup>
     <Content Include="icons\Help.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Imms\Imms\Imms.Abstract\Imms.Abstract.csproj">
+      <Name>Imms.Abstract</Name>
+      <Project>{d971396e-7a09-40a5-bda1-b28fc734c73c}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Imms\Imms\Imms.Collections\Imms.csproj">
+      <Name>Imms</Name>
+      <Project>{7af97cc1-4b4c-4112-82af-bf9fc4b16407}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <CodeSnippets Include="Content\Code Snippets1.snippets" />
+  </ItemGroup>
   <!-- Import the SHFB build targets -->
   <Import Project="$(SHFBROOT)\SandcastleHelpFileBuilder.targets" />
   <!-- The pre-build and post-build event properties must appear *after* the targets file import in order to be
 			 evaluated correctly. -->
+  <Target Name="BeforeBuild">
+    <Copy SourceFiles="$(SolutionDir)Imms\Imms\Imms.Collections\Examples\Examples.cs" DestinationFolder="$(ProjectDir)" />
+  </Target>
   <PropertyGroup>
     <PreBuildEvent>
-    </PreBuildEvent>
-    <PostBuildEvent>
-    </PostBuildEvent>
+		del /q "$(ProjectDir)Examples"
+		xcopy /s /y /i "$(SolutionDir)Imms\Imms\Imms.Collections\Examples" "$(ProjectDir)Examples"
+	</PreBuildEvent>
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
   </PropertyGroup>
 </Project>
