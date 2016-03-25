@@ -14,7 +14,7 @@
     <Name>Docs</Name>
     <!-- SHFB properties -->
     <FrameworkVersion>.NET Framework 4.0</FrameworkVersion>
-    <OutputPath>..\Docs\</OutputPath>
+    <OutputPath>..\API\</OutputPath>
     <HtmlHelpName>Docs</HtmlHelpName>
     <Language>en-US</Language>
     <TransformComponentArguments>
@@ -78,14 +78,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Content" />
-    <Folder Include="Content\VersionHistory" />
     <Folder Include="icons" />
     <Folder Include="media" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Content\OptionalValues.aml" />
-    <None Include="Content\VersionHistory\v1.0.0.0.aml" />
-    <None Include="Content\VersionHistory\VersionHistory.aml" />
     <None Include="Content\Welcome.aml" />
   </ItemGroup>
   <ItemGroup>
@@ -105,9 +101,6 @@
       <Project>{7af97cc1-4b4c-4112-82af-bf9fc4b16407}</Project>
       <Private>True</Private>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <CodeSnippets Include="Content\Code Snippets1.snippets" />
   </ItemGroup>
   <!-- Import the SHFB build targets -->
   <Import Project="$(SHFBROOT)\SandcastleHelpFileBuilder.targets" />
