@@ -1,14 +1,49 @@
----
-layout: default
----
-<article class="post">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Imms</title>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href="/css/main.css" rel="stylesheet" type="text/css"/>
+    <link href="/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <link href="/css/main.css" rel="stylesheet" type="text/css"/>
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
+</head>
+<body>
+<div class="imms-root">
+    <div class="imms-title-bar">
+        <div class="imms-title-bounding-box">
+            <div class="imms-title-main">
+                <div class="imms-image">
+                    <img src="/images/Imms%20Tree.png"/>
+                </div>
+                <div class="imms-title-text">
+                    <h1 class="imms-library-title">Imms</h1>
+                    <div class="imms-library-subtitle">
+                        <h2 class="imms-main-subtitle">
+                            Immutable collections for .NET
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-  <div class="post-content">
-    {{ content }}
-  </div>
+    </div>
+    <div class="imms-main-view">
+        <div class="imms-nav-container">
+            <div class="imms-nav-menu">
 
-</article>
+            </div>
+        </div>
+        <div class="imms-content">
+            {{ content }}
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-2.2.2.js"   integrity="sha256-4/zUCqiq0kqxhZIyp4G0Gk+AOtCJsY1TA00k5ClsZYE="   crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/jstree.min.js"></script>
+<script>
+
+</script>
+</body>
+</html>

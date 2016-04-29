@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Imms</title>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href="/Imms/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <link href="/Imms/css/page.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="/Imms/css/jstree-style.css"/>
+</head>
+<body>
+<div class="imms-root">
+    <div class="imms-title-bar">
+        <div class="imms-title-main">
+            <a href="/">
+                <div class="imms-image">
+                    <img src="/Imms/Imms Tree.png"/>
+                </div>
+                <div class="imms-title-text">
+                    <h1 class="imms-library-title">Imms</h1>
+                    <h2 class="imms-section-subtitle">- Documentation</h2>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="imms-main-view">
+        <div class="imms-nav-container">
+            <div class="imms-inner-container">
+                <div id="imms-nav-menu" class="imms-nav-menu">
+                </div>
+            </div>
+        </div>
+        <div class="imms-content">
+            <div class="imms-inner-content">
+                <h1>
+                    Content
+                </h1>
+                <div>
+                    <p>Blah blah blah</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="imms-footer">
+
+    </div>
+</div>
+<script src="/Imms/scripts/jquery-2.2.2.js" integrity="sha256-4/zUCqiq0kqxhZIyp4G0Gk+AOtCJsY1TA00k5ClsZYE="
+        crossorigin="anonymous"></script>
+<script src="/Imms/scripts/jstree.js"></script>
+<script src="/Imms/scripts/yaml.js"></script>
+<script src="/Imms/scripts/bootstrap.js"></script>
+<script src="/Imms/scripts/articleTreeBuilder.js"></script>
+<script>
+    makeNavTree($("#imms-nav-menu"));
+</script>
+</body>
+</html>

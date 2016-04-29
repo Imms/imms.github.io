@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include head.html %}
+</head>
+<body>
+<div class="imms-view">
+<div class="imms-thin-topbar">
+    Imms Collections Library
+</div>
+
+<div class="imms-main-view">
+    <div class="imms-navbar">
+        <ul class="imms-navbar-list">
+            {% for my_page in site.pages %}
+                {% if my_page.title %}
+                    <li>
+                        <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="imms-content">
+        <div class="imms-title-area">
+            <h1>
+                {{  page.title }}
+            </h1>
+        </div>
+        {{ content }}
+    </div>
+</div>
+
+<div class="imms-footer">
+
+</div>
+</div>
+</body>
+</html>

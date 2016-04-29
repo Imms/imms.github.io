@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Imms</title>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    {% if page.kind == "landing" %}
+        <link href="/css/landingLayout.css" rel="stylesheet" type="text/css"/>
+    {% else %}
+        <link href="/css/docLayout.css" rel="stylesheet" type="text/css"/>
+    {%  endif %}
+</head>
+<body>
+<a href="{{ site.githubLink }}">
+    <img class="imms-github-forkme"
+         src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png">
+</a>
+<div class="imms-root">
+
+    <div class="imms-title-bar">
+        <div class="imms-title-bounding-box">
+            <div class="imms-title-inner-box">
+                <div class="imms-title-main">
+                    <div class="imms-image">
+                        <img src="/images/Imms%20Tree.png"/>
+                    </div>
+                    <div class="imms-title-text">
+                        <h1 class="imms-library-title">Imms</h1>
+                        <div class="imms-library-subtitle">
+                            <h2 class="imms-main-subtitle">
+                                Immutable collections for .NET
+                            </h2>
+                        </div>
+                        <div class="imms-version-box">
+                            <div class="imms-version-text">
+                                Version X.X
+                            </div>
+                        </div>
+                    </div>
+                    <a href="/Pages/GetImms">
+                        <div class="imms-download">
+
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+
+
+            <div class="imms-navbar">
+                <div class="imms-nav-cell">
+                    <h4>
+                        <a href="/Pages/WhyImmutable">
+                            Why Immutable?
+                        </a>
+                    </h4>
+                </div>
+                <div class="imms-nav-cell">
+
+                    <h4>
+                        <a href="/Pages/WhyImms">
+                        Why Imms?
+                        </a>
+                    </h4>
+
+                </div>
+                <div class="imms-nav-cell">
+
+                    <h4>
+                        <a href="/Pages/General">
+                        Documentation
+                        </a>
+                    </h4>
+                </div>
+                <div class="imms-nav-cell imms-nuget-link">
+                    <h4>
+                        <a href="/Pages/GetImms">
+                            Get Imms
+                        </a>
+                    </h4>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="imms-bar-2">
+        <div class="imms-container">
+            <div class="imms-nav-column-box">
+                <div id="imms-nav-column">
+
+                </div>
+            </div>
+            <div class="imms-text-area">
+                {{ content }}
+            </div>
+        </div>
+
+    </div>
+    <div class="imms-bar-3">
+        <div class="imms-footer">
+            {% include footer.html %}
+        </div>
+
+    </div>
+</div>
+<script src="/scripts/jquery-2.2.2.js"   integrity="sha256-4/zUCqiq0kqxhZIyp4G0Gk+AOtCJsY1TA00k5ClsZYE="   crossorigin="anonymous"></script>
+<script src="/scripts/apiLinker.js"></script>
+<script src="/scripts/yaml.js"></script>
+<script src="/scripts/articleTreeBuilder.js"></script>
+{%  unless page.kind == "landing" %}
+<script>
+    makeNavTree($("#imms-nav-column"))
+</script>
+{% endunless %}
+</body>
+</html>

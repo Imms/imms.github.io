@@ -1,0 +1,47 @@
+---
+# text: Entry Text
+# link: Link
+# children: Children
+root:
+  - text: Introduction
+    children:
+      - text: Why Immutable?
+        link: WhyImmutable
+
+      - text: Why Imms?
+        link: WhyImms
+        children:
+          - text: Performance
+            link: Performance
+
+  - text: Collections API
+    children:
+      - text: General Features
+        link: General
+
+      - text: Sequentials
+        link: Sequentials
+
+      - text: Sets
+        link: Sets
+
+      - text: Maps
+        link: Maps
+
+  - text: Other Features
+    children:
+      - text: Optional Type
+        link: Optional
+
+      - text: High-order Abstraction
+        link: AdvancedAbstractionLibrary
+
+
+      - text: Miscellaneous
+        link: Miscellaneous
+
+  - text: F# Integration
+    link: FSharpIntegration
+
+  - text: API Reference
+    link: /Imms/API/index.html

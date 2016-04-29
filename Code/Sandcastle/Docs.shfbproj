@@ -13,8 +13,8 @@
     <RootNamespace>Docs</RootNamespace>
     <Name>Docs</Name>
     <!-- SHFB properties -->
-    <FrameworkVersion>.NET Framework 4.0</FrameworkVersion>
-    <OutputPath>..\API\</OutputPath>
+    <FrameworkVersion>.NET Framework 4.5</FrameworkVersion>
+    <OutputPath>..\..\API\</OutputPath>
     <HtmlHelpName>Docs</HtmlHelpName>
     <Language>en-US</Language>
     <TransformComponentArguments>
@@ -47,7 +47,7 @@
     <NamingMethod>MemberName</NamingMethod>
     <HelpTitle>Imms API</HelpTitle>
     <ContentPlacement>AboveNamespaces</ContentPlacement>
-    <VisibleItems>Attributes, InheritedMembers, InheritedFrameworkMembers, Protected, ProtectedInternalAsProtected</VisibleItems>
+    <VisibleItems>Attributes, InheritedMembers, InheritedFrameworkMembers, ProtectedInternalAsProtected</VisibleItems>
     <MissingTags>Summary, AutoDocumentCtors, Namespace, AutoDocumentDispose</MissingTags>
     <NamespaceSummaries>
       <NamespaceSummaryItem name="Imms.Abstract" isDocumented="True" xmlns="" />
@@ -83,6 +83,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Content\Welcome.aml" />
+    <None Include="indexer.fsx" />
   </ItemGroup>
   <ItemGroup>
     <ContentLayout Include="ContentLayout.content" />
@@ -111,8 +112,7 @@
   </Target>
   <PropertyGroup>
     <PreBuildEvent>
-
-	</PreBuildEvent>
+    </PreBuildEvent>
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
   </PropertyGroup>
 </Project>

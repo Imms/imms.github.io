@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7d1dd90f-4e8d-4813-b52b-a0ad2df83623" name="Root" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="D:\Projects\Repositories\Imms" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

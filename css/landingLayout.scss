@@ -1,0 +1,14 @@
+@import "_main";
+
+.imms-bar-2 {
+	.imms-container {
+		@extend .container
+	}
+	.imms-text-area {
+		@include make-md-column(12);
+	}
+
+	.imms-nav-column-box {
+		@extend .hidden;
+	}
+}

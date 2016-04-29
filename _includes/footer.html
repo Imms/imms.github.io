@@ -1,38 +1,16 @@
-<footer class="site-footer">
+<div class="imms-footer-menu-container">
+    {% include footerMenu.html %}
+</div>
+<div class="imms-footer-author-note">
+    Imms is written and managed by <a href="{{ site.myProfile }}">@GregRos</a>, and released under the MIT license.
+</div>
+<div class="imms-langs">
+    Website in HTML, CSS, and Javascript, using the <a href="{{ site.with_WebStorm }}">WebStorm</a> IDE.
+</div>
+<div class="imms-techs">
+    Some of the technologies used by this website: <a href="{{ site.with_Bootstrap }}">Bootstrap</a>,
+    <a href="{{ site.with_TypeScript }}">TypeScript</a>,
+    <a href="{{ site.with_Sass }}">Sass/SCSS</a>, and
+    <a href="{{ site.with_Jekyll }}">Jekyll</a>.
+</div>
 
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
-    </div>
-
-  </div>
-
-</footer>

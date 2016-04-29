@@ -1,0 +1,1765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4bbc7136-871e-4550-87cb-0c2fea76dd87" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/GregRos.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/SearchHelp.aspx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/SearchHelp.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/SearchHelp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Web.Config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/WebKI.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/WebTOC.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/fti/FTI_100.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/fti/FTI_101.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/fti/FTI_102.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/fti/FTI_103.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/fti/FTI_104.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/fti/FTI_105.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/fti/FTI_106.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/fti/FTI_107.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/fti/FTI_108.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/fti/FTI_109.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/fti/FTI_110.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/fti/FTI_111.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/fti/FTI_112.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/fti/FTI_113.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/fti/FTI_114.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/fti/FTI_115.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/fti/FTI_116.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/fti/FTI_117.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/fti/FTI_118.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/fti/FTI_119.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/fti/FTI_120.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/fti/FTI_121.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/fti/FTI_122.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/fti/FTI_95.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/fti/FTI_97.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/fti/FTI_98.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/fti/FTI_99.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/fti/FTI_Files.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Events_T_Imms_NoValueException.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/F_Imms_ImmVector_1_MaxCapacity.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Fields_T_Imms_ImmVector_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Imms_Root.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_Aggregate.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_Aggregate__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_All.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_Any.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_BuilderFrom.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_CopyTo.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_CopyTo_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_Count.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_Find.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_ForEach.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_ForEachWhile.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_GetEnumerator.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_Pick__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_Print.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_Single.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_ToArray.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_Where.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3__Cartesian__3.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3__Cast__2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3__Choose__2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3__GroupBy__4.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3__GroupBy__4_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3__GroupJoin__4.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3__Join__4.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3__OrderBy__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3__Scan__2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3__SelectMany__2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3__SelectMany__3.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3__Select__2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3__ctor.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_op_Implicit.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Add.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_AddRange.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Add_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Aggregate__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_All.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Any.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_ContainsKey.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Count.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Difference.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Difference_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Find.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_ForEach.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_ForEachWhile.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_IsCompatibleWith.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Join.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Join__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_MapEquals.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_MapEquals_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_MapEquals_2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_MapEquals_3.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Merge.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Merge_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Pick__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Remove.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_RemoveRange.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Set.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_SetRange.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Set_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Subtract.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Subtract__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_TryGet.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_TryGetKvp.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3__Join__3.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3__ctor.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_AggregateBack.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_AggregateBack__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_CopyTo.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_CopyTo_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_Equals.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_Equals_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_FindIndex.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_FindIndex_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_FindLast.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_FindLastIndex.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_ForEachBack.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_ForEachBackWhile.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_GetHashCode.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_GetItem.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_GetRange.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_Reverse.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_SequenceEquals.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_SequenceEquals_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_Skip.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_SkipWhile.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_Take.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_TakeWhile.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_TryGet.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2__ScanBack__2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2__Zip__3.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2__ctor.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_op_Equality.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_op_Inequality.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_Add.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_AddRange.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_Contains.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_Difference.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_Difference_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_Except.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_ExceptInverse.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_Except_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_Intersect.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_Intersect_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_IsCompatibleWith.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_IsDisjointWith.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_IsDisjointWith_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_IsProperSubsetOf.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_IsProperSupersetOf.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_IsSubsetOf.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_IsSupersetOf.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_IsSupersetOf_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_RelatesTo.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_RelatesTo_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_Remove.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_SetEquals.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_TryGet.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_Union.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_Union_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2__ctor.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_IAnyIterableBuilder_1_Add.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_IAnyIterableBuilder_1_AddRange.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_IAnyMapBuilder_2_Remove.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_IAnyMapBuilder_2_TryGetKvp.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_IAnySetBuilder_1_Contains.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_IAnySetBuilder_1_Remove.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_IIterableBuilder_2_Produce.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_AddFirst.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_AddFirstRange.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_AddLast.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_AddLastRange.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Cast__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Choose__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_ForEach.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_ForEachBack.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_ForEachBackWhile.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_ForEachWhile.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_GetEnumerator.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_GroupBy__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_GroupBy__3.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Insert.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_InsertRange.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Join__2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Join__3.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_RemoveAt.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_RemoveFirst.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_RemoveLast.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Reverse.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_ScanBack__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Scan__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_SelectMany__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_SelectMany__2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Select__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Select__1_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Update.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Zip__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Zip__2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_Empty__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_FromItems__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_ToImmList__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_2_Add.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_2_Empty.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_2_ForEachWhile.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_2_GetEnumerator.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_2_Remove.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_2_RemoveRange.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_2_Subtract__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_2_TryGet.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_CreateMap__2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_Empty__2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_ToImmMap__2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_ToImmMap__3.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSet_1_Add.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSet_1_Contains.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSet_1_Empty.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSet_1_ForEachWhile.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSet_1_GetEnumerator.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSet_1_Remove.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSet_CreateSet__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSet_Empty__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSet_ToImmSet__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_ByOrder.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_Empty.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_ForEachWhile.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_GetEnumerator.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_IndexOf.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_Merge.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_Remove.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_RemoveMax.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_RemoveMin.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_RemoveRange.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_Slice.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_Subtract__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_TryGet.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_CreateOrderedMap__2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_Empty__2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_Empty__2_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_ToImmSortedMap__2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_ToImmSortedMap__2_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_1_Add.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_1_ByOrder.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_1_Contains.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_1_Empty.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_1_ForEachWhile.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_1_GetEnumerator.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_1_IndexOf.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_1_Remove.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_1_RemoveMax.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_1_RemoveMin.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_1_Slice.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_1_Union.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_CreateOrderedSet__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_Empty__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_Empty__1_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_ToImmSortedSet__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_ToImmSortedSet__1_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_AddFirstRange.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_AddLast.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_AddLastRange.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Cast__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Choose__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_CopyTo.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_ForEach.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_ForEachBack.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_ForEachBackWhile.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_ForEachWhile.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_GetEnumerator.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_GroupBy__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_GroupBy__3.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Insert.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_InsertRange.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Join__2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Join__3.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_RemoveAt.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_RemoveLast.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_ScanBack__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Scan__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_SelectMany__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_SelectMany__2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Select__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Select__1_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Skip.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Take.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Update.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Zip__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Zip__2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_Empty__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_FromItems__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_ToImmVector__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Kvp_Of__2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Kvp_Of__2_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Kvp_ToTuple__2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_NoValueException__ctor.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_AsOptional__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_AsOptional__1_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_AsString__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_AsString__1_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_CompareTo__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_CompareTo__1_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_Filter__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_Flatten__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_Map__2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_Map__2_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_ValueOrError__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_As__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_Cast__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_Equals.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_Equals_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_Equals_2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_Equals_3.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_Equals__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_GetHashCode.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_Or.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_Or_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_Some.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_ToString.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_BitwiseOr.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_Equality.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_Equality_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_Equality_2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_Equality_3.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_Explicit.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_Implicit.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_Implicit_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_Inequality.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_Inequality_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_Inequality_2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_Inequality_3.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_NoneOf__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_Some__1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_Abstract_AbstractIterable_3.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_Abstract_AbstractMap_3.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_Abstract_AbstractSequential_2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_Abstract_AbstractSet_2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_Abstract_IAnyIterableBuilder_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_Abstract_IAnyMapBuilder_2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_Abstract_IAnySetBuilder_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_Abstract_IIterableBuilder_2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_Abstract_IMapBuilder_3.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_Abstract_ISequentialBuilder_2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_Abstract_ISetBuilder_2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmList.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmList_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmMap.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmMap_2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmSet.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmSet_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmSortedMap.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmSortedMap_2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmSortedSet.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmSortedSet_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmVector.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmVector_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_Kvp.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_NoValueException.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_Optional.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_OptionalExt.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_Optional_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/N_Imms.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/N_Imms_Abstract.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Operators_T_Imms_Abstract_AbstractIterable_3.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Operators_T_Imms_Abstract_AbstractSequential_2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Operators_T_Imms_Optional_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractIterable_3_Aggregate.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractIterable_3_CopyTo.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractIterable_3__GroupBy.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractIterable_3__SelectMany.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_Add.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_Aggregate.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_All.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_Any.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_Count.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_Difference.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_Find.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_ForEach.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_ForEachWhile.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_Join.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_MapEquals.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_Merge.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_Pick.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_Set.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_Subtract.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3__Join.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractSequential_2_AggregateBack.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractSequential_2_CopyTo.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractSequential_2_Equals.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractSequential_2_FindIndex.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractSequential_2_Item.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractSequential_2_SequenceEquals.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractSet_2_Difference.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractSet_2_Except.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractSet_2_Intersect.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractSet_2_IsDisjointWith.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractSet_2_IsSupersetOf.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractSet_2_RelatesTo.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractSet_2_Union.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmList_1_GroupBy.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmList_1_Join.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmList_1_Select.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmList_1_SelectMany.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmList_1_Zip.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmMap_2_Add.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmMap_2_ForEachWhile.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmMap_2_Subtract.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmMap_ToImmMap.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmSortedMap_2_ForEachWhile.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmSortedMap_2_Subtract.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmSortedMap_Empty.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmSortedMap_ToImmSortedMap.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmSortedSet_Empty.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmSortedSet_ToImmSortedSet.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmVector_1_CopyTo.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmVector_1_GroupBy.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmVector_1_Join.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmVector_1_Select.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmVector_1_SelectMany.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmVector_1_Zip.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Kvp_Of.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_OptionalExt_AsOptional.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_OptionalExt_AsString.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_OptionalExt_CompareTo.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_OptionalExt_Map.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Optional_1_Equals.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Optional_1_Or.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Optional_1_op_Equality.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Optional_1_op_Implicit.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Optional_1_op_Inequality.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractIterable_3_DebuggerDisplay.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractIterable_3_Empty.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractIterable_3_EmptyBuilder.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractIterable_3_IsEmpty.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractIterable_3_Length.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractIterable_3_UnderlyingCollection.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractMap_3_Item.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractMap_3_Keys.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractMap_3_Values.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractSequential_2_First.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractSequential_2_Item.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractSequential_2_Item_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractSequential_2_Last.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractSequential_2_TryFirst.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractSequential_2_TryLast.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractSet_2_Item.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_Abstract_IAnyIterableBuilder_1_Length.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_Abstract_IBuilderFactory_1_EmptyBuilder.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_IAnyOptional_IsNone.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_IAnyOptional_IsSome.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_IAnyOptional_Value.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmList_1_Empty.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmList_1_First.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmList_1_IsEmpty.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmList_1_Last.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmList_1_Length.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmMap_2_IsEmpty.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmMap_2_Length.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmSet_1_IsEmpty.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmSet_1_Length.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmSortedMap_2_IsEmpty.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmSortedMap_2_Length.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmSortedMap_2_MaxItem.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmSortedMap_2_MinItem.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmSortedSet_1_IsEmpty.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmSortedSet_1_Length.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmSortedSet_1_MaxItem.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmSortedSet_1_MinItem.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmVector_1_Empty.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmVector_1_First.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmVector_1_IsEmpty.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmVector_1_Last.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmVector_1_Length.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_Optional_1_IsNone.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_Optional_1_IsSome.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_Optional_1_None.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_Optional_1_Value.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/P_Imms_Optional_None.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_AbstractIterable_3.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_AbstractMap_3.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_AbstractSequential_2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_AbstractSet_2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_IAnyIterableBuilder_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_IAnyMapBuilder_2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_IAnySetBuilder_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_IBuilderFactory_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_IIterableBuilder_2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_IMapBuilder_3.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_ISequentialBuilder_2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_ISetBuilder_2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_IAnyOptional.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_ImmList_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_ImmMap_2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_ImmSet_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_ImmSortedMap_2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_ImmSortedSet_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_ImmVector_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_NoValueException.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_Optional.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_Optional_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/T_Imms_Abstract_AbstractIterable_3.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/T_Imms_Abstract_AbstractMap_3.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/T_Imms_Abstract_AbstractSequential_2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/T_Imms_Abstract_AbstractSet_2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/T_Imms_Abstract_IAnyIterableBuilder_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/T_Imms_Abstract_IAnyMapBuilder_2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/T_Imms_Abstract_IAnySetBuilder_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/T_Imms_Abstract_IBuilderFactory_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/T_Imms_Abstract_IIterableBuilder_2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/T_Imms_Abstract_IMapBuilder_3.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/T_Imms_Abstract_ISequentialBuilder_2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/T_Imms_Abstract_ISetBuilder_2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/T_Imms_IAnyOptional.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/T_Imms_ImmList.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/T_Imms_ImmList_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/T_Imms_ImmMap.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/T_Imms_ImmMap_2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/T_Imms_ImmSet.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/T_Imms_ImmSet_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/T_Imms_ImmSortedMap.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/T_Imms_ImmSortedMap_2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/T_Imms_ImmSortedSet.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/T_Imms_ImmSortedSet_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/T_Imms_ImmVector.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/T_Imms_ImmVector_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/T_Imms_Kvp.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/T_Imms_NoValueException.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/T_Imms_Optional.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/T_Imms_OptionalExt.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/T_Imms_Optional_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/T_Imms_SetRelation.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/html/T_Imms_ValueSelector_4.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/AlertCaution.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/AlertNote.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/AlertSecurity.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/CFW.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/CodeExample.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/Help.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/Search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/SectionCollapsed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/SectionExpanded.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/TocClose.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/TocCollapsed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/TocExpanded.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/TocOpen.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/privclass.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/privdelegate.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/privenumeration.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/privevent.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/privextension.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/privfield.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/privinterface.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/privmethod.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/privproperty.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/privstructure.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/protclass.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/protdelegate.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/protenumeration.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/protevent.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/protextension.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/protfield.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/protinterface.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/protmethod.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/protoperator.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/protproperty.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/protstructure.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/pubclass.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/pubdelegate.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/pubenumeration.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/pubevent.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/pubextension.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/pubfield.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/pubinterface.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/pubmethod.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/puboperator.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/pubproperty.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/pubstructure.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/slMobile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/static.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/icons/xna.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/scripts/branding-Website.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/scripts/branding.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/scripts/jquery-1.11.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/search.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/styles/branding-Help1.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/styles/branding-HelpViewer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/styles/branding-Website.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/styles/branding-cs-CZ.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/styles/branding-de-DE.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/styles/branding-en-US.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/styles/branding-es-ES.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/styles/branding-fr-FR.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/styles/branding-it-IT.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/styles/branding-ja-JP.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/styles/branding-ko-KR.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/styles/branding-pl-PL.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/styles/branding-pt-BR.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/styles/branding-ru-RU.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/styles/branding-tr-TR.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/styles/branding-zh-CN.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/styles/branding-zh-TW.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/styles/branding.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Fields_T_Imms_ImmVector_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Imms_Root.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Methods_T_Imms_Abstract_AbstractIterable_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Methods_T_Imms_Abstract_AbstractMap_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Methods_T_Imms_Abstract_AbstractSequential_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Methods_T_Imms_Abstract_AbstractSet_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Methods_T_Imms_Abstract_IAnyIterableBuilder_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Methods_T_Imms_Abstract_IAnyMapBuilder_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Methods_T_Imms_Abstract_IAnySetBuilder_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Methods_T_Imms_Abstract_IIterableBuilder_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Methods_T_Imms_ImmList.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Methods_T_Imms_ImmList_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Methods_T_Imms_ImmMap.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Methods_T_Imms_ImmMap_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Methods_T_Imms_ImmSet.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Methods_T_Imms_ImmSet_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Methods_T_Imms_ImmSortedMap.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Methods_T_Imms_ImmSortedMap_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Methods_T_Imms_ImmSortedSet.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Methods_T_Imms_ImmSortedSet_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Methods_T_Imms_ImmVector.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Methods_T_Imms_ImmVector_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Methods_T_Imms_Kvp.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Methods_T_Imms_Optional.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Methods_T_Imms_OptionalExt.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Methods_T_Imms_Optional_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/N_Imms.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/N_Imms_Abstract.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Operators_T_Imms_Abstract_AbstractIterable_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Operators_T_Imms_Abstract_AbstractSequential_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Operators_T_Imms_Optional_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Abstract_AbstractIterable_3_Aggregate.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Abstract_AbstractIterable_3_CopyTo.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Abstract_AbstractIterable_3__GroupBy.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Abstract_AbstractIterable_3__SelectMany.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Abstract_AbstractMap_3_Add.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Abstract_AbstractMap_3_Aggregate.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Abstract_AbstractMap_3_All.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Abstract_AbstractMap_3_Any.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Abstract_AbstractMap_3_Count.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Abstract_AbstractMap_3_Difference.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Abstract_AbstractMap_3_Find.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Abstract_AbstractMap_3_ForEach.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Abstract_AbstractMap_3_ForEachWhile.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Abstract_AbstractMap_3_Join.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Abstract_AbstractMap_3_MapEquals.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Abstract_AbstractMap_3_Merge.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Abstract_AbstractMap_3_Pick.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Abstract_AbstractMap_3_Set.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Abstract_AbstractMap_3_Subtract.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Abstract_AbstractMap_3__Join.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Abstract_AbstractSequential_2_AggregateBack.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Abstract_AbstractSequential_2_CopyTo.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Abstract_AbstractSequential_2_Equals.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Abstract_AbstractSequential_2_FindIndex.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Abstract_AbstractSequential_2_Item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Abstract_AbstractSequential_2_SequenceEquals.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Abstract_AbstractSet_2_Difference.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Abstract_AbstractSet_2_Except.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Abstract_AbstractSet_2_Intersect.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Abstract_AbstractSet_2_IsDisjointWith.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Abstract_AbstractSet_2_IsSupersetOf.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Abstract_AbstractSet_2_RelatesTo.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Abstract_AbstractSet_2_Union.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_ImmList_1_GroupBy.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_ImmList_1_Join.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_ImmList_1_Select.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_ImmList_1_SelectMany.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_ImmList_1_Zip.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_ImmMap_2_Add.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_ImmMap_2_ForEachWhile.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_ImmMap_2_Subtract.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_ImmMap_ToImmMap.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_ImmSortedMap_2_ForEachWhile.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_ImmSortedMap_2_Subtract.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_ImmSortedMap_Empty.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_ImmSortedMap_ToImmSortedMap.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_ImmSortedSet_Empty.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_ImmSortedSet_ToImmSortedSet.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_ImmVector_1_CopyTo.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_ImmVector_1_GroupBy.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_ImmVector_1_Join.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_ImmVector_1_Select.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_ImmVector_1_SelectMany.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_ImmVector_1_Zip.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Kvp_Of.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_OptionalExt_AsOptional.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_OptionalExt_AsString.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_OptionalExt_CompareTo.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_OptionalExt_Map.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Optional_1_Equals.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Optional_1_Or.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Optional_1_op_Equality.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Optional_1_op_Implicit.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Overload_Imms_Optional_1_op_Inequality.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Properties_T_Imms_Abstract_AbstractIterable_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Properties_T_Imms_Abstract_AbstractMap_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Properties_T_Imms_Abstract_AbstractSequential_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Properties_T_Imms_Abstract_AbstractSet_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Properties_T_Imms_Abstract_IAnyIterableBuilder_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Properties_T_Imms_Abstract_IBuilderFactory_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Properties_T_Imms_IAnyOptional.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Properties_T_Imms_ImmList_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Properties_T_Imms_ImmMap_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Properties_T_Imms_ImmSet_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Properties_T_Imms_ImmSortedMap_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Properties_T_Imms_ImmSortedSet_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Properties_T_Imms_ImmVector_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Properties_T_Imms_Optional.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Properties_T_Imms_Optional_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/T_Imms_Abstract_AbstractIterable_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/T_Imms_Abstract_AbstractMap_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/T_Imms_Abstract_AbstractSequential_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/T_Imms_Abstract_AbstractSet_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/T_Imms_Abstract_IAnyIterableBuilder_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/T_Imms_Abstract_IAnyMapBuilder_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/T_Imms_Abstract_IAnySetBuilder_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/T_Imms_Abstract_IBuilderFactory_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/T_Imms_Abstract_IIterableBuilder_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/T_Imms_Abstract_IMapBuilder_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/T_Imms_Abstract_ISequentialBuilder_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/T_Imms_Abstract_ISetBuilder_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/T_Imms_IAnyOptional.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/T_Imms_ImmList.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/T_Imms_ImmList_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/T_Imms_ImmMap.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/T_Imms_ImmMap_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/T_Imms_ImmSet.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/T_Imms_ImmSet_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/T_Imms_ImmSortedMap.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/T_Imms_ImmSortedMap_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/T_Imms_ImmSortedSet.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/T_Imms_ImmSortedSet_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/T_Imms_ImmVector.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/T_Imms_ImmVector_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/T_Imms_Kvp.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/T_Imms_NoValueException.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/T_Imms_Optional.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/T_Imms_OptionalExt.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/T_Imms_Optional_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/roottoc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/icon-github.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/icon-github.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/icon-twitter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/icon-twitter.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2016-03-25-welcome-to-jekyll.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/about.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/_base.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/_layout.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/main.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/syntax-highlighting.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/feed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms" afterPath="$PROJECT_DIR$/Code/Imms" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms.sln" afterPath="$PROJECT_DIR$/Code/Imms.sln" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections/Wrappers/Immutable/List/Core.cs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections/Wrappers/Immutable/List/Core.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.FSharp/Generic Operators.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.FSharp/Generic Operators.fs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Messing.CSharp/Program.cs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Messing.CSharp/Program.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Sandcastle/Docs.shfbproj" afterPath="$PROJECT_DIR$/Code/Sandcastle/Docs.shfbproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/page.html" afterPath="$PROJECT_DIR$/_layouts/page.html" />
+    </list>
+    <ignored path="Imms.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Imms" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="_syntax-highlighting.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/_syntax-highlighting.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="988">
+              <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_articleTree.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/_articleTree.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_layouts/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2886">
+              <caret line="111" column="16" selection-start-line="111" selection-start-column="16" selection-end-line="111" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="docLayout.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/docLayout.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="landingLayout.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/landingLayout.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_common.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/_common.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_main.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/_main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5018">
+              <caret line="193" column="11" selection-start-line="193" selection-start-column="11" selection-end-line="193" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Optional.markdown" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pages/Optional.markdown">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="61">
+                <caret line="5" column="9" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="9" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Markdown" />
+        <option value="TypeScript File" />
+        <option value="JSON FIle" />
+        <option value="Yaml File" />
+        <option value="HTML File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/API/lookup.html" />
+        <option value="$PROJECT_DIR$/js/test.js" />
+        <option value="$PROJECT_DIR$/scripts/test.js" />
+        <option value="$PROJECT_DIR$/scripts/test.ts" />
+        <option value="$PROJECT_DIR$/Pages/test.markdown" />
+        <option value="$PROJECT_DIR$/Pages/Errors/couldntLoadIndex.html" />
+        <option value="$PROJECT_DIR$/Pages/Errors/couldntFindAPIElement.html" />
+        <option value="$PROJECT_DIR$/scripts/apiLinker.js" />
+        <option value="$PROJECT_DIR$/API/index.json" />
+        <option value="$PROJECT_DIR$/_includes/_navbar.html" />
+        <option value="$PROJECT_DIR$/_sass/_custom.scss" />
+        <option value="$PROJECT_DIR$/_layouts/newLayout.html" />
+        <option value="$PROJECT_DIR$/_layouts/info.html" />
+        <option value="$PROJECT_DIR$/_includes/head.html" />
+        <option value="$PROJECT_DIR$/css/main.css.map" />
+        <option value="$PROJECT_DIR$/Pages/testLayout.htm" />
+        <option value="$PROJECT_DIR$/Pages/testLayout.html" />
+        <option value="$PROJECT_DIR$/Pages/Main.markdown" />
+        <option value="$PROJECT_DIR$/css/page.css.map" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/_layouts/post.html" />
+        <option value="$PROJECT_DIR$/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/scripts/jstree.d.ts" />
+        <option value="$PROJECT_DIR$/data/contentIndex.json" />
+        <option value="$PROJECT_DIR$/data/contentIndex.yaml" />
+        <option value="$PROJECT_DIR$/Pages/testLayout2.htm" />
+        <option value="$PROJECT_DIR$/css/jstree-style.css" />
+        <option value="$PROJECT_DIR$/css/_base.scss" />
+        <option value="$PROJECT_DIR$/css/syntax-highlighting.scss" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/css/jstree-style.scss" />
+        <option value="$PROJECT_DIR$/scripts/apiLinker.ts" />
+        <option value="$PROJECT_DIR$/Pages/testLayout2.html" />
+        <option value="$PROJECT_DIR$/.jekyll-metadata" />
+        <option value="$PROJECT_DIR$/_layouts/page.html" />
+        <option value="$PROJECT_DIR$/scripts/articleTreeBuilder.js" />
+        <option value="$PROJECT_DIR$/scripts/articleTreeBuilder.ts" />
+        <option value="$PROJECT_DIR$/css/articleTree.scss" />
+        <option value="$PROJECT_DIR$/css/page.scss" />
+        <option value="$PROJECT_DIR$/css/landing.scss" />
+        <option value="$PROJECT_DIR$/css/main.scss" />
+        <option value="$PROJECT_DIR$/data/contentIndex.yml" />
+        <option value="$PROJECT_DIR$/_includes/footerMenu.html" />
+        <option value="$PROJECT_DIR$/_includes/footer.html" />
+        <option value="$PROJECT_DIR$/_layouts/main.html" />
+        <option value="$PROJECT_DIR$/css/docLayout.scss" />
+        <option value="$PROJECT_DIR$/Pages/Optional.markdown" />
+        <option value="$PROJECT_DIR$/css/landingLayout.scss" />
+        <option value="$PROJECT_DIR$/css/_articleTree.scss" />
+        <option value="$PROJECT_DIR$/css/_common.scss" />
+        <option value="$PROJECT_DIR$/css/_main.scss" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <exe-path />
+    <config-path />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <scope name="Hide js and map files" pattern="!file:*.css.map&amp;&amp;!file[Imms]:.sass-cache//*&amp;&amp;!file[Imms]:.idea//*&amp;&amp;!file:.gitmodules&amp;&amp;!file:.jekyll-metadata&amp;&amp;!file:about.md&amp;&amp;!file:feed.xml&amp;&amp;!file[Imms]:Code//*" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="56" />
+    <option name="y" value="-8" />
+    <option name="width" value="1872" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CssOptimizeSimilarProperties</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers Scope="false" />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Hide js and map files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Imms">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Imms">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="scripts">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <option name="show-excluded-files" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="last_opened_file_path" value="C:/tools/ruby22/bin/jekyll.bat" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_interpreter_path" value="C:\Program Files\nodejs\node" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="js.eslint.eslintPackage" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\Repositories\Imms\images" />
+      <recent name="D:\Projects\Repositories\Imms\_resources" />
+      <recent name="D:\Projects\Repositories\Imms\fonts\bootstrap" />
+      <recent name="D:\Projects\Repositories\Imms\css" />
+      <recent name="D:\Projects\Repositories\Imms\_includes\js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\Repositories\Imms\Pages" />
+      <recent name="D:\Projects\Repositories\Imms\css" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.testLayout2.html">
+    <configuration default="false" name="testLayout.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Imms/Pages/testLayout.htm">
+      <mapping url="http://localhost:63342" local-file="$PROJECT_DIR$" />
+      <method />
+    </configuration>
+    <configuration default="false" name="testLayout2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" uri="http://localhost:63342/Imms/Pages/testLayout2.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="testLayout.htm (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost/Pages/testLayout.htm">
+      <method />
+    </configuration>
+    <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="FirefoxRemoteDebugType" factoryName="Firefox Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptNodeJsTraceType" factoryName="Spy-js for Node.js" config="" node="" node-params="" app="" app-params="" working-dir="$PROJECT_DIR$" proxy-port="3547" pass-parent-env="true">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTraceType" factoryName="Spy-js" node="" config="" has-config="false" system-proxy="true" proxy-port="3546" open-browser="false" browser="">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node.js Remote Debug">
+      <node-js-remote-debug />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeWebKit" factoryName="NW.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeunitConfigurationType" factoryName="Nodeunit">
+      <setting name="nodePath" value="project" />
+      <envs />
+      <setting name="nodeunitModuleDir" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="testType" value="JS_FILE" />
+      <setting name="jsFile" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhoneGap" factoryName="PhoneGap/Cordova">
+      <option name="myExecutable" />
+      <option name="myWorkDir" />
+      <option name="myCommand" />
+      <option name="myPassParent" value="true" />
+      <option name="myPlatform" />
+      <option name="myExtraArgs" />
+      <option name="hasTarget" value="false" />
+      <option name="target" />
+      <method />
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <envs />
+      <force value="false" />
+      <verbose value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="meteor-app-runner" factoryName="Meteor">
+      <option name="startBrowserSettings">
+        <browser url="http://localhost:3000" />
+      </option>
+      <meteor-runner-state>
+        <startBrowserSettings>
+          <browser url="http://localhost:3000" />
+        </startBrowserSettings>
+      </meteor-runner-state>
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="false" name="Blah" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" editBeforeRun="true" activateToolWindowBeforeRun="false" port="4000">
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Chromium Remote.Blah" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.testLayout.htm" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.testLayout2.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.testLayout.htm (1)" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.testLayout2.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.testLayout.htm" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.testLayout.htm (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4bbc7136-871e-4550-87cb-0c2fea76dd87" name="Default" comment="" />
+      <created>1458928182783</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1458928182783</updated>
+      <workItem from="1458928538303" duration="99000" />
+      <workItem from="1458928665394" duration="40000" />
+      <workItem from="1458928724226" duration="3909000" />
+      <workItem from="1458940078288" duration="3036000" />
+      <workItem from="1458943133352" duration="4775000" />
+      <workItem from="1458982025835" duration="5982000" />
+      <workItem from="1458996375810" duration="15766000" />
+      <workItem from="1459027086737" duration="8126000" />
+      <workItem from="1459069725571" duration="7332000" />
+      <workItem from="1459097846064" duration="1778000" />
+      <workItem from="1459100929006" duration="627000" />
+      <workItem from="1459275813046" duration="8207000" />
+      <workItem from="1459374142785" duration="804000" />
+      <workItem from="1459451233819" duration="4908000" />
+      <workItem from="1459509006134" duration="11303000" />
+      <workItem from="1459524426349" duration="19000" />
+      <workItem from="1459524517282" duration="16768000" />
+      <workItem from="1459547978061" duration="2723000" />
+      <workItem from="1459553488285" duration="7000" />
+      <workItem from="1459590894736" duration="30720000" />
+      <workItem from="1459705887882" duration="4393000" />
+      <workItem from="1459772198923" duration="12954000" />
+      <workItem from="1459877540662" duration="1592000" />
+      <workItem from="1459965970565" duration="1192000" />
+      <workItem from="1460115977713" duration="1758000" />
+      <workItem from="1460119452870" duration="4263000" />
+      <workItem from="1460369203402" duration="3714000" />
+      <workItem from="1460569387812" duration="1070000" />
+      <workItem from="1461609232528" duration="5412000" />
+      <workItem from="1461691715042" duration="2069000" />
+      <workItem from="1461774685910" duration="5098000" />
+      <workItem from="1461792742100" duration="1123000" />
+      <workItem from="1461836468033" duration="23342000" />
+      <workItem from="1461920663338" duration="8620000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="203529000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="56" y="-8" width="1872" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21537623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15368639" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281412" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27622014" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17030114" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15368639" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28660437" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21537623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883817" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17030114" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/scripts/jstree.js" />
+    <entry file="file://$PROJECT_DIR$/Pages/Main.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="468">
+            <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/page.css.map" />
+    <entry file="file://$PROJECT_DIR$/Pages/Sequentials.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="598">
+            <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/yaml.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/40px.png" />
+    <entry file="file://$PROJECT_DIR$/css/jstree-style.scss" />
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/jstree-style.css" />
+    <entry file="file://$PROJECT_DIR$/css/throbber.gif" />
+    <entry file="file://$PROJECT_DIR$/data/contentIndex.json" />
+    <entry file="file://$PROJECT_DIR$/css/_syntax-highlighting.css" />
+    <entry file="file://$PROJECT_DIR$/scripts/apiLinker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/apiLinker.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/.jekyll-metadata">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/32px.png" />
+    <entry file="file://$PROJECT_DIR$/css/_base.scss" />
+    <entry file="file://$PROJECT_DIR$/about.md" />
+    <entry file="file://$PROJECT_DIR$/feed.xml" />
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitmodules">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/Indexed.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/articleTreeBuilder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="5" selection-start-line="8" selection-start-column="7" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!block;n#makeNavTree#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/page.scss" />
+    <entry file="file://$PROJECT_DIR$/scripts/articleTreeBuilder.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/testLayout2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css.map" />
+    <entry file="file://$PROJECT_DIR$/css/page.css" />
+    <entry file="file://$PROJECT_DIR$/css/_bootstrap.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/_main.css" />
+    <entry file="file://$PROJECT_DIR$/css/articleTree.css.map" />
+    <entry file="file://$PROJECT_DIR$/css/landing.css.map" />
+    <entry file="file://$PROJECT_DIR$/css/main.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/docLayout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-92487">
+          <caret line="2233" column="19" selection-start-line="2233" selection-start-column="19" selection-end-line="2233" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/landingLayout.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-312">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/ImplementationDetails.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="468">
+            <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="306" column="1" selection-start-line="306" selection-start-column="1" selection-end-line="306" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/contentIndex.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/footerMenu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/Optional.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="61">
+            <caret line="5" column="9" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="9" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/_syntax-highlighting.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/_articleTree.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/_common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/landingLayout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/docLayout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/docLayout.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/_main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5018">
+          <caret line="193" column="11" selection-start-line="193" selection-start-column="11" selection-end-line="193" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2886">
+          <caret line="111" column="16" selection-start-line="111" selection-start-column="16" selection-end-line="111" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>Hide js and map files</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20730117" />
+              </list>
+            </option>
+          </splitter-proportions>
+          <order>
+            <scope name="Hide js and map files" />
+          </order>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
