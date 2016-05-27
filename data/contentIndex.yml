@@ -15,6 +15,9 @@ root:
           - text: Performance
             link: Performance
 
+      - text: Get Imms
+        link: GetImms.html
+
   - text: Collections API
     link: General
     children:
