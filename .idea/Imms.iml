@@ -15,5 +15,6 @@
     <orderEntry type="library" name="jstree" level="application" />
     <orderEntry type="library" name="yamljs-DefinitelyTyped" level="application" />
     <orderEntry type="library" name="js-yaml" level="application" />
+    <orderEntry type="library" name="Imms node_modules" level="project" />
   </component>
 </module>

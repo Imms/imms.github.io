@@ -1,0 +1,14 @@
+@import "_main";
+
+.central-backdrop {
+}
+	.central-layout {
+		@extend .container
+	}
+		.central-text {
+			@include make-md-column(12);
+		}
+
+		.central-nav-column-box {
+			@extend .hidden;
+		}

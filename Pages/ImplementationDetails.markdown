@@ -1,7 +1,7 @@
 ---
-layout: page
-
-title:  "Rich API"
+layout: main
+styles:
+  - documentation.css
 
 ---
 Imms collections offer a very rich and powerful API. This page describes it in general terms.

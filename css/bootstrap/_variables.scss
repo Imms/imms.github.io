@@ -31,7 +31,7 @@ $body-bg:               #fff !default;
 //** Global text color on `<body>`.
 $text-color:            $gray-dark !default;
 
-//** Global textual link color.
+//** Global textual source color.
 $link-color:            $brand-primary !default;
 //** Link hover color set via `darken()` function.
 $link-hover-color:      darken($link-color, 15%) !default;
@@ -245,7 +245,7 @@ $dropdown-fallback-border:       #ccc !default;
 //** Divider color for between dropdown items.
 $dropdown-divider-bg:            #e5e5e5 !default;
 
-//** Dropdown link text color.
+//** Dropdown source text color.
 $dropdown-link-color:            $gray-dark !default;
 //** Hover color for dropdown links.
 $dropdown-link-hover-color:      darken($gray-dark, 5%) !default;
@@ -778,9 +778,9 @@ $badge-color:                 #fff !default;
 $badge-link-hover-color:      #fff !default;
 $badge-bg:                    $gray-light !default;
 
-//** Badge text color in active nav link
+//** Badge text color in active nav source
 $badge-active-color:          $link-color !default;
-//** Badge background color in active nav link
+//** Badge background color in active nav source
 $badge-active-bg:             #fff !default;
 
 $badge-font-weight:           bold !default;

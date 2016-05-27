@@ -4,30 +4,31 @@
 @import "_articleTree";
 @import "_syntax-highlighting";
 
-.imms-download {
-	@extend .glyphicon;
-	@extend .glyphicon-download-alt;
-	@extend .hidden-sm;
-	@extend .hidden-xs;
-	font-size: 100px;
-	margin-left: 60px;
-}
-
 @function block-border($size) {
 	@return $imms-darkest-color groove $size;
 }
-$code-color:lighten($imms-vivid-color, 5%);
+
+$code-color: lighten($imms-vivid-color, 5%);
+
 .imms-github-forkme {
 	z-index: 1000;
 	position: absolute;
 	top: 0;
 	right: 0;
 	border: 0;
-
 }
-.imms-root {
-	font-family:"Raleway", "Segoe UI", sans-serif;
+body {
+	font-family: "Lucida Grande", "Segoe UI", sans-serif;
+	font-weight: 200;
 	color: $imms-default-color;
+}
+
+code, pre {
+	background-color: transparentize(white, 0.8);
+	color: $imms-default-color;
+	font-size:16px;
+	border:0;
+	font-weight: 200;
 }
 
 a {
@@ -36,85 +37,96 @@ a {
 		font-weight: bold;
 		color: $imms-link-color;
 		text-decoration: none;
+		code {
+			//enforce by specificity
+			font-weight: bold;
+		}
+	}
+
+	code {
+		//enforce by specificity
+		color: $imms-link-color;
 	}
 }
 
-a code {
-	color: $imms-link-color;
-}
-
-img.imms-nuget-logo {
-	width: 100px;
-}
-
-.imms-title-bar {
+.title-backdrop {
 	background: $imms-darker-color;
 	width: 100%;
 	border-bottom: block-border(3px);
 	text-align: center;
-
-	.imms-version-text {
-		font-size: 18px;
-		color: $imms-mild-color;
+}
+	.title-box {
+		//this is to make sure the text is more or less center, while the image is to the left.
+		max-width: 1000px;
+		margin: auto;
 	}
+		.title-row {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: flex-start;
+		}
+			.imms-logo {
+				@extend .hidden-sm;
+				@extend .hidden-xs;
+				display: inline-block;
+				height:100%;
+				img {
+					height:100%;
+				}
+			}
 
-	.imms-library-title {
-		margin: 0;
-		padding: 0;
-		font-size: 100px;
-		color: $imms-light-color;
-		font-family: Arial, sans-serif;
-	}
+			.main-heading {
+				display: inline-block;
+			}
+				.library-title {
+					 margin: 0;
+					 padding: 0;
+					 font-size: 100px;
+					 color: $imms-light-color;
+					 font-family: Arial, sans-serif;
+				 }
 
-	.imms-main-subtitle {
-		margin: 0;
-		padding: 0;
-	}
-
-	.imms-library-subtitle {
-		font-size: 29px;
-	}
-
-	.imms-title-bounding-box {
-
-		.imms-title-inner-box {
-			.imms-title-main {
-				display: flex;
-				flex-direction: row;
-				align-items: center;
-				justify-content: flex-start;
-				.imms-image {
+				.library-subtitle__text {
+					margin: 0;
+					padding: 0;
+					font-size: 29px;
+				}
+				.download-box {
+					text-align: center;
+					margin-left: 60px;
 					@extend .hidden-sm;
 					@extend .hidden-xs;
-					display: inline-block;
-					height:100%;
-					img {
-						height:100%;
+
+					&__symbol {
+						@extend .glyphicon;
+						@extend .glyphicon-download-alt;
+						font-size: 100px;
 					}
 
+					&__text {
+						text-align: center;
+						font-size: 20px;
+					}
+
+					&__version {
+						font-size: 15px;
+						font-family: "Arial", sans-serif;
+					}
 				}
-				.imms-title-text {
-					display: inline-block;
-				}
 
-				//this is to make sure the text is more or less center, while the image is to the left.
-				width: 1000px;
-				margin: auto;
-
-			}
-		}
-
-
-
-		.imms-navbar {
+		.top-navbar {
 			//this is supposed to make sure the navbar stays at the bottom of the title-bounding-box
-
+			padding: 0;
+			margin: 0;
 			width: 100%;
-			.imms-nav-cell {
+
+			&__item {
 				display: inline-block;
 				//this is spacing between the items
 				padding-right: 20px;
 				padding-left: 20px;
+				list-style: none;
 
 				&:last-child {
 					//we do this because otherwise, the navbar goes off-center
@@ -127,64 +139,48 @@ img.imms-nuget-logo {
 				}
 			}
 		}
-	}
-}
 
-code, pre {
-	background-color: lighten($code-color, 5%);
-	color: $imms-default-color;
-	font-size:16px;
-	border:0;
-}
-
-.imms-nav-column-box {
+.central-nav-column-box {
 	display:inline-block;
 	border-radius: 10px;
 }
 
-.imms-text-area {
+.central-text {
 	font-size: 18px;
 }
 
-.imms-bar-2 {
+.central-backdrop {
 	background-color: $imms-vivid-color;
 	padding-top: 30px;
 	width: 100%;
 	padding-bottom: 60px;
 	min-height: 700px;
 	line-height: 25px;
-
-	.imms-container {
-		.imms-nav-column-box {
+}
+	.central-layout {
+	}
+		.central-nav-column-box {
 			display: inline-block;
-			> #imms-nav-column {
+		}
+			.central-nav-column {
 				margin-left: 0;
-				> ul {
+				>ul {
 					margin-left: 0;
 					padding-left: 0;
 				}
 			}
-		}
-		.imms-text-area {
+		.central-text {
 			display: inline-block;
 		}
-	}
-}
 
-.imms-bar-3 {
+
+.footer-backdrop {
 	background: linear-gradient( lighten($imms-vivid-color, 3%), lighten($imms-vivid-color, 25%));
 	min-height: 200px;
-	height:100%;
 }
 
-.imms-bar-3 {
-	.imms-footer {
-		@extend .container;
-	}
-
-}
-
-.imms-footer {
+.footer-box {
+	@extend .container;
 	font-size: 15px;
 	display: flex;
 	text-align: center;
@@ -194,14 +190,12 @@ code, pre {
 	> div {
 		padding-top: 10px;
 	}
+	&__menu {
+		padding-top: 30px;
+	}
 }
 
-.imms-footer-menu-container {
-	padding-top: 30px;
-}
-
-.imms-footer-menu {
-
+.footer-menu {
 	ul {
 		margin-left: 0;
 		padding-left: 0;
@@ -212,20 +206,19 @@ code, pre {
 		padding-right: 20px;
 		padding-left: 20px;
 		border-right: 2px solid $imms-default-color;
-	}
-
-	li:first-child {
-		padding-left: 0;
-	}
-
-	li:last-child {
-		padding-right: 0;
-		border-right: 0;
+		&:first-child {
+			padding-left: 0;
+		}
+		&:last-child {
+			padding-right: 0;
+			border-right: 0;
+		}
 	}
 }
 
 @media (max-width: $screen-sm-max) {
-	.imms-title-bar .imms-title-bounding-box .imms-title-inner-box .imms-title-main {
+	//using double class to override
+	.title-row.title-row {
 		justify-content: center;
 		width: auto;
 	}

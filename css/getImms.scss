@@ -1,0 +1,52 @@
+@import "landing";
+
+.explanation {
+	@extend .row;
+	&__content {
+		@include make-xs-column(12);
+	}
+	padding-bottom: 60px;
+}
+
+.down-options {
+	@extend .row;
+	&__col {
+		@include make-sm-column(4);
+		@include make-xs-column(12);
+		height: 100%;
+	}
+}
+
+.down-option {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	border: 2px solid $imms-darker-color;
+	margin: 5px;
+	padding: 7px;
+	border-radius: 10px;
+	height: 100%;
+	background: transparentize(white, 0.7);
+	&:hover {
+		background: transparentize(white, 0.4);
+	}
+
+	&--primary {
+
+	}
+
+	&__icon {
+		img {
+			max-height: 50px;
+			max-width: 100%;
+		}
+		width: 100%;
+		max-height: 50px;
+	}
+}
+
+
+
+

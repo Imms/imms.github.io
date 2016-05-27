@@ -16,4 +16,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 exclude: [Code/, .git, .idea, node_modules, bower_components, API/Working/]
 # Build settings
-markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge

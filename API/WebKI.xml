@@ -58,7 +58,7 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Imms_Abstract_AbstractMap_3.htm" />
   </HelpKINode>
   <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Add method" Url="html/Overload_Imms_Abstract_AbstractMap_3_Add.htm" />
-  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Addition operator" Url="html/M_Imms_Abstract_AbstractMap_3_op_Addition.htm" />
+  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Addition operator" Url="html/Overload_Imms_Abstract_AbstractMap_3_op_Addition.htm" />
   <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).AddRange method" Url="html/M_Imms_Abstract_AbstractMap_3_AddRange.htm" />
   <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Aggregate method" Url="html/Overload_Imms_Abstract_AbstractMap_3_Aggregate.htm" />
   <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).All method" Url="html/Overload_Imms_Abstract_AbstractMap_3_All.htm" />
@@ -66,22 +66,22 @@
   <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).ContainsKey method" Url="html/M_Imms_Abstract_AbstractMap_3_ContainsKey.htm" />
   <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Count method" Url="html/Overload_Imms_Abstract_AbstractMap_3_Count.htm" />
   <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Difference method" Url="html/M_Imms_Abstract_AbstractMap_3_Difference.htm" />
+  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Except(Of TValue2) method" Url="html/M_Imms_Abstract_AbstractMap_3_Except__1.htm" />
   <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Find method" Url="html/Overload_Imms_Abstract_AbstractMap_3_Find.htm" />
   <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).ForEach method" Url="html/Overload_Imms_Abstract_AbstractMap_3_ForEach.htm" />
   <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).ForEachWhile method" Url="html/Overload_Imms_Abstract_AbstractMap_3_ForEachWhile.htm" />
+  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Intersect(Of TValue2) method" Url="html/M_Imms_Abstract_AbstractMap_3_Intersect__1.htm" />
   <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Item property" Url="html/P_Imms_Abstract_AbstractMap_3_Item.htm" />
-  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Join(Of TValue2) method" Url="html/M_Imms_Abstract_AbstractMap_3_Join__1.htm" />
   <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Keys property" Url="html/P_Imms_Abstract_AbstractMap_3_Keys.htm" />
   <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).MapEquals method" Url="html/Overload_Imms_Abstract_AbstractMap_3_MapEquals.htm" />
-  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Merge method" Url="html/M_Imms_Abstract_AbstractMap_3_Merge.htm" />
   <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Pick method" Url="html/Overload_Imms_Abstract_AbstractMap_3_Pick.htm" />
   <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Remove method" Url="html/M_Imms_Abstract_AbstractMap_3_Remove.htm" />
   <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).RemoveRange method" Url="html/M_Imms_Abstract_AbstractMap_3_RemoveRange.htm" />
   <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Set method" Url="html/M_Imms_Abstract_AbstractMap_3_Set.htm" />
   <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).SetRange method" Url="html/M_Imms_Abstract_AbstractMap_3_SetRange.htm" />
-  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Subtract(Of TValue2) method" Url="html/M_Imms_Abstract_AbstractMap_3_Subtract__1.htm" />
-  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Subtraction operator" Url="html/M_Imms_Abstract_AbstractMap_3_op_Subtraction.htm" />
+  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Subtraction operator" Url="html/Overload_Imms_Abstract_AbstractMap_3_op_Subtraction.htm" />
   <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).TryGet method" Url="html/M_Imms_Abstract_AbstractMap_3_TryGet.htm" />
+  <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Union method" Url="html/M_Imms_Abstract_AbstractMap_3_Union.htm" />
   <HelpKINode Title="AbstractMap(Of TKey, TValue, TMap).Values property" Url="html/P_Imms_Abstract_AbstractMap_3_Values.htm" />
   <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt; class">
     <HelpKINode Title="AbstractMap(TKey, TValue, TMap) Class" Url="html/T_Imms_Abstract_AbstractMap_3.htm" />
@@ -91,7 +91,7 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Imms_Abstract_AbstractMap_3.htm" />
   </HelpKINode>
   <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Add method" Url="html/Overload_Imms_Abstract_AbstractMap_3_Add.htm" />
-  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Addition operator" Url="html/M_Imms_Abstract_AbstractMap_3_op_Addition.htm" />
+  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Addition operator" Url="html/Overload_Imms_Abstract_AbstractMap_3_op_Addition.htm" />
   <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.AddRange method" Url="html/M_Imms_Abstract_AbstractMap_3_AddRange.htm" />
   <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Aggregate method" Url="html/Overload_Imms_Abstract_AbstractMap_3_Aggregate.htm" />
   <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.All method" Url="html/Overload_Imms_Abstract_AbstractMap_3_All.htm" />
@@ -99,22 +99,22 @@
   <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.ContainsKey method" Url="html/M_Imms_Abstract_AbstractMap_3_ContainsKey.htm" />
   <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Count method" Url="html/Overload_Imms_Abstract_AbstractMap_3_Count.htm" />
   <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Difference method" Url="html/M_Imms_Abstract_AbstractMap_3_Difference.htm" />
+  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Except&lt;TValue2&gt; method" Url="html/M_Imms_Abstract_AbstractMap_3_Except__1.htm" />
   <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Find method" Url="html/Overload_Imms_Abstract_AbstractMap_3_Find.htm" />
   <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.ForEach method" Url="html/Overload_Imms_Abstract_AbstractMap_3_ForEach.htm" />
   <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.ForEachWhile method" Url="html/Overload_Imms_Abstract_AbstractMap_3_ForEachWhile.htm" />
+  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Intersect&lt;TValue2&gt; method" Url="html/M_Imms_Abstract_AbstractMap_3_Intersect__1.htm" />
   <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Item property" Url="html/P_Imms_Abstract_AbstractMap_3_Item.htm" />
-  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Join&lt;TValue2&gt; method" Url="html/M_Imms_Abstract_AbstractMap_3_Join__1.htm" />
   <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Keys property" Url="html/P_Imms_Abstract_AbstractMap_3_Keys.htm" />
   <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.MapEquals method" Url="html/Overload_Imms_Abstract_AbstractMap_3_MapEquals.htm" />
-  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Merge method" Url="html/M_Imms_Abstract_AbstractMap_3_Merge.htm" />
   <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Pick method" Url="html/Overload_Imms_Abstract_AbstractMap_3_Pick.htm" />
   <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Remove method" Url="html/M_Imms_Abstract_AbstractMap_3_Remove.htm" />
   <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.RemoveRange method" Url="html/M_Imms_Abstract_AbstractMap_3_RemoveRange.htm" />
   <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Set method" Url="html/M_Imms_Abstract_AbstractMap_3_Set.htm" />
   <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.SetRange method" Url="html/M_Imms_Abstract_AbstractMap_3_SetRange.htm" />
-  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Subtract&lt;TValue2&gt; method" Url="html/M_Imms_Abstract_AbstractMap_3_Subtract__1.htm" />
-  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Subtraction operator" Url="html/M_Imms_Abstract_AbstractMap_3_op_Subtraction.htm" />
+  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Subtraction operator" Url="html/Overload_Imms_Abstract_AbstractMap_3_op_Subtraction.htm" />
   <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.TryGet method" Url="html/M_Imms_Abstract_AbstractMap_3_TryGet.htm" />
+  <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Union method" Url="html/M_Imms_Abstract_AbstractMap_3_Union.htm" />
   <HelpKINode Title="AbstractMap&lt;TKey, TValue, TMap&gt;.Values property" Url="html/P_Imms_Abstract_AbstractMap_3_Values.htm" />
   <HelpKINode Title="AbstractSequential(Of TElem, TList) class">
     <HelpKINode Title="AbstractSequential(TElem, TList) Class" Url="html/T_Imms_Abstract_AbstractSequential_2.htm" />
@@ -137,6 +137,8 @@
   <HelpKINode Title="AbstractSequential(Of TElem, TList).Inequality operator" Url="html/M_Imms_Abstract_AbstractSequential_2_op_Inequality.htm" />
   <HelpKINode Title="AbstractSequential(Of TElem, TList).Item property" Url="html/Overload_Imms_Abstract_AbstractSequential_2_Item.htm" />
   <HelpKINode Title="AbstractSequential(Of TElem, TList).Last property" Url="html/P_Imms_Abstract_AbstractSequential_2_Last.htm" />
+  <HelpKINode Title="AbstractSequential(Of TElem, TList).OrderBy method" Url="html/Overload_Imms_Abstract_AbstractSequential_2_OrderBy.htm" />
+  <HelpKINode Title="AbstractSequential(Of TElem, TList).OrderByDescending(Of TKey1) method" Url="html/M_Imms_Abstract_AbstractSequential_2_OrderByDescending__1.htm" />
   <HelpKINode Title="AbstractSequential(Of TElem, TList).Reverse method" Url="html/M_Imms_Abstract_AbstractSequential_2_Reverse.htm" />
   <HelpKINode Title="AbstractSequential(Of TElem, TList).SequenceEquals method" Url="html/M_Imms_Abstract_AbstractSequential_2_SequenceEquals.htm" />
   <HelpKINode Title="AbstractSequential(Of TElem, TList).Skip method" Url="html/M_Imms_Abstract_AbstractSequential_2_Skip.htm" />
@@ -167,6 +169,8 @@
   <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;.Inequality operator" Url="html/M_Imms_Abstract_AbstractSequential_2_op_Inequality.htm" />
   <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;.Item property" Url="html/Overload_Imms_Abstract_AbstractSequential_2_Item.htm" />
   <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;.Last property" Url="html/P_Imms_Abstract_AbstractSequential_2_Last.htm" />
+  <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;.OrderBy method" Url="html/Overload_Imms_Abstract_AbstractSequential_2_OrderBy.htm" />
+  <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;.OrderByDescending&lt;TKey1&gt; method" Url="html/M_Imms_Abstract_AbstractSequential_2_OrderByDescending__1.htm" />
   <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;.Reverse method" Url="html/M_Imms_Abstract_AbstractSequential_2_Reverse.htm" />
   <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;.SequenceEquals method" Url="html/M_Imms_Abstract_AbstractSequential_2_SequenceEquals.htm" />
   <HelpKINode Title="AbstractSequential&lt;TElem, TList&gt;.Skip method" Url="html/M_Imms_Abstract_AbstractSequential_2_Skip.htm" />
@@ -192,8 +196,6 @@
   <HelpKINode Title="AbstractSet(Of TElem, TSet).Except method" Url="html/M_Imms_Abstract_AbstractSet_2_Except.htm" />
   <HelpKINode Title="AbstractSet(Of TElem, TSet).ExceptInverse method" Url="html/M_Imms_Abstract_AbstractSet_2_ExceptInverse.htm" />
   <HelpKINode Title="AbstractSet(Of TElem, TSet).ExclusiveOr operator" Url="html/M_Imms_Abstract_AbstractSet_2_op_ExclusiveOr.htm" />
-  <HelpKINode Title="AbstractSet(Of TElem, TSet).GreaterThan operator" Url="html/M_Imms_Abstract_AbstractSet_2_op_GreaterThan.htm" />
-  <HelpKINode Title="AbstractSet(Of TElem, TSet).GreaterThanOrEqual operator" Url="html/M_Imms_Abstract_AbstractSet_2_op_GreaterThanOrEqual.htm" />
   <HelpKINode Title="AbstractSet(Of TElem, TSet).Intersect method" Url="html/M_Imms_Abstract_AbstractSet_2_Intersect.htm" />
   <HelpKINode Title="AbstractSet(Of TElem, TSet).IsDisjointWith method" Url="html/M_Imms_Abstract_AbstractSet_2_IsDisjointWith.htm" />
   <HelpKINode Title="AbstractSet(Of TElem, TSet).IsProperSubsetOf method" Url="html/M_Imms_Abstract_AbstractSet_2_IsProperSubsetOf.htm" />
@@ -201,8 +203,6 @@
   <HelpKINode Title="AbstractSet(Of TElem, TSet).IsSubsetOf method" Url="html/M_Imms_Abstract_AbstractSet_2_IsSubsetOf.htm" />
   <HelpKINode Title="AbstractSet(Of TElem, TSet).IsSupersetOf method" Url="html/M_Imms_Abstract_AbstractSet_2_IsSupersetOf.htm" />
   <HelpKINode Title="AbstractSet(Of TElem, TSet).Item property" Url="html/P_Imms_Abstract_AbstractSet_2_Item.htm" />
-  <HelpKINode Title="AbstractSet(Of TElem, TSet).LessThan operator" Url="html/M_Imms_Abstract_AbstractSet_2_op_LessThan.htm" />
-  <HelpKINode Title="AbstractSet(Of TElem, TSet).LessThanOrEqual operator" Url="html/M_Imms_Abstract_AbstractSet_2_op_LessThanOrEqual.htm" />
   <HelpKINode Title="AbstractSet(Of TElem, TSet).RelatesTo method" Url="html/M_Imms_Abstract_AbstractSet_2_RelatesTo.htm" />
   <HelpKINode Title="AbstractSet(Of TElem, TSet).Remove method" Url="html/M_Imms_Abstract_AbstractSet_2_Remove.htm" />
   <HelpKINode Title="AbstractSet(Of TElem, TSet).SetEquals method" Url="html/M_Imms_Abstract_AbstractSet_2_SetEquals.htm" />
@@ -224,8 +224,6 @@
   <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.Except method" Url="html/M_Imms_Abstract_AbstractSet_2_Except.htm" />
   <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.ExceptInverse method" Url="html/M_Imms_Abstract_AbstractSet_2_ExceptInverse.htm" />
   <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.ExclusiveOr operator" Url="html/M_Imms_Abstract_AbstractSet_2_op_ExclusiveOr.htm" />
-  <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.GreaterThan operator" Url="html/M_Imms_Abstract_AbstractSet_2_op_GreaterThan.htm" />
-  <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.GreaterThanOrEqual operator" Url="html/M_Imms_Abstract_AbstractSet_2_op_GreaterThanOrEqual.htm" />
   <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.Intersect method" Url="html/M_Imms_Abstract_AbstractSet_2_Intersect.htm" />
   <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.IsDisjointWith method" Url="html/M_Imms_Abstract_AbstractSet_2_IsDisjointWith.htm" />
   <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.IsProperSubsetOf method" Url="html/M_Imms_Abstract_AbstractSet_2_IsProperSubsetOf.htm" />
@@ -233,8 +231,6 @@
   <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.IsSubsetOf method" Url="html/M_Imms_Abstract_AbstractSet_2_IsSubsetOf.htm" />
   <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.IsSupersetOf method" Url="html/M_Imms_Abstract_AbstractSet_2_IsSupersetOf.htm" />
   <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.Item property" Url="html/P_Imms_Abstract_AbstractSet_2_Item.htm" />
-  <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.LessThan operator" Url="html/M_Imms_Abstract_AbstractSet_2_op_LessThan.htm" />
-  <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.LessThanOrEqual operator" Url="html/M_Imms_Abstract_AbstractSet_2_op_LessThanOrEqual.htm" />
   <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.RelatesTo method" Url="html/M_Imms_Abstract_AbstractSet_2_RelatesTo.htm" />
   <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.Remove method" Url="html/M_Imms_Abstract_AbstractSet_2_Remove.htm" />
   <HelpKINode Title="AbstractSet&lt;TElem, TSet&gt;.SetEquals method" Url="html/M_Imms_Abstract_AbstractSet_2_SetEquals.htm" />
@@ -253,7 +249,7 @@
     <HelpKINode Title="ImmVector(T).AddFirstRange Method " Url="html/M_Imms_ImmVector_1_AddFirstRange.htm" />
   </HelpKINode>
   <HelpKINode Title="Addition operator">
-    <HelpKINode Title="AbstractMap(TKey, TValue, TMap).Addition Operator " Url="html/M_Imms_Abstract_AbstractMap_3_op_Addition.htm" />
+    <HelpKINode Title="AbstractMap(TKey, TValue, TMap).Addition Operator " Url="html/Overload_Imms_Abstract_AbstractMap_3_op_Addition.htm" />
     <HelpKINode Title="AbstractSet(TElem, TSet).Addition Operator " Url="html/Overload_Imms_Abstract_AbstractSet_2_op_Addition.htm" />
     <HelpKINode Title="ImmList(T).Addition Operator " Url="html/Overload_Imms_ImmList_1_op_Addition.htm" />
   </HelpKINode>
@@ -375,7 +371,13 @@
     <HelpKINode Title="AbstractSequential(TElem, TList).Equals Method " Url="html/Overload_Imms_Abstract_AbstractSequential_2_Equals.htm" />
     <HelpKINode Title="Optional(T).Equals Method " Url="html/Overload_Imms_Optional_1_Equals.htm" />
   </HelpKINode>
-  <HelpKINode Title="Except method" Url="html/M_Imms_Abstract_AbstractSet_2_Except.htm" />
+  <HelpKINode Title="Except method">
+    <HelpKINode Title="AbstractSet(TElem, TSet).Except Method " Url="html/M_Imms_Abstract_AbstractSet_2_Except.htm" />
+    <HelpKINode Title="ImmMap(TKey, TValue).Except Method " Url="html/Overload_Imms_ImmMap_2_Except.htm" />
+    <HelpKINode Title="ImmSortedMap(TKey, TValue).Except Method " Url="html/Overload_Imms_ImmSortedMap_2_Except.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Except(Of TValue2) method" Url="html/M_Imms_Abstract_AbstractMap_3_Except__1.htm" />
+  <HelpKINode Title="Except&lt;TValue2&gt; method" Url="html/M_Imms_Abstract_AbstractMap_3_Except__1.htm" />
   <HelpKINode Title="ExceptInverse method" Url="html/M_Imms_Abstract_AbstractSet_2_ExceptInverse.htm" />
   <HelpKINode Title="ExclusiveOr operator" Url="html/M_Imms_Abstract_AbstractSet_2_op_ExclusiveOr.htm" />
   <HelpKINode Title="Filter(Of T) method" Url="html/M_Imms_OptionalExt_Filter__1.htm" />
@@ -435,11 +437,17 @@
     <HelpKINode Title="AbstractSequential(TElem, TList).GetHashCode Method " Url="html/M_Imms_Abstract_AbstractSequential_2_GetHashCode.htm" />
     <HelpKINode Title="Optional(T).GetHashCode Method " Url="html/M_Imms_Optional_1_GetHashCode.htm" />
   </HelpKINode>
-  <HelpKINode Title="GreaterThan operator" Url="html/M_Imms_Abstract_AbstractSet_2_op_GreaterThan.htm" />
-  <HelpKINode Title="GreaterThanOrEqual operator" Url="html/M_Imms_Abstract_AbstractSet_2_op_GreaterThanOrEqual.htm" />
   <HelpKINode Title="GroupBy method">
     <HelpKINode Title="ImmList(T).GroupBy Method " Url="html/Overload_Imms_ImmList_1_GroupBy.htm" />
     <HelpKINode Title="ImmVector(T).GroupBy Method " Url="html/Overload_Imms_ImmVector_1_GroupBy.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GroupJoin(Of TInner, TKey, TResult) method">
+    <HelpKINode Title="ImmList(T).GroupJoin(TInner, TKey, TResult) Method " Url="html/M_Imms_ImmList_1_GroupJoin__3.htm" />
+    <HelpKINode Title="ImmVector(T).GroupJoin(TInner, TKey, TResult) Method " Url="html/M_Imms_ImmVector_1_GroupJoin__3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GroupJoin&lt;TInner, TKey, TResult&gt; method">
+    <HelpKINode Title="ImmList(T).GroupJoin(TInner, TKey, TResult) Method " Url="html/M_Imms_ImmList_1_GroupJoin__3.htm" />
+    <HelpKINode Title="ImmVector(T).GroupJoin(TInner, TKey, TResult) Method " Url="html/M_Imms_ImmVector_1_GroupJoin__3.htm" />
   </HelpKINode>
   <HelpKINode Title="IAnyIterableBuilder(Of TElem) interface">
     <HelpKINode Title="IAnyIterableBuilder(TElem) Interface" Url="html/T_Imms_Abstract_IAnyIterableBuilder_1.htm" />
@@ -564,6 +572,7 @@
   <HelpKINode Title="ImmList(Of T).ForEachWhile method" Url="html/M_Imms_ImmList_1_ForEachWhile.htm" />
   <HelpKINode Title="ImmList(Of T).GetEnumerator method" Url="html/M_Imms_ImmList_1_GetEnumerator.htm" />
   <HelpKINode Title="ImmList(Of T).GroupBy method" Url="html/Overload_Imms_ImmList_1_GroupBy.htm" />
+  <HelpKINode Title="ImmList(Of T).GroupJoin(Of TInner, TKey, TResult) method" Url="html/M_Imms_ImmList_1_GroupJoin__3.htm" />
   <HelpKINode Title="ImmList(Of T).Insert method" Url="html/M_Imms_ImmList_1_Insert.htm" />
   <HelpKINode Title="ImmList(Of T).InsertRange method" Url="html/Overload_Imms_ImmList_1_InsertRange.htm" />
   <HelpKINode Title="ImmList(Of T).IsEmpty property" Url="html/P_Imms_ImmList_1_IsEmpty.htm" />
@@ -609,6 +618,7 @@
   <HelpKINode Title="ImmList&lt;T&gt;.ForEachWhile method" Url="html/M_Imms_ImmList_1_ForEachWhile.htm" />
   <HelpKINode Title="ImmList&lt;T&gt;.GetEnumerator method" Url="html/M_Imms_ImmList_1_GetEnumerator.htm" />
   <HelpKINode Title="ImmList&lt;T&gt;.GroupBy method" Url="html/Overload_Imms_ImmList_1_GroupBy.htm" />
+  <HelpKINode Title="ImmList&lt;T&gt;.GroupJoin&lt;TInner, TKey, TResult&gt; method" Url="html/M_Imms_ImmList_1_GroupJoin__3.htm" />
   <HelpKINode Title="ImmList&lt;T&gt;.Insert method" Url="html/M_Imms_ImmList_1_Insert.htm" />
   <HelpKINode Title="ImmList&lt;T&gt;.InsertRange method" Url="html/Overload_Imms_ImmList_1_InsertRange.htm" />
   <HelpKINode Title="ImmList&lt;T&gt;.IsEmpty property" Url="html/P_Imms_ImmList_1_IsEmpty.htm" />
@@ -638,13 +648,13 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Imms_ImmMap_2.htm" />
   </HelpKINode>
   <HelpKINode Title="ImmMap(Of TKey, TValue).Empty method" Url="html/M_Imms_ImmMap_2_Empty.htm" />
+  <HelpKINode Title="ImmMap(Of TKey, TValue).Except method" Url="html/Overload_Imms_ImmMap_2_Except.htm" />
   <HelpKINode Title="ImmMap(Of TKey, TValue).ForEachWhile method" Url="html/Overload_Imms_ImmMap_2_ForEachWhile.htm" />
   <HelpKINode Title="ImmMap(Of TKey, TValue).GetEnumerator method" Url="html/M_Imms_ImmMap_2_GetEnumerator.htm" />
   <HelpKINode Title="ImmMap(Of TKey, TValue).IsEmpty property" Url="html/P_Imms_ImmMap_2_IsEmpty.htm" />
   <HelpKINode Title="ImmMap(Of TKey, TValue).Length property" Url="html/P_Imms_ImmMap_2_Length.htm" />
   <HelpKINode Title="ImmMap(Of TKey, TValue).Remove method" Url="html/M_Imms_ImmMap_2_Remove.htm" />
   <HelpKINode Title="ImmMap(Of TKey, TValue).RemoveRange method" Url="html/M_Imms_ImmMap_2_RemoveRange.htm" />
-  <HelpKINode Title="ImmMap(Of TKey, TValue).Subtract method" Url="html/Overload_Imms_ImmMap_2_Subtract.htm" />
   <HelpKINode Title="ImmMap(Of TKey, TValue).TryGet method" Url="html/M_Imms_ImmMap_2_TryGet.htm" />
   <HelpKINode Title="ImmMap.CreateMap(Of TKey, TValue) method" Url="html/M_Imms_ImmMap_CreateMap__2.htm" />
   <HelpKINode Title="ImmMap.CreateMap&lt;TKey, TValue&gt; method" Url="html/M_Imms_ImmMap_CreateMap__2.htm" />
@@ -660,13 +670,13 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Imms_ImmMap_2.htm" />
   </HelpKINode>
   <HelpKINode Title="ImmMap&lt;TKey, TValue&gt;.Empty method" Url="html/M_Imms_ImmMap_2_Empty.htm" />
+  <HelpKINode Title="ImmMap&lt;TKey, TValue&gt;.Except method" Url="html/Overload_Imms_ImmMap_2_Except.htm" />
   <HelpKINode Title="ImmMap&lt;TKey, TValue&gt;.ForEachWhile method" Url="html/Overload_Imms_ImmMap_2_ForEachWhile.htm" />
   <HelpKINode Title="ImmMap&lt;TKey, TValue&gt;.GetEnumerator method" Url="html/M_Imms_ImmMap_2_GetEnumerator.htm" />
   <HelpKINode Title="ImmMap&lt;TKey, TValue&gt;.IsEmpty property" Url="html/P_Imms_ImmMap_2_IsEmpty.htm" />
   <HelpKINode Title="ImmMap&lt;TKey, TValue&gt;.Length property" Url="html/P_Imms_ImmMap_2_Length.htm" />
   <HelpKINode Title="ImmMap&lt;TKey, TValue&gt;.Remove method" Url="html/M_Imms_ImmMap_2_Remove.htm" />
   <HelpKINode Title="ImmMap&lt;TKey, TValue&gt;.RemoveRange method" Url="html/M_Imms_ImmMap_2_RemoveRange.htm" />
-  <HelpKINode Title="ImmMap&lt;TKey, TValue&gt;.Subtract method" Url="html/Overload_Imms_ImmMap_2_Subtract.htm" />
   <HelpKINode Title="ImmMap&lt;TKey, TValue&gt;.TryGet method" Url="html/M_Imms_ImmMap_2_TryGet.htm" />
   <HelpKINode Title="Imms namespace" Url="html/N_Imms.htm" />
   <HelpKINode Title="Imms.Abstract namespace" Url="html/N_Imms_Abstract.htm" />
@@ -776,21 +786,21 @@
   </HelpKINode>
   <HelpKINode Title="ImmSortedMap(Of TKey, TValue).ByOrder method" Url="html/M_Imms_ImmSortedMap_2_ByOrder.htm" />
   <HelpKINode Title="ImmSortedMap(Of TKey, TValue).Empty method" Url="html/M_Imms_ImmSortedMap_2_Empty.htm" />
+  <HelpKINode Title="ImmSortedMap(Of TKey, TValue).Except method" Url="html/Overload_Imms_ImmSortedMap_2_Except.htm" />
   <HelpKINode Title="ImmSortedMap(Of TKey, TValue).ForEachWhile method" Url="html/Overload_Imms_ImmSortedMap_2_ForEachWhile.htm" />
   <HelpKINode Title="ImmSortedMap(Of TKey, TValue).GetEnumerator method" Url="html/M_Imms_ImmSortedMap_2_GetEnumerator.htm" />
   <HelpKINode Title="ImmSortedMap(Of TKey, TValue).IndexOf method" Url="html/M_Imms_ImmSortedMap_2_IndexOf.htm" />
   <HelpKINode Title="ImmSortedMap(Of TKey, TValue).IsEmpty property" Url="html/P_Imms_ImmSortedMap_2_IsEmpty.htm" />
   <HelpKINode Title="ImmSortedMap(Of TKey, TValue).Length property" Url="html/P_Imms_ImmSortedMap_2_Length.htm" />
   <HelpKINode Title="ImmSortedMap(Of TKey, TValue).MaxItem property" Url="html/P_Imms_ImmSortedMap_2_MaxItem.htm" />
-  <HelpKINode Title="ImmSortedMap(Of TKey, TValue).Merge method" Url="html/M_Imms_ImmSortedMap_2_Merge.htm" />
   <HelpKINode Title="ImmSortedMap(Of TKey, TValue).MinItem property" Url="html/P_Imms_ImmSortedMap_2_MinItem.htm" />
   <HelpKINode Title="ImmSortedMap(Of TKey, TValue).Remove method" Url="html/M_Imms_ImmSortedMap_2_Remove.htm" />
   <HelpKINode Title="ImmSortedMap(Of TKey, TValue).RemoveMax method" Url="html/M_Imms_ImmSortedMap_2_RemoveMax.htm" />
   <HelpKINode Title="ImmSortedMap(Of TKey, TValue).RemoveMin method" Url="html/M_Imms_ImmSortedMap_2_RemoveMin.htm" />
   <HelpKINode Title="ImmSortedMap(Of TKey, TValue).RemoveRange method" Url="html/M_Imms_ImmSortedMap_2_RemoveRange.htm" />
   <HelpKINode Title="ImmSortedMap(Of TKey, TValue).Slice method" Url="html/M_Imms_ImmSortedMap_2_Slice.htm" />
-  <HelpKINode Title="ImmSortedMap(Of TKey, TValue).Subtract method" Url="html/Overload_Imms_ImmSortedMap_2_Subtract.htm" />
   <HelpKINode Title="ImmSortedMap(Of TKey, TValue).TryGet method" Url="html/M_Imms_ImmSortedMap_2_TryGet.htm" />
+  <HelpKINode Title="ImmSortedMap(Of TKey, TValue).Union method" Url="html/M_Imms_ImmSortedMap_2_Union.htm" />
   <HelpKINode Title="ImmSortedMap.CreateOrderedMap(Of TKey, TValue) method" Url="html/M_Imms_ImmSortedMap_CreateOrderedMap__2.htm" />
   <HelpKINode Title="ImmSortedMap.CreateOrderedMap&lt;TKey, TValue&gt; method" Url="html/M_Imms_ImmSortedMap_CreateOrderedMap__2.htm" />
   <HelpKINode Title="ImmSortedMap.Empty method" Url="html/Overload_Imms_ImmSortedMap_Empty.htm" />
@@ -805,21 +815,21 @@
   </HelpKINode>
   <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.ByOrder method" Url="html/M_Imms_ImmSortedMap_2_ByOrder.htm" />
   <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.Empty method" Url="html/M_Imms_ImmSortedMap_2_Empty.htm" />
+  <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.Except method" Url="html/Overload_Imms_ImmSortedMap_2_Except.htm" />
   <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.ForEachWhile method" Url="html/Overload_Imms_ImmSortedMap_2_ForEachWhile.htm" />
   <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.GetEnumerator method" Url="html/M_Imms_ImmSortedMap_2_GetEnumerator.htm" />
   <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.IndexOf method" Url="html/M_Imms_ImmSortedMap_2_IndexOf.htm" />
   <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.IsEmpty property" Url="html/P_Imms_ImmSortedMap_2_IsEmpty.htm" />
   <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.Length property" Url="html/P_Imms_ImmSortedMap_2_Length.htm" />
   <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.MaxItem property" Url="html/P_Imms_ImmSortedMap_2_MaxItem.htm" />
-  <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.Merge method" Url="html/M_Imms_ImmSortedMap_2_Merge.htm" />
   <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.MinItem property" Url="html/P_Imms_ImmSortedMap_2_MinItem.htm" />
   <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.Remove method" Url="html/M_Imms_ImmSortedMap_2_Remove.htm" />
   <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.RemoveMax method" Url="html/M_Imms_ImmSortedMap_2_RemoveMax.htm" />
   <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.RemoveMin method" Url="html/M_Imms_ImmSortedMap_2_RemoveMin.htm" />
   <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.RemoveRange method" Url="html/M_Imms_ImmSortedMap_2_RemoveRange.htm" />
   <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.Slice method" Url="html/M_Imms_ImmSortedMap_2_Slice.htm" />
-  <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.Subtract method" Url="html/Overload_Imms_ImmSortedMap_2_Subtract.htm" />
   <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.TryGet method" Url="html/M_Imms_ImmSortedMap_2_TryGet.htm" />
+  <HelpKINode Title="ImmSortedMap&lt;TKey, TValue&gt;.Union method" Url="html/M_Imms_ImmSortedMap_2_Union.htm" />
   <HelpKINode Title="ImmSortedSet class">
     <HelpKINode Title="ImmSortedSet Class" Url="html/T_Imms_ImmSortedSet.htm" />
     <HelpKINode Title="about ImmSortedSet class" Url="html/T_Imms_ImmSortedSet.htm" />
@@ -901,6 +911,7 @@
   <HelpKINode Title="ImmVector(Of T).ForEachWhile method" Url="html/M_Imms_ImmVector_1_ForEachWhile.htm" />
   <HelpKINode Title="ImmVector(Of T).GetEnumerator method" Url="html/M_Imms_ImmVector_1_GetEnumerator.htm" />
   <HelpKINode Title="ImmVector(Of T).GroupBy method" Url="html/Overload_Imms_ImmVector_1_GroupBy.htm" />
+  <HelpKINode Title="ImmVector(Of T).GroupJoin(Of TInner, TKey, TResult) method" Url="html/M_Imms_ImmVector_1_GroupJoin__3.htm" />
   <HelpKINode Title="ImmVector(Of T).Insert method" Url="html/M_Imms_ImmVector_1_Insert.htm" />
   <HelpKINode Title="ImmVector(Of T).InsertRange method" Url="html/M_Imms_ImmVector_1_InsertRange.htm" />
   <HelpKINode Title="ImmVector(Of T).IsEmpty property" Url="html/P_Imms_ImmVector_1_IsEmpty.htm" />
@@ -908,7 +919,6 @@
   <HelpKINode Title="ImmVector(Of T).Last property" Url="html/P_Imms_ImmVector_1_Last.htm" />
   <HelpKINode Title="ImmVector(Of T).Length property" Url="html/P_Imms_ImmVector_1_Length.htm" />
   <HelpKINode Title="ImmVector(Of T).MaxCapacity field" Url="html/F_Imms_ImmVector_1_MaxCapacity.htm" />
-  <HelpKINode Title="ImmVector(Of T).RemoveAt method" Url="html/M_Imms_ImmVector_1_RemoveAt.htm" />
   <HelpKINode Title="ImmVector(Of T).RemoveLast method" Url="html/M_Imms_ImmVector_1_RemoveLast.htm" />
   <HelpKINode Title="ImmVector(Of T).Scan(Of TRElem) method" Url="html/M_Imms_ImmVector_1_Scan__1.htm" />
   <HelpKINode Title="ImmVector(Of T).ScanBack(Of TRElem) method" Url="html/M_Imms_ImmVector_1_ScanBack__1.htm" />
@@ -945,6 +955,7 @@
   <HelpKINode Title="ImmVector&lt;T&gt;.ForEachWhile method" Url="html/M_Imms_ImmVector_1_ForEachWhile.htm" />
   <HelpKINode Title="ImmVector&lt;T&gt;.GetEnumerator method" Url="html/M_Imms_ImmVector_1_GetEnumerator.htm" />
   <HelpKINode Title="ImmVector&lt;T&gt;.GroupBy method" Url="html/Overload_Imms_ImmVector_1_GroupBy.htm" />
+  <HelpKINode Title="ImmVector&lt;T&gt;.GroupJoin&lt;TInner, TKey, TResult&gt; method" Url="html/M_Imms_ImmVector_1_GroupJoin__3.htm" />
   <HelpKINode Title="ImmVector&lt;T&gt;.Insert method" Url="html/M_Imms_ImmVector_1_Insert.htm" />
   <HelpKINode Title="ImmVector&lt;T&gt;.InsertRange method" Url="html/M_Imms_ImmVector_1_InsertRange.htm" />
   <HelpKINode Title="ImmVector&lt;T&gt;.IsEmpty property" Url="html/P_Imms_ImmVector_1_IsEmpty.htm" />
@@ -952,7 +963,6 @@
   <HelpKINode Title="ImmVector&lt;T&gt;.Last property" Url="html/P_Imms_ImmVector_1_Last.htm" />
   <HelpKINode Title="ImmVector&lt;T&gt;.Length property" Url="html/P_Imms_ImmVector_1_Length.htm" />
   <HelpKINode Title="ImmVector&lt;T&gt;.MaxCapacity field" Url="html/F_Imms_ImmVector_1_MaxCapacity.htm" />
-  <HelpKINode Title="ImmVector&lt;T&gt;.RemoveAt method" Url="html/M_Imms_ImmVector_1_RemoveAt.htm" />
   <HelpKINode Title="ImmVector&lt;T&gt;.RemoveLast method" Url="html/M_Imms_ImmVector_1_RemoveLast.htm" />
   <HelpKINode Title="ImmVector&lt;T&gt;.Scan&lt;TRElem&gt; method" Url="html/M_Imms_ImmVector_1_Scan__1.htm" />
   <HelpKINode Title="ImmVector&lt;T&gt;.ScanBack&lt;TRElem&gt; method" Url="html/M_Imms_ImmVector_1_ScanBack__1.htm" />
@@ -979,6 +989,8 @@
     <HelpKINode Title="ImmVector(T).InsertRange Method " Url="html/M_Imms_ImmVector_1_InsertRange.htm" />
   </HelpKINode>
   <HelpKINode Title="Intersect method" Url="html/M_Imms_Abstract_AbstractSet_2_Intersect.htm" />
+  <HelpKINode Title="Intersect(Of TValue2) method" Url="html/M_Imms_Abstract_AbstractMap_3_Intersect__1.htm" />
+  <HelpKINode Title="Intersect&lt;TValue2&gt; method" Url="html/M_Imms_Abstract_AbstractMap_3_Intersect__1.htm" />
   <HelpKINode Title="IsDisjointWith method" Url="html/M_Imms_Abstract_AbstractSet_2_IsDisjointWith.htm" />
   <HelpKINode Title="IsEmpty property">
     <HelpKINode Title="AbstractIterable(TElem, TIterable, TBuilder).IsEmpty Property " Url="html/P_Imms_Abstract_AbstractIterable_3_IsEmpty.htm" />
@@ -1035,8 +1047,6 @@
     <HelpKINode Title="ImmList(T).Join Method " Url="html/Overload_Imms_ImmList_1_Join.htm" />
     <HelpKINode Title="ImmVector(T).Join Method " Url="html/Overload_Imms_ImmVector_1_Join.htm" />
   </HelpKINode>
-  <HelpKINode Title="Join(Of TValue2) method" Url="html/M_Imms_Abstract_AbstractMap_3_Join__1.htm" />
-  <HelpKINode Title="Join&lt;TValue2&gt; method" Url="html/M_Imms_Abstract_AbstractMap_3_Join__1.htm" />
   <HelpKINode Title="Keys property" Url="html/P_Imms_Abstract_AbstractMap_3_Keys.htm" />
   <HelpKINode Title="Kvp class">
     <HelpKINode Title="Kvp Class" Url="html/T_Imms_Kvp.htm" />
@@ -1061,18 +1071,12 @@
     <HelpKINode Title="ImmSortedSet(T).Length Property " Url="html/P_Imms_ImmSortedSet_1_Length.htm" />
     <HelpKINode Title="ImmVector(T).Length Property " Url="html/P_Imms_ImmVector_1_Length.htm" />
   </HelpKINode>
-  <HelpKINode Title="LessThan operator" Url="html/M_Imms_Abstract_AbstractSet_2_op_LessThan.htm" />
-  <HelpKINode Title="LessThanOrEqual operator" Url="html/M_Imms_Abstract_AbstractSet_2_op_LessThanOrEqual.htm" />
   <HelpKINode Title="Map method" Url="html/Overload_Imms_OptionalExt_Map.htm" />
   <HelpKINode Title="MapEquals method" Url="html/Overload_Imms_Abstract_AbstractMap_3_MapEquals.htm" />
   <HelpKINode Title="MaxCapacity field" Url="html/F_Imms_ImmVector_1_MaxCapacity.htm" />
   <HelpKINode Title="MaxItem property">
     <HelpKINode Title="ImmSortedMap(TKey, TValue).MaxItem Property " Url="html/P_Imms_ImmSortedMap_2_MaxItem.htm" />
     <HelpKINode Title="ImmSortedSet(T).MaxItem Property " Url="html/P_Imms_ImmSortedSet_1_MaxItem.htm" />
-  </HelpKINode>
-  <HelpKINode Title="Merge method">
-    <HelpKINode Title="AbstractMap(TKey, TValue, TMap).Merge Method " Url="html/M_Imms_Abstract_AbstractMap_3_Merge.htm" />
-    <HelpKINode Title="ImmSortedMap(TKey, TValue).Merge Method " Url="html/M_Imms_ImmSortedMap_2_Merge.htm" />
   </HelpKINode>
   <HelpKINode Title="MinItem property">
     <HelpKINode Title="ImmSortedMap(TKey, TValue).MinItem Property " Url="html/P_Imms_ImmSortedMap_2_MinItem.htm" />
@@ -1182,6 +1186,9 @@
   <HelpKINode Title="OptionalExt.ValueOrError(Of T) method" Url="html/M_Imms_OptionalExt_ValueOrError__1.htm" />
   <HelpKINode Title="OptionalExt.ValueOrError&lt;T&gt; method" Url="html/M_Imms_OptionalExt_ValueOrError__1.htm" />
   <HelpKINode Title="Or method" Url="html/Overload_Imms_OptionalExt_Or.htm" />
+  <HelpKINode Title="OrderBy method" Url="html/Overload_Imms_Abstract_AbstractSequential_2_OrderBy.htm" />
+  <HelpKINode Title="OrderByDescending(Of TKey1) method" Url="html/M_Imms_Abstract_AbstractSequential_2_OrderByDescending__1.htm" />
+  <HelpKINode Title="OrderByDescending&lt;TKey1&gt; method" Url="html/M_Imms_Abstract_AbstractSequential_2_OrderByDescending__1.htm" />
   <HelpKINode Title="Pick method" Url="html/Overload_Imms_Abstract_AbstractMap_3_Pick.htm" />
   <HelpKINode Title="Pick(Of TResult) method" Url="html/M_Imms_Abstract_AbstractIterable_3_Pick__1.htm" />
   <HelpKINode Title="Pick&lt;TResult&gt; method" Url="html/M_Imms_Abstract_AbstractIterable_3_Pick__1.htm" />
@@ -1200,10 +1207,7 @@
     <HelpKINode Title="ImmSortedMap(TKey, TValue).Remove Method " Url="html/M_Imms_ImmSortedMap_2_Remove.htm" />
     <HelpKINode Title="ImmSortedSet(T).Remove Method " Url="html/M_Imms_ImmSortedSet_1_Remove.htm" />
   </HelpKINode>
-  <HelpKINode Title="RemoveAt method">
-    <HelpKINode Title="ImmList(T).RemoveAt Method " Url="html/M_Imms_ImmList_1_RemoveAt.htm" />
-    <HelpKINode Title="ImmVector(T).RemoveAt Method " Url="html/M_Imms_ImmVector_1_RemoveAt.htm" />
-  </HelpKINode>
+  <HelpKINode Title="RemoveAt method" Url="html/M_Imms_ImmList_1_RemoveAt.htm" />
   <HelpKINode Title="RemoveFirst method" Url="html/M_Imms_ImmList_1_RemoveFirst.htm" />
   <HelpKINode Title="RemoveLast method">
     <HelpKINode Title="ImmList(T).RemoveLast Method " Url="html/M_Imms_ImmList_1_RemoveLast.htm" />
@@ -1268,14 +1272,8 @@
   <HelpKINode Title="Some method" Url="html/M_Imms_Optional_1_Some.htm" />
   <HelpKINode Title="Some(Of T) method" Url="html/M_Imms_Optional_Some__1.htm" />
   <HelpKINode Title="Some&lt;T&gt; method" Url="html/M_Imms_Optional_Some__1.htm" />
-  <HelpKINode Title="Subtract method">
-    <HelpKINode Title="ImmMap(TKey, TValue).Subtract Method " Url="html/Overload_Imms_ImmMap_2_Subtract.htm" />
-    <HelpKINode Title="ImmSortedMap(TKey, TValue).Subtract Method " Url="html/Overload_Imms_ImmSortedMap_2_Subtract.htm" />
-  </HelpKINode>
-  <HelpKINode Title="Subtract(Of TValue2) method" Url="html/M_Imms_Abstract_AbstractMap_3_Subtract__1.htm" />
-  <HelpKINode Title="Subtract&lt;TValue2&gt; method" Url="html/M_Imms_Abstract_AbstractMap_3_Subtract__1.htm" />
   <HelpKINode Title="Subtraction operator">
-    <HelpKINode Title="AbstractMap(TKey, TValue, TMap).Subtraction Operator " Url="html/M_Imms_Abstract_AbstractMap_3_op_Subtraction.htm" />
+    <HelpKINode Title="AbstractMap(TKey, TValue, TMap).Subtraction Operator " Url="html/Overload_Imms_Abstract_AbstractMap_3_op_Subtraction.htm" />
     <HelpKINode Title="AbstractSet(TElem, TSet).Subtraction Operator " Url="html/Overload_Imms_Abstract_AbstractSet_2_op_Subtraction.htm" />
   </HelpKINode>
   <HelpKINode Title="T to Optional(Of T) conversion" Url="html/M_Imms_Optional_1_op_Implicit_1.htm" />
@@ -1308,7 +1306,9 @@
   <HelpKINode Title="TryGetKvp method" Url="html/M_Imms_Abstract_IAnyMapBuilder_2_TryGetKvp.htm" />
   <HelpKINode Title="TryLast property" Url="html/P_Imms_Abstract_AbstractSequential_2_TryLast.htm" />
   <HelpKINode Title="Union method">
+    <HelpKINode Title="AbstractMap(TKey, TValue, TMap).Union Method " Url="html/M_Imms_Abstract_AbstractMap_3_Union.htm" />
     <HelpKINode Title="AbstractSet(TElem, TSet).Union Method " Url="html/M_Imms_Abstract_AbstractSet_2_Union.htm" />
+    <HelpKINode Title="ImmSortedMap(TKey, TValue).Union Method " Url="html/M_Imms_ImmSortedMap_2_Union.htm" />
     <HelpKINode Title="ImmSortedSet(T).Union Method " Url="html/M_Imms_ImmSortedSet_1_Union.htm" />
   </HelpKINode>
   <HelpKINode Title="Update method">

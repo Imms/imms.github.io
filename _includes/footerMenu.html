@@ -1,7 +1,8 @@
-<div class="imms-footer-menu">
+<div class="footer-menu">
+    {% assign links = site.data.links %}
     <ul>
-        <li><a href="{{ site.githubLink }}">Imms on GitHub</a></li>
-        <li><a href="{{ site.nugetLink }}">Imms on NuGet</a></li>
+        <li><a href="{{ links.library.sources }}">Imms on GitHub</a></li>
+        <li><a href="{{ links.library.nuget }}">Imms on NuGet</a></li>
     </ul>
 
 </div>

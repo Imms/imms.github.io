@@ -1,0 +1,72 @@
+---
+# text: Entry Text
+# Link: Link
+# children: Children
+children:
+  - text: Introduction
+    source: /pages/Home.md
+    type: Content
+    id: Home
+
+    children:
+      - text: Why Immutable?
+        source: /pages/WhyImmutable.md
+        type: Content
+        id: WhyImmutable
+
+      - text: Why Imms?
+        source: /pages/WhyImms.md
+        id: WhyImms
+        type: Content
+        children:
+          - text: Performance
+            source: /pages/Performance.md
+            type: Content
+            id: Performance
+
+      - text: Get Imms
+        source: /pages/GetImms.html
+        id: GetImms
+        type: Content
+
+  - text: Collections API
+    source: General.md
+    type: Content
+    id: General
+    children:
+      - text: Sequentials
+        source: /pages/Sequentials.md
+        type: Content
+        id: Sequentials
+
+      - text: Sets
+        source: /pages/Sets.md
+        type: Content
+        id: Sets
+
+      - text: Maps
+        source: /pages/Maps.md
+        id: Maps
+        type: Content
+
+  - text: Other Features
+    children:
+      - text: Optional Type
+        source: /pages/Optional.md
+        type: Content
+        id: Optional
+
+      - text: Miscellaneous
+        source: /pages/Miscellaneous.md
+        type: Content
+        id: Misc
+
+  - text: F# Integration
+    source: /pages/FSharpIntegration.md
+    type: Content
+    id: FSharpIntegration
+
+  - text: API Reference
+    source: /API/index.html
+    type: Link
+    id: ApiRef

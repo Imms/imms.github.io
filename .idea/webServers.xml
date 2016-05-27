@@ -2,8 +2,11 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="7d1dd90f-4e8d-4813-b52b-a0ad2df83623" name="Root" url="http://localhost">
+      <webServer id="7d1dd90f-4e8d-4813-b52b-a0ad2df83623" name="Root" url="http://localhost/">
         <fileTransfer port="0" mountedRoot="D:\Projects\Repositories\Imms" accessType="MOUNT" />
+      </webServer>
+      <webServer id="5cae3330-b06d-4c83-b01f-81f530fe8f76" name="Debug" url="http://testthisserver">
+        <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
     </option>
   </component>
