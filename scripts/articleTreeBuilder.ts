@@ -1,8 +1,9 @@
 /**
  * Created by GregRos on 02/04/2016.
  */
-///<reference path="jquery.d.ts"/>
-///<reference path="C:/Users/lifeg_000/.WebStorm2016.1/config/javascript/extLibs/http_github.com_DefinitelyTyped_DefinitelyTyped_raw_master_yamljs_yamljs.d.ts"/>
+///<reference path="../typings/browser/ambient/jquery/index.d.ts"/>
+	///<reference path="../typings/browser/ambient/yamljs/index.d.ts"/>
+
 
 class ArticleTreeEntry {
     text : string;
@@ -24,14 +25,13 @@ function createListElement(nesting : number,entry : ArticleTreeEntry) : JQuery {
     actualText.text(entry.text);
     var heading =
         $("<div/>")
-            .addClass("imms-nav-item-heading")
-            .addClass(`imms-nav-item-heading-depth-${nesting}`)
+            .addClass("nav-heading")
+            .addClass(`nav-heading--depth-${nesting}`)
             .append(actualText);
     var container = $("<li />")
-        .addClass(`imms-nav-item-container-depth-${nesting}`)
-        .addClass("imms-nav-item-container")
+        .addClass(`nav-container--depth-${nesting}`)
+        .addClass("nav-container")
         .append(heading);
-    
     
     
     if (entry.children && entry.children.length) {

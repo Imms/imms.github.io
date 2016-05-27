@@ -2,7 +2,7 @@
  * Created by GregRos on 26/03/2016.
  */
 
-/// <reference path="jquery.d.ts" />
+
 
 var apiRefClass = "imms-api-ref";
 

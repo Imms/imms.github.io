@@ -4,6 +4,7 @@
 # children: Children
 root:
   - text: Introduction
+    link: Home
     children:
       - text: Why Immutable?
         link: WhyImmutable
@@ -15,10 +16,8 @@ root:
             link: Performance
 
   - text: Collections API
+    link: General
     children:
-      - text: General Features
-        link: General
-
       - text: Sequentials
         link: Sequentials
 
@@ -32,10 +31,6 @@ root:
     children:
       - text: Optional Type
         link: Optional
-
-      - text: High-order Abstraction
-        link: AdvancedAbstractionLibrary
-
 
       - text: Miscellaneous
         link: Miscellaneous

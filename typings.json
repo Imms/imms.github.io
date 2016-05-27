@@ -1,0 +1,7 @@
+{
+  "ambientDependencies": {
+    "jquery": "registry:dt/jquery#1.10.0+20160417213236",
+    "marked": "registry:dt/marked#0.0.0+20160325085301",
+    "yamljs": "registry:dt/yamljs#0.2.3+20160316155526"
+  }
+}
