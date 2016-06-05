@@ -1,0 +1,1 @@
+module.exports = require("npm:yamljs@0.2.7/lib/Yaml.js");

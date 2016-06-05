@@ -3,7 +3,6 @@
  */
 
 
-
 var apiRefClass = "imms-api-ref";
 
 var data = "";
@@ -15,10 +14,6 @@ function getAnchors() {
 	return $("a").filter((i,x) => x.getAttribute("href").match(/^\w:/));
 }
 
-
-function fixUrls(fixer : (i : number, s : string) => string) {
-
-}
 var indexRequest =
 	$.getJSON("/API/index.json", data => {
 		getAnchors().each((i, e) => {

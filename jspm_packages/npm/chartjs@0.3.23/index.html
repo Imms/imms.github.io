@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <canvas id="draw" width="1000px" height="600px"></canvas>
+    <script src="chart.js"></script>
+    <script type="text/javascript">
+    var data = {
+      labels: [],
+      data: [],
+      fillColor: [],
+      strokeColor: []
+    }
+    for (var ind = 0; ind < 10; ++ind) {
+      data.labels.push('Label');
+      if (ind  % 3 == 0) data.data.push(Math.random() * 10000); else
+      data.data.push([Math.random() * 10000,Math.random() * 10000]);
+      var r = Math.floor(Math.random() * 256)
+      var g = Math.floor(Math.random() * 256)
+      var b = Math.floor(Math.random() * 256)
+      r+= ','
+      g+=','
+      data.fillColor.push('rgb(' + r + g + b + ')');
+      data.strokeColor.push('rgb(' + r + g + b + ')');
+    }
+
+    var canvas;
+    var c = new BarChart((canvas = document.getElementById('draw')).getContext('2d'),{
+      fillColorBackground: 'rgb(255, 255, 255)',
+      fillColorBars: 'rgba(180, 180, 180, 0.30)',
+      fontWeight: 'lighter',
+      //paddingPercentBars: 0.6,
+      maxWidthBars: 100,
+      paddingPercentTicks: 3.0,
+      barStyle: 'line',
+      scaleStyle: 'linear',
+      radiusDot: 0,
+      //fillRegion: 'background',
+      // tickFormatter: (tick) => {
+      //   if (tick >= 1000) {
+      //     return (tick / 1000) + 'k';
+      //   }
+      //   return tick;
+      // },
+      // tickFormatterMeasure: '##k'
+    });
+    c.update({
+      labels: ['testtesttest', 'testtestesttetest', 'stesttesttest', 'testtesttesttest', 'testtesttesttest'],
+      xAxis:'WWWWWWWWW',
+      data: [0.04, 0.05, 0.05, 0.04, 0.04],
+      //balls: [{ radius: 5, fill: 'rgb(0,255,0)', stroke: 'rgb(255,0,0)', value: 0 },{ radius: 5, fill: 'rgb(0,255,0)', stroke: 'rgb(255,0,0)', value: 0 },{ radius: 5, fill: 'rgb(0,255,0)', stroke: 'rgb(255,0,0)', value: 0 },{ radius: 5, fill: 'rgb(0,255,0)', stroke: 'rgb(255,0,0)', value: 0 },{ radius: 5, fill: 'rgb(0,255,0)', stroke: 'rgb(255,0,0)', value: 0 }],
+    })
+    //c.update(data);
+    //show current value on top of bar
+    /*c.update({
+      labels: [['label 1a', 'label 1b'], ['label 2a','label 2b'], 'a', 'c','b'],
+      data: [[20, 30, 10, 10], [25, 25, 15, 25], 15,15, [10,12,15]],
+      hints: [['bla\nblalas','bla1','bla3','bla4'],['1bla','bala1','bala3','bala4']],
+      dataTags: [['long tag tesasster more', 'b', 'c', 'd'], ['a', 'b', 'c', 'd']],
+      hints: ['Testing', 'Testing2', 'Testing3'],
+      topLabels: ['label 3', 'label 4'],
+      fillColor: [['rgba(100, 200, 200, 0.5)', 'rgba(50, 30, 20, 0.5)', 'rgba(100, 50, 200, 0.5)', 'rgba(100, 200, 0, 0.5)'],['rgba(100, 200, 200, 0.5)', 'rgba(50, 30, 20, 0.5)', 'rgba(100, 50, 200, 0.5)', 'rgba(100, 200, 0, 0.5)']],
+      legend: [
+        { color: 'rgba(100, 200, 200, 1)', label: 'abc' },
+        { color: 'rgba(50, 30, 20, 1)', label: 'asfasa' },
+        { color: 'rgba(100, 50, 200, 1)', label: 'asfasaf' },
+        { color: 'rgba(100, 200, 0, 1)', label: '124j1i2j' },
+        { color: 'rgba(100, 200, 200, 1)', label: 'abc' },
+        { color: 'rgba(50, 30, 20, 1)', label: 'asfasa' },
+        { color: 'rgba(100, 50, 200, 1)', label: 'asfasaf' },
+        { color: 'rgba(100, 200, 0, 1)', label: '124j1i2j' },
+        { color: 'rgba(100, 200, 200, 1)', label: 'abc' },
+        { color: 'rgba(50, 30, 20, 1)', label: 'asfasa' },
+        { color: 'rgba(100, 50, 200, 1)', label: 'asfasaf' },
+        { color: 'rgba(100, 200, 0, 1)', label: '124j1i2j' },
+        { color: 'rgba(100, 200, 200, 1)', label: 'abc' },
+        { color: 'rgba(50, 30, 20, 1)', label: 'asfasa' },
+        { color: 'rgba(100, 50, 200, 1)', label: 'asfasaf' },
+        { color: 'rgba(100, 200, 0, 1)', label: '124j1i2j' }
+      ],
+      bars: [{ style: 'rgb(255, 0, 0)', value: 50 },{ style: 'rgb(255, 0, 0)', value: 10 }],
+      balls: [{ radius: 5, fill: 'rgb(0,255,0)', stroke: 'rgb(255,0,0)', value: 0 },{ radius: 5, fill: 'rgb(0,255,0)', stroke: 'rgb(255,0,0)', value: 0 },{ radius: 5, fill: 'rgb(0,255,0)', stroke: 'rgb(255,0,0)', value: 0 },{ radius: 5, fill: 'rgb(0,255,0)', stroke: 'rgb(255,0,0)', value: 0 },{ radius: 5, fill: 'rgb(0,255,0)', stroke: 'rgb(255,0,0)', value: 0 }],
+      title:'Bla bla'
+    });*/
+    canvas.addEventListener('mousemove', function(e) {
+      var rect = canvas.getBoundingClientRect();
+      c.mousemove(e.clientX - rect.left, e.clientY - rect.top);
+      console.log(c.labelPositions)
+    });
+    </script>
+  </body>
+</html>

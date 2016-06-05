@@ -9,8 +9,6 @@ function resolveUrl(url) {
 function getAnchors() {
     return $("a").filter((i, x) => x.getAttribute("href").match(/^\w:/));
 }
-function fixUrls(fixer) {
-}
 var indexRequest = $.getJSON("/API/index.json", data => {
     getAnchors().each((i, e) => {
         var oldHref = e.getAttribute("href");

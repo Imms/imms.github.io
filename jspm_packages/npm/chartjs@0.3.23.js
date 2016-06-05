@@ -1,0 +1,1 @@
+module.exports = require("npm:chartjs@0.3.23/chart.js");

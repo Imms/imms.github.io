@@ -1,8 +1,15 @@
 <!DOCTYPE html>
+
 <html lang="en" class>
 <head>
     <meta charset="UTF-8">
+    <base href="/"/>
     <title>Imms</title>
+    <script src="/jspm_packages/system.js"></script>
+    <script src="/config.js"></script>
+    <script>
+        System.import('/scripts/main');
+    </script>
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     {%  for item in page.styles %}
         <link href="/styles/{{ item }}" rel="stylesheet" type="text/css"/>
@@ -23,6 +30,7 @@
         </div>
     </div>
     <div class="central-backdrop">
+
         <div class="central-layout">
             <div class="central-nav-column-box">
                 <div class="js-central-nav-column central-nav-column">
@@ -39,12 +47,8 @@
         {% include footer.html %}
     </div>
 </div>
-<script src="/scripts/jquery-2.2.2.js"></script>
-<script src="/scripts/apiLinker.js"></script>
-<script src="/scripts/yaml.js"></script>
-<script src="/scripts/articleTreeBuilder.js"></script>
 <script>
-    makeNavTree($(".js-central-nav-column"))
+
 </script>
 </body>
 </html>

@@ -4,8 +4,6 @@ styles:
   - documentation.css
 
 ---
-
-
 # Sequential
 This page talks about operations common to the sequential collections, such as [`ImmList`](T:ImmList'1), which is the primary collection of this kind.
 
@@ -69,3 +67,4 @@ Sequential collections support subsequences or slices. You can use the indexer [
 
 [`Take`](M:AbstractSequential'2.Take) and [`Skip`](M:AbstractSequential'2.Skip) may also be used. [`TakeWhile`](M:AbstractSequential'2.TakeWhile) and [`SkipWhile`](M:AbstractSequential'2.SkipWhile) have been optimized to use collection slices.
 
+<div id="blah"></div>
