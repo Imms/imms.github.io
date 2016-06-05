@@ -2,108 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bbc7136-871e-4550-87cb-0c2fea76dd87" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/App.config" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Imms.FSharp/Base.ttinclude" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Imms.FSharp/Helpers.ttinclude" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Imms.FSharp/Map.ttinclude" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Imms.FSharp/Modules.fs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Imms.FSharp/Modules.tt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Imms.FSharp/Sequential.ttinclude" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Imms.FSharp/Set.ttinclude" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Imms.csproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Imms.csproj.DotSettings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Imms.nuspec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Implementation/Common/ArrayExt.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Implementation/Common/Assertions.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Implementation/Common/Errors.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Implementation/Common/Lineage.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Implementation/Common/Marked.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Implementation/FingerTree/Compound.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Implementation/FingerTree/Digit.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Implementation/FingerTree/Empty.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Implementation/FingerTree/Explanation.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Implementation/FingerTree/FTree.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Implementation/FingerTree/FingerTreeElement.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Implementation/FingerTree/FingerTreeIterator.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Implementation/FingerTree/Leaf.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Implementation/FingerTree/Measured.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Implementation/FingerTree/Single.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Implementation/FingerTree/TreeType.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Implementation/HashedAvlTree/Bucket.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Implementation/HashedAvlTree/Node.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Implementation/HashedAvlTree/TreeIterator.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Implementation/Notes.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Implementation/OrderedAvlTree/Node.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Implementation/OrderedAvlTree/TreeIterator.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Implementation/TrieVector/ImplementationHooks.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Implementation/TrieVector/VectorLeaf.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Implementation/TrieVector/VectorNode.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Implementation/TrieVector/VectorParent.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/NamespaceDoc.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Optimizations and Tests.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Properties/AssemblyInfo.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Experimental/HistoryList.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/Common/Convertion.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/Common/ImmList.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/Common/ImmMap.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/Common/ImmSet.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/Common/ImmSortedMap.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/Common/ImmSortedSet.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/Common/ImmVector.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/ImmMap/Debugging.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/ImmMap/ImmBindings.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/ImmMap/ImmMap.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/ImmSet/Debugging.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/ImmSet/ImmBindings.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/ImmSet/ImmSet.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/ImmSortedMap/Debugging.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/ImmSortedMap/ImmBindings.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/ImmSortedMap/ImmSortedMap.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/ImmSortedSet/Debugging.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/ImmSortedSet/ImmBindings.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/ImmSortedSet/ImmSortedSet.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/List/Boilerplate.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/List/Boilerplate.tt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/List/Core.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/List/Debugging.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/List/ImmBindings.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/List/Iteration.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/Specialized/ImmLazyList.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/Specialized/PriorityQueue/ImmBindings.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/Specialized/PriorityQueue/ImmPriorityQueue.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/Templates/ListLikeClass.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/Templates/Reusable.ttinclude" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/Templates/SoItWillCompile.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/Vector/Boilerplate.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/Vector/Boilerplate.tt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/Vector/Debugging.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/Vector/ImmBindings.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections - Copy/Wrappers/Immutable/Vector/ImmVector.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/contentIndex-angular2.yml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms" afterPath="$PROJECT_DIR$/Code/Imms" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections/Imms.FSharp/Modules.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections/Imms.FSharp/Modules.fs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.FSharp/Generic Operators.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.FSharp/Generic Operators.fs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Program.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Program.fs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Report.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Report.fs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Test Script.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Test Script.fs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Tests.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Tests.fs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Wrappers.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Wrappers.fs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/main.html" afterPath="$PROJECT_DIR$/_layouts/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Sequentials.md" afterPath="$PROJECT_DIR$/pages/Sequentials.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/apiLinker.js" afterPath="$PROJECT_DIR$/scripts/apiLinker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/apiLinker.js.map" afterPath="$PROJECT_DIR$/scripts/apiLinker.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/apiLinker.ts" afterPath="$PROJECT_DIR$/scripts/apiLinker.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/articleTreeBuilder.js" afterPath="$PROJECT_DIR$/scripts/articleTreeBuilder.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/articleTreeBuilder.js.map" afterPath="$PROJECT_DIR$/scripts/articleTreeBuilder.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/articleTreeBuilder.ts" afterPath="$PROJECT_DIR$/scripts/articleTreeBuilder.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tsconfig.json" afterPath="$PROJECT_DIR$/tsconfig.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typings.json" afterPath="$PROJECT_DIR$/typings.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typings/browser.d.ts" afterPath="$PROJECT_DIR$/typings/browser.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typings/index.d.ts" afterPath="$PROJECT_DIR$/typings/index.d.ts" />
     </list>
     <ignored path="Imms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -127,7 +26,7 @@
       <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
+            <state relative-caret-position="832">
               <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
@@ -302,6 +201,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Hide js and map files">
           <PATH>
@@ -562,7 +462,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -852,11 +751,12 @@
       <workItem from="1464424179451" duration="8975000" />
       <workItem from="1464448951748" duration="14247000" />
       <workItem from="1464470688818" duration="4213000" />
+      <workItem from="1465148055774" duration="295000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="424779000" />
+    <option name="totallyTimeSpent" value="425074000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -868,28 +768,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="-8" width="1872" height="1096" extended-state="6" />
-    <editor active="true" />
+    <frame x="56" y="-8" width="1872" height="1096" extended-state="7" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19029444" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19029444" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31983384" sideWeight="0.4967033" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19106957" sideWeight="0.492865" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25337487" sideWeight="0.5082327" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271028" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23156802" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24945055" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25129804" sideWeight="0.4917673" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3561786" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="170" y="92" width="1658" height="896" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23156802" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32606438" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3561786" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31983384" sideWeight="0.4967033" order="6" side_tool="false" content_ui="tabs" />
@@ -998,7 +898,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-286">
           <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1035,7 +934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1050,9 +948,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1061,7 +956,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1146,7 +1040,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1154,7 +1047,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="45" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1162,9 +1054,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1176,19 +1065,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom-typings/chart/chart.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="201" column="0" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/custom-typings/chart/chart.d.ts" />
     <entry file="file://$PROJECT_DIR$/typings/globals/chart/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="178" column="32" selection-start-line="178" selection-start-column="32" selection-end-line="178" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1196,7 +1077,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1204,7 +1084,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="160" column="8" selection-start-line="160" selection-start-column="8" selection-end-line="160" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1212,9 +1091,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-173">
           <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
-          <folding>
-            <element signature="e#1#52#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1222,7 +1098,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="387">
           <caret line="104" column="39" selection-start-line="104" selection-start-column="39" selection-end-line="104" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1241,9 +1116,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1251,7 +1123,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1259,7 +1130,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="23" column="73" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1267,13 +1137,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
+        <state relative-caret-position="832">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
