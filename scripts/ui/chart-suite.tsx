@@ -104,7 +104,8 @@ export class CmChart extends React.Component<ChartInit,  ChartState> {
 				<canvas height="100" width="600" ref={c => this._chartCanvas = c}/>
 			</div>
 			</div>;
-		
+
+
 		return componentBody;
 	}
 }
