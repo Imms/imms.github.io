@@ -1,9 +1,9 @@
 ﻿@charset "utf-8";
 @import "_common";
 @import "_bootstrap";
+@import "bootstrap/theme";
 @import "_articleTree";
 @import "_syntax-highlighting";
-
 @function block-border($size) {
 	@return $imms-darkest-color groove $size;
 }
@@ -223,4 +223,34 @@ a {
 		width: auto;
 	}
 }
+.cm-chart-tabs__tab--active {
+	@extend .active;
+}
 
+.cm-chart-tabs__tab {
+	a:hover {
+		background:#7db4ff !important;
+		font-weight:inherit !important;
+		cursor: pointer;
+	}
+	&--active.cm-chart-tabs__tab a {
+		background:#9ac5ff !important;
+		font-weight:500 !important;
+		cursor: inherit;
+
+	}
+}
+
+.cm-chart-group {
+	background: rgba(255, 255, 255, 0.23);
+	border-radius: 0 0 30px 30px;
+	&__footer {
+		padding-left: 60px;
+		font-size: 12px;
+	}
+}
+
+.tab-list {
+	@extend .nav;
+	@extend .nav-tabs;
+}

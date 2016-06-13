@@ -27,6 +27,7 @@ export interface TestGroup {
 export interface TestTarget {
 	name : string;
 	text ?: string;
+	color ?: string;
 }
 
 export interface TestSuite  {
