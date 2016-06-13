@@ -2,6 +2,13 @@
  * Created by GregRos on 28/05/2016.
  */
 "use strict";
+class Num {
+    static sigFigs(n, sig) {
+        var mult = Math.pow(10, sig - Math.floor(Math.log(n) / Math.LN10) - 1);
+        return Math.round(n * mult) / mult;
+    }
+}
+exports.Num = Num;
 class Requests {
     static request(url) {
         return new Promise((accept, reject) => {
@@ -45,6 +52,16 @@ class _Arr {
         var apply = Function.prototype.apply;
         var flatten = apply.bind(Array.prototype.concat, []);
         return flatten(arr.map(f));
+    }
+    static sparse(arr) {
+        let newArray = [];
+        for (var i = 0; i < arr.length; i++) {
+            let cur = arr[i];
+            if (cur != undefined && cur != null) {
+                newArray[i] = cur;
+            }
+        }
+        return newArray;
     }
 }
 exports._Arr = _Arr;

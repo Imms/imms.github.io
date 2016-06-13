@@ -1,4 +1,4 @@
-import {CmChart} from './ui/chart-suite';
+import {CmChartSuite} from './ui/cm-chart-suite';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import {TestSuites} from "./chartEntry";
@@ -6,7 +6,13 @@ import {TestSuites} from "./chartEntry";
 
 TestSuites.loadSuite1().then(suite => {
 	var element = document.getElementById("blah");
-	element && ReactDOM.render(<CmChart suite={suite} options={{}}/>, element);
+	let options = {
+		hover : {
+			mode : "label"
+		}
+	} as ChartOptions;
+	let palette = ["rgb(243, 139, 139)", "#5b67ff", "#2935d0"];
+	element && ReactDOM.render(<CmChartSuite suite={suite} rendering={{height: 300, width: 600, options: options, palette : palette}}/>, element);
 });
 
 
