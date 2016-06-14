@@ -9,10 +9,10 @@ class CmChartSuite extends React.Component {
     constructor(props) {
         super(props);
         // set initial state
-        this.state = { active: this.props.suite.groups[0].name };
+        this.state = { active: this.props.suite.groups[0].group };
     }
     get currentGroup() {
-        return this.props.suite.groups.find(x => x.name == this.state.active);
+        return this.props.suite.groups.find(x => x.group == this.state.active);
     }
     onSwitchPage(name) {
         if (this.state.active == name) {
@@ -27,10 +27,10 @@ class CmChartSuite extends React.Component {
         let tabs = [];
         for (let group of this.props.suite.groups) {
             let className = "cm-chart-tabs__tab";
-            if (group.name == this.state.active) {
+            if (group.group == this.state.active) {
                 className = className + ` ${className}--active`;
             }
-            tabs.push(React.createElement("li", {role: "presentation", className: className}, React.createElement("a", {onClick: e => this.onSwitchPage(group.name)}, group.name)));
+            tabs.push(React.createElement("li", {role: "presentation", className: className}, React.createElement("a", {onClick: e => this.onSwitchPage(group.group)}, group.title || group.group)));
         }
         let tabList = React.createElement("ul", {className: "tab-list"}, tabs);
         let chartBox = React.createElement(cm_chart_group_1.CmChartGroup, {rendering: this.props.rendering, targets: this.props.suite.targets, group: this.currentGroup});

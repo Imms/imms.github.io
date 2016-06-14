@@ -14,15 +14,15 @@ class CmChartGroup extends React.Component {
     toSeries() {
         let group = this.props.group;
         let targets = this.props.targets;
-        let testNames = group.tests.map(x => x.name);
-        let targetNames = targets.map(x => x.name);
+        let testNames = group.tests.map(x => x.test);
+        let targetNames = targets.map(x => x.target);
         let dataSets = targets.map((target, i) => {
-            let results = group.tests.map(test => test.results.find(r => r.name === target.name)).map(x => x ? helpers_1.Num.sigFigs(x.result, 3) : null);
+            let results = group.tests.map(test => test.results.find(r => r.target === target.target)).map(x => x ? helpers_1.Num.sigFigs(x.result, 3) : null);
             results = helpers_1._Arr.sparse(results);
-            let color = this.props.rendering.palette[i];
+            let color = target.color;
             let dataSet = {
                 data: results,
-                label: target.name,
+                label: target.target,
                 backgroundColor: color,
                 hoverBackgroundColor: color,
                 borderColor: "black",
@@ -39,7 +39,7 @@ class CmChartGroup extends React.Component {
         return data;
     }
     render() {
-        return React.createElement("div", {className: "cm-chart-group"}, React.createElement("div", {className: "cm-chart-group__header"}, this.props.group.description), React.createElement(cm_chart_1.CmChart, {rendering: this.props.rendering, data: this.chartData}), React.createElement("div", {className: "cm-chart-group__footer"}, "(Lower is better)"));
+        return React.createElement("div", {className: "cm-chart-group"}, React.createElement("div", {className: "cm-chart-group__header"}, this.props.group.long), React.createElement(cm_chart_1.CmChart, {rendering: this.props.rendering, data: this.chartData}), React.createElement("div", {className: "cm-chart-group__footer"}, "(Lower is better)"));
     }
 }
 exports.CmChartGroup = CmChartGroup;

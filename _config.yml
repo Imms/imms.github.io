@@ -15,7 +15,7 @@ url: "http://imms.github.io/" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 keep_files: [node_modules]
-exclude: [Code/, .git, .idea, node_modules, bower_components, API/Working/]
+exclude: [Code/, .git, .idea, node_modules, bower_components, API/Working/, API, WebStorm Settings]
 # Build settings
 kramdown:
   input: GFM

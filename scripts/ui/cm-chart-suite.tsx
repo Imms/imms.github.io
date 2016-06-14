@@ -21,11 +21,11 @@ export class CmChartSuite extends React.Component<ChartInit,  ChartState> {
 	constructor(props : ChartInit){
 		super(props);
 		// set initial state
-		this.state = {active : this.props.suite.groups[0].name};
+		this.state = {active : this.props.suite.groups[0].group};
 	}
 
 	get currentGroup() {
-		return this.props.suite.groups.find(x => x.name == this.state.active);
+		return this.props.suite.groups.find(x => x.group == this.state.active);
 	}
 
 	onSwitchPage(name : string) {
@@ -43,11 +43,11 @@ export class CmChartSuite extends React.Component<ChartInit,  ChartState> {
 
 		for (let group of this.props.suite.groups) {
 			let className = "cm-chart-tabs__tab";
-			if (group.name == this.state.active) {
+			if (group.group == this.state.active) {
 				className = className + ` ${className}--active`;
 			}
 			tabs.push(
-				<li role="presentation" className={className}><a onClick={e =>this.onSwitchPage(group.name)}>{group.name}</a></li>
+				<li role="presentation" className={className}><a onClick={e =>this.onSwitchPage(group.group)}>{group.title || group.group}</a></li>
 			);
 		}
 
@@ -59,8 +59,6 @@ export class CmChartSuite extends React.Component<ChartInit,  ChartState> {
 		let body = <div className="cm-chart">
 			{tabList}
 			{chartBox}
-
-
 			</div>;
 
 		return body;

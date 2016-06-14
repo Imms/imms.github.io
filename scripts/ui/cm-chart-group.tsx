@@ -24,16 +24,16 @@ export class CmChartGroup extends React.Component<ChartGroupProps, void> {
 	toSeries(){
 		let group = this.props.group;
 		let targets = this.props.targets;
-		let testNames = group.tests.map(x => x.name);
-		let targetNames = targets.map(x => x.name);
+		let testNames = group.tests.map(x => x.test);
+		let targetNames = targets.map(x => x.target);
 		let dataSets =
 			targets.map((target : TestTarget, i : number) => {
-				let results = group.tests.map(test => test.results.find(r => r.name === target.name)).map(x => x ? Num.sigFigs(x.result, 3) : null);
+				let results = group.tests.map(test => test.results.find(r => r.target === target.target)).map(x => x ? Num.sigFigs(x.result, 3) : null);
 				results = _Arr.sparse(results);
-				let color =  this.props.rendering.palette[i];
+				let color =  target.color;
 				let dataSet : any  = {
 					data : results,
-					label: target.name,
+					label: target.target,
 					backgroundColor : color,
 					hoverBackgroundColor : color,
 					borderColor : "black",
@@ -52,7 +52,7 @@ export class CmChartGroup extends React.Component<ChartGroupProps, void> {
 
 	render() {
 		return <div className="cm-chart-group">
-			<div className="cm-chart-group__header">{this.props.group.description}</div>
+			<div className="cm-chart-group__header">{this.props.group.long}</div>
 				<CmChart rendering={this.props.rendering} data={this.chartData}/>
 				<div className="cm-chart-group__footer">
 					(Lower is better)

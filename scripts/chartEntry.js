@@ -11,27 +11,27 @@ class TestSuites {
         return helpers_1.Requests.requestJSON(url).then(data => {
             const arr = data;
             const newSuite = {
-                name: suite.name,
+                suite: suite.suite,
                 targets: suite.targets,
                 groups: []
             };
             for (let group of suite.groups) {
                 const newGroup = {
-                    name: group.name,
+                    group: group.group,
                     tests: []
                 };
                 for (let test of group.tests) {
-                    const resultsOfTest = arr.filter(x => x.Test === test.name).map(x => {
+                    const resultsOfTest = arr.filter(x => x.Test === test.test).map(x => {
                         const result = {
                             result: x.Time.Fields[0],
                             footnote: "sdf",
-                            name: x.Target
+                            target: x.Target
                         };
                         return result;
                     });
                     const newTest = {
                         results: resultsOfTest,
-                        name: test.name
+                        test: test.test
                     };
                     newGroup.tests.push(newTest);
                 }
@@ -41,37 +41,9 @@ class TestSuites {
         });
     }
     static loadSuite1() {
-        return TestSuites.loadSuite("/data/exampleBenchmarkData.json", {
-            targets: [
-                { name: 'System.ImmutableList' },
-                { name: 'ImmList' },
-                { name: 'ImmVector' }
-            ],
-            name: "sequence",
-            groups: [{
-                    name: "AddRemoveSingle",
-                    tests: [
-                        { name: "AddLast" },
-                        { name: "AddFirst" },
-                        { name: "RemoveLast" },
-                        { name: "RemoveFirst" }
-                    ] }, {
-                    name: "AddRemoveMany",
-                    tests: [
-                        { name: "AddLastRange" },
-                        { name: "AddFirstRange" },
-                        { name: "Skip" },
-                        { name: "Take" }
-                    ] }, {
-                    name: "Indexing",
-                    tests: [
-                        { name: "Lookup" },
-                        { name: "Update" },
-                        { name: "Insert" },
-                        { name: "InsertRange" },
-                        { name: "Remove" }
-                    ] }
-            ]
+        let promisedSuite = helpers_1.Requests.request("/data/testSuites.yaml").then(YAML.parse).then(x => x.sequentials);
+        return promisedSuite.then(suite => {
+            return TestSuites.loadSuite("/data/exampleBenchmarkData.json", suite);
         });
     }
 }

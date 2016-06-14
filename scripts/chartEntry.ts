@@ -7,25 +7,26 @@ import {_Map, Requests, _Arr} from './helpers';
 
 
 export interface TestResult {
-	name : string;
+	target : string;
 	result : number;
 	footnote? : string;
 }
 
 export interface Test {
-	name : string;
+	test : string;
 	results ? : TestResult[];
-	text? : string;
+	long? : string;
 }
 
 export interface TestGroup {
-	name : string;
+	group : string;
+	title ?: string;
 	tests : Test[];
-	description? : string;
+	long? : string;
 }
 
 export interface TestTarget {
-	name : string;
+	target : string;
 	text ?: string;
 	color ?: string;
 }
@@ -33,7 +34,8 @@ export interface TestTarget {
 export interface TestSuite  {
 	targets : TestTarget[];
 	groups : TestGroup[];
-	name : string
+	long ?: string;
+	suite : string;
 }
 
 interface _TimeEntry {
@@ -59,27 +61,27 @@ export class TestSuites {
 		return Requests.requestJSON(url).then(data => {
 			const arr = <_TestEntry[]>data;
 			const newSuite : TestSuite = {
-				name : suite.name,
+				suite : suite.suite,
 				targets : suite.targets,
 				groups : []
 			};
 			for (let group of suite.groups) {
 				const newGroup : TestGroup = {
-					name : group.name,
+					group : group.group,
 					tests : []
 				};
 				for (let test of group.tests) {
-					const resultsOfTest = arr.filter(x => x.Test === test.name).map(x => {
+					const resultsOfTest = arr.filter(x => x.Test === test.test).map(x => {
 						const result:TestResult = {
 							result: x.Time.Fields[0],
 							footnote : "sdf",
-							name : x.Target
+							target : x.Target
 						};
 						return result;
 					});
 					const newTest : Test = {
 						results : resultsOfTest,
-						name : test.name
+						test : test.test
 					};
 					newGroup.tests.push(newTest);
 				}
@@ -90,37 +92,10 @@ export class TestSuites {
 	}
 
 	static loadSuite1() {
-		return TestSuites.loadSuite("/data/exampleBenchmarkData.json", {
-			targets : [
-				{name : 'System.ImmutableList'},
-				{name : 'ImmList'},
-				{name : 'ImmVector'}
-			],
-			name: "sequence",
-			groups: [{
-				name: "AddRemoveSingle",
-				tests: [
-					{name: "AddLast"},
-					{name: "AddFirst"},
-					{name: "RemoveLast"},
-					{name: "RemoveFirst"}
-				]}, {
-				name : "AddRemoveMany",
-				tests : [
-					{name : "AddLastRange"},
-					{name : "AddFirstRange"},
-					{name : "Skip"},
-					{name : "Take"}
-				]}, {
-				name : "Indexing",
-				tests : [
-					{name : "Lookup" },
-					{name : "Update"},
-					{name : "Insert"},
-					{name : "InsertRange"},
-					{name : "Remove"}
-				]}
-			]
+		let promisedSuite = Requests.request("/data/testSuites.yaml").then(YAML.parse).then(x => x.sequentials);
+		return promisedSuite.then(suite => {
+			return TestSuites.loadSuite("/data/exampleBenchmarkData.json", suite);
 		});
+		
 	}
 }
