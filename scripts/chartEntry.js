@@ -16,10 +16,8 @@ class TestSuites {
                 groups: []
             };
             for (let group of suite.groups) {
-                const newGroup = {
-                    group: group.group,
-                    tests: []
-                };
+                const newGroup = helpers_1._Obj.clone(group);
+                newGroup.tests = [];
                 for (let test of group.tests) {
                     const resultsOfTest = arr.filter(x => x.Test === test.test).map(x => {
                         const result = {
@@ -29,10 +27,8 @@ class TestSuites {
                         };
                         return result;
                     });
-                    const newTest = {
-                        results: resultsOfTest,
-                        test: test.test
-                    };
+                    const newTest = helpers_1._Obj.clone(test);
+                    newTest.results = resultsOfTest;
                     newGroup.tests.push(newTest);
                 }
                 newSuite.groups.push(newGroup);

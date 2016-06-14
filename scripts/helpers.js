@@ -73,5 +73,9 @@ class _Obj {
         }
         return obj;
     }
+    static clone(o) {
+        return JSON.parse(JSON.stringify(o));
+    }
 }
+exports._Obj = _Obj;
 //# sourceMappingURL=helpers.js.map

@@ -69,12 +69,16 @@ export class _Arr {
 	}
 }
 
-class _Obj {
+export class _Obj {
 	static ofArray(arr : [any, any][]) {
 		let obj = {};
 		for (let [k, v] of arr) {
 			obj[k] = v;
 		}
 		return obj;
+	}
+
+	static clone<T>(o : T) : T {
+		return JSON.parse(JSON.stringify(o)) as T;
 	}
 }

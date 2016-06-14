@@ -2,7 +2,7 @@
  * Created by GregRos on 27/05/2016.
  */
 
-import {_Map, Requests, _Arr} from './helpers';
+import {_Map, Requests, _Arr, _Obj} from './helpers';
 
 
 
@@ -66,10 +66,8 @@ export class TestSuites {
 				groups : []
 			};
 			for (let group of suite.groups) {
-				const newGroup : TestGroup = {
-					group : group.group,
-					tests : []
-				};
+				const newGroup = _Obj.clone(group);
+				newGroup.tests = []
 				for (let test of group.tests) {
 					const resultsOfTest = arr.filter(x => x.Test === test.test).map(x => {
 						const result:TestResult = {
@@ -79,10 +77,8 @@ export class TestSuites {
 						};
 						return result;
 					});
-					const newTest : Test = {
-						results : resultsOfTest,
-						test : test.test
-					};
+					const newTest : Test = _Obj.clone(test);
+					newTest.results = resultsOfTest;
 					newGroup.tests.push(newTest);
 				}
 				newSuite.groups.push(newGroup);
