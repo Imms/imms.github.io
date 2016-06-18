@@ -7,15 +7,16 @@
     <script src="/jspm_packages/system.js"></script>
     <script src="/config.js"></script>
     <script>
-        System.import('/scripts/main');
+        System.import('/app/main');
     </script>
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-    {%  for item in page.styles %}
+    {% for item in page.styles %}
         <link href="/styles/{{ item }}" rel="stylesheet" type="text/css"/>
     {% endfor %}
-    {% include mathjax-integration.html %}
+    {% include mathjax-extra-macros.html %}
 </head>
-<body >
+<body>
+
 {% include forkme.html %}
 <div class="imms-root">
     <div class="title-backdrop">
@@ -32,8 +33,8 @@
 
         <div class="central-layout">
             <div class="central-nav-column-box">
-                <div class="js-central-nav-column central-nav-column">
-
+                <div class="react-article-tree central-nav-column">
+                    (Loading nav bar...)
                 </div>
             </div>
             <div class="central-text">
@@ -46,8 +47,6 @@
         {% include footer.html %}
     </div>
 </div>
-<script>
-
-</script>
+{% include mathjax-integration.html %}
 </body>
 </html>

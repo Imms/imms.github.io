@@ -1,0 +1,73 @@
+{
+	"name": "simd",
+	"version": "2.0.0",
+	"author": "Jordan Harband",
+	"description": "SIMD polyfill",
+	"license": "(MIT OR Zlib)",
+	"main": "index.js",
+	"scripts": {
+		"install:simd": "napa johnmccutchan/ecmascript_simd && npm run transform",
+		"transform": "npm run shim:transform && npm run test:transform",
+		"shim:transform": "cp node_modules/ecmascript_simd/src/ecmascript_simd.js simd.js && replace '.*module\\.exports.*' '' simd.js && replace '\\(function\\(global\\) {' 'module.exports = function (global) {' simd.js && replace '}\\)\\(typeof window !== \"undefined\" \\? window : this\\);' '};' simd.js",
+		"test:wrap": "echo \"module.exports = function (test, SIMD) {\n$(cat \"node_modules/ecmascript_simd/src/ecmascript_simd_tests.js\")\n};\" > test/simd.js",
+		"test:transform": "npm run test:wrap && replace '(test\\([^,]+, ?function ?\\()' '$1t_' test/simd.js && replace '(throws\\()' \"t_['throws'](\" test/simd.js && replace '(\\s+)(equal|notEqual|ok)\\(' '$1t_.$2(' test/simd.js && replace '(isNaN|almostEqual|isPositiveZero|isNegativeZero)\\(' '$1(t_, ' test/simd.js && replace '(^}\\);)' ' t_.end();\n$1' test/simd.js",
+		"test": "npm run lint && npm run test:export && npm run test:shim",
+		"test:export": "node test/index.js",
+		"test:shim": "node test/shim.js",
+		"lint": "npm run jscs && npm run eslint",
+		"jscs": "jscs index.js getGlobal.js test/index.js test/preserve.js test/shim.js test/test-shim.js",
+		"eslint": "eslint index.js getGlobal.js test/index.js test/preserve.js test/shim.js test/test-shim.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ljharb/simd.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ljharb/simd/issues"
+	},
+	"keywords": [
+		"simd",
+		"ES7",
+		"ES2016",
+		"128-bit",
+		"single instruction multiple data"
+	],
+	"homepage": "https://github.com/ljharb/simd#readme",
+	"dependencies": {
+		"define-properties": "^1.0.2"
+	},
+	"devDependencies": {
+		"napa": "^1.2.0",
+		"replace": "^0.3.0",
+		"tape": "^4.0.0",
+		"eslint": "^0.23.0",
+		"jscs": "^1.13.1",
+		"es5-shim": "^4.1.6",
+		"es6-shim": "^0.32.1",
+		"typedarray": "^0.0.6"
+	},
+	"testling": {
+		"files": [
+			"test/index.js",
+			"test/shim.js"
+		],
+		"browsers": [
+			"iexplore/6.0..latest",
+			"firefox/3.0..6.0",
+			"firefox/15.0..latest",
+			"firefox/nightly",
+			"chrome/4.0..10.0",
+			"chrome/20.0..latest",
+			"chrome/canary",
+			"opera/10.0..latest",
+			"opera/next",
+			"safari/4.0..latest",
+			"ipad/6.0..latest",
+			"iphone/6.0..latest",
+			"android-browser/4.2"
+		]
+	},
+	"engines": {
+		"node": ">= 0.6"
+	}
+}

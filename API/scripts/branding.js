@@ -102,7 +102,7 @@ function OnLoad(defaultLanguage)
             // If not grouped, skip it
             if(tabCount < 2)
             {
-                // Disable the Copy Code source if in Chrome
+                // Disable the Copy Code link if in Chrome
                 if(navigator.userAgent.toLowerCase().indexOf("chrome") != -1)
                     document.getElementById(allTabSetIds[i] + "_copyCode").style.display = "none";
             }

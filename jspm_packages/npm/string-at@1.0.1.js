@@ -1,0 +1,1 @@
+module.exports = require("npm:string-at@1.0.1/index.js");

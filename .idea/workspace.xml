@@ -2,15 +2,122 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bbc7136-871e-4550-87cb-0c2fea76dd87" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/main.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/main.tsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/ui/chart/CmChartGroup.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/ui/chart/CmChartSuite.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/ui/chart/types.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/ui/chart/types.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/ui/chart/types.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/articles.yaml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/index.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/contentIndex.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/exampleBenchmarkData.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jspm_packages/npm/assert@1.4.0.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jspm_packages/npm/assert@1.4.0/.jspm-hash" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jspm_packages/npm/assert@1.4.0/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jspm_packages/npm/assert@1.4.0/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jspm_packages/npm/assert@1.4.0/.zuul.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jspm_packages/npm/assert@1.4.0/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jspm_packages/npm/assert@1.4.0/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jspm_packages/npm/assert@1.4.0/assert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jspm_packages/npm/assert@1.4.0/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jspm_packages/npm/assert@1.4.0/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jspm_packages/npm/process@0.11.3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jspm_packages/npm/process@0.11.3/.jspm-hash" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jspm_packages/npm/process@0.11.3/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jspm_packages/npm/process@0.11.3/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jspm_packages/npm/process@0.11.3/browser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jspm_packages/npm/process@0.11.3/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jspm_packages/npm/process@0.11.3/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jspm_packages/npm/process@0.11.3/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/articleTreeBuilder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/articleTreeBuilder.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/articleTreeBuilder.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/chartEntry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/chartEntry.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/chartEntry.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/embedChart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/embedChart.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/embedChart.tsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/jquery-2.2.2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/main.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/main.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/prism.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/ui/cm-chart-group.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/ui/cm-chart-suite.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/ui/cm-chart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/ui/cm-chart.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/ui/cm-chart.tsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/yaml.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/WebTOC.xml" afterPath="$PROJECT_DIR$/API/WebTOC.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_100.json" afterPath="$PROJECT_DIR$/API/fti/FTI_100.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_101.json" afterPath="$PROJECT_DIR$/API/fti/FTI_101.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_103.json" afterPath="$PROJECT_DIR$/API/fti/FTI_103.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_105.json" afterPath="$PROJECT_DIR$/API/fti/FTI_105.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_107.json" afterPath="$PROJECT_DIR$/API/fti/FTI_107.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_109.json" afterPath="$PROJECT_DIR$/API/fti/FTI_109.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_111.json" afterPath="$PROJECT_DIR$/API/fti/FTI_111.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_112.json" afterPath="$PROJECT_DIR$/API/fti/FTI_112.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_114.json" afterPath="$PROJECT_DIR$/API/fti/FTI_114.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_115.json" afterPath="$PROJECT_DIR$/API/fti/FTI_115.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_116.json" afterPath="$PROJECT_DIR$/API/fti/FTI_116.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_117.json" afterPath="$PROJECT_DIR$/API/fti/FTI_117.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_118.json" afterPath="$PROJECT_DIR$/API/fti/FTI_118.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_97.json" afterPath="$PROJECT_DIR$/API/fti/FTI_97.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_98.json" afterPath="$PROJECT_DIR$/API/fti/FTI_98.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_99.json" afterPath="$PROJECT_DIR$/API/fti/FTI_99.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_Files.json" afterPath="$PROJECT_DIR$/API/fti/FTI_Files.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_op_Addition.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_op_Addition.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_op_Addition_1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_op_Addition_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_op_Subtraction.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_op_Subtraction.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_op_Subtraction_1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_op_Subtraction_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_op_Subtraction_2.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_op_Subtraction_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_op_ExclusiveOr.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_op_ExclusiveOr.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Operators_T_Imms_Abstract_AbstractMap_3.htm" afterPath="$PROJECT_DIR$/API/html/Operators_T_Imms_Abstract_AbstractMap_3.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Operators_T_Imms_Abstract_AbstractSet_2.htm" afterPath="$PROJECT_DIR$/API/html/Operators_T_Imms_Abstract_AbstractSet_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_op_Addition.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_op_Addition.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_op_Subtraction.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_op_Subtraction.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/T_Imms_Abstract_AbstractMap_3.htm" afterPath="$PROJECT_DIR$/API/html/T_Imms_Abstract_AbstractMap_3.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/T_Imms_Abstract_AbstractSet_2.htm" afterPath="$PROJECT_DIR$/API/html/T_Imms_Abstract_AbstractSet_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/scripts/branding.js" afterPath="$PROJECT_DIR$/API/scripts/branding.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/scripts/jquery-1.11.0.min.js" afterPath="$PROJECT_DIR$/API/scripts/jquery-1.11.0.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections/Imms.FSharp/Modules.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections/Imms.FSharp/Modules.fs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections/Imms.FSharp/Sequential.ttinclude" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections/Imms.FSharp/Sequential.ttinclude" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Program.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Program.fs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Report.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Report.fs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Test Script.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Test Script.fs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Tests.Sequential.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Tests.Sequential.fs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Wrappers.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Wrappers.fs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/mathjax-integration.html" afterPath="$PROJECT_DIR$/_includes/mathjax-integration.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/main.html" afterPath="$PROJECT_DIR$/_layouts/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.js" afterPath="$PROJECT_DIR$/config.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/testSuites.yaml" afterPath="$PROJECT_DIR$/data/testSuites.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/chartEntry.js" afterPath="$PROJECT_DIR$/scripts/chartEntry.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/chartEntry.js.map" afterPath="$PROJECT_DIR$/scripts/chartEntry.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/chartEntry.ts" afterPath="$PROJECT_DIR$/scripts/chartEntry.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/helpers.js" afterPath="$PROJECT_DIR$/scripts/helpers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/helpers.js.map" afterPath="$PROJECT_DIR$/scripts/helpers.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/helpers.ts" afterPath="$PROJECT_DIR$/scripts/helpers.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/.dependencies.json" afterPath="$PROJECT_DIR$/jspm_packages/.dependencies.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Sequentials.md" afterPath="$PROJECT_DIR$/pages/Sequentials.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/documentation.css" afterPath="$PROJECT_DIR$/styles/documentation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/documentation.css.map" afterPath="$PROJECT_DIR$/styles/documentation.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/documentation.scss" afterPath="$PROJECT_DIR$/styles/documentation.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/includes/_main.scss" afterPath="$PROJECT_DIR$/styles/includes/_main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typings.json" afterPath="$PROJECT_DIR$/typings.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typings/index.d.ts" afterPath="$PROJECT_DIR$/typings/index.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/collectionData.yaml" afterPath="$PROJECT_DIR$/data/complexity.yaml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/apiLinker.js" afterPath="$PROJECT_DIR$/app/apiLinker.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/apiLinker.js.map" afterPath="$PROJECT_DIR$/app/apiLinker.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/apiLinker.ts" afterPath="$PROJECT_DIR$/app/apiLinker.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/helpers.js" afterPath="$PROJECT_DIR$/app/helpers.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/helpers.js.map" afterPath="$PROJECT_DIR$/app/helpers.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/helpers.ts" afterPath="$PROJECT_DIR$/app/helpers.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/ui/cm-chart-group.js" afterPath="$PROJECT_DIR$/app/ui/chart/CmChartGroup.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/ui/cm-chart-group.tsx" afterPath="$PROJECT_DIR$/app/ui/chart/CmChartGroup.tsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/ui/cm-chart-suite.js" afterPath="$PROJECT_DIR$/app/ui/chart/CmChartSuite.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/ui/cm-chart-suite.tsx" afterPath="$PROJECT_DIR$/app/ui/chart/CmChartSuite.tsx" />
     </list>
     <ignored path="Imms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,107 +138,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="chartEntry.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/chartEntry.ts">
+      <file leaf-file-name="_main.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/includes/_main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="80" column="52" selection-start-line="80" selection-start-column="52" selection-end-line="80" selection-end-column="52" />
+            <state relative-caret-position="529">
+              <caret line="224" column="1" selection-start-line="224" selection-start-column="1" selection-end-line="224" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_config.yml">
+      <file leaf-file-name="RnComplexityTable.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/ui/complexity-table/RnComplexityTable.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="17" column="75" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
+            <state relative-caret-position="546">
+              <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cm-chart-group.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/ui/cm-chart-group.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="662">
-              <caret line="54" column="57" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
-              <folding>
-                <element signature="e#0#63#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="helpers.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/helpers.ts">
+      <file leaf-file-name="RnChartSuite.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/ui/chart/RnChartSuite.tsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="558">
-              <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+              <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cm-chart-suite.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/ui/cm-chart-suite.tsx">
+      <file leaf-file-name="CmChartSuite.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/ui/chart/CmChartSuite.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="49" column="119" selection-start-line="49" selection-start-column="119" selection-end-line="49" selection-end-column="119" />
-              <folding>
-                <element signature="e#1#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="apiLinker.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/apiLinker.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="440">
+              <caret line="61" column="44" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="articleTreeBuilder.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/articleTreeBuilder.ts">
+      <file leaf-file-name="CmChartGroup.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/ui/chart/CmChartGroup.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1248">
-              <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+            <state relative-caret-position="26">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="embedChart.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/embedChart.tsx">
+      <file leaf-file-name="documentation.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/documentation.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="1170">
+              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cm-chart.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/ui/cm-chart.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="631">
-              <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testSuites.yaml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="testSuites.yaml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data/testSuites.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+            <state relative-caret-position="624">
+              <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="types.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/ui/chart/types.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CmChart.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/ui/chart/CmChart.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -145,12 +246,12 @@
         <option value="package_json" />
         <option value="JavaScript File" />
         <option value="Markdown" />
-        <option value="HTML File" />
         <option value="JSON FIle" />
         <option value="Yaml File" />
-        <option value="TypeScript File" />
         <option value="SCSS File" />
+        <option value="TypeScript File" />
         <option value="TSX File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -160,57 +261,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pages/General.md" />
-        <option value="$PROJECT_DIR$/pages/ForAgainst.md" />
-        <option value="$PROJECT_DIR$/app/cm.title.html" />
-        <option value="$PROJECT_DIR$/css/_syntax-highlighting.scss" />
-        <option value="$PROJECT_DIR$/pages/GetImms.html" />
-        <option value="$PROJECT_DIR$/_data/data.yaml" />
-        <option value="$PROJECT_DIR$/_data/links.yaml" />
-        <option value="$PROJECT_DIR$/pages/Home.md" />
-        <option value="$PROJECT_DIR$/_data/info.ts" />
-        <option value="$PROJECT_DIR$/_data/info.yaml" />
-        <option value="$PROJECT_DIR$/_includes/download-box.html" />
-        <option value="$PROJECT_DIR$/css/documentation.scss" />
-        <option value="$PROJECT_DIR$/css/includes/_main.scss" />
-        <option value="$PROJECT_DIR$/styles/includes/_syntax-highlighting.scss" />
-        <option value="$PROJECT_DIR$/404.html" />
-        <option value="$PROJECT_DIR$/data/contentIndex.yml" />
-        <option value="$PROJECT_DIR$/_includes/main-heading.html" />
-        <option value="$PROJECT_DIR$/data/exampleBenchmarkData.json" />
-        <option value="$PROJECT_DIR$/scripts/linq-ts.ts" />
-        <option value="$PROJECT_DIR$/custom-typings/underscore/underscore.d.ts" />
-        <option value="$PROJECT_DIR$/typings/browser.d.ts" />
-        <option value="$PROJECT_DIR$/node_modules/linq-ts/src/linq-ts.ts" />
-        <option value="$PROJECT_DIR$/scripts/chartEntry.js" />
-        <option value="$PROJECT_DIR$/scripts/apiLinker.ts" />
-        <option value="$PROJECT_DIR$/scripts/ui/chart-suite.ts" />
-        <option value="$PROJECT_DIR$/tsconfig.json" />
-        <option value="$PROJECT_DIR$/scripts/main.ts" />
-        <option value="$PROJECT_DIR$/custom-typings/chart/chart.d.ts" />
-        <option value="$PROJECT_DIR$/scripts/articleTreeBuilder.ts" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/pages/Sequentials.md" />
-        <option value="$PROJECT_DIR$/styles/chart.scss" />
-        <option value="$PROJECT_DIR$/styles/documentation.css.map" />
-        <option value="$PROJECT_DIR$/styles/includes/_chart.scss" />
-        <option value="$PROJECT_DIR$/styles/documentation.scss" />
-        <option value="$PROJECT_DIR$/_layouts/page.html" />
-        <option value="$PROJECT_DIR$/styles/includes/_bootstrap.scss" />
-        <option value="$PROJECT_DIR$/_layouts/main.html" />
-        <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/scripts/ui/chart-object.tsx" />
         <option value="$PROJECT_DIR$/scripts/ui/chart-suite.tsx" />
-        <option value="$PROJECT_DIR$/scripts/embedChart.tsx" />
-        <option value="$PROJECT_DIR$/scripts/ui/cm-chart.tsx" />
-        <option value="$PROJECT_DIR$/styles/includes/_main.scss" />
         <option value="$PROJECT_DIR$/data/suiteSuites.yaml" />
         <option value="$PROJECT_DIR$/scripts/ui/cm-chart-suite.tsx" />
         <option value="$PROJECT_DIR$/scripts/ui/cm-chart-group.tsx" />
-        <option value="$PROJECT_DIR$/data/testSuites.yaml" />
+        <option value="$PROJECT_DIR$/scripts/articleTreeBuilder.ts" />
+        <option value="$PROJECT_DIR$/scripts/main.ts" />
+        <option value="$PROJECT_DIR$/scripts/ui/cm-chart.tsx" />
+        <option value="$PROJECT_DIR$/scripts/ui/cm-article-nav.tsx" />
+        <option value="$PROJECT_DIR$/scripts/ui/CmArticleTreeRenderer.ts" />
+        <option value="$PROJECT_DIR$/scripts/ui/CmArticleTreeRenderer.tsx" />
+        <option value="$PROJECT_DIR$/scripts/ui/RnArticleNav" />
+        <option value="$PROJECT_DIR$/scripts/ui/RnArticleNav.tsx" />
         <option value="$PROJECT_DIR$/scripts/chartEntry.ts" />
+        <option value="$PROJECT_DIR$/scripts/embedChart.tsx" />
+        <option value="$PROJECT_DIR$/scripts/ui/CmArticleNav.tsx" />
+        <option value="$PROJECT_DIR$/scripts/ui/CmChartSuite.tsx" />
+        <option value="$PROJECT_DIR$/scripts/ui/chartEntry.ts" />
         <option value="$PROJECT_DIR$/scripts/helpers.ts" />
+        <option value="$PROJECT_DIR$/scripts/extraDefs.ts" />
+        <option value="$PROJECT_DIR$/data/contentIndex.yml" />
+        <option value="$PROJECT_DIR$/scripts/ui/CmChart.tsx" />
+        <option value="$PROJECT_DIR$/scripts/ui/RnChartSuite.tsx" />
+        <option value="$PROJECT_DIR$/scripts/ui/CmChartGroup.tsx" />
+        <option value="$PROJECT_DIR$/scripts/apiLinker.ts" />
+        <option value="$PROJECT_DIR$/config.js" />
+        <option value="$PROJECT_DIR$/data/collectionData.yaml" />
+        <option value="$PROJECT_DIR$/scripts/main.tsx" />
+        <option value="$PROJECT_DIR$/app/ui/chart/chartEntry.ts" />
+        <option value="$PROJECT_DIR$/app/extraDefs.ts" />
+        <option value="$PROJECT_DIR$/app/helpers.ts" />
+        <option value="$PROJECT_DIR$/pages/Sequentials.md" />
+        <option value="$PROJECT_DIR$/app/main.tsx" />
+        <option value="$PROJECT_DIR$/styles/documentation.css" />
+        <option value="$PROJECT_DIR$/_includes/mathjax-integration.html" />
+        <option value="$PROJECT_DIR$/app/ui/complexity-table/CmMath.tsx" />
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/app/ui/complexity-table/RnComplexityTable.tsx" />
+        <option value="$PROJECT_DIR$/app/apiLinker.ts" />
+        <option value="$PROJECT_DIR$/app/ui/complexity-table/types.ts" />
+        <option value="$PROJECT_DIR$/app/ui/complexity-table/CmComplexityTable.tsx" />
+        <option value="$PROJECT_DIR$/data/complexity.yaml" />
+        <option value="$PROJECT_DIR$/_includes/mathjax-extra-macros.html" />
+        <option value="$PROJECT_DIR$/_layouts/main.html" />
+        <option value="$PROJECT_DIR$/app/ui/chart/CmChartGroup.tsx" />
+        <option value="$PROJECT_DIR$/styles/documentation.scss" />
+        <option value="$PROJECT_DIR$/app/ui/chart/types.ts" />
+        <option value="$PROJECT_DIR$/styles/includes/_main.scss" />
+        <option value="$PROJECT_DIR$/app/ui/chart/CmChartSuite.tsx" />
+        <option value="$PROJECT_DIR$/app/ui/chart/RnChartSuite.tsx" />
+        <option value="$PROJECT_DIR$/data/testSuites.yaml" />
       </list>
     </option>
   </component>
@@ -227,10 +328,10 @@
     <scope name="Hide js and map files" pattern="!file:*.css.map&amp;&amp;!file[Imms]:.sass-cache//*&amp;&amp;!file[Imms]:.idea//*&amp;&amp;!file:.gitmodules&amp;&amp;!file:.jekyll-metadata&amp;&amp;!file:about.md&amp;&amp;!file:feed.xml&amp;&amp;!file[Imms]:Code//*" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="56" />
-    <option name="y" value="-8" />
-    <option name="width" value="1872" />
-    <option name="height" value="1096" />
+    <option name="x" value="-391" />
+    <option name="y" value="313" />
+    <option name="width" value="1854" />
+    <option name="height" value="1078" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -291,7 +392,206 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="navbar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="complexity-table" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="types.ts" />
+              <option name="myItemType" value="com.intellij.lang.typescript.compiler.ui.projectView.TypeScriptNestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Hide js and map files">
           <PATH>
@@ -328,78 +628,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Imms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Imms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Imms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Imms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Imms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Imms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Imms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Imms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Imms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/typings" />
@@ -417,19 +652,19 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\Repositories\Imms\scripts\ui\chart" />
+      <recent name="D:\Projects\Repositories\Imms\scripts\ui\navbar" />
+      <recent name="D:\Projects\Repositories\Imms\scripts\ui" />
+      <recent name="D:\Projects\Repositories\Imms\styles\includes" />
+      <recent name="D:\Projects\Repositories\Imms\typings" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\Repositories\Imms\_site" />
       <recent name="D:\Projects\Repositories\Imms\scripts" />
       <recent name="D:\Projects\Repositories\Imms" />
       <recent name="D:\Projects\Repositories\Imms\syntax-highlighting" />
       <recent name="D:\Projects\Repositories\Imms\custom-typings" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Projects\Repositories\Imms\styles\includes" />
-      <recent name="D:\Projects\Repositories\Imms\typings" />
-      <recent name="D:\Projects\Repositories\Imms\css\includes" />
-      <recent name="D:\Projects\Repositories\Imms\app\articles" />
-      <recent name="D:\Projects\Repositories\Imms\images" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -690,12 +925,17 @@
       <workItem from="1465724598127" duration="3313000" />
       <workItem from="1465741999871" duration="2287000" />
       <workItem from="1465917559545" duration="3621000" />
-      <workItem from="1465926279844" duration="1844000" />
+      <workItem from="1465926279844" duration="2349000" />
+      <workItem from="1466104129625" duration="3191000" />
+      <workItem from="1466111797867" duration="12019000" />
+      <workItem from="1466167562226" duration="17659000" />
+      <workItem from="1466248161732" duration="5260000" />
+      <workItem from="1466262945393" duration="8043000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="446531000" />
+    <option name="totallyTimeSpent" value="493208000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -707,16 +947,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="-8" width="1872" height="1096" extended-state="6" />
-    <editor active="true" />
+    <frame x="-391" y="313" width="1854" height="1078" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13413304" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16464758" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31983384" sideWeight="0.4967033" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18978103" sideWeight="0.492865" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1879543" sideWeight="0.492865" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25337487" sideWeight="0.5082327" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271028" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22949117" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24945055" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23386243" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24918212" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25129804" sideWeight="0.4917673" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3561786" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -733,7 +973,7 @@
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31983384" sideWeight="0.4967033" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19106957" sideWeight="0.492865" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1879543" sideWeight="0.492865" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25337487" sideWeight="0.5082327" order="7" side_tool="true" content_ui="tabs" />
@@ -741,12 +981,12 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271028" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2313278" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22949117" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25129804" sideWeight="0.4917673" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19029444" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16303162" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32502595" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24945055" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24918212" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3561786" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -768,113 +1008,36 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="21" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/scripts/embedChart.tsx" />
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/typescriptCompiler/external/lib.es6.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="574" column="10" selection-start-line="574" selection-start-column="10" selection-end-line="574" selection-end-column="10" />
+        <state relative-caret-position="251">
+          <caret line="172" column="24" selection-start-line="172" selection-start-column="24" selection-end-line="172" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_github.com_DefinitelyTyped_DefinitelyTyped_raw_master_jquery_jquery.d.ts" />
-    <entry file="file://$PROJECT_DIR$/config.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/typescript/lib/lib.es7.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="251">
+          <caret line="2586" column="4" selection-start-line="2586" selection-start-column="4" selection-end-line="2586" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jspm_packages/npm/react-chartjs@0.7.3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="45" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom-typings/chart/chart.d.ts" />
-    <entry file="file://$PROJECT_DIR$/typings/globals/systemjs/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typings/globals/react/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="160" column="8" selection-start-line="160" selection-start-column="8" selection-end-line="160" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Sequentials.md" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typings/globals/chart/typings.json">
+    <entry file="file://$PROJECT_DIR$/scripts/prism.js" />
+    <entry file="file://$PROJECT_DIR$/scripts/yaml.js" />
+    <entry file="file://$PROJECT_DIR$/app/helpers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/typings/globals/react/typings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Home.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-468">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jspm_packages/github/chartjs/Chart.js@2.1.4/samples/data_label_combo-bar-line.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Optional.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="324">
-            <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/General.md">
+    <entry file="file://$PROJECT_DIR$/pages/Philosopy.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -884,39 +1047,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Sequentials.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/pages/WhyImms.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1206">
-            <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/landing.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/getImms.scss">
+    <entry file="file://$PROJECT_DIR$/API/index.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/includes/_chart.scss">
+    <entry file="file://$PROJECT_DIR$/pages/WhyImmutable.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/extraDefs.ts" />
+    <entry file="file://$PROJECT_DIR$/app/ui/navbar/RnArticleNav.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="468">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ui/chart/RnChartSuite.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/exampleBenchmarkData.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="662">
+          <caret line="969" column="3" selection-start-line="969" selection-start-column="3" selection-end-line="969" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/typescript/lib/lib.core.es7.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="4161" column="4" selection-start-line="4161" selection-start-column="4" selection-end-line="4161" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/typescript/lib/lib.core.es6.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="4161" column="4" selection-start-line="4161" selection-start-column="4" selection-end-line="4161" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -930,48 +1134,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/documentation.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/includes/bootstrap/_theme.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3692">
-          <caret line="142" column="1" selection-start-line="142" selection-start-column="1" selection-end-line="142" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/includes/bootstrap/_navbar.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="549" column="39" selection-start-line="549" selection-start-column="13" selection-end-line="549" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/includes/bootstrap/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-156">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/landing.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-754">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typings/globals/mathjax/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="241" column="8" selection-start-line="241" selection-start-column="8" selection-end-line="241" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/includes/_bootstrap.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -979,179 +1175,225 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/includes/_articleTree.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-468">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/ui/cm-chart-suite.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typings/globals/chart/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/includes/_main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6630">
-          <caret line="255" column="1" selection-start-line="255" selection-start-column="1" selection-end-line="255" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/contentIndex.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/collectionData.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/documentation.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/exampleBenchmarkData.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="552" column="3" selection-start-line="552" selection-start-column="3" selection-end-line="552" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/jquery-2.2.2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/articleTreeBuilder.ts">
+    <entry file="file://$PROJECT_DIR$/styles/documentation.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1248">
-          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+        <state relative-caret-position="172588">
+          <caret line="6638" column="1" selection-start-line="6638" selection-start-column="1" selection-end-line="6638" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/apiLinker.ts">
+    <entry file="file://$PROJECT_DIR$/_includes/main-heading.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/top-logo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/articles.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/documentation.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ui/complexity-table/CmMath.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ui/navbar/CmArticleNav.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/ui/cm-chart.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/testSuites.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/ui/cm-chart-suite.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="49" column="119" selection-start-line="49" selection-start-column="119" selection-end-line="49" selection-end-column="119" />
-          <folding>
-            <element signature="e#1#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/embedChart.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/ui/cm-chart-group.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="54" column="57" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/helpers.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/chartEntry.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="80" column="52" selection-start-line="80" selection-start-column="52" selection-end-line="80" selection-end-column="52" />
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/apiLinker.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/main.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Sequentials.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="440">
+            <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ui/complexity-table/types.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc;n#Op#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ui/complexity-table/CmComplexityTable.tsx">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
-          <caret line="17" column="75" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/complexity.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="274" column="33" selection-start-line="274" selection-start-column="33" selection-end-line="274" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/mathjax-extra-macros.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/mathjax-integration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ui/complexity-table/RnComplexityTable.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ui/chart/CmChart.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ui/chart/types.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ui/chart/CmChartGroup.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/documentation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/includes/_main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="224" column="1" selection-start-line="224" selection-start-column="1" selection-end-line="224" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ui/chart/CmChartSuite.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="61" column="44" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ui/chart/RnChartSuite.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/testSuites.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
           <folding />
         </state>
       </provider>

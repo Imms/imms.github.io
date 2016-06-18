@@ -50,5 +50,57 @@
 	}
 }
 
+.mathjax-macros * {
+	visibility: collapse !important;
+	position: absolute !important;
+}
+
+.cm-chart__footer {
+	white-space: pre-wrap;
+}
+
+.complexity-table {
+	width: 100%;
+	overflow-x: auto;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	background: rgba(255, 255, 255, 0.18);
+	border-radius: 10px;
+
+	&__footer {
+		padding-left: 10px;
+		font-size: 12px;
+	}
+
+	&__footnote {
+		list-style: none;
+	}
+
+	td, th {
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-bottom: 5px;
+	}
+
+	&__heading {
+		&-info {
+			text-align: left;
+		}
+		&-math {
+			text-align: center;
+		}
+	}
+
+	&__math {
+		font-size: 15px;
+		text-align: center;
+	}
+
+	&__info {
+		white-space: nowrap;
+	}
+}
+
+
 
 

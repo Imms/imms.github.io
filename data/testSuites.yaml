@@ -1,6 +1,9 @@
 sequentials:
   long: >
     Benchmarks of sequential collections. Insert more info here.
+  footer: |
+    Lower is better.
+    NaN values mean the collection didn't participate in the benchmark. Extremely low values just mean extremely high performance.
   targets:
     - target: System.ImmutableList
       color: rgb(243, 139, 139)
@@ -24,24 +27,45 @@ sequentials:
 
     - group: AddRemoveMany
       title: Bulk add, remove
-      long: >
+      long: |
         Addition and removal of multiple elements, and subsequences.
+        Note that here, one of the variables was the size of the input data set. These results are for a large data set and few iterations.
+
       tests:
         - test: AddLastRange
         - test: AddFirstRange
+        - test: Concat
         - test: Take
         - test: Skip
+
+    - group: Lookups
+      title: Lookups
+      long: >
+        Looking up elements at different positions.
+      tests:
+        - test: First
+        - test: Last
+        - test: Lookup
 
     - group: Indexing
       title: Indexing
       long: >
-        Addition, removal, and lookup of one or more elements at an index.
+        Addition/removal of one or more elements at an index.
       tests:
-        - test: Lookup
         - test: Insert
         - test: Update
         - test: Remove
-        - test: InsertRange
+        - test: Insert Range
+        - test: InsertConcat
+
+    - group: Iteration
+      title: Iteration
+      long: >
+        Iteration using different methods.
+      tests:
+        - test: IterateN
+        - test: IEnumerator
+
 
 
 

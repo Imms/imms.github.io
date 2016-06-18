@@ -1,0 +1,1 @@
+module.exports = require("npm:map-tojson@2.0.1/index.js");

@@ -227,6 +227,11 @@ a {
 	@extend .active;
 }
 
+.cm-chart__footer {
+	padding-left: 60px;
+	font-size: 12px;
+}
+
 .cm-chart-tabs__tab {
 	a:hover {
 		background:#7db4ff !important;
@@ -241,16 +246,15 @@ a {
 	}
 }
 
-.cm-chart-group {
+.cm-chart-inner {
 	background: rgba(255, 255, 255, 0.23);
 	border-radius: 0 0 30px 30px;
-	&__footer {
-		padding-left: 60px;
-		font-size: 12px;
-	}
+
 }
 
 .tab-list {
 	@extend .nav;
 	@extend .nav-tabs;
 }
+
+

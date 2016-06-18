@@ -1,0 +1,1 @@
+module.exports = require("npm:es7-shim@5.0.0/browser.js");

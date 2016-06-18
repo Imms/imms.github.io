@@ -1,0 +1,1256 @@
+[
+  {
+    "Test": "AddFirst",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        6.6992400000000005
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "Adds arbitrary items repeatedly to the beginning of the sequence.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "AddLast",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        6.020965
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "DequeSingle",
+    "Ratio": null
+  },
+  {
+    "Test": "RemoveLast",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        2.267325
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "RemoveFirst",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        2.13818
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Insert",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        37.574825000000004
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Remove",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        22.259195
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Update",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        14.06677
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "Randomly updates items by index from the entire collection.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "IEnumerator",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.84407
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Lookup",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        3.17638
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "Randomly looks up {iters} items by index from the entire collection.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "IterateN",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.09166500000000001
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "First",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.074295
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Last",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.12821
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "AddLastRange",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.9332
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "Description": "Adds a collection of items to the end {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "AddFirstRange",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        1.028945
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "Description": "Adds a collection of items to the beginning {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Insert Range",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        1.029585
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Concat",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.01023
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "ImmList",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "Description": "Adds a collection of items to the end {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "InsertConcat",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.016965
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "ImmList",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Take",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.00443
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "Returns a starting subsequence consisting of a random number of items (from the entire collection), {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Skip",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.0036500000000000005
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Iterate",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.086845
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 1,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "AddLast",
+    "Target": "ImmVector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        5.3562650000000005
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "DequeSingle",
+    "Ratio": null
+  },
+  {
+    "Test": "RemoveLast",
+    "Target": "ImmVector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        4.48018
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Update",
+    "Target": "ImmVector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        6.024915
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "Randomly updates items by index from the entire collection.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "IEnumerator",
+    "Target": "ImmVector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.25710500000000003
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Lookup",
+    "Target": "ImmVector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.96711500000000006
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "Randomly looks up {iters} items by index from the entire collection.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "IterateN",
+    "Target": "ImmVector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.041845000000000007
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "First",
+    "Target": "ImmVector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.222445
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Last",
+    "Target": "ImmVector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.17206000000000002
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "AddLastRange",
+    "Target": "ImmVector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.067595
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "Description": "Adds a collection of items to the end {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "AddFirstRange",
+    "Target": "ImmVector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.329415
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "Description": "Adds a collection of items to the beginning {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Insert Range",
+    "Target": "ImmVector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.143525
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Concat",
+    "Target": "ImmVector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.18982000000000002
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "ImmVector",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "Description": "Adds a collection of items to the end {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "InsertConcat",
+    "Target": "ImmVector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.2479
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "ImmVector",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Take",
+    "Target": "ImmVector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.00101
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "Returns a starting subsequence consisting of a random number of items (from the entire collection), {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Skip",
+    "Target": "ImmVector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.04304
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Iterate",
+    "Target": "ImmVector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.03136
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 1,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "AddFirst",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        20.80137
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "Adds arbitrary items repeatedly to the beginning of the sequence.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "AddLast",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        21.088320000000003
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "DequeSingle",
+    "Ratio": null
+  },
+  {
+    "Test": "RemoveLast",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        10.142325000000001
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "RemoveFirst",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        10.323920000000001
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Insert",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        28.951595000000005
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Remove",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        16.959295
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Update",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        10.460745
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "Randomly updates items by index from the entire collection.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "IEnumerator",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        3.3658300000000003
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Lookup",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        2.2887700000000004
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "Randomly looks up {iters} items by index from the entire collection.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "IterateN",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        1.997465
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "First",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.960415
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Last",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.826
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "AddLastRange",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        12.102095
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "Description": "Adds a collection of items to the end {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "AddFirstRange",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        11.712825
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "Description": "Adds a collection of items to the beginning {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Insert Range",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        12.796665
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Concat",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        16.337845
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "System.ImmutableList",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "Description": "Adds a collection of items to the end {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "InsertConcat",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        17.369745
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "System.ImmutableList",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Take",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        1.5979750000000001
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "Returns a starting subsequence consisting of a random number of items (from the entire collection), {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Skip",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.51961
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Iterate",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        2.019035
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 1,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "AddLast",
+    "Target": "FSharpx.Vector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        6.0777550000000007
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "DequeSingle",
+    "Ratio": null
+  },
+  {
+    "Test": "RemoveLast",
+    "Target": "FSharpx.Vector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        10.351600000000001
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Update",
+    "Target": "FSharpx.Vector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        11.502820000000002
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "Randomly updates items by index from the entire collection.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "IEnumerator",
+    "Target": "FSharpx.Vector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.33866500000000005
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Lookup",
+    "Target": "FSharpx.Vector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.595855
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "Randomly looks up {iters} items by index from the entire collection.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "IterateN",
+    "Target": "FSharpx.Vector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.23522500000000002
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "First",
+    "Target": "FSharpx.Vector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.579975
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Last",
+    "Target": "FSharpx.Vector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.133185
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "AddLastRange",
+    "Target": "FSharpx.Vector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        7.29144
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "Description": "Adds a collection of items to the end {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Iterate",
+    "Target": "FSharpx.Vector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.21241500000000002
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 1,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  }
+]

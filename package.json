@@ -38,10 +38,13 @@
   },
   "jspm": {
     "dependencies": {
+      "chai": "npm:chai@^3.5.0",
       "chart": "github:chartjs/Chart.js@^2.1.4",
       "chartjs": "npm:chartjs@^0.3.23",
       "chartjs-color": "npm:chartjs-color@^2.0.0",
+      "es7-shim": "npm:es7-shim@^5.0.0",
       "jquery": "npm:jquery@^2.2.4",
+      "mathjax": "npm:mathjax@^2.6.1",
       "moment": "npm:moment@^2.13.0",
       "react": "npm:react@^15.1.0",
       "react-chartjs": "npm:react-chartjs@^0.7.3",

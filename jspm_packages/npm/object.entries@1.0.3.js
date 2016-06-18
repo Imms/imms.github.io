@@ -1,0 +1,1 @@
+module.exports = require("npm:object.entries@1.0.3/index.js");

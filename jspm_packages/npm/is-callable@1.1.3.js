@@ -1,0 +1,1 @@
+module.exports = require("npm:is-callable@1.1.3/index.js");

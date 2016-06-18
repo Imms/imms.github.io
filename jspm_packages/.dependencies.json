@@ -53,9 +53,6 @@
   },
   "npm:balanced-match@0.4.1": {},
   "npm:concat-map@0.0.1": {},
-  "npm:process@0.11.3": {
-    "assert": "github:jspm/nodelibs-assert@^0.1.0"
-  },
   "npm:util@0.10.3": {
     "inherits": "npm:inherits@2.0.1",
     "process": "github:jspm/nodelibs-process@^0.1.0"
@@ -73,13 +70,6 @@
     "path-browserify": "npm:path-browserify@0.0.0"
   },
   "github:jspm/nodelibs-fs@0.1.2": {},
-  "npm:assert@1.4.0": {
-    "buffer-shims": "npm:buffer-shims@1.0.0",
-    "util": "npm:util@0.10.3",
-    "assert": "github:jspm/nodelibs-assert@^0.1.0",
-    "process": "github:jspm/nodelibs-process@^0.1.0",
-    "buffer": "github:jspm/nodelibs-buffer@^0.1.0"
-  },
   "npm:buffer-shims@1.0.0": {
     "buffer": "github:jspm/nodelibs-buffer@^0.1.0"
   },
@@ -303,5 +293,140 @@
   "npm:color-name@1.1.1": {},
   "npm:moment@2.13.0": {},
   "npm:chartjs@0.3.23": {},
-  "github:chartjs/Chart.js@2.1.4": {}
+  "github:chartjs/Chart.js@2.1.4": {},
+  "npm:object.entries@1.0.3": {
+    "define-properties": "npm:define-properties@^1.1.1",
+    "es-abstract": "npm:es-abstract@^1.3.2",
+    "has": "npm:has@^1.0.1",
+    "function-bind": "npm:function-bind@^1.0.2"
+  },
+  "npm:has@1.0.1": {
+    "function-bind": "npm:function-bind@^1.0.2"
+  },
+  "npm:string.prototype.trimleft@1.0.1": {
+    "define-properties": "npm:define-properties@^1.1.1",
+    "function-bind": "npm:function-bind@^1.0.2"
+  },
+  "npm:string.prototype.trimright@1.0.1": {
+    "define-properties": "npm:define-properties@^1.1.1",
+    "function-bind": "npm:function-bind@^1.0.2"
+  },
+  "npm:define-properties@1.1.2": {
+    "foreach": "npm:foreach@^2.0.5",
+    "object-keys": "npm:object-keys@^1.0.8"
+  },
+  "npm:object.getownpropertydescriptors@1.0.4": {
+    "define-properties": "npm:define-properties@^1.1.0",
+    "es-abstract": "npm:es-abstract@^1.2.1"
+  },
+  "npm:object.values@1.0.3": {
+    "define-properties": "npm:define-properties@^1.1.1",
+    "es-abstract": "npm:es-abstract@^1.3.2",
+    "has": "npm:has@^1.0.1",
+    "function-bind": "npm:function-bind@^1.0.2"
+  },
+  "npm:string-at@1.0.1": {
+    "define-properties": "npm:define-properties@^1.0.1",
+    "es-abstract": "npm:es-abstract@^1.2.1",
+    "function-bind": "npm:function-bind@^1.0.2"
+  },
+  "npm:regexp.escape@1.0.2": {
+    "define-properties": "npm:define-properties@^1.1.1",
+    "es-abstract": "npm:es-abstract@^1.2.1",
+    "function-bind": "npm:function-bind@^1.0.2"
+  },
+  "npm:function-bind@1.1.0": {},
+  "npm:set-tojson@2.0.1": {
+    "define-properties": "npm:define-properties@^1.0.1",
+    "es-abstract": "npm:es-abstract@^1.2.1"
+  },
+  "npm:map-tojson@2.0.1": {
+    "define-properties": "npm:define-properties@^1.0.1",
+    "es-abstract": "npm:es-abstract@^1.2.1"
+  },
+  "npm:string.prototype.padstart@3.0.0": {
+    "define-properties": "npm:define-properties@^1.1.2",
+    "es-abstract": "npm:es-abstract@^1.4.3",
+    "function-bind": "npm:function-bind@^1.0.2"
+  },
+  "npm:string.prototype.padend@3.0.0": {
+    "define-properties": "npm:define-properties@^1.1.2",
+    "es-abstract": "npm:es-abstract@^1.4.3",
+    "function-bind": "npm:function-bind@^1.0.2"
+  },
+  "npm:foreach@2.0.5": {},
+  "npm:is-callable@1.1.3": {},
+  "npm:is-regex@1.0.3": {},
+  "npm:object-keys@1.0.9": {},
+  "npm:array-includes@3.0.2": {
+    "define-properties": "npm:define-properties@^1.1.2",
+    "es-abstract": "npm:es-abstract@^1.5.0"
+  },
+  "npm:simd@2.0.0": {
+    "define-properties": "npm:define-properties@^1.0.2"
+  },
+  "npm:is-date-object@1.0.1": {},
+  "npm:es-to-primitive@1.1.1": {
+    "is-callable": "npm:is-callable@^1.1.1",
+    "is-date-object": "npm:is-date-object@^1.0.1",
+    "is-symbol": "npm:is-symbol@^1.0.1"
+  },
+  "npm:es-abstract@1.5.1": {
+    "function-bind": "npm:function-bind@^1.1.0",
+    "is-callable": "npm:is-callable@^1.1.3",
+    "es-to-primitive": "npm:es-to-primitive@^1.1.1",
+    "is-regex": "npm:is-regex@^1.0.3"
+  },
+  "npm:is-symbol@1.0.1": {},
+  "npm:es7-shim@5.0.0": {
+    "array-includes": "npm:array-includes@^3.0.1",
+    "map-tojson": "npm:map-tojson@^2.0.1",
+    "object.getownpropertydescriptors": "npm:object.getownpropertydescriptors@^1.0.4",
+    "object.entries": "npm:object.entries@^1.0.3",
+    "object.values": "npm:object.values@^1.0.3",
+    "regexp.escape": "npm:regexp.escape@^1.0.2",
+    "set-tojson": "npm:set-tojson@^2.0.1",
+    "simd": "npm:simd@^2.0.0",
+    "string-at": "npm:string-at@^1.0.1",
+    "string.prototype.padstart": "npm:string.prototype.padstart@^3.0.0",
+    "string.prototype.padend": "npm:string.prototype.padend@^3.0.0",
+    "string.prototype.trimleft": "npm:string.prototype.trimleft@^1.0.1",
+    "string.prototype.trimright": "npm:string.prototype.trimright@^1.0.1"
+  },
+  "npm:chai@3.5.0": {
+    "assertion-error": "npm:assertion-error@^1.0.1",
+    "deep-eql": "npm:deep-eql@^0.1.3",
+    "type-detect": "npm:type-detect@^1.0.0",
+    "process": "github:jspm/nodelibs-process@^0.1.0",
+    "systemjs-json": "github:systemjs/plugin-json@^0.1.0",
+    "buffer": "github:jspm/nodelibs-buffer@^0.1.0"
+  },
+  "npm:assertion-error@1.0.2": {},
+  "npm:type-detect@0.1.1": {},
+  "npm:type-detect@1.0.0": {},
+  "npm:deep-eql@0.1.3": {
+    "type-detect": "npm:type-detect@0.1.1",
+    "buffer": "github:jspm/nodelibs-buffer@^0.1.0"
+  },
+  "npm:process@0.11.5": {
+    "assert": "github:jspm/nodelibs-assert@^0.1.0",
+    "vm": "github:jspm/nodelibs-vm@^0.1.0",
+    "fs": "github:jspm/nodelibs-fs@^0.1.0"
+  },
+  "npm:assert@1.4.1": {
+    "util": "npm:util@0.10.3",
+    "assert": "github:jspm/nodelibs-assert@^0.1.0",
+    "buffer": "github:jspm/nodelibs-buffer@^0.1.0",
+    "process": "github:jspm/nodelibs-process@^0.1.0"
+  },
+  "npm:vm-browserify@0.0.4": {
+    "indexof": "npm:indexof@0.0.1"
+  },
+  "npm:indexof@0.0.1": {},
+  "github:jspm/nodelibs-vm@0.1.0": {
+    "vm-browserify": "npm:vm-browserify@0.0.4"
+  },
+  "npm:mathjax@2.6.1": {
+    "process": "github:jspm/nodelibs-process@^0.1.0"
+  }
 }
