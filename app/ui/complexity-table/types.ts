@@ -5,10 +5,11 @@
 export interface Op {
 	name : string;
 	description ?: string;
+	title ?: string;
 }
 
 export interface OpImplementation {
-	operation: string;
+	operation: Op;
 	simple : string;
 	advanced ?: string;
 }
@@ -36,7 +37,7 @@ export interface ComplexityRoot {
 
 export interface TableDef {
 	table : string;
-	collections : string[];
-	operations : string[];
-	footnotes: string[];
+	collections : Collection[];
+	operations : Op[];
+	footnotes: Footnote[];
 }

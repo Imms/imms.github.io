@@ -85,10 +85,13 @@
 	&__heading {
 		&-info {
 			text-align: left;
+			white-space: nowrap;
 		}
 		&-math {
 			text-align: center;
+			white-space: nowrap;
 		}
+
 	}
 
 	&__math {

@@ -1,282 +1,407 @@
 operations:
-  - name: Add
-    description: Add a new element to the set.
+  - &First
+    name: First
 
-  - name: Contains
-    description: Check if the set contains an element.
-
-  - name: Remove
-    description: Remove an element from the set
-
-
-  - name: First
-
-  - name: Last
-
-  - name: Union
-
-  - name: Intersection[seq]
-
-  - name: Except
-
-  - name: Difference
-
-  - name: AddLast
+  - &Last
+    name: Last
+    
+  - &AddLast
+    name: AddLast
     description: Add one element to the end.
 
-  - name: AddLastRange
+  - &AddLastRange
+    name: AddLastRange
     description: Add a sequence of $m$ elements to the end.
 
-  - name: AddFirst
+  - &AddFirst
+    name: AddFirst
     description: Add one element to the beginning.
 
-  - name: AddFirstRange
+  - &AddFirstRange
+    name: AddFirstRange
     description: Add a sequence of $m$ elements to the beginning.
 
-  - name: Concat
+  - &Concat
+    name: Concat
     description: Concatenate two collections, one with $n$ elements and the other with $m$ elements.
     inherit: AddLastRange
 
-  - name: RemoveFirst
+  - &RemoveFirst
+    name: RemoveFirst
     description: Remove one element from the beginning.
 
-  - name: RemoveLast
+  - &RemoveLast
+    name: RemoveLast
     description: Remove one element from the end.
 
-  - name: Lookup
+  - &Lookup
+    name: Lookup
     description: Lookup element at index.
 
-  - name: Update
+  - &Update
+    name: Update
     description: Update element at index.
 
-  - name: Insert
+  - &Insert
+    name: Insert
     description: Insert element at index.
 
-  - name: InsertRange
+  - &InsertRange
+    name: InsertRange
     description: Inserts a sequence of $m$ elements at index.
 
-  - name: InsertConcat
+  - &InsertConcat
+    name: InsertConcat
     description: Concatenates a collection of the same type consisting of $m$ elements at an index.
 
-  - name: RemoveAt
+  - &RemoveAt
+    name: RemoveAt
     description: Remove element at index.
 
-  - name: Take
+  - &Take
+    name: Take
     description: Returns a starting subsequence.
 
-  - name: Skip
+  - &Skip
+    name: Skip
     description: Returns an ending subsequence.
 
-specialSetComplexity: &setComplexity O\left(\u{n} \log \left(1 + {\o{n} \over \u{n}}\right)\right)
+  - &Add
+    name: Add
+    description: Add a new element to the set.
+
+  - &Contains
+    name: Contains
+    description: Check if the set contains an element.
+
+  - &Remove
+    name: Remove
+    description: Remove an element from the set
+    
+  - &Bulk_Union
+    name: Bulk-Union
+    title: Union (Non-set)
+
+  - &Bulk_Intersection
+    name: Bulk-Intersect
+    title: Intersection (Non-set)
+
+  - &Bulk_Except
+    name: Bulk-Except
+    title: Except (Non-set)
+
+  - &Bulk_Difference
+    name: Bulk-Difference
+    title: Difference (Non-set)
+
+  - &Set_Union
+    name: Set-Union
+    title: Union (Set)
+
+  - &Set_Intersection
+    name: Set-Intersect
+    title: Intersection (Set)
+
+  - &Set_Except
+    name: Set-Except
+    title: Except (Set)
+
+  - &Set_Difference
+    name: Set-Difference
+    title: Difference (Set)
+
+  - &ByOrder
+    name: ByOrder
+
+  - &MinItem
+    name: MinItem
+
+  - &MaxItem
+    name: MaxItem
+
+  - &Slice
+    name: Slice
+
+
+specialSetComplexity: &setComplexity \min\left( n + m, n \log m\right)
 
 collections:
-  - collection: ImmList
+  - &ImmList
+    collection: ImmList
     implementation: 2-3-4 Finger Tree
     rowclass: source--imms
     operations:
-      - operation: AddLast
+      - operation: *AddLast
         simple: O(1)/O(\log n)
         advanced: O(1)/O(\log n)
 
-      - operation: AddFirst
+      - operation: *AddFirst
         simple: O(1)/O(\log n)
         advanced: O(1)/O(\log n)
 
-      - operation: RemoveLast
+      - operation: *RemoveLast
         simple: O(1)/O(\log n)
         advanced: O(1)/O(\log n)
 
-      - operation: RemoveFirst
+      - operation: *RemoveFirst
         simple: O(1)/O(\log n)
         advanced: O(1)/O(\log n)
 
-      - operation: AddLastRange
+      - operation: *AddLastRange
         simple: O(m)
 
-      - operation: AddFirstRange
+      - operation: *AddFirstRange
         simple: O(m)
 
-      - operation: Concat
+      - operation: *Concat
         simple: O(\log n)
         advanced: O(\min \left( \log m, \log n \right))
 
-      - operation: Lookup
+      - operation: *Lookup
         simple: O(\log n)
 
-      - operation: Update
+      - operation: *Update
         simple: O(\log n)
 
-      - operation: Insert
+      - operation: *Insert
         simple: O(\log n)
 
-      - operation: InsertRange
+      - operation: *InsertRange
         simple: O(m)
         advanced: O(m + \log n)
 
-      - operation: InsertConcat
+      - operation: *InsertConcat
         simple: O(\log n)
         advanced: O(\log n + \log m)
 
-      - operation: RemoveAt
+      - operation: *RemoveAt
         simple: O(\log n)
 
-      - operation: Take
+      - operation: *Take
         simple: O(\log n)
 
-      - operation: Skip
+      - operation: *Skip
         simple: O(\log n)
 
-      - operation: First
+      - operation: *First
         simple: O(1)
 
-      - operation: Last
+      - operation: *Last
         simple: O(1)
 
-  - collection: System.ImmutableList
+  - &System_ImmutableList
+    collection: System.ImmutableList
     rowclass: source--system
     implementation: Balanced binary tree
     operations:
-      - operation: AddLast
+      - operation: *AddLast
         simple: O(\log n)
 
-      - operation: AddFirst
+      - operation: *AddFirst
         simple: O(\log n)
 
-      - operation: RemoveLast
+      - operation: *RemoveLast
         simple: O(\log n)
 
-      - operation: RemoveFirst
+      - operation: *RemoveFirst
         simple: O(\log n)
 
-      - operation: AddLastRange
+      - operation: *AddLastRange
         simple: O(m \log n)
 
-      - operation: AddFirstRange
+      - operation: *AddFirstRange
         simple: O(m \log n)
 
-      - operation: Take
+      - operation: *Take
         simple: O(n)
 
-      - operation: Skip
+      - operation: *Skip
         simple: O(n)
 
-      - operation: Update
+      - operation: *Update
         simple: O(\log n)
 
-      - operation: Insert
+      - operation: *Insert
         simple: O(\log n)
 
-      - operation: Lookup
+      - operation: *Lookup
         simple: O(\log n)
 
-      - operation: InsertRange
+      - operation: *InsertRange
         simple: O(m \log n)
 
-      - operation: RemoveAt
+      - operation: *RemoveAt
         simple: O(\log n)
 
-      - operation: First
+      - operation: *First
         simple: O(\log n)
 
-      - operation: Last
+      - operation: *Last
         simple: O(\log n)
 
-  - collection: ImmVector
+  - &ImmVector
+    collection: ImmVector
     rowclass: source--imms
     implementation: Array-mapped trie
     operations:
-      - operation: AddLast
+      - operation: *AddLast
         simple: O(\log n)\fast
 
-      - operation: RemoveLast
+      - operation: *RemoveLast
         simple: O(\log n)\fast
 
-      - operation: AddLastRange
+      - operation: *AddLastRange
         simple: O(m) \fastt
 
-      - operation: AddFirstRange
+      - operation: *AddFirstRange
         simple: O(n + m) \fastt
 
-      - operation: Lookup
+      - operation: *Lookup
         simple: O(\log n) \fast
 
-      - operation: Update
+      - operation: *Update
         simple: O(\log n)
 
-      - operation: InsertRange
+      - operation: *InsertRange
         simple: O(m + n) \fast
 
-      - operation: Take
+      - operation: *Take
 
         simple: O(\log n) \fast
 
-      - operation: Skip
+      - operation: *Skip
         simple: O(n) \fast
 
-      - operation: First
+      - operation: *First
         simple: O(\log n)\fast
 
-      - operation: Last
+      - operation: *Last
         simple: O(\log n)\fast
 
-  - collection: ImmSet
+  - &ImmSet
+    collection: ImmSortedSet
     implementation: AVL Tree
-    operations:
-      - operation: Add
+    blah1: &blah1 $O\left(m\left(\log m + \log n\right)\right)$
+    blah2: &blah2 $O\left(n_1\log \left(1 + {n_2 \over n_1}\right)\right)$
+    operations: &ImmSetOps
+      - operation: *Add
         simple: O(\log n)
 
-      - operation: Remove
+      - operation: *Remove
         simple: O(\log n)
 
-      - operation: Contains
+      - operation: *Contains
         simple: O(\log n)
 
-      - operation: Bulk-Union
-        simple: O(m \log n)
+      - operation: *Bulk_Union
+        simple: *blah1
 
-      - operation: Bulk-Intersect
-        simple: (m \log n)
+      - operation: *Bulk_Intersection
+        simple: *blah1
 
-      - operation: Bulk-Except
-        simple: O(m \log n)
+      - operation: *Bulk_Except
+        simple: *blah1
 
-      - operation: Bulk-Difference
-        simple: O(m \log n + n \log m)
+      - operation: *Bulk_Difference
+        simple: *blah1
 
-      - operation: Set-Union
-        simple: *setComplexity
+      - operation: *Set_Union
+        simple: *blah2
 
-      - operation: Set-Intersect
-        simple: *setComplexity
+      - operation: *Set_Intersection
+        simple: *blah2
 
-      - operation: Set-Except
-        simple: *setComplexity
+      - operation: *Set_Except
+        simple: *blah2
 
-      - operation: Set-Difference
-        simple: *setComplexity
+      - operation: *Set_Difference
+        simple: *blah2
 
+      - operation: *ByOrder
+        simple: O(\log n)
+
+      - operation: *Slice
+        simple: O(\log n)
+
+  - collection: ImmSortedSet
+    implementation: AVL Tree
+    operations: *ImmSetOps
 footnotes:
-  - name: amr
+  - &amr
+    name: amr
     math: O(f)/O(g)
     text: $O(f)$ is amortized time and $O(g)$ is worst-case.
 
-  - name: fast
+  - &fast
+    name: fast
     math: \fast
     text: Performs very fast for this complexity.
 
-  - name: fastt
+  - &fastt
+    name: fastt
     math: \fastt
     text: Performs exceptionally fast for this complexity.
 
+  - &largeN
+    name: largeN
+    math: n_2
+    text: Size of larger set
+
+  - &smallN
+    name: smallN
+    math: n_1
+    text: Size of smaller set.
+
+  - &m
+    name: m
+    math: m
+    text: Size of the input.
+
 tables:
   - table: sequentials
-    collections: [ImmList, ImmVector, System.ImmutableList]
-    operations: [First, Last, AddLast, AddFirst, RemoveLast, RemoveFirst, AddLastRange, AddFirstRange, Concat, Insert, Update, Lookup, InsertRange, InsertConcat, RemoveAt, Take, Skip]
-    footnotes: [amr, fast, fastt]
+    collections:
+      - *ImmList
+      - *ImmVector
+      - *System_ImmutableList
+    operations:
+      - *First
+      - *Last
+      - *AddLast
+      - *AddFirst
+      - *RemoveLast
+      - *RemoveFirst
+      - *AddLastRange
+      - *AddFirstRange
+      - *Concat
+      - *Insert
+      - *Update
+      - *Lookup
+      - *InsertRange
+      - *InsertConcat
+      - *RemoveAt
+      - *Take
+      - *Skip
+    footnotes:
+      - *amr
+      - *fast
+      - *fastt
 
-
-
-
-
-
-
+  - table: sets
+    collections:
+      - *ImmSet
+    operations:
+      - *Add
+      - *Remove
+      - *Contains
+      - *Bulk_Union
+      - *Set_Union
+      - *Bulk_Except
+      - *Set_Except
+      - *Bulk_Intersection
+      - *Set_Intersection
+      - *Bulk_Difference
+      - *Set_Difference
+    footnotes:
+      - *largeN
+      - *smallN
+      - *m

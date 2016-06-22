@@ -14,10 +14,10 @@ export class CmComplexityTable extends React.Component<CmComplexityTableProps, {
 	render() {
 		let complexities = this.props.complexities;
 		let myTable = this.props.table;
-		let collections:Collection[] = myTable.collections.map(name => complexities.collections.find(col => col.collection == name));
-		let operations:Op[] = myTable.operations.map(name => complexities.operations.find(op => op.name == name));
+		let collections:Collection[] = myTable.collections;
+		let operations:Op[] = myTable.operations;
 		let cls = "complexity-table__heading";
-		let headingItems = operations.map(op => <th key={op.name} className={cls + "-math"}>{op.name}</th>);
+		let headingItems = operations.map(op => <th key={op.name} className={cls + "-math"}>{op.title || op.name}</th>);
 
 		let headings = <thead>
 		<tr>
@@ -30,7 +30,7 @@ export class CmComplexityTable extends React.Component<CmComplexityTableProps, {
 		let lines =
 			collections.map(col => {
 				let ops = operations.map(op => {
-					let tryOp = col.operations.find(myOp => myOp.operation == op.name);
+					let tryOp = col.operations.find(myOp => myOp.operation.name == op.name);
 					let mathString = tryOp ? tryOp.simple : "";
 					mathString = mathString ? `$${mathString}$` : "—";
 					return <td key={op.name} className="complexity-table__math">{mathString}</td>;
@@ -47,7 +47,7 @@ export class CmComplexityTable extends React.Component<CmComplexityTableProps, {
 		</tbody>;
 
 		let footnotes =
-			myTable.footnotes.map(name => complexities.footnotes.find(note => note.name == name));
+			myTable.footnotes;
 
 		let footnoteItems =
 			//Note that the "$" appear INSIDE the { ... }. Otherwise, react and MathJax don't play well.

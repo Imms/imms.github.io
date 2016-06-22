@@ -1,3 +1,101 @@
+tests:
+  - &AddLast
+    test: AddLast
+
+  - &AddFirst
+    test: AddFirst
+
+  - &AddLastRange
+    test: AddLastRange
+
+  - &AddFirstRange
+    test: AddFirstRange
+
+  - &RemoveLast
+    test: RemoveLast
+
+  - &RemoveFirst
+    test: RemoveFirst
+
+  - &Concat
+    test: Concat
+  - &Take
+    test: Take
+
+  - &Skip
+    test: Skip
+
+  - &First
+    test: First
+
+  - &Last
+    test: Last
+
+  - &Insert
+    test: Insert
+
+  - &Update
+    test: Update
+
+  - &Lookup
+    test: Lookup
+
+  - &Remove
+    test: Remove
+
+  - &InsertRange
+    test: InsertRange
+
+  - &InsertConcat
+    test: InsertConcat
+
+  - &IterateN
+    test: IterateN
+
+  - &IEnumerator
+    test: IEnumerator
+
+  - &Set_Union
+    test: Set_Union
+    title: Union
+
+  - &Set_Intersection
+    test: Set_Intersection
+    title: Intersection
+
+  - &Set_Except
+    test: Set_Except
+    title: Except
+
+  - &Set_Difference
+    test: Set_Difference
+    title: Difference
+
+  - &Array_Union
+    test: Array_Union
+    title: Union
+
+  - &Array_Intersection
+    test: Array_Intersection
+    title: Intersection
+
+  - &Array_Except
+    test: Array_Except
+    title: Except
+
+  - &Array_Difference
+    test: Array_Difference
+    title: Difference
+
+  - &Add
+    test: Add
+
+  - &Remove
+    test: Remove
+
+  - &Contains
+    test: Contains
+   
 sequentials:
   long: >
     Benchmarks of sequential collections. Insert more info here.
@@ -20,10 +118,10 @@ sequentials:
       long: >
         Addition and removal of single elements.
       tests:
-        - test: AddLast
-        - test: AddFirst
-        - test: RemoveLast
-        - test: RemoveFirst
+        - *AddLast
+        - *AddFirst
+        - *RemoveLast
+        - *RemoveFirst
 
     - group: AddRemoveMany
       title: Bulk add, remove
@@ -32,40 +130,100 @@ sequentials:
         Note that here, one of the variables was the size of the input data set. These results are for a large data set and few iterations.
 
       tests:
-        - test: AddLastRange
-        - test: AddFirstRange
-        - test: Concat
-        - test: Take
-        - test: Skip
+        - *AddLastRange
+        - *AddFirstRange
+        - *Concat
+        - *Take
+        - *Skip
 
     - group: Lookups
       title: Lookups
       long: >
         Looking up elements at different positions.
       tests:
-        - test: First
-        - test: Last
-        - test: Lookup
+        - *First
+        - *Last
+        - *Lookup
 
     - group: Indexing
       title: Indexing
       long: >
         Addition/removal of one or more elements at an index.
       tests:
-        - test: Insert
-        - test: Update
-        - test: Remove
-        - test: Insert Range
-        - test: InsertConcat
+        - *Insert
+        - *Update
+        - *Remove
+        - *InsertRange
+        - *InsertConcat
 
     - group: Iteration
       title: Iteration
       long: >
         Iteration using different methods.
       tests:
-        - test: IterateN
-        - test: IEnumerator
+        - *IterateN
+        - *IEnumerator
+
+sets:
+  long: >
+    Benchmarks of set collections. Insert more info here.
+  footer: |
+    Lower is better.
+    NaN values mean the collection didn't participate in the benchmark. Extremely low values just mean extremely high performance.
+  targets:
+    - target: System.ImmutableSet
+      color: rgb(243, 139, 139)
+
+    - target: System.ImmutableSortedSet
+      color: rgb(243, 120, 120)
+
+    - target: FSharp.Set
+      color: "#000"
+
+    - target: ImmSet
+      color: "#5b67ff"
+
+    - target: ImmSortedSet
+      color: "#2935d0"
 
 
 
+  groups:
+    - group: AddRemoveSingle
+      title: Single add, remove
+      long: >
+        Addition and removal of single elements.
+      tests:
+        - *Contains
+        - *Add
+        - *Remove
 
+    - group: SetOperators
+      title: Set Operators (C)
+      long: |
+        Addition and removal of multiple elements, and subsequences.
+        Note that here, one of the variables was the size of the input data set. These results are for a large data set and few iterations.
+
+      tests:
+        - *Set_Union
+        - *Set_Intersection
+        - *Set_Except
+        - *Set_Difference
+
+    - group: SetOperatorsSeq
+      title: Set Operators (N)
+      long: >
+        Looking up elements at different positions.
+      tests:
+        - *Array_Union
+        - *Array_Intersection
+        - *Array_Except
+        - *Array_Difference
+
+    - group: Iteration
+      title: Iteration
+      long: >
+        Iteration using different methods.
+      tests:
+        - *IterateN
+        - *IEnumerator

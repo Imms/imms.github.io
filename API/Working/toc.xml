@@ -1,0 +1,610 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topics>
+  <topic id="N:Imms" project="_Namespaces" file="N_Imms" sortOrder="1">
+    <topic id="T:Imms.IAnyOptional" project="Imms.Abstract" file="T_Imms_IAnyOptional">
+      <topic id="Properties.T:Imms.IAnyOptional" project="Imms.Abstract" file="Properties_T_Imms_IAnyOptional">
+        <topic id="P:Imms.IAnyOptional.IsNone" project="Imms.Abstract" file="P_Imms_IAnyOptional_IsNone" />
+        <topic id="P:Imms.IAnyOptional.IsSome" project="Imms.Abstract" file="P_Imms_IAnyOptional_IsSome" />
+        <topic id="P:Imms.IAnyOptional.Value" project="Imms.Abstract" file="P_Imms_IAnyOptional_Value" />
+      </topic>
+    </topic>
+    <topic id="T:Imms.ImmList" project="Imms" file="T_Imms_ImmList">
+      <topic id="Methods.T:Imms.ImmList" project="Imms" file="Methods_T_Imms_ImmList">
+        <topic id="M:Imms.ImmList.Empty``1" project="Imms" file="M_Imms_ImmList_Empty__1" />
+        <topic id="M:Imms.ImmList.Of``1(``0[])" project="Imms" file="M_Imms_ImmList_Of__1" />
+        <topic id="M:Imms.ImmList.ToImmList``1(System.Collections.Generic.IEnumerable{``0})" project="Imms" file="M_Imms_ImmList_ToImmList__1" />
+      </topic>
+    </topic>
+    <topic id="T:Imms.ImmList`1" project="Imms" file="T_Imms_ImmList_1">
+      <topic id="Properties.T:Imms.ImmList`1" project="Imms" file="Properties_T_Imms_ImmList_1">
+        <topic id="P:Imms.ImmList`1.Empty" project="Imms" file="P_Imms_ImmList_1_Empty" />
+        <topic id="P:Imms.ImmList`1.First" project="Imms" file="P_Imms_ImmList_1_First" />
+        <topic id="P:Imms.ImmList`1.IsEmpty" project="Imms" file="P_Imms_ImmList_1_IsEmpty" />
+        <topic id="Overload:Imms.ImmList`1.Item" project="Imms" file="Overload_Imms_ImmList_1_Item">
+          <topic id="P:Imms.ImmList`1.Item(System.Int32,System.Int32)" project="Imms" file="P_Imms_ImmList_1_Item" />
+        </topic>
+        <topic id="P:Imms.ImmList`1.Last" project="Imms" file="P_Imms_ImmList_1_Last" />
+        <topic id="P:Imms.ImmList`1.Length" project="Imms" file="P_Imms_ImmList_1_Length" />
+      </topic>
+      <topic id="Methods.T:Imms.ImmList`1" project="Imms" file="Methods_T_Imms_ImmList_1">
+        <topic id="M:Imms.ImmList`1.AddFirst(`0)" project="Imms" file="M_Imms_ImmList_1_AddFirst" />
+        <topic id="Overload:Imms.ImmList`1.AddFirstRange" project="Imms" file="Overload_Imms_ImmList_1_AddFirstRange">
+          <topic id="M:Imms.ImmList`1.AddFirstRange(System.Collections.Generic.IEnumerable{`0})" project="Imms" file="M_Imms_ImmList_1_AddFirstRange_1" />
+          <topic id="M:Imms.ImmList`1.AddFirstRange(Imms.ImmList{`0})" project="Imms" file="M_Imms_ImmList_1_AddFirstRange" />
+        </topic>
+        <topic id="M:Imms.ImmList`1.AddLast(`0)" project="Imms" file="M_Imms_ImmList_1_AddLast" />
+        <topic id="Overload:Imms.ImmList`1.AddLastRange" project="Imms" file="Overload_Imms_ImmList_1_AddLastRange">
+          <topic id="M:Imms.ImmList`1.AddLastRange(System.Collections.Generic.IEnumerable{`0})" project="Imms" file="M_Imms_ImmList_1_AddLastRange_1" />
+          <topic id="M:Imms.ImmList`1.AddLastRange(Imms.ImmList{`0})" project="Imms" file="M_Imms_ImmList_1_AddLastRange" />
+        </topic>
+        <topic id="M:Imms.ImmList`1.Cast``1" project="Imms" file="M_Imms_ImmList_1_Cast__1" />
+        <topic id="M:Imms.ImmList`1.Choose``1(System.Func{`0,Imms.Optional{``0}})" project="Imms" file="M_Imms_ImmList_1_Choose__1" />
+        <topic id="M:Imms.ImmList`1.ForEach(System.Action{`0})" project="Imms" file="M_Imms_ImmList_1_ForEach" />
+        <topic id="M:Imms.ImmList`1.ForEachBack(System.Action{`0})" project="Imms" file="M_Imms_ImmList_1_ForEachBack" />
+        <topic id="M:Imms.ImmList`1.ForEachBackWhile(System.Func{`0,System.Boolean})" project="Imms" file="M_Imms_ImmList_1_ForEachBackWhile" />
+        <topic id="M:Imms.ImmList`1.ForEachWhile(System.Func{`0,System.Boolean})" project="Imms" file="M_Imms_ImmList_1_ForEachWhile" />
+        <topic id="M:Imms.ImmList`1.GetEnumerator" project="Imms" file="M_Imms_ImmList_1_GetEnumerator" />
+        <topic id="Overload:Imms.ImmList`1.GroupBy" project="Imms" file="Overload_Imms_ImmList_1_GroupBy">
+          <topic id="M:Imms.ImmList`1.GroupBy``1(System.Func{`0,``0},System.Collections.Generic.IEqualityComparer{``0})" project="Imms" file="M_Imms_ImmList_1_GroupBy__1" />
+          <topic id="M:Imms.ImmList`1.GroupBy``2(System.Func{`0,``0},System.Func{`0,``1},System.Collections.Generic.IEqualityComparer{``0})" project="Imms" file="M_Imms_ImmList_1_GroupBy__2" />
+          <topic id="M:Imms.ImmList`1.GroupBy``3(System.Func{`0,``2},System.Func{`0,``1},System.Func{``2,System.Collections.Generic.IEnumerable{``1},``0},System.Collections.Generic.IEqualityComparer{``2})" project="Imms" file="M_Imms_ImmList_1_GroupBy__3" />
+        </topic>
+        <topic id="M:Imms.ImmList`1.GroupJoin``3(System.Collections.Generic.IEnumerable{``0},System.Func{`0,``1},System.Func{``0,``1},System.Func{`0,System.Collections.Generic.IEnumerable{``0},``2},System.Collections.Generic.IEqualityComparer{``1})" project="Imms" file="M_Imms_ImmList_1_GroupJoin__3" />
+        <topic id="M:Imms.ImmList`1.Insert(System.Int32,`0)" project="Imms" file="M_Imms_ImmList_1_Insert" />
+        <topic id="Overload:Imms.ImmList`1.InsertRange" project="Imms" file="Overload_Imms_ImmList_1_InsertRange">
+          <topic id="M:Imms.ImmList`1.InsertRange(System.Int32,Imms.ImmList{`0})" project="Imms" file="M_Imms_ImmList_1_InsertRange" />
+          <topic id="M:Imms.ImmList`1.InsertRange(System.Int32,System.Collections.Generic.IEnumerable{`0})" project="Imms" file="M_Imms_ImmList_1_InsertRange_1" />
+        </topic>
+        <topic id="Overload:Imms.ImmList`1.Join" project="Imms" file="Overload_Imms_ImmList_1_Join">
+          <topic id="M:Imms.ImmList`1.Join``2(System.Collections.Generic.IEnumerable{``0},System.Func{`0,``1},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})" project="Imms" file="M_Imms_ImmList_1_Join__2" />
+          <topic id="M:Imms.ImmList`1.Join``3(System.Collections.Generic.IEnumerable{``1},System.Func{`0,``2},System.Func{``1,``2},System.Func{`0,``1,``0},System.Collections.Generic.IEqualityComparer{``2})" project="Imms" file="M_Imms_ImmList_1_Join__3" />
+        </topic>
+        <topic id="M:Imms.ImmList`1.RemoveAt(System.Int32)" project="Imms" file="M_Imms_ImmList_1_RemoveAt" />
+        <topic id="M:Imms.ImmList`1.RemoveFirst" project="Imms" file="M_Imms_ImmList_1_RemoveFirst" />
+        <topic id="M:Imms.ImmList`1.RemoveLast" project="Imms" file="M_Imms_ImmList_1_RemoveLast" />
+        <topic id="M:Imms.ImmList`1.Reverse" project="Imms" file="M_Imms_ImmList_1_Reverse" />
+        <topic id="M:Imms.ImmList`1.Scan``1(``0,System.Func{``0,`0,``0})" project="Imms" file="M_Imms_ImmList_1_Scan__1" />
+        <topic id="M:Imms.ImmList`1.ScanBack``1(``0,System.Func{``0,`0,``0})" project="Imms" file="M_Imms_ImmList_1_ScanBack__1" />
+        <topic id="Overload:Imms.ImmList`1.Select" project="Imms" file="Overload_Imms_ImmList_1_Select">
+          <topic id="M:Imms.ImmList`1.Select``1(System.Func{`0,``0})" project="Imms" file="M_Imms_ImmList_1_Select__1_1" />
+          <topic id="M:Imms.ImmList`1.Select``1(System.Func{`0,Imms.Optional{``0}})" project="Imms" file="M_Imms_ImmList_1_Select__1" />
+        </topic>
+        <topic id="Overload:Imms.ImmList`1.SelectMany" project="Imms" file="Overload_Imms_ImmList_1_SelectMany">
+          <topic id="M:Imms.ImmList`1.SelectMany``1(System.Func{`0,System.Collections.Generic.IEnumerable{``0}})" project="Imms" file="M_Imms_ImmList_1_SelectMany__1" />
+          <topic id="M:Imms.ImmList`1.SelectMany``2(System.Func{`0,System.Collections.Generic.IEnumerable{``0}},System.Func{`0,``0,``1})" project="Imms" file="M_Imms_ImmList_1_SelectMany__2" />
+        </topic>
+        <topic id="M:Imms.ImmList`1.Update(System.Int32,`0)" project="Imms" file="M_Imms_ImmList_1_Update" />
+        <topic id="Overload:Imms.ImmList`1.Zip" project="Imms" file="Overload_Imms_ImmList_1_Zip">
+          <topic id="M:Imms.ImmList`1.Zip``1(System.Collections.Generic.IEnumerable{``0})" project="Imms" file="M_Imms_ImmList_1_Zip__1" />
+          <topic id="M:Imms.ImmList`1.Zip``2(System.Collections.Generic.IEnumerable{``0},System.Func{`0,``0,``1})" project="Imms" file="M_Imms_ImmList_1_Zip__2" />
+        </topic>
+      </topic>
+      <topic id="Operators.T:Imms.ImmList`1" project="Imms" file="Operators_T_Imms_ImmList_1">
+        <topic id="Overload:Imms.ImmList`1.op_Addition" project="Imms" file="Overload_Imms_ImmList_1_op_Addition">
+          <topic id="M:Imms.ImmList`1.op_Addition(System.Collections.Generic.IEnumerable{`0},Imms.ImmList{`0})" project="Imms" file="M_Imms_ImmList_1_op_Addition_3" />
+          <topic id="M:Imms.ImmList`1.op_Addition(`0,Imms.ImmList{`0})" project="Imms" file="M_Imms_ImmList_1_op_Addition_4" />
+          <topic id="M:Imms.ImmList`1.op_Addition(Imms.ImmList{`0},Imms.ImmList{`0})" project="Imms" file="M_Imms_ImmList_1_op_Addition" />
+          <topic id="M:Imms.ImmList`1.op_Addition(Imms.ImmList{`0},System.Collections.Generic.IEnumerable{`0})" project="Imms" file="M_Imms_ImmList_1_op_Addition_1" />
+          <topic id="M:Imms.ImmList`1.op_Addition(Imms.ImmList{`0},`0)" project="Imms" file="M_Imms_ImmList_1_op_Addition_2" />
+        </topic>
+      </topic>
+    </topic>
+    <topic id="T:Imms.ImmMap" project="Imms" file="T_Imms_ImmMap">
+      <topic id="Methods.T:Imms.ImmMap" project="Imms" file="Methods_T_Imms_ImmMap">
+        <topic id="M:Imms.ImmMap.CreateMap``2(System.Collections.Generic.IEqualityComparer{``0})" project="Imms" file="M_Imms_ImmMap_CreateMap__2" />
+        <topic id="M:Imms.ImmMap.Empty``2(System.Collections.Generic.IEqualityComparer{``0})" project="Imms" file="M_Imms_ImmMap_Empty__2" />
+        <topic id="M:Imms.ImmMap.Of``2(System.Collections.Generic.KeyValuePair{``0,``1}[])" project="Imms" file="M_Imms_ImmMap_Of__2" />
+        <topic id="Overload:Imms.ImmMap.ToImmMap" project="Imms" file="Overload_Imms_ImmMap_ToImmMap">
+          <topic id="M:Imms.ImmMap.ToImmMap``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}},System.Collections.Generic.IEqualityComparer{``0})" project="Imms" file="M_Imms_ImmMap_ToImmMap__2" />
+          <topic id="M:Imms.ImmMap.ToImmMap``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})" project="Imms" file="M_Imms_ImmMap_ToImmMap__3" />
+        </topic>
+      </topic>
+    </topic>
+    <topic id="T:Imms.ImmMap`2" project="Imms" file="T_Imms_ImmMap_2">
+      <topic id="Properties.T:Imms.ImmMap`2" project="Imms" file="Properties_T_Imms_ImmMap_2">
+        <topic id="P:Imms.ImmMap`2.IsEmpty" project="Imms" file="P_Imms_ImmMap_2_IsEmpty" />
+        <topic id="P:Imms.ImmMap`2.Length" project="Imms" file="P_Imms_ImmMap_2_Length" />
+      </topic>
+      <topic id="Methods.T:Imms.ImmMap`2" project="Imms" file="Methods_T_Imms_ImmMap_2">
+        <topic id="M:Imms.ImmMap`2.Empty(System.Collections.Generic.IEqualityComparer{`0})" project="Imms" file="M_Imms_ImmMap_2_Empty" />
+        <topic id="Overload:Imms.ImmMap`2.Except" project="Imms" file="Overload_Imms_ImmMap_2_Except">
+          <topic id="M:Imms.ImmMap`2.Except``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,``0}},Imms.ValueSelector{`0,`1,``0,Imms.Optional{`1}})" project="Imms" file="M_Imms_ImmMap_2_Except__1" />
+        </topic>
+        <topic id="Overload:Imms.ImmMap`2.ForEachWhile" project="Imms" file="Overload_Imms_ImmMap_2_ForEachWhile">
+          <topic id="M:Imms.ImmMap`2.ForEachWhile(System.Func{System.Collections.Generic.KeyValuePair{`0,`1},System.Boolean})" project="Imms" file="M_Imms_ImmMap_2_ForEachWhile" />
+        </topic>
+        <topic id="M:Imms.ImmMap`2.GetEnumerator" project="Imms" file="M_Imms_ImmMap_2_GetEnumerator" />
+        <topic id="M:Imms.ImmMap`2.Remove(`0)" project="Imms" file="M_Imms_ImmMap_2_Remove" />
+        <topic id="M:Imms.ImmMap`2.RemoveRange(System.Collections.Generic.IEnumerable{`0})" project="Imms" file="M_Imms_ImmMap_2_RemoveRange" />
+        <topic id="M:Imms.ImmMap`2.TryGet(`0)" project="Imms" file="M_Imms_ImmMap_2_TryGet" />
+      </topic>
+    </topic>
+    <topic id="T:Imms.ImmSet" project="Imms" file="T_Imms_ImmSet">
+      <topic id="Methods.T:Imms.ImmSet" project="Imms" file="Methods_T_Imms_ImmSet">
+        <topic id="M:Imms.ImmSet.CreateSet``1(System.Collections.Generic.IEqualityComparer{``0})" project="Imms" file="M_Imms_ImmSet_CreateSet__1" />
+        <topic id="M:Imms.ImmSet.Empty``1" project="Imms" file="M_Imms_ImmSet_Empty__1" />
+        <topic id="M:Imms.ImmSet.Of``1(``0[])" project="Imms" file="M_Imms_ImmSet_Of__1" />
+        <topic id="M:Imms.ImmSet.ToImmSet``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})" project="Imms" file="M_Imms_ImmSet_ToImmSet__1" />
+      </topic>
+    </topic>
+    <topic id="T:Imms.ImmSet`1" project="Imms" file="T_Imms_ImmSet_1">
+      <topic id="Properties.T:Imms.ImmSet`1" project="Imms" file="Properties_T_Imms_ImmSet_1">
+        <topic id="P:Imms.ImmSet`1.IsEmpty" project="Imms" file="P_Imms_ImmSet_1_IsEmpty" />
+        <topic id="P:Imms.ImmSet`1.Length" project="Imms" file="P_Imms_ImmSet_1_Length" />
+      </topic>
+      <topic id="Methods.T:Imms.ImmSet`1" project="Imms" file="Methods_T_Imms_ImmSet_1">
+        <topic id="M:Imms.ImmSet`1.Add(`0)" project="Imms" file="M_Imms_ImmSet_1_Add" />
+        <topic id="M:Imms.ImmSet`1.Contains(`0)" project="Imms" file="M_Imms_ImmSet_1_Contains" />
+        <topic id="M:Imms.ImmSet`1.Empty(System.Collections.Generic.IEqualityComparer{`0})" project="Imms" file="M_Imms_ImmSet_1_Empty" />
+        <topic id="M:Imms.ImmSet`1.ForEachWhile(System.Func{`0,System.Boolean})" project="Imms" file="M_Imms_ImmSet_1_ForEachWhile" />
+        <topic id="M:Imms.ImmSet`1.GetEnumerator" project="Imms" file="M_Imms_ImmSet_1_GetEnumerator" />
+        <topic id="M:Imms.ImmSet`1.Remove(`0)" project="Imms" file="M_Imms_ImmSet_1_Remove" />
+      </topic>
+    </topic>
+    <topic id="T:Imms.ImmSortedMap" project="Imms" file="T_Imms_ImmSortedMap">
+      <topic id="Methods.T:Imms.ImmSortedMap" project="Imms" file="Methods_T_Imms_ImmSortedMap">
+        <topic id="M:Imms.ImmSortedMap.CreateOrderedMap``2(System.Collections.Generic.IComparer{``0})" project="Imms" file="M_Imms_ImmSortedMap_CreateOrderedMap__2" />
+        <topic id="Overload:Imms.ImmSortedMap.Empty" project="Imms" file="Overload_Imms_ImmSortedMap_Empty">
+          <topic id="M:Imms.ImmSortedMap.Empty``2" project="Imms" file="M_Imms_ImmSortedMap_Empty__2" />
+          <topic id="M:Imms.ImmSortedMap.Empty``2(System.Collections.Generic.IComparer{``0})" project="Imms" file="M_Imms_ImmSortedMap_Empty__2_1" />
+        </topic>
+        <topic id="M:Imms.ImmSortedMap.Of``2(System.Collections.Generic.KeyValuePair{``0,``1}[])" project="Imms" file="M_Imms_ImmSortedMap_Of__2" />
+        <topic id="Overload:Imms.ImmSortedMap.ToImmSortedMap" project="Imms" file="Overload_Imms_ImmSortedMap_ToImmSortedMap">
+          <topic id="M:Imms.ImmSortedMap.ToImmSortedMap``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}})" project="Imms" file="M_Imms_ImmSortedMap_ToImmSortedMap__2" />
+          <topic id="M:Imms.ImmSortedMap.ToImmSortedMap``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}},System.Collections.Generic.IComparer{``0})" project="Imms" file="M_Imms_ImmSortedMap_ToImmSortedMap__2_1" />
+        </topic>
+      </topic>
+    </topic>
+    <topic id="T:Imms.ImmSortedMap`2" project="Imms" file="T_Imms_ImmSortedMap_2">
+      <topic id="Properties.T:Imms.ImmSortedMap`2" project="Imms" file="Properties_T_Imms_ImmSortedMap_2">
+        <topic id="P:Imms.ImmSortedMap`2.IsEmpty" project="Imms" file="P_Imms_ImmSortedMap_2_IsEmpty" />
+        <topic id="P:Imms.ImmSortedMap`2.Length" project="Imms" file="P_Imms_ImmSortedMap_2_Length" />
+        <topic id="P:Imms.ImmSortedMap`2.MaxItem" project="Imms" file="P_Imms_ImmSortedMap_2_MaxItem" />
+        <topic id="P:Imms.ImmSortedMap`2.MinItem" project="Imms" file="P_Imms_ImmSortedMap_2_MinItem" />
+      </topic>
+      <topic id="Methods.T:Imms.ImmSortedMap`2" project="Imms" file="Methods_T_Imms_ImmSortedMap_2">
+        <topic id="M:Imms.ImmSortedMap`2.ByOrder(System.Int32)" project="Imms" file="M_Imms_ImmSortedMap_2_ByOrder" />
+        <topic id="M:Imms.ImmSortedMap`2.Empty(System.Collections.Generic.IComparer{`0})" project="Imms" file="M_Imms_ImmSortedMap_2_Empty" />
+        <topic id="Overload:Imms.ImmSortedMap`2.Except" project="Imms" file="Overload_Imms_ImmSortedMap_2_Except">
+          <topic id="M:Imms.ImmSortedMap`2.Except``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,``0}},Imms.ValueSelector{`0,`1,``0,Imms.Optional{`1}})" project="Imms" file="M_Imms_ImmSortedMap_2_Except__1" />
+        </topic>
+        <topic id="Overload:Imms.ImmSortedMap`2.ForEachWhile" project="Imms" file="Overload_Imms_ImmSortedMap_2_ForEachWhile">
+          <topic id="M:Imms.ImmSortedMap`2.ForEachWhile(System.Func{System.Collections.Generic.KeyValuePair{`0,`1},System.Boolean})" project="Imms" file="M_Imms_ImmSortedMap_2_ForEachWhile" />
+        </topic>
+        <topic id="M:Imms.ImmSortedMap`2.GetEnumerator" project="Imms" file="M_Imms_ImmSortedMap_2_GetEnumerator" />
+        <topic id="M:Imms.ImmSortedMap`2.IndexOf(`0)" project="Imms" file="M_Imms_ImmSortedMap_2_IndexOf" />
+        <topic id="M:Imms.ImmSortedMap`2.Remove(`0)" project="Imms" file="M_Imms_ImmSortedMap_2_Remove" />
+        <topic id="M:Imms.ImmSortedMap`2.RemoveMax" project="Imms" file="M_Imms_ImmSortedMap_2_RemoveMax" />
+        <topic id="M:Imms.ImmSortedMap`2.RemoveMin" project="Imms" file="M_Imms_ImmSortedMap_2_RemoveMin" />
+        <topic id="M:Imms.ImmSortedMap`2.RemoveRange(System.Collections.Generic.IEnumerable{`0})" project="Imms" file="M_Imms_ImmSortedMap_2_RemoveRange" />
+        <topic id="M:Imms.ImmSortedMap`2.Slice(Imms.Optional{`0},Imms.Optional{`0})" project="Imms" file="M_Imms_ImmSortedMap_2_Slice" />
+        <topic id="M:Imms.ImmSortedMap`2.TryGet(`0)" project="Imms" file="M_Imms_ImmSortedMap_2_TryGet" />
+        <topic id="M:Imms.ImmSortedMap`2.Union(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}},Imms.ValueSelector{`0,`1,`1,`1})" project="Imms" file="M_Imms_ImmSortedMap_2_Union" />
+      </topic>
+    </topic>
+    <topic id="T:Imms.ImmSortedSet" project="Imms" file="T_Imms_ImmSortedSet">
+      <topic id="Methods.T:Imms.ImmSortedSet" project="Imms" file="Methods_T_Imms_ImmSortedSet">
+        <topic id="M:Imms.ImmSortedSet.CreateOrderedSet``1(System.Collections.Generic.IComparer{``0})" project="Imms" file="M_Imms_ImmSortedSet_CreateOrderedSet__1" />
+        <topic id="Overload:Imms.ImmSortedSet.Empty" project="Imms" file="Overload_Imms_ImmSortedSet_Empty">
+          <topic id="M:Imms.ImmSortedSet.Empty``1" project="Imms" file="M_Imms_ImmSortedSet_Empty__1" />
+          <topic id="M:Imms.ImmSortedSet.Empty``1(System.Collections.Generic.IComparer{``0})" project="Imms" file="M_Imms_ImmSortedSet_Empty__1_1" />
+        </topic>
+        <topic id="M:Imms.ImmSortedSet.Of``1(``0[])" project="Imms" file="M_Imms_ImmSortedSet_Of__1" />
+        <topic id="Overload:Imms.ImmSortedSet.ToImmSortedSet" project="Imms" file="Overload_Imms_ImmSortedSet_ToImmSortedSet">
+          <topic id="M:Imms.ImmSortedSet.ToImmSortedSet``1(System.Collections.Generic.IEnumerable{``0})" project="Imms" file="M_Imms_ImmSortedSet_ToImmSortedSet__1" />
+          <topic id="M:Imms.ImmSortedSet.ToImmSortedSet``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IComparer{``0})" project="Imms" file="M_Imms_ImmSortedSet_ToImmSortedSet__1_1" />
+        </topic>
+      </topic>
+    </topic>
+    <topic id="T:Imms.ImmSortedSet`1" project="Imms" file="T_Imms_ImmSortedSet_1">
+      <topic id="Properties.T:Imms.ImmSortedSet`1" project="Imms" file="Properties_T_Imms_ImmSortedSet_1">
+        <topic id="P:Imms.ImmSortedSet`1.IsEmpty" project="Imms" file="P_Imms_ImmSortedSet_1_IsEmpty" />
+        <topic id="P:Imms.ImmSortedSet`1.Length" project="Imms" file="P_Imms_ImmSortedSet_1_Length" />
+        <topic id="P:Imms.ImmSortedSet`1.MaxItem" project="Imms" file="P_Imms_ImmSortedSet_1_MaxItem" />
+        <topic id="P:Imms.ImmSortedSet`1.MinItem" project="Imms" file="P_Imms_ImmSortedSet_1_MinItem" />
+      </topic>
+      <topic id="Methods.T:Imms.ImmSortedSet`1" project="Imms" file="Methods_T_Imms_ImmSortedSet_1">
+        <topic id="M:Imms.ImmSortedSet`1.Add(`0)" project="Imms" file="M_Imms_ImmSortedSet_1_Add" />
+        <topic id="M:Imms.ImmSortedSet`1.ByOrder(System.Int32)" project="Imms" file="M_Imms_ImmSortedSet_1_ByOrder" />
+        <topic id="M:Imms.ImmSortedSet`1.Contains(`0)" project="Imms" file="M_Imms_ImmSortedSet_1_Contains" />
+        <topic id="M:Imms.ImmSortedSet`1.Empty(System.Collections.Generic.IComparer{`0})" project="Imms" file="M_Imms_ImmSortedSet_1_Empty" />
+        <topic id="M:Imms.ImmSortedSet`1.ForEachWhile(System.Func{`0,System.Boolean})" project="Imms" file="M_Imms_ImmSortedSet_1_ForEachWhile" />
+        <topic id="M:Imms.ImmSortedSet`1.GetEnumerator" project="Imms" file="M_Imms_ImmSortedSet_1_GetEnumerator" />
+        <topic id="M:Imms.ImmSortedSet`1.IndexOf(`0)" project="Imms" file="M_Imms_ImmSortedSet_1_IndexOf" />
+        <topic id="M:Imms.ImmSortedSet`1.Remove(`0)" project="Imms" file="M_Imms_ImmSortedSet_1_Remove" />
+        <topic id="M:Imms.ImmSortedSet`1.RemoveMax" project="Imms" file="M_Imms_ImmSortedSet_1_RemoveMax" />
+        <topic id="M:Imms.ImmSortedSet`1.RemoveMin" project="Imms" file="M_Imms_ImmSortedSet_1_RemoveMin" />
+        <topic id="M:Imms.ImmSortedSet`1.Slice(Imms.Optional{`0},Imms.Optional{`0})" project="Imms" file="M_Imms_ImmSortedSet_1_Slice" />
+        <topic id="M:Imms.ImmSortedSet`1.Union(System.Collections.Generic.IEnumerable{`0})" project="Imms" file="M_Imms_ImmSortedSet_1_Union" />
+      </topic>
+    </topic>
+    <topic id="T:Imms.ImmVector" project="Imms" file="T_Imms_ImmVector">
+      <topic id="Methods.T:Imms.ImmVector" project="Imms" file="Methods_T_Imms_ImmVector">
+        <topic id="M:Imms.ImmVector.Empty``1" project="Imms" file="M_Imms_ImmVector_Empty__1" />
+        <topic id="M:Imms.ImmVector.FromItems``1(``0[])" project="Imms" file="M_Imms_ImmVector_FromItems__1" />
+        <topic id="M:Imms.ImmVector.ToImmVector``1(System.Collections.Generic.IEnumerable{``0})" project="Imms" file="M_Imms_ImmVector_ToImmVector__1" />
+      </topic>
+    </topic>
+    <topic id="T:Imms.ImmVector`1" project="Imms" file="T_Imms_ImmVector_1">
+      <topic id="Properties.T:Imms.ImmVector`1" project="Imms" file="Properties_T_Imms_ImmVector_1">
+        <topic id="P:Imms.ImmVector`1.Empty" project="Imms" file="P_Imms_ImmVector_1_Empty" />
+        <topic id="P:Imms.ImmVector`1.First" project="Imms" file="P_Imms_ImmVector_1_First" />
+        <topic id="P:Imms.ImmVector`1.IsEmpty" project="Imms" file="P_Imms_ImmVector_1_IsEmpty" />
+        <topic id="P:Imms.ImmVector`1.Last" project="Imms" file="P_Imms_ImmVector_1_Last" />
+        <topic id="P:Imms.ImmVector`1.Length" project="Imms" file="P_Imms_ImmVector_1_Length" />
+      </topic>
+      <topic id="Methods.T:Imms.ImmVector`1" project="Imms" file="Methods_T_Imms_ImmVector_1">
+        <topic id="M:Imms.ImmVector`1.AddFirstRange(System.Collections.Generic.IEnumerable{`0})" project="Imms" file="M_Imms_ImmVector_1_AddFirstRange" />
+        <topic id="M:Imms.ImmVector`1.AddLast(`0)" project="Imms" file="M_Imms_ImmVector_1_AddLast" />
+        <topic id="M:Imms.ImmVector`1.AddLastRange(System.Collections.Generic.IEnumerable{`0})" project="Imms" file="M_Imms_ImmVector_1_AddLastRange" />
+        <topic id="M:Imms.ImmVector`1.Cast``1" project="Imms" file="M_Imms_ImmVector_1_Cast__1" />
+        <topic id="M:Imms.ImmVector`1.Choose``1(System.Func{`0,Imms.Optional{``0}})" project="Imms" file="M_Imms_ImmVector_1_Choose__1" />
+        <topic id="Overload:Imms.ImmVector`1.CopyTo" project="Imms" file="Overload_Imms_ImmVector_1_CopyTo">
+          <topic id="M:Imms.ImmVector`1.CopyTo(`0[],System.Int32,System.Int32,System.Int32)" project="Imms" file="M_Imms_ImmVector_1_CopyTo" />
+        </topic>
+        <topic id="M:Imms.ImmVector`1.ForEach(System.Action{`0})" project="Imms" file="M_Imms_ImmVector_1_ForEach" />
+        <topic id="M:Imms.ImmVector`1.ForEachBack(System.Action{`0})" project="Imms" file="M_Imms_ImmVector_1_ForEachBack" />
+        <topic id="M:Imms.ImmVector`1.ForEachBackWhile(System.Func{`0,System.Boolean})" project="Imms" file="M_Imms_ImmVector_1_ForEachBackWhile" />
+        <topic id="M:Imms.ImmVector`1.ForEachWhile(System.Func{`0,System.Boolean})" project="Imms" file="M_Imms_ImmVector_1_ForEachWhile" />
+        <topic id="M:Imms.ImmVector`1.GetEnumerator" project="Imms" file="M_Imms_ImmVector_1_GetEnumerator" />
+        <topic id="Overload:Imms.ImmVector`1.GroupBy" project="Imms" file="Overload_Imms_ImmVector_1_GroupBy">
+          <topic id="M:Imms.ImmVector`1.GroupBy``1(System.Func{`0,``0},System.Collections.Generic.IEqualityComparer{``0})" project="Imms" file="M_Imms_ImmVector_1_GroupBy__1" />
+          <topic id="M:Imms.ImmVector`1.GroupBy``2(System.Func{`0,``0},System.Func{`0,``1},System.Collections.Generic.IEqualityComparer{``0})" project="Imms" file="M_Imms_ImmVector_1_GroupBy__2" />
+          <topic id="M:Imms.ImmVector`1.GroupBy``3(System.Func{`0,``2},System.Func{`0,``1},System.Func{``2,System.Collections.Generic.IEnumerable{``1},``0},System.Collections.Generic.IEqualityComparer{``2})" project="Imms" file="M_Imms_ImmVector_1_GroupBy__3" />
+        </topic>
+        <topic id="M:Imms.ImmVector`1.GroupJoin``3(System.Collections.Generic.IEnumerable{``0},System.Func{`0,``1},System.Func{``0,``1},System.Func{`0,System.Collections.Generic.IEnumerable{``0},``2},System.Collections.Generic.IEqualityComparer{``1})" project="Imms" file="M_Imms_ImmVector_1_GroupJoin__3" />
+        <topic id="M:Imms.ImmVector`1.Insert(System.Int32,`0)" project="Imms" file="M_Imms_ImmVector_1_Insert" />
+        <topic id="M:Imms.ImmVector`1.InsertRange(System.Int32,System.Collections.Generic.IEnumerable{`0})" project="Imms" file="M_Imms_ImmVector_1_InsertRange" />
+        <topic id="Overload:Imms.ImmVector`1.Join" project="Imms" file="Overload_Imms_ImmVector_1_Join">
+          <topic id="M:Imms.ImmVector`1.Join``2(System.Collections.Generic.IEnumerable{``0},System.Func{`0,``1},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})" project="Imms" file="M_Imms_ImmVector_1_Join__2" />
+          <topic id="M:Imms.ImmVector`1.Join``3(System.Collections.Generic.IEnumerable{``1},System.Func{`0,``2},System.Func{``1,``2},System.Func{`0,``1,``0},System.Collections.Generic.IEqualityComparer{``2})" project="Imms" file="M_Imms_ImmVector_1_Join__3" />
+        </topic>
+        <topic id="M:Imms.ImmVector`1.RemoveLast" project="Imms" file="M_Imms_ImmVector_1_RemoveLast" />
+        <topic id="M:Imms.ImmVector`1.Scan``1(``0,System.Func{``0,`0,``0})" project="Imms" file="M_Imms_ImmVector_1_Scan__1" />
+        <topic id="M:Imms.ImmVector`1.ScanBack``1(``0,System.Func{``0,`0,``0})" project="Imms" file="M_Imms_ImmVector_1_ScanBack__1" />
+        <topic id="Overload:Imms.ImmVector`1.Select" project="Imms" file="Overload_Imms_ImmVector_1_Select">
+          <topic id="M:Imms.ImmVector`1.Select``1(System.Func{`0,``0})" project="Imms" file="M_Imms_ImmVector_1_Select__1_1" />
+          <topic id="M:Imms.ImmVector`1.Select``1(System.Func{`0,Imms.Optional{``0}})" project="Imms" file="M_Imms_ImmVector_1_Select__1" />
+        </topic>
+        <topic id="Overload:Imms.ImmVector`1.SelectMany" project="Imms" file="Overload_Imms_ImmVector_1_SelectMany">
+          <topic id="M:Imms.ImmVector`1.SelectMany``1(System.Func{`0,System.Collections.Generic.IEnumerable{``0}})" project="Imms" file="M_Imms_ImmVector_1_SelectMany__1" />
+          <topic id="M:Imms.ImmVector`1.SelectMany``2(System.Func{`0,System.Collections.Generic.IEnumerable{``0}},System.Func{`0,``0,``1})" project="Imms" file="M_Imms_ImmVector_1_SelectMany__2" />
+        </topic>
+        <topic id="M:Imms.ImmVector`1.Skip(System.Int32)" project="Imms" file="M_Imms_ImmVector_1_Skip" />
+        <topic id="M:Imms.ImmVector`1.Take(System.Int32)" project="Imms" file="M_Imms_ImmVector_1_Take" />
+        <topic id="M:Imms.ImmVector`1.Update(System.Int32,`0)" project="Imms" file="M_Imms_ImmVector_1_Update" />
+        <topic id="Overload:Imms.ImmVector`1.Zip" project="Imms" file="Overload_Imms_ImmVector_1_Zip">
+          <topic id="M:Imms.ImmVector`1.Zip``1(System.Collections.Generic.IEnumerable{``0})" project="Imms" file="M_Imms_ImmVector_1_Zip__1" />
+          <topic id="M:Imms.ImmVector`1.Zip``2(System.Collections.Generic.IEnumerable{``0},System.Func{`0,``0,``1})" project="Imms" file="M_Imms_ImmVector_1_Zip__2" />
+        </topic>
+      </topic>
+      <topic id="Fields.T:Imms.ImmVector`1" project="Imms" file="Fields_T_Imms_ImmVector_1">
+        <topic id="F:Imms.ImmVector`1.MaxCapacity" project="Imms" file="F_Imms_ImmVector_1_MaxCapacity" />
+      </topic>
+    </topic>
+    <topic id="T:Imms.Kvp" project="Imms.Abstract" file="T_Imms_Kvp">
+      <topic id="Methods.T:Imms.Kvp" project="Imms.Abstract" file="Methods_T_Imms_Kvp">
+        <topic id="Overload:Imms.Kvp.Of" project="Imms.Abstract" file="Overload_Imms_Kvp_Of">
+          <topic id="M:Imms.Kvp.Of``2(System.Tuple{``0,``1})" project="Imms.Abstract" file="M_Imms_Kvp_Of__2" />
+          <topic id="M:Imms.Kvp.Of``2(``0,``1)" project="Imms.Abstract" file="M_Imms_Kvp_Of__2_1" />
+        </topic>
+        <topic id="M:Imms.Kvp.ToTuple``2(System.Collections.Generic.KeyValuePair{``0,``1})" project="Imms.Abstract" file="M_Imms_Kvp_ToTuple__2" />
+      </topic>
+    </topic>
+    <topic id="T:Imms.NoValueException" project="Imms.Abstract" file="T_Imms_NoValueException">
+      <topic id="M:Imms.NoValueException.#ctor(System.Type,System.String)" project="Imms.Abstract" file="M_Imms_NoValueException__ctor" />
+      <topic id="Properties.T:Imms.NoValueException" project="Imms.Abstract" file="Properties_T_Imms_NoValueException" />
+      <topic id="Methods.T:Imms.NoValueException" project="Imms.Abstract" file="Methods_T_Imms_NoValueException" />
+    </topic>
+    <topic id="T:Imms.Optional" project="Imms.Abstract" file="T_Imms_Optional">
+      <topic id="Properties.T:Imms.Optional" project="Imms.Abstract" file="Properties_T_Imms_Optional">
+        <topic id="P:Imms.Optional.None" project="Imms.Abstract" file="P_Imms_Optional_None" />
+      </topic>
+      <topic id="Methods.T:Imms.Optional" project="Imms.Abstract" file="Methods_T_Imms_Optional">
+        <topic id="M:Imms.Optional.NoneOf``1" project="Imms.Abstract" file="M_Imms_Optional_NoneOf__1" />
+        <topic id="M:Imms.Optional.Some``1(``0)" project="Imms.Abstract" file="M_Imms_Optional_Some__1" />
+      </topic>
+    </topic>
+    <topic id="T:Imms.Optional`1" project="Imms.Abstract" file="T_Imms_Optional_1">
+      <topic id="Properties.T:Imms.Optional`1" project="Imms.Abstract" file="Properties_T_Imms_Optional_1">
+        <topic id="P:Imms.Optional`1.IsNone" project="Imms.Abstract" file="P_Imms_Optional_1_IsNone" />
+        <topic id="P:Imms.Optional`1.IsSome" project="Imms.Abstract" file="P_Imms_Optional_1_IsSome" />
+        <topic id="P:Imms.Optional`1.None" project="Imms.Abstract" file="P_Imms_Optional_1_None" />
+        <topic id="P:Imms.Optional`1.Value" project="Imms.Abstract" file="P_Imms_Optional_1_Value" />
+      </topic>
+      <topic id="Methods.T:Imms.Optional`1" project="Imms.Abstract" file="Methods_T_Imms_Optional_1">
+        <topic id="M:Imms.Optional`1.As``1" project="Imms.Abstract" file="M_Imms_Optional_1_As__1" />
+        <topic id="M:Imms.Optional`1.Cast``1" project="Imms.Abstract" file="M_Imms_Optional_1_Cast__1" />
+        <topic id="Overload:Imms.Optional`1.Equals" project="Imms.Abstract" file="Overload_Imms_Optional_1_Equals">
+          <topic id="M:Imms.Optional`1.Equals(System.Object)" project="Imms.Abstract" file="M_Imms_Optional_1_Equals_2" />
+          <topic id="M:Imms.Optional`1.Equals(`0)" project="Imms.Abstract" file="M_Imms_Optional_1_Equals_3" />
+          <topic id="M:Imms.Optional`1.Equals(Imms.IAnyOptional)" project="Imms.Abstract" file="M_Imms_Optional_1_Equals" />
+          <topic id="M:Imms.Optional`1.Equals(Imms.Optional{`0})" project="Imms.Abstract" file="M_Imms_Optional_1_Equals_1" />
+          <topic id="M:Imms.Optional`1.Equals``1(Imms.Optional{``0})" project="Imms.Abstract" file="M_Imms_Optional_1_Equals__1" />
+        </topic>
+        <topic id="M:Imms.Optional`1.GetHashCode" project="Imms.Abstract" file="M_Imms_Optional_1_GetHashCode" />
+        <topic id="M:Imms.Optional`1.Some(`0)" project="Imms.Abstract" file="M_Imms_Optional_1_Some" />
+        <topic id="M:Imms.Optional`1.ToString" project="Imms.Abstract" file="M_Imms_Optional_1_ToString" />
+      </topic>
+      <topic id="Operators.T:Imms.Optional`1" project="Imms.Abstract" file="Operators_T_Imms_Optional_1">
+        <topic id="M:Imms.Optional`1.op_BitwiseOr(Imms.Optional{`0},`0)" project="Imms.Abstract" file="M_Imms_Optional_1_op_BitwiseOr" />
+        <topic id="Overload:Imms.Optional`1.op_Equality" project="Imms.Abstract" file="Overload_Imms_Optional_1_op_Equality">
+          <topic id="M:Imms.Optional`1.op_Equality(`0,Imms.Optional{`0})" project="Imms.Abstract" file="M_Imms_Optional_1_op_Equality_3" />
+          <topic id="M:Imms.Optional`1.op_Equality(Imms.Optional{`0},Imms.IAnyOptional)" project="Imms.Abstract" file="M_Imms_Optional_1_op_Equality" />
+          <topic id="M:Imms.Optional`1.op_Equality(Imms.Optional{`0},Imms.Optional{`0})" project="Imms.Abstract" file="M_Imms_Optional_1_op_Equality_1" />
+          <topic id="M:Imms.Optional`1.op_Equality(Imms.Optional{`0},`0)" project="Imms.Abstract" file="M_Imms_Optional_1_op_Equality_2" />
+        </topic>
+        <topic id="M:Imms.Optional`1.op_Explicit(Imms.Optional{`0})~`0" project="Imms.Abstract" file="M_Imms_Optional_1_op_Explicit" />
+        <topic id="Overload:Imms.Optional`1.op_Implicit" project="Imms.Abstract" file="Overload_Imms_Optional_1_op_Implicit">
+          <topic id="M:Imms.Optional`1.op_Implicit(Imms.AnyNone)~Imms.Optional{`0}" project="Imms.Abstract" file="M_Imms_Optional_1_op_Implicit" />
+          <topic id="M:Imms.Optional`1.op_Implicit(`0)~Imms.Optional{`0}" project="Imms.Abstract" file="M_Imms_Optional_1_op_Implicit_1" />
+        </topic>
+        <topic id="Overload:Imms.Optional`1.op_Inequality" project="Imms.Abstract" file="Overload_Imms_Optional_1_op_Inequality">
+          <topic id="M:Imms.Optional`1.op_Inequality(`0,Imms.Optional{`0})" project="Imms.Abstract" file="M_Imms_Optional_1_op_Inequality_3" />
+          <topic id="M:Imms.Optional`1.op_Inequality(Imms.Optional{`0},Imms.IAnyOptional)" project="Imms.Abstract" file="M_Imms_Optional_1_op_Inequality" />
+          <topic id="M:Imms.Optional`1.op_Inequality(Imms.Optional{`0},Imms.Optional{`0})" project="Imms.Abstract" file="M_Imms_Optional_1_op_Inequality_1" />
+          <topic id="M:Imms.Optional`1.op_Inequality(Imms.Optional{`0},`0)" project="Imms.Abstract" file="M_Imms_Optional_1_op_Inequality_2" />
+        </topic>
+      </topic>
+    </topic>
+    <topic id="T:Imms.OptionalExt" project="Imms.Abstract" file="T_Imms_OptionalExt">
+      <topic id="Methods.T:Imms.OptionalExt" project="Imms.Abstract" file="Methods_T_Imms_OptionalExt">
+        <topic id="Overload:Imms.OptionalExt.AsOptional" project="Imms.Abstract" file="Overload_Imms_OptionalExt_AsOptional">
+          <topic id="M:Imms.OptionalExt.AsOptional``1(System.Nullable{``0})" project="Imms.Abstract" file="M_Imms_OptionalExt_AsOptional__1" />
+          <topic id="M:Imms.OptionalExt.AsOptional``1(``0)" project="Imms.Abstract" file="M_Imms_OptionalExt_AsOptional__1_1" />
+        </topic>
+        <topic id="Overload:Imms.OptionalExt.AsString" project="Imms.Abstract" file="Overload_Imms_OptionalExt_AsString">
+          <topic id="M:Imms.OptionalExt.AsString``1(Imms.Optional{``0})" project="Imms.Abstract" file="M_Imms_OptionalExt_AsString__1" />
+          <topic id="M:Imms.OptionalExt.AsString``1(Imms.Optional{``0},System.IFormatProvider)" project="Imms.Abstract" file="M_Imms_OptionalExt_AsString__1_1" />
+        </topic>
+        <topic id="Overload:Imms.OptionalExt.CompareTo" project="Imms.Abstract" file="Overload_Imms_OptionalExt_CompareTo">
+          <topic id="M:Imms.OptionalExt.CompareTo``1(Imms.Optional{``0},Imms.Optional{``0})" project="Imms.Abstract" file="M_Imms_OptionalExt_CompareTo__1" />
+          <topic id="M:Imms.OptionalExt.CompareTo``1(Imms.Optional{``0},``0)" project="Imms.Abstract" file="M_Imms_OptionalExt_CompareTo__1_1" />
+        </topic>
+        <topic id="M:Imms.OptionalExt.Filter``1(Imms.Optional{``0},System.Func{``0,System.Boolean})" project="Imms.Abstract" file="M_Imms_OptionalExt_Filter__1" />
+        <topic id="M:Imms.OptionalExt.Flatten``1(Imms.Optional{Imms.Optional{``0}})" project="Imms.Abstract" file="M_Imms_OptionalExt_Flatten__1" />
+        <topic id="Overload:Imms.OptionalExt.Map" project="Imms.Abstract" file="Overload_Imms_OptionalExt_Map">
+          <topic id="M:Imms.OptionalExt.Map``2(Imms.Optional{``0},System.Func{``0,Imms.Optional{``1}})" project="Imms.Abstract" file="M_Imms_OptionalExt_Map__2" />
+          <topic id="M:Imms.OptionalExt.Map``2(Imms.Optional{``0},System.Func{``0,``1})" project="Imms.Abstract" file="M_Imms_OptionalExt_Map__2_1" />
+        </topic>
+        <topic id="Overload:Imms.OptionalExt.Or" project="Imms.Abstract" file="Overload_Imms_OptionalExt_Or">
+          <topic id="M:Imms.OptionalExt.Or``1(Imms.Optional{``0},Imms.Optional{``0})" project="Imms.Abstract" file="M_Imms_OptionalExt_Or__1" />
+          <topic id="M:Imms.OptionalExt.Or``1(Imms.Optional{``0},``0)" project="Imms.Abstract" file="M_Imms_OptionalExt_Or__1_1" />
+        </topic>
+        <topic id="M:Imms.OptionalExt.ValueOrError``1(Imms.Optional{``0},System.Exception)" project="Imms.Abstract" file="M_Imms_OptionalExt_ValueOrError__1" />
+      </topic>
+    </topic>
+    <topic id="T:Imms.SetRelation" project="Imms.Abstract" file="T_Imms_SetRelation" />
+    <topic id="T:Imms.ValueSelector`4" project="Imms.Abstract" file="T_Imms_ValueSelector_4" />
+  </topic>
+  <topic id="N:Imms.Abstract" project="_Namespaces" file="N_Imms_Abstract">
+    <topic id="T:Imms.Abstract.AbstractIterable`3" project="Imms.Abstract" file="T_Imms_Abstract_AbstractIterable_3">
+      <topic id="Properties.T:Imms.Abstract.AbstractIterable`3" project="Imms.Abstract" file="Properties_T_Imms_Abstract_AbstractIterable_3">
+        <topic id="P:Imms.Abstract.AbstractIterable`3.IsEmpty" project="Imms.Abstract" file="P_Imms_Abstract_AbstractIterable_3_IsEmpty" />
+        <topic id="P:Imms.Abstract.AbstractIterable`3.Length" project="Imms.Abstract" file="P_Imms_Abstract_AbstractIterable_3_Length" />
+      </topic>
+      <topic id="Methods.T:Imms.Abstract.AbstractIterable`3" project="Imms.Abstract" file="Methods_T_Imms_Abstract_AbstractIterable_3">
+        <topic id="Overload:Imms.Abstract.AbstractIterable`3.Aggregate" project="Imms.Abstract" file="Overload_Imms_Abstract_AbstractIterable_3_Aggregate">
+          <topic id="M:Imms.Abstract.AbstractIterable`3.Aggregate(System.Func{`0,`0,`0})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractIterable_3_Aggregate" />
+          <topic id="M:Imms.Abstract.AbstractIterable`3.Aggregate``1(``0,System.Func{``0,`0,``0})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractIterable_3_Aggregate__1" />
+        </topic>
+        <topic id="M:Imms.Abstract.AbstractIterable`3.All(System.Func{`0,System.Boolean})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractIterable_3_All" />
+        <topic id="M:Imms.Abstract.AbstractIterable`3.Any(System.Func{`0,System.Boolean})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractIterable_3_Any" />
+        <topic id="Overload:Imms.Abstract.AbstractIterable`3.CopyTo" project="Imms.Abstract" file="Overload_Imms_Abstract_AbstractIterable_3_CopyTo">
+          <topic id="M:Imms.Abstract.AbstractIterable`3.CopyTo(`0[],System.Int32)" project="Imms.Abstract" file="M_Imms_Abstract_AbstractIterable_3_CopyTo" />
+          <topic id="M:Imms.Abstract.AbstractIterable`3.CopyTo(`0[],System.Int32,System.Int32)" project="Imms.Abstract" file="M_Imms_Abstract_AbstractIterable_3_CopyTo_1" />
+        </topic>
+        <topic id="M:Imms.Abstract.AbstractIterable`3.Count(System.Func{`0,System.Boolean})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractIterable_3_Count" />
+        <topic id="M:Imms.Abstract.AbstractIterable`3.Find(System.Func{`0,System.Boolean})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractIterable_3_Find" />
+        <topic id="M:Imms.Abstract.AbstractIterable`3.ForEach(System.Action{`0})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractIterable_3_ForEach" />
+        <topic id="M:Imms.Abstract.AbstractIterable`3.ForEachWhile(System.Func{`0,System.Boolean})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractIterable_3_ForEachWhile" />
+        <topic id="M:Imms.Abstract.AbstractIterable`3.GetEnumerator" project="Imms.Abstract" file="M_Imms_Abstract_AbstractIterable_3_GetEnumerator" />
+        <topic id="M:Imms.Abstract.AbstractIterable`3.Pick``1(System.Func{`0,Imms.Optional{``0}})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractIterable_3_Pick__1" />
+        <topic id="M:Imms.Abstract.AbstractIterable`3.Print(System.String,System.Func{`0,System.String})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractIterable_3_Print" />
+        <topic id="M:Imms.Abstract.AbstractIterable`3.Single" project="Imms.Abstract" file="M_Imms_Abstract_AbstractIterable_3_Single" />
+        <topic id="M:Imms.Abstract.AbstractIterable`3.ToArray" project="Imms.Abstract" file="M_Imms_Abstract_AbstractIterable_3_ToArray" />
+        <topic id="M:Imms.Abstract.AbstractIterable`3.Where(System.Func{`0,System.Boolean})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractIterable_3_Where" />
+      </topic>
+      <topic id="Operators.T:Imms.Abstract.AbstractIterable`3" project="Imms.Abstract" file="Operators_T_Imms_Abstract_AbstractIterable_3">
+        <topic id="M:Imms.Abstract.AbstractIterable`3.op_Implicit(Imms.Abstract.AbstractIterable{`0,`1,`2})~`1" project="Imms.Abstract" file="M_Imms_Abstract_AbstractIterable_3_op_Implicit" />
+      </topic>
+    </topic>
+    <topic id="T:Imms.Abstract.AbstractMap`3" project="Imms.Abstract" file="T_Imms_Abstract_AbstractMap_3">
+      <topic id="Properties.T:Imms.Abstract.AbstractMap`3" project="Imms.Abstract" file="Properties_T_Imms_Abstract_AbstractMap_3">
+        <topic id="P:Imms.Abstract.AbstractMap`3.Item(`0)" project="Imms.Abstract" file="P_Imms_Abstract_AbstractMap_3_Item" />
+        <topic id="P:Imms.Abstract.AbstractMap`3.Keys" project="Imms.Abstract" file="P_Imms_Abstract_AbstractMap_3_Keys" />
+        <topic id="P:Imms.Abstract.AbstractMap`3.Values" project="Imms.Abstract" file="P_Imms_Abstract_AbstractMap_3_Values" />
+      </topic>
+      <topic id="Methods.T:Imms.Abstract.AbstractMap`3" project="Imms.Abstract" file="Methods_T_Imms_Abstract_AbstractMap_3">
+        <topic id="Overload:Imms.Abstract.AbstractMap`3.Add" project="Imms.Abstract" file="Overload_Imms_Abstract_AbstractMap_3_Add">
+          <topic id="M:Imms.Abstract.AbstractMap`3.Add(System.Collections.Generic.KeyValuePair{`0,`1})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractMap_3_Add" />
+          <topic id="M:Imms.Abstract.AbstractMap`3.Add(`0,`1)" project="Imms.Abstract" file="M_Imms_Abstract_AbstractMap_3_Add_1" />
+        </topic>
+        <topic id="M:Imms.Abstract.AbstractMap`3.AddRange(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractMap_3_AddRange" />
+        <topic id="Overload:Imms.Abstract.AbstractMap`3.Aggregate" project="Imms.Abstract" file="Overload_Imms_Abstract_AbstractMap_3_Aggregate">
+          <topic id="M:Imms.Abstract.AbstractMap`3.Aggregate``1(``0,System.Func{``0,`0,`1,``0})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractMap_3_Aggregate__1" />
+        </topic>
+        <topic id="Overload:Imms.Abstract.AbstractMap`3.All" project="Imms.Abstract" file="Overload_Imms_Abstract_AbstractMap_3_All">
+          <topic id="M:Imms.Abstract.AbstractMap`3.All(System.Func{`0,`1,System.Boolean})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractMap_3_All" />
+        </topic>
+        <topic id="Overload:Imms.Abstract.AbstractMap`3.Any" project="Imms.Abstract" file="Overload_Imms_Abstract_AbstractMap_3_Any">
+          <topic id="M:Imms.Abstract.AbstractMap`3.Any(System.Func{`0,`1,System.Boolean})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractMap_3_Any" />
+        </topic>
+        <topic id="M:Imms.Abstract.AbstractMap`3.ContainsKey(`0)" project="Imms.Abstract" file="M_Imms_Abstract_AbstractMap_3_ContainsKey" />
+        <topic id="Overload:Imms.Abstract.AbstractMap`3.Count" project="Imms.Abstract" file="Overload_Imms_Abstract_AbstractMap_3_Count">
+          <topic id="M:Imms.Abstract.AbstractMap`3.Count(System.Func{`0,`1,System.Boolean})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractMap_3_Count" />
+        </topic>
+        <topic id="M:Imms.Abstract.AbstractMap`3.Difference(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractMap_3_Difference" />
+        <topic id="M:Imms.Abstract.AbstractMap`3.Except``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,``0}},Imms.ValueSelector{`0,`1,``0,Imms.Optional{`1}})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractMap_3_Except__1" />
+        <topic id="Overload:Imms.Abstract.AbstractMap`3.Find" project="Imms.Abstract" file="Overload_Imms_Abstract_AbstractMap_3_Find">
+          <topic id="M:Imms.Abstract.AbstractMap`3.Find(System.Func{`0,`1,System.Boolean})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractMap_3_Find" />
+        </topic>
+        <topic id="Overload:Imms.Abstract.AbstractMap`3.ForEach" project="Imms.Abstract" file="Overload_Imms_Abstract_AbstractMap_3_ForEach">
+          <topic id="M:Imms.Abstract.AbstractMap`3.ForEach(System.Action{`0,`1})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractMap_3_ForEach" />
+        </topic>
+        <topic id="Overload:Imms.Abstract.AbstractMap`3.ForEachWhile" project="Imms.Abstract" file="Overload_Imms_Abstract_AbstractMap_3_ForEachWhile">
+          <topic id="M:Imms.Abstract.AbstractMap`3.ForEachWhile(System.Func{`0,`1,System.Boolean})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractMap_3_ForEachWhile" />
+        </topic>
+        <topic id="M:Imms.Abstract.AbstractMap`3.Intersect``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,``0}},Imms.ValueSelector{`0,`1,``0,`1})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractMap_3_Intersect__1" />
+        <topic id="Overload:Imms.Abstract.AbstractMap`3.MapEquals" project="Imms.Abstract" file="Overload_Imms_Abstract_AbstractMap_3_MapEquals">
+          <topic id="M:Imms.Abstract.AbstractMap`3.MapEquals(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}},System.Collections.Generic.IComparer{`1})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractMap_3_MapEquals" />
+          <topic id="M:Imms.Abstract.AbstractMap`3.MapEquals(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}},System.Collections.Generic.IEqualityComparer{`1})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractMap_3_MapEquals_1" />
+          <topic id="M:Imms.Abstract.AbstractMap`3.MapEquals(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}},System.Func{`1,`1,System.Boolean})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractMap_3_MapEquals_2" />
+        </topic>
+        <topic id="Overload:Imms.Abstract.AbstractMap`3.Pick" project="Imms.Abstract" file="Overload_Imms_Abstract_AbstractMap_3_Pick">
+          <topic id="M:Imms.Abstract.AbstractMap`3.Pick``1(System.Func{`0,`1,Imms.Optional{``0}})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractMap_3_Pick__1" />
+        </topic>
+        <topic id="M:Imms.Abstract.AbstractMap`3.Remove(`0)" project="Imms.Abstract" file="M_Imms_Abstract_AbstractMap_3_Remove" />
+        <topic id="M:Imms.Abstract.AbstractMap`3.RemoveRange(System.Collections.Generic.IEnumerable{`0})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractMap_3_RemoveRange" />
+        <topic id="M:Imms.Abstract.AbstractMap`3.Set(`0,`1)" project="Imms.Abstract" file="M_Imms_Abstract_AbstractMap_3_Set" />
+        <topic id="M:Imms.Abstract.AbstractMap`3.SetRange(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractMap_3_SetRange" />
+        <topic id="M:Imms.Abstract.AbstractMap`3.TryGet(`0)" project="Imms.Abstract" file="M_Imms_Abstract_AbstractMap_3_TryGet" />
+        <topic id="M:Imms.Abstract.AbstractMap`3.Union(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}},Imms.ValueSelector{`0,`1,`1,`1})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractMap_3_Union" />
+      </topic>
+      <topic id="Operators.T:Imms.Abstract.AbstractMap`3" project="Imms.Abstract" file="Operators_T_Imms_Abstract_AbstractMap_3">
+        <topic id="Overload:Imms.Abstract.AbstractMap`3.op_Addition" project="Imms.Abstract" file="Overload_Imms_Abstract_AbstractMap_3_op_Addition">
+          <topic id="M:Imms.Abstract.AbstractMap`3.op_Addition(Imms.Abstract.AbstractMap{`0,`1,`2},System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractMap_3_op_Addition" />
+          <topic id="M:Imms.Abstract.AbstractMap`3.op_Addition(Imms.Abstract.AbstractMap{`0,`1,`2},System.Collections.Generic.KeyValuePair{`0,`1})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractMap_3_op_Addition_1" />
+        </topic>
+        <topic id="Overload:Imms.Abstract.AbstractMap`3.op_Subtraction" project="Imms.Abstract" file="Overload_Imms_Abstract_AbstractMap_3_op_Subtraction">
+          <topic id="M:Imms.Abstract.AbstractMap`3.op_Subtraction(Imms.Abstract.AbstractMap{`0,`1,`2},System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractMap_3_op_Subtraction" />
+          <topic id="M:Imms.Abstract.AbstractMap`3.op_Subtraction(Imms.Abstract.AbstractMap{`0,`1,`2},System.Collections.Generic.IEnumerable{`0})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractMap_3_op_Subtraction_1" />
+          <topic id="M:Imms.Abstract.AbstractMap`3.op_Subtraction(Imms.Abstract.AbstractMap{`0,`1,`2},`0)" project="Imms.Abstract" file="M_Imms_Abstract_AbstractMap_3_op_Subtraction_2" />
+        </topic>
+      </topic>
+    </topic>
+    <topic id="T:Imms.Abstract.AbstractSequential`2" project="Imms.Abstract" file="T_Imms_Abstract_AbstractSequential_2">
+      <topic id="Properties.T:Imms.Abstract.AbstractSequential`2" project="Imms.Abstract" file="Properties_T_Imms_Abstract_AbstractSequential_2">
+        <topic id="P:Imms.Abstract.AbstractSequential`2.First" project="Imms.Abstract" file="P_Imms_Abstract_AbstractSequential_2_First" />
+        <topic id="Overload:Imms.Abstract.AbstractSequential`2.Item" project="Imms.Abstract" file="Overload_Imms_Abstract_AbstractSequential_2_Item">
+          <topic id="P:Imms.Abstract.AbstractSequential`2.Item(System.Int32)" project="Imms.Abstract" file="P_Imms_Abstract_AbstractSequential_2_Item" />
+          <topic id="P:Imms.Abstract.AbstractSequential`2.Item(System.Int32,System.Int32)" project="Imms.Abstract" file="P_Imms_Abstract_AbstractSequential_2_Item_1" />
+        </topic>
+        <topic id="P:Imms.Abstract.AbstractSequential`2.Last" project="Imms.Abstract" file="P_Imms_Abstract_AbstractSequential_2_Last" />
+        <topic id="P:Imms.Abstract.AbstractSequential`2.TryFirst" project="Imms.Abstract" file="P_Imms_Abstract_AbstractSequential_2_TryFirst" />
+        <topic id="P:Imms.Abstract.AbstractSequential`2.TryLast" project="Imms.Abstract" file="P_Imms_Abstract_AbstractSequential_2_TryLast" />
+      </topic>
+      <topic id="Methods.T:Imms.Abstract.AbstractSequential`2" project="Imms.Abstract" file="Methods_T_Imms_Abstract_AbstractSequential_2">
+        <topic id="Overload:Imms.Abstract.AbstractSequential`2.AggregateBack" project="Imms.Abstract" file="Overload_Imms_Abstract_AbstractSequential_2_AggregateBack">
+          <topic id="M:Imms.Abstract.AbstractSequential`2.AggregateBack(System.Func{`0,`0,`0})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSequential_2_AggregateBack" />
+          <topic id="M:Imms.Abstract.AbstractSequential`2.AggregateBack``1(``0,System.Func{``0,`0,``0})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSequential_2_AggregateBack__1" />
+        </topic>
+        <topic id="Overload:Imms.Abstract.AbstractSequential`2.CopyTo" project="Imms.Abstract" file="Overload_Imms_Abstract_AbstractSequential_2_CopyTo">
+          <topic id="M:Imms.Abstract.AbstractSequential`2.CopyTo(`0[],System.Int32,System.Int32)" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSequential_2_CopyTo" />
+          <topic id="M:Imms.Abstract.AbstractSequential`2.CopyTo(`0[],System.Int32,System.Int32,System.Int32)" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSequential_2_CopyTo_1" />
+        </topic>
+        <topic id="Overload:Imms.Abstract.AbstractSequential`2.Equals" project="Imms.Abstract" file="Overload_Imms_Abstract_AbstractSequential_2_Equals">
+          <topic id="M:Imms.Abstract.AbstractSequential`2.Equals(System.Object)" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSequential_2_Equals" />
+          <topic id="M:Imms.Abstract.AbstractSequential`2.Equals(`1)" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSequential_2_Equals_1" />
+        </topic>
+        <topic id="Overload:Imms.Abstract.AbstractSequential`2.FindIndex" project="Imms.Abstract" file="Overload_Imms_Abstract_AbstractSequential_2_FindIndex">
+          <topic id="M:Imms.Abstract.AbstractSequential`2.FindIndex(System.Func{`0,System.Boolean})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSequential_2_FindIndex" />
+          <topic id="M:Imms.Abstract.AbstractSequential`2.FindIndex(`0)" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSequential_2_FindIndex_1" />
+        </topic>
+        <topic id="M:Imms.Abstract.AbstractSequential`2.FindLast(System.Func{`0,System.Boolean})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSequential_2_FindLast" />
+        <topic id="M:Imms.Abstract.AbstractSequential`2.FindLastIndex(System.Func{`0,System.Boolean})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSequential_2_FindLastIndex" />
+        <topic id="M:Imms.Abstract.AbstractSequential`2.ForEachBack(System.Action{`0})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSequential_2_ForEachBack" />
+        <topic id="M:Imms.Abstract.AbstractSequential`2.ForEachBackWhile(System.Func{`0,System.Boolean})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSequential_2_ForEachBackWhile" />
+        <topic id="M:Imms.Abstract.AbstractSequential`2.GetHashCode" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSequential_2_GetHashCode" />
+        <topic id="Overload:Imms.Abstract.AbstractSequential`2.OrderBy" project="Imms.Abstract" file="Overload_Imms_Abstract_AbstractSequential_2_OrderBy">
+          <topic id="M:Imms.Abstract.AbstractSequential`2.OrderBy(System.Collections.Generic.IComparer{`0})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSequential_2_OrderBy" />
+          <topic id="M:Imms.Abstract.AbstractSequential`2.OrderBy(System.Collections.Generic.IComparer{`0}[])" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSequential_2_OrderBy_1" />
+          <topic id="M:Imms.Abstract.AbstractSequential`2.OrderBy``1(System.Func{`0,``0})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSequential_2_OrderBy__1" />
+        </topic>
+        <topic id="M:Imms.Abstract.AbstractSequential`2.OrderByDescending``1(System.Func{`0,``0})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSequential_2_OrderByDescending__1" />
+        <topic id="M:Imms.Abstract.AbstractSequential`2.Reverse" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSequential_2_Reverse" />
+        <topic id="M:Imms.Abstract.AbstractSequential`2.SequenceEquals(System.Collections.Generic.IEnumerable{`0},System.Collections.Generic.IEqualityComparer{`0})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSequential_2_SequenceEquals" />
+        <topic id="M:Imms.Abstract.AbstractSequential`2.Skip(System.Int32)" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSequential_2_Skip" />
+        <topic id="M:Imms.Abstract.AbstractSequential`2.SkipWhile(System.Func{`0,System.Boolean})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSequential_2_SkipWhile" />
+        <topic id="M:Imms.Abstract.AbstractSequential`2.Take(System.Int32)" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSequential_2_Take" />
+        <topic id="M:Imms.Abstract.AbstractSequential`2.TakeWhile(System.Func{`0,System.Boolean})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSequential_2_TakeWhile" />
+        <topic id="M:Imms.Abstract.AbstractSequential`2.TryGet(System.Int32)" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSequential_2_TryGet" />
+      </topic>
+      <topic id="Operators.T:Imms.Abstract.AbstractSequential`2" project="Imms.Abstract" file="Operators_T_Imms_Abstract_AbstractSequential_2">
+        <topic id="M:Imms.Abstract.AbstractSequential`2.op_Equality(Imms.Abstract.AbstractSequential{`0,`1},Imms.Abstract.AbstractSequential{`0,`1})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSequential_2_op_Equality" />
+        <topic id="M:Imms.Abstract.AbstractSequential`2.op_Inequality(Imms.Abstract.AbstractSequential{`0,`1},Imms.Abstract.AbstractSequential{`0,`1})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSequential_2_op_Inequality" />
+      </topic>
+    </topic>
+    <topic id="T:Imms.Abstract.AbstractSet`2" project="Imms.Abstract" file="T_Imms_Abstract_AbstractSet_2">
+      <topic id="Properties.T:Imms.Abstract.AbstractSet`2" project="Imms.Abstract" file="Properties_T_Imms_Abstract_AbstractSet_2">
+        <topic id="P:Imms.Abstract.AbstractSet`2.Item(`0)" project="Imms.Abstract" file="P_Imms_Abstract_AbstractSet_2_Item" />
+      </topic>
+      <topic id="Methods.T:Imms.Abstract.AbstractSet`2" project="Imms.Abstract" file="Methods_T_Imms_Abstract_AbstractSet_2">
+        <topic id="M:Imms.Abstract.AbstractSet`2.Add(`0)" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSet_2_Add" />
+        <topic id="M:Imms.Abstract.AbstractSet`2.AddRange(System.Collections.Generic.IEnumerable{`0})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSet_2_AddRange" />
+        <topic id="M:Imms.Abstract.AbstractSet`2.Contains(`0)" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSet_2_Contains" />
+        <topic id="M:Imms.Abstract.AbstractSet`2.Difference(System.Collections.Generic.IEnumerable{`0})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSet_2_Difference" />
+        <topic id="M:Imms.Abstract.AbstractSet`2.Except(System.Collections.Generic.IEnumerable{`0})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSet_2_Except" />
+        <topic id="M:Imms.Abstract.AbstractSet`2.ExceptInverse(System.Collections.Generic.IEnumerable{`0})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSet_2_ExceptInverse" />
+        <topic id="M:Imms.Abstract.AbstractSet`2.Intersect(System.Collections.Generic.IEnumerable{`0})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSet_2_Intersect" />
+        <topic id="M:Imms.Abstract.AbstractSet`2.IsDisjointWith(System.Collections.Generic.IEnumerable{`0})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSet_2_IsDisjointWith" />
+        <topic id="M:Imms.Abstract.AbstractSet`2.IsProperSubsetOf(System.Collections.Generic.IEnumerable{`0})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSet_2_IsProperSubsetOf" />
+        <topic id="M:Imms.Abstract.AbstractSet`2.IsProperSupersetOf(System.Collections.Generic.IEnumerable{`0})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSet_2_IsProperSupersetOf" />
+        <topic id="M:Imms.Abstract.AbstractSet`2.IsSubsetOf(System.Collections.Generic.IEnumerable{`0})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSet_2_IsSubsetOf" />
+        <topic id="M:Imms.Abstract.AbstractSet`2.IsSupersetOf(System.Collections.Generic.IEnumerable{`0})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSet_2_IsSupersetOf" />
+        <topic id="M:Imms.Abstract.AbstractSet`2.RelatesTo(System.Collections.Generic.IEnumerable{`0})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSet_2_RelatesTo" />
+        <topic id="M:Imms.Abstract.AbstractSet`2.Remove(`0)" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSet_2_Remove" />
+        <topic id="M:Imms.Abstract.AbstractSet`2.SetEquals(System.Collections.Generic.IEnumerable{`0})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSet_2_SetEquals" />
+        <topic id="M:Imms.Abstract.AbstractSet`2.Union(System.Collections.Generic.IEnumerable{`0})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSet_2_Union" />
+      </topic>
+      <topic id="Operators.T:Imms.Abstract.AbstractSet`2" project="Imms.Abstract" file="Operators_T_Imms_Abstract_AbstractSet_2">
+        <topic id="Overload:Imms.Abstract.AbstractSet`2.op_Addition" project="Imms.Abstract" file="Overload_Imms_Abstract_AbstractSet_2_op_Addition">
+          <topic id="M:Imms.Abstract.AbstractSet`2.op_Addition(Imms.Abstract.AbstractSet{`0,`1},System.Collections.Generic.IEnumerable{`0})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSet_2_op_Addition" />
+          <topic id="M:Imms.Abstract.AbstractSet`2.op_Addition(Imms.Abstract.AbstractSet{`0,`1},`0)" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSet_2_op_Addition_1" />
+        </topic>
+        <topic id="M:Imms.Abstract.AbstractSet`2.op_BitwiseAnd(Imms.Abstract.AbstractSet{`0,`1},System.Collections.Generic.IEnumerable{`0})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSet_2_op_BitwiseAnd" />
+        <topic id="M:Imms.Abstract.AbstractSet`2.op_ExclusiveOr(Imms.Abstract.AbstractSet{`0,`1},System.Collections.Generic.IEnumerable{`0})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSet_2_op_ExclusiveOr" />
+        <topic id="Overload:Imms.Abstract.AbstractSet`2.op_Subtraction" project="Imms.Abstract" file="Overload_Imms_Abstract_AbstractSet_2_op_Subtraction">
+          <topic id="M:Imms.Abstract.AbstractSet`2.op_Subtraction(Imms.Abstract.AbstractSet{`0,`1},System.Collections.Generic.IEnumerable{`0})" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSet_2_op_Subtraction" />
+          <topic id="M:Imms.Abstract.AbstractSet`2.op_Subtraction(Imms.Abstract.AbstractSet{`0,`1},`0)" project="Imms.Abstract" file="M_Imms_Abstract_AbstractSet_2_op_Subtraction_1" />
+        </topic>
+      </topic>
+    </topic>
+    <topic id="T:Imms.Abstract.IAnyIterableBuilder`1" project="Imms.Abstract" file="T_Imms_Abstract_IAnyIterableBuilder_1">
+      <topic id="Properties.T:Imms.Abstract.IAnyIterableBuilder`1" project="Imms.Abstract" file="Properties_T_Imms_Abstract_IAnyIterableBuilder_1">
+        <topic id="P:Imms.Abstract.IAnyIterableBuilder`1.Length" project="Imms.Abstract" file="P_Imms_Abstract_IAnyIterableBuilder_1_Length" />
+      </topic>
+      <topic id="Methods.T:Imms.Abstract.IAnyIterableBuilder`1" project="Imms.Abstract" file="Methods_T_Imms_Abstract_IAnyIterableBuilder_1">
+        <topic id="M:Imms.Abstract.IAnyIterableBuilder`1.Add(`0)" project="Imms.Abstract" file="M_Imms_Abstract_IAnyIterableBuilder_1_Add" />
+        <topic id="M:Imms.Abstract.IAnyIterableBuilder`1.AddRange(System.Collections.Generic.IEnumerable{`0})" project="Imms.Abstract" file="M_Imms_Abstract_IAnyIterableBuilder_1_AddRange" />
+      </topic>
+    </topic>
+    <topic id="T:Imms.Abstract.IAnyMapBuilder`2" project="Imms.Abstract" file="T_Imms_Abstract_IAnyMapBuilder_2">
+      <topic id="Properties.T:Imms.Abstract.IAnyMapBuilder`2" project="Imms.Abstract" file="Properties_T_Imms_Abstract_IAnyMapBuilder_2" />
+      <topic id="Methods.T:Imms.Abstract.IAnyMapBuilder`2" project="Imms.Abstract" file="Methods_T_Imms_Abstract_IAnyMapBuilder_2">
+        <topic id="M:Imms.Abstract.IAnyMapBuilder`2.Remove(`0)" project="Imms.Abstract" file="M_Imms_Abstract_IAnyMapBuilder_2_Remove" />
+        <topic id="M:Imms.Abstract.IAnyMapBuilder`2.TryGetKvp(`0)" project="Imms.Abstract" file="M_Imms_Abstract_IAnyMapBuilder_2_TryGetKvp" />
+      </topic>
+    </topic>
+    <topic id="T:Imms.Abstract.IAnySetBuilder`1" project="Imms.Abstract" file="T_Imms_Abstract_IAnySetBuilder_1">
+      <topic id="Properties.T:Imms.Abstract.IAnySetBuilder`1" project="Imms.Abstract" file="Properties_T_Imms_Abstract_IAnySetBuilder_1" />
+      <topic id="Methods.T:Imms.Abstract.IAnySetBuilder`1" project="Imms.Abstract" file="Methods_T_Imms_Abstract_IAnySetBuilder_1">
+        <topic id="M:Imms.Abstract.IAnySetBuilder`1.Contains(`0)" project="Imms.Abstract" file="M_Imms_Abstract_IAnySetBuilder_1_Contains" />
+        <topic id="M:Imms.Abstract.IAnySetBuilder`1.Remove(`0)" project="Imms.Abstract" file="M_Imms_Abstract_IAnySetBuilder_1_Remove" />
+      </topic>
+    </topic>
+    <topic id="T:Imms.Abstract.IBuilderFactory`1" project="Imms.Abstract" file="T_Imms_Abstract_IBuilderFactory_1">
+      <topic id="Properties.T:Imms.Abstract.IBuilderFactory`1" project="Imms.Abstract" file="Properties_T_Imms_Abstract_IBuilderFactory_1">
+        <topic id="P:Imms.Abstract.IBuilderFactory`1.EmptyBuilder" project="Imms.Abstract" file="P_Imms_Abstract_IBuilderFactory_1_EmptyBuilder" />
+      </topic>
+    </topic>
+    <topic id="T:Imms.Abstract.IIterableBuilder`2" project="Imms.Abstract" file="T_Imms_Abstract_IIterableBuilder_2">
+      <topic id="Properties.T:Imms.Abstract.IIterableBuilder`2" project="Imms.Abstract" file="Properties_T_Imms_Abstract_IIterableBuilder_2" />
+      <topic id="Methods.T:Imms.Abstract.IIterableBuilder`2" project="Imms.Abstract" file="Methods_T_Imms_Abstract_IIterableBuilder_2">
+        <topic id="M:Imms.Abstract.IIterableBuilder`2.Produce" project="Imms.Abstract" file="M_Imms_Abstract_IIterableBuilder_2_Produce" />
+      </topic>
+    </topic>
+    <topic id="T:Imms.Abstract.IMapBuilder`3" project="Imms.Abstract" file="T_Imms_Abstract_IMapBuilder_3">
+      <topic id="Properties.T:Imms.Abstract.IMapBuilder`3" project="Imms.Abstract" file="Properties_T_Imms_Abstract_IMapBuilder_3" />
+      <topic id="Methods.T:Imms.Abstract.IMapBuilder`3" project="Imms.Abstract" file="Methods_T_Imms_Abstract_IMapBuilder_3" />
+    </topic>
+    <topic id="T:Imms.Abstract.ISequentialBuilder`2" project="Imms.Abstract" file="T_Imms_Abstract_ISequentialBuilder_2">
+      <topic id="Properties.T:Imms.Abstract.ISequentialBuilder`2" project="Imms.Abstract" file="Properties_T_Imms_Abstract_ISequentialBuilder_2" />
+      <topic id="Methods.T:Imms.Abstract.ISequentialBuilder`2" project="Imms.Abstract" file="Methods_T_Imms_Abstract_ISequentialBuilder_2" />
+    </topic>
+    <topic id="T:Imms.Abstract.ISetBuilder`2" project="Imms.Abstract" file="T_Imms_Abstract_ISetBuilder_2">
+      <topic id="Properties.T:Imms.Abstract.ISetBuilder`2" project="Imms.Abstract" file="Properties_T_Imms_Abstract_ISetBuilder_2" />
+      <topic id="Methods.T:Imms.Abstract.ISetBuilder`2" project="Imms.Abstract" file="Methods_T_Imms_Abstract_ISetBuilder_2" />
+    </topic>
+  </topic>
+</topics>

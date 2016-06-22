@@ -14,7 +14,7 @@ class CmChartGroup extends React.Component {
     toSeries() {
         let group = this.props.group;
         let targets = this.props.targets;
-        let testNames = group.tests.map(x => x.test);
+        let testNames = group.tests.map(x => x.title || x.test);
         let targetNames = targets.map(x => x.target);
         let dataSets = targets.map((target, i) => {
             let results = group.tests.map(test => test.results.find(r => r.target === target.target)).map(x => x ? helpers_1.Num.sigFigs(x.result, 3) : null);

@@ -1,0 +1,1237 @@
+[
+  {
+    "Test": "Add",
+    "Target": "System.ImmutableSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        61.15919
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Remove",
+    "Target": "System.ImmutableSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        55.604085
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 50000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Contains",
+    "Target": "System.ImmutableSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        9.334765
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 50000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "Determines if a random element of the set is part of it, {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "IEnumerator",
+    "Target": "System.ImmutableSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        18.853025
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 50000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "IterateN",
+    "Target": "System.ImmutableSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.408845
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 50000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set_Union",
+    "Target": "System.ImmutableSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        51.623670000000004
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "System.ImmutableSet",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic union with another data structure {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set_Intersection",
+    "Target": "System.ImmutableSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        18.27393
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "System.ImmutableSet",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic intersection with another data structure {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set_Except",
+    "Target": "System.ImmutableSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        30.008860000000006
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "System.ImmutableSet",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic relative complement (or Except) operation.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set_Difference",
+    "Target": "System.ImmutableSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        53.185900000000004
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "System.ImmutableSet",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic symmetric difference operation.",
+    "Class": "SetOperation",
+    "Ratio": null
+  },
+  {
+    "Test": "Array_Union",
+    "Target": "System.ImmutableSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        36.504105
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic union with another data structure {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Array_Intersection",
+    "Target": "System.ImmutableSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        5.4514900000000006
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic intersection with another data structure {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Array_Except",
+    "Target": "System.ImmutableSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        4.727325
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic relative complement (or Except) operation.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Array_Difference",
+    "Target": "System.ImmutableSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        90.89138
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic symmetric difference operation.",
+    "Class": "SetOperation",
+    "Ratio": null
+  },
+  {
+    "Test": "Add",
+    "Target": "System.ImmutableSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        85.80745
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Remove",
+    "Target": "System.ImmutableSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        94.586415
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 50000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Contains",
+    "Target": "System.ImmutableSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        89.244710000000012
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 50000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "Determines if a random element of the set is part of it, {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "IEnumerator",
+    "Target": "System.ImmutableSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        13.23466
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 50000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "IterateN",
+    "Target": "System.ImmutableSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.30528
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 50000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set_Union",
+    "Target": "System.ImmutableSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        8.41627
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "System.ImmutableSortedSet",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic union with another data structure {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set_Intersection",
+    "Target": "System.ImmutableSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        49.13123
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "System.ImmutableSortedSet",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic intersection with another data structure {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set_Except",
+    "Target": "System.ImmutableSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        62.203050000000005
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "System.ImmutableSortedSet",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic relative complement (or Except) operation.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set_Difference",
+    "Target": "System.ImmutableSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        145.351245
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "System.ImmutableSortedSet",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic symmetric difference operation.",
+    "Class": "SetOperation",
+    "Ratio": null
+  },
+  {
+    "Test": "Array_Union",
+    "Target": "System.ImmutableSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        90.06928
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic union with another data structure {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Array_Intersection",
+    "Target": "System.ImmutableSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        42.102735
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic intersection with another data structure {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Array_Except",
+    "Target": "System.ImmutableSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        48.238365
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic relative complement (or Except) operation.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Array_Difference",
+    "Target": "System.ImmutableSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        218.628075
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic symmetric difference operation.",
+    "Class": "SetOperation",
+    "Ratio": null
+  },
+  {
+    "Test": "Add",
+    "Target": "FSharp.Set",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        51.407844999999995
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Remove",
+    "Target": "FSharp.Set",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        35.465590000000006
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 50000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Contains",
+    "Target": "FSharp.Set",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        9.46425
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 50000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "Determines if a random element of the set is part of it, {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "IEnumerator",
+    "Target": "FSharp.Set",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        3.1094700000000004
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 50000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "IterateN",
+    "Target": "FSharp.Set",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.023725000000000003
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 50000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set_Union",
+    "Target": "FSharp.Set",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        3.12283
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "FSharp.Set",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic union with another data structure {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set_Intersection",
+    "Target": "FSharp.Set",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        5.22332
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "FSharp.Set",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic intersection with another data structure {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set_Except",
+    "Target": "FSharp.Set",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        27.377915
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "FSharp.Set",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic relative complement (or Except) operation.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set_Difference",
+    "Target": "FSharp.Set",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        35.26499
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "FSharp.Set",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic symmetric difference operation.",
+    "Class": "SetOperation",
+    "Ratio": null
+  },
+  {
+    "Test": "Array_Union",
+    "Target": "FSharp.Set",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        53.446325
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic union with another data structure {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Array_Intersection",
+    "Target": "FSharp.Set",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        53.89008
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic intersection with another data structure {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Array_Except",
+    "Target": "FSharp.Set",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        75.01988
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic relative complement (or Except) operation.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Array_Difference",
+    "Target": "FSharp.Set",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        85.008925
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic symmetric difference operation.",
+    "Class": "SetOperation",
+    "Ratio": null
+  },
+  {
+    "Test": "Add",
+    "Target": "ImmSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        41.6691
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Remove",
+    "Target": "ImmSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        26.309295000000002
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 50000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Contains",
+    "Target": "ImmSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        4.602585
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 50000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "Determines if a random element of the set is part of it, {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "IEnumerator",
+    "Target": "ImmSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        4.416225
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 50000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "IterateN",
+    "Target": "ImmSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.018005
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 50000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set_Union",
+    "Target": "ImmSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        1.731015
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "ImmSet",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic union with another data structure {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set_Intersection",
+    "Target": "ImmSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        1.43262
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "ImmSet",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic intersection with another data structure {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set_Except",
+    "Target": "ImmSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        1.8613849999999998
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "ImmSet",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic relative complement (or Except) operation.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set_Difference",
+    "Target": "ImmSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        4.2855450000000008
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "ImmSet",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic symmetric difference operation.",
+    "Class": "SetOperation",
+    "Ratio": null
+  },
+  {
+    "Test": "Array_Union",
+    "Target": "ImmSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        15.514635000000002
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic union with another data structure {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Array_Intersection",
+    "Target": "ImmSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        4.0151400000000006
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic intersection with another data structure {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Array_Except",
+    "Target": "ImmSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        6.9879100000000012
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic relative complement (or Except) operation.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Array_Difference",
+    "Target": "ImmSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        19.37791
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic symmetric difference operation.",
+    "Class": "SetOperation",
+    "Ratio": null
+  },
+  {
+    "Test": "Add",
+    "Target": "ImmSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        79.184425
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Remove",
+    "Target": "ImmSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        71.8053
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 50000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Contains",
+    "Target": "ImmSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        53.63406
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 50000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "Determines if a random element of the set is part of it, {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "IEnumerator",
+    "Target": "ImmSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        4.0355550000000004
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 50000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "IterateN",
+    "Target": "ImmSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.010805
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 50000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set_Union",
+    "Target": "ImmSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        3.6127900000000004
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "ImmSortedSet",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic union with another data structure {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set_Intersection",
+    "Target": "ImmSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        6.1220200000000009
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "ImmSortedSet",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic intersection with another data structure {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set_Except",
+    "Target": "ImmSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        3.125925
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "ImmSortedSet",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic relative complement (or Except) operation.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set_Difference",
+    "Target": "ImmSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        9.650030000000001
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "ImmSortedSet",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic symmetric difference operation.",
+    "Class": "SetOperation",
+    "Ratio": null
+  },
+  {
+    "Test": "Array_Union",
+    "Target": "ImmSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        46.529105
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic union with another data structure {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Array_Intersection",
+    "Target": "ImmSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        74.126045
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic intersection with another data structure {iters} times.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Array_Except",
+    "Target": "ImmSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        74.028205
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic relative complement (or Except) operation.",
+    "Class": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Array_Difference",
+    "Target": "ImmSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        63.442240000000005
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic symmetric difference operation.",
+    "Class": "SetOperation",
+    "Ratio": null
+  }
+]

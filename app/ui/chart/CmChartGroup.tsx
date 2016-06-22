@@ -24,7 +24,7 @@ export class CmChartGroup extends React.Component<ChartGroupProps, void> {
 	toSeries(){
 		let group = this.props.group;
 		let targets = this.props.targets;
-		let testNames = group.tests.map(x => x.test);
+		let testNames = group.tests.map(x => x.title || x.test);
 		let targetNames = targets.map(x => x.target);
 		let dataSets =
 			targets.map((target : TestTarget, i : number) => {

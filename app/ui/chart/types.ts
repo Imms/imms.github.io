@@ -12,6 +12,7 @@ export interface TestResult {
 
 export interface Test {
 	test:string;
+	title ?: string;
 	results ?:TestResult[];
 	long?:string;
 }

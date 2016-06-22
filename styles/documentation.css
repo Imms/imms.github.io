@@ -6694,9 +6694,11 @@ a {
     padding-right: 10px;
     padding-bottom: 5px; }
   .complexity-table__heading-info {
-    text-align: left; }
+    text-align: left;
+    white-space: nowrap; }
   .complexity-table__heading-math {
-    text-align: center; }
+    text-align: center;
+    white-space: nowrap; }
   .complexity-table__math {
     font-size: 15px;
     text-align: center; }

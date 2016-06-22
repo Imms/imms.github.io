@@ -1,0 +1,2745 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>Imms</name>
+  </assembly>
+  <members>
+    <member name="T:Imms.Implementation.AssertionFailedException">
+      <summary>
+            Indicates that an assertion has failed.
+            </summary>
+    </member>
+    <member name="T:Imms.Implementation.AssertEx">
+      <summary>
+            Contains assertion extension methods
+            </summary>
+    </member>
+    <member name="M:Imms.Implementation.AssertEx.AssertEqual``1(``0,``0,System.String)">
+      <summary>
+              Assert.AreEqual, if T is IEnumerable then CollectionAssert.AreEqual
+            </summary>
+    </member>
+    <member name="M:Imms.Implementation.AssertEx.AssertEqual``1(``0,System.Func{``0,System.Boolean},System.String)">
+      <summary>
+              Assert.IsTrue(predicate(value))
+            </summary>
+    </member>
+    <member name="M:Imms.Implementation.AssertEx.AssertFalse(System.Boolean,System.String)">
+      <summary>
+              Is(false)
+            </summary>
+    </member>
+    <member name="M:Imms.Implementation.AssertEx.AssertUnequal``1(``0,``0,System.String)">
+      <summary>
+              Assert.AreNotEqual, if T is IEnumerable then CollectionAssert.AreNotEqual
+            </summary>
+    </member>
+    <member name="M:Imms.Implementation.AssertEx.AssertUnequal(System.Collections.IEnumerable,System.Collections.IEnumerable,System.String)">
+      <summary>
+              CollectionAssert.AreNotEqual
+            </summary>
+    </member>
+    <member name="M:Imms.Implementation.AssertEx.AssertNotNull``1(``0,System.String)">
+      <summary>
+              Assert.IsNotNull
+            </summary>
+    </member>
+    <member name="M:Imms.Implementation.AssertEx.AssertTrue(System.Boolean,System.String)">
+      <summary>
+              Is(true)
+            </summary>
+    </member>
+    <member name="T:Imms.Implementation.Marked`2">
+      <summary>
+                A light-weight object used to mark other objects (such as nodes in a tree, etc).
+            </summary>
+      <typeparam name="T">The type of the object to be marker.</typeparam>
+      <typeparam name="TMark">The type of the mark.</typeparam>
+    </member>
+    <member name="M:Imms.Implementation.Marked`2.op_Implicit(Imms.Implementation.Marked{`0,`1})~`0">
+      <summary>
+                Returns the underlying object.
+            </summary>
+      <param name="mObject">The marked object.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="T:Imms.Implementation.Marked">
+      <summary>
+                Helper class for constructing Marked objects.
+            </summary>
+    </member>
+    <member name="M:Imms.Implementation.Marked.Create``2(``0,``1)">
+      <summary>
+                Creates a new Marked object.
+            </summary>
+      <typeparam name="T">
+      </typeparam>
+      <typeparam name="TMark">
+      </typeparam>
+      <param name="o">
+      </param>
+      <param name="mark">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.Marked.Mark``2(``0,``1)">
+      <summary>
+                Marks the specified object with the specified value.
+            </summary>
+      <typeparam name="T">
+      </typeparam>
+      <typeparam name="TMark">
+      </typeparam>
+      <param name="o">
+      </param>
+      <param name="mark">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.FingerTree`1.Measured`1.#ctor(System.Int32,Imms.Implementation.Lineage,System.Int32,System.Int32)">
+      <summary>
+            Initializes a new Measured element, capable of being the child of a finger tree.
+            </summary>
+      <param name="measure">The measure, or count of the elements.</param>
+      <param name="lineage">The lineage.</param>
+      <param name="groupings">The number of groupings, for use with FingerTreeIterator.</param>
+      <param name="nesting">The nesting level of instances of this type. Used for the ExampleChild trick.</param>
+    </member>
+    <member name="P:Imms.Implementation.FingerTree`1.Measured`1.Item(System.Int32)">
+      <summary>
+                Gets the leaf at the specified index.
+            </summary>
+      <value>
+                The <see cref="T:Imms.Implementation.Leaf`1" />.
+            </value>
+      <param name="index">The index.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.FingerTree`1.Measured`1.Print">
+      <summary>
+                Prints this instance.
+            </summary>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.FingerTree`1.Measured`1.Fuse(`1,`1@,`1@,Imms.Implementation.Lineage)">
+      <summary>
+                Reforms this digit with the 'after' digit, returning the fixed digits in the output parameters. Both digits
+                together have more than 6 elements.
+            </summary>
+      <param name="after">The after.</param>
+      <param name="firstRes">The first output 2-3 digit.</param>
+      <param name="lastRes">The last output 2-3 digit.</param>
+      <param name="lineage">The lineage.</param>
+    </member>
+    <member name="M:Imms.Implementation.FingerTree`1.Measured`1.Insert(System.Int32,Imms.Implementation.Leaf{`0},`1@,`1@,Imms.Implementation.Lineage)">
+      <summary>
+                Inserts the leaf at the specified index, returning the primary result in 'value' and a rightmost overflow result in
+                'rightmost'
+            </summary>
+      <param name="index">The index.</param>
+      <param name="leaf">The leaf.</param>
+      <param name="value">The primary result digit. Cannot be null.</param>
+      <param name="rightmost1">The rightmost overflow result, when the digit cannot contain the new leaf. May be null.</param>
+      <param name="lineage">The lineage.</param>
+    </member>
+    <member name="M:Imms.Implementation.FingerTree`1.Measured`1.Iter(System.Action{Imms.Implementation.Leaf{`0}})">
+      <summary>
+                Applies the specified action on every leaf.
+            </summary>
+      <param name="action">The action.</param>
+    </member>
+    <member name="M:Imms.Implementation.FingerTree`1.Measured`1.Construct3(`0[],System.Int32@,Imms.Implementation.Lineage)">
+      <summary>
+                Constructs a Measured TObject with the 'proper' number of children for it, which is 3 for digits and 1 for leaves
+                (obviously).
+            </summary>
+      <param name="arr">The array from which to load data.</param>
+      <param name="i">The index at which to start reading the array. Incremented as data is loaded.</param>
+      <param name="lin">The lineage.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.FingerTree`1.Measured`1.IterBack(System.Action{Imms.Implementation.Leaf{`0}})">
+      <summary>
+                Iterates over the object from last to first.
+            </summary>
+      <param name="action">The action.</param>
+    </member>
+    <member name="M:Imms.Implementation.FingerTree`1.FTree`1.Compound._mutate(Imms.Implementation.FingerTree{`0}.FTree{`1}.Digit,Imms.Implementation.FingerTree{`0}.FTree{Imms.Implementation.FingerTree{`0}.FTree{`1}.Digit},Imms.Implementation.FingerTree{`0}.FTree{`1}.Digit)">
+      <summary>
+                This method will re-initialize this instance using the specified parameters.
+            </summary>
+    </member>
+    <member name="M:Imms.Implementation.FingerTree`1.FTree`1.Compound.MutateOrCreate(Imms.Implementation.FingerTree{`0}.FTree{`1}.Digit,Imms.Implementation.FingerTree{`0}.FTree{Imms.Implementation.FingerTree{`0}.FTree{`1}.Digit},Imms.Implementation.FingerTree{`0}.FTree{`1}.Digit,Imms.Implementation.Lineage)">
+      <summary>
+        <para>
+                    This method can mutate the current instance and return it, or return a new instance, based on the supplied
+                    Lineage.
+                </para>
+        <para>If the current Lineage allows mutation from the specified Lineage, the instance will be MUTATED and returned.</para>
+        <para>Otherwise, the method will return a NEW instance that is a member of the supplied Lineage. </para>
+      </summary>
+    </member>
+    <member name="M:Imms.Implementation.FingerTree`1.FTree`1.Compound.WhereIsThisIndex(System.Int32)">
+      <summary>
+                Returns 0 if index is 0 (meaning, empty).
+                Returns 1 if index is in left digit
+                Returns 2 if index encompasses the left digit.
+                Returns 3 if he index is in the deep tree.
+                Returns 4 if the index encompasses the left digit + deep tree
+                Returns 5 if the index is in the right digit.
+                Returns 6 if the index encompasses the entire tree.
+                Returns 7 if the index is outside the tree.
+            </summary>
+      <param name="index">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="F:Imms.Implementation.FingerTree`1.FTree`1.ExampleChild">
+      <summary>
+                Used as a sort of hack because generic types can't have static methods.
+                Basically, used to call ConstructTop and ConstructThis.
+            </summary>
+    </member>
+    <member name="P:Imms.Implementation.FingerTree`1.FTree`1.Digit.IsFragment">
+      <summary>
+                Returns if the digit size is 1. Digit sizes of 1 cannot appear deep in the finger tree.
+            </summary>
+    </member>
+    <member name="M:Imms.Implementation.FingerTree`1.FTree`1.Digit._mutate(System.Int32,System.Int32,`1,`1,`1,`1)">
+      <summary>
+                This method will re-initialize the current instance with the specified parameters by mutation.
+            </summary>
+    </member>
+    <member name="M:Imms.Implementation.FingerTree`1.FTree`1.Digit.WhereIsThisIndex(System.Int32)">
+      <summary>
+                Returns a code telling where is the index located
+            </summary>
+      <param name="index">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.FingerTree`1.FTree`1.Construct(`0[],System.Int32@,System.Int32,Imms.Implementation.Lineage)">
+      <summary>
+                Constructs a finger tree from the specified array, consisting of the elements at [index..index+count)
+                A lot faster than adding iteratively without lineages, and quite a bit faster than adding iteratively with
+                lineages.
+            </summary>
+      <param name="arr">The arr.</param>
+      <param name="index">The index.</param>
+      <param name="count">The count.</param>
+      <param name="lin">The lineage.</param>
+      <remarks>
+            Related:  
+            http://cs.stackexchange.com/questions/41081/guessing-the-structure-of-a-finger-tree-from-the-number-of-elements
+            <br />
+            Algorithm: https://hackage.haskell.org/package/containers-0.4.0.0/docs/src/Data-Sequence.html#applicativeTree
+            </remarks>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.FingerTree`1.FTree`1.Concat(Imms.Implementation.FingerTree{`0}.FTree{`1},Imms.Implementation.FingerTree{`0}.FTree{`1},Imms.Implementation.Lineage)">
+      <summary>
+            concatenates the two trees together. the supplied lineage cannot be shared by any of the trees, or the result will be corrupt!! <br />
+            However, you can reuse the lineage after calling this method.
+            </summary>
+      <param name="first">The first.</param>
+      <param name="last">The last.</param>
+      <param name="lineage">The lineage.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.FingerTree`1.FTree`1.AddFirst(`1,Imms.Implementation.Lineage)">
+      <summary>
+                Adds an item to the start (the left) of the finger tree..
+            </summary>
+      <param name="item">The item.</param>
+      <param name="lineage">The lineage.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.FingerTree`1.FTree`1.AddLastList(Imms.Implementation.FingerTree{`0}.FTree{`1},Imms.Implementation.Lineage)">
+      <summary>
+                Concats the specified ftree to the end of this one. If the lineage is shared by either of the trees, the result is corrupt!
+            </summary>
+      <param name="list">The list.</param>
+      <param name="lineage">The lineage.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.FingerTree`1.FTree`1.Split(System.Int32,Imms.Implementation.FingerTree{`0}.FTree{`1}@,Imms.Implementation.FingerTree{`0}.FTree{`1}@,Imms.Implementation.Lineage)">
+      <summary>
+            Splits the finger tree right before the specified index.
+            </summary>
+      <param name="index">The index.</param>
+      <param name="left">The left.</param>
+      <param name="right">The right.</param>
+      <param name="lineage">The lineage.</param>
+    </member>
+    <member name="T:Imms.Implementation.FingerTreeElement">
+      <summary>
+                A loosely typed finger tree element that could be a digit or a tree. Effectively hides type information, which can
+                be quite complex and difficult to abstract over. Used for iterating over the finger tree.
+            </summary>
+    </member>
+    <member name="F:Imms.Implementation.FingerTreeElement.ChildCount">
+      <summary>
+                The number of child elements this element has.
+            </summary>
+    </member>
+    <member name="P:Imms.Implementation.FingerTreeElement.HasValue">
+      <summary>
+                Whether this element has a value (is a leaf node).
+            </summary>
+    </member>
+    <member name="P:Imms.Implementation.FingerTreeElement.IsLeaf">
+      <summary>
+                Returns whether this element is a leaf.
+            </summary>
+    </member>
+    <member name="M:Imms.Implementation.FingerTreeElement.GetChild(System.Int32)">
+      <summary>
+                Returns the specified child of this node, by 0-based index.
+            </summary>
+      <param name="index">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="T:Imms.Implementation.OrderedAvlTree`2">
+      <summary>
+                A container class for an AVL tree ordered by key.
+            </summary>
+      <typeparam name="TKey">
+      </typeparam>
+      <typeparam name="TValue">
+      </typeparam>
+    </member>
+    <member name="T:Imms.Implementation.OrderedAvlTree`2.TreeIterator">
+      <summary>
+                A class that iterates over the tree non-recursively.
+            </summary>
+    </member>
+    <member name="M:Imms.Implementation.OrderedAvlTree`2.TreeIterator.SeekGreaterThan(`0,System.Int32@)">
+      <summary>
+                Moves the iterator to the first element that is equal to or larger than the specified key. <br />
+                Returns the comparison result.
+            </summary>
+      <param name="key">
+      </param>
+      <param name="cmpResult">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.OrderedAvlTree`2.TreeIterator.SeekForwardCloseTo(`0,System.Int32@)">
+      <summary>
+                Moves the iterator to a node with a key that is "close" to the specified key
+            </summary>
+      <param name="key">
+      </param>
+      <param name="cmpResult">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="T:Imms.Implementation.OrderedAvlTree`2.Node">
+      <summary>
+                A node in the AVL tree.
+            </summary>
+    </member>
+    <member name="F:Imms.Implementation.OrderedAvlTree`2.Node.Empty">
+      <summary>
+                A singleton indicating an empty note.
+            </summary>
+    </member>
+    <member name="P:Imms.Implementation.OrderedAvlTree`2.Node.Max">
+      <summary>
+                Returns the maximum element. O(logn).
+            </summary>
+    </member>
+    <member name="P:Imms.Implementation.OrderedAvlTree`2.Node.Min">
+      <summary>
+                Returns the minimum element. O(logn)
+            </summary>
+    </member>
+    <member name="P:Imms.Implementation.OrderedAvlTree`2.Node.MaxPossibleHeight">
+      <summary>
+                Returns the maximum possible height for this AVL tree. O(1)
+            </summary>
+    </member>
+    <member name="P:Imms.Implementation.OrderedAvlTree`2.Node.IsBalanced">
+      <summary>
+                Returns true if the tree is balanced.
+            </summary>
+    </member>
+    <member name="M:Imms.Implementation.OrderedAvlTree`2.Node.WithChildren(Imms.Implementation.OrderedAvlTree{`0,`1}.Node,Imms.Implementation.OrderedAvlTree{`0,`1}.Node,Imms.Implementation.Lineage)">
+      <summary>
+                Either constructs a new node or mutates the specified node, depending on Lineage.
+            </summary>
+      <param name="left">
+      </param>
+      <param name="right">
+      </param>
+      <param name="lineage">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.OrderedAvlTree`2.Node.WithValue(`1,Imms.Implementation.Lineage)">
+      <summary>
+                Either constructs a new node with the specified value, or mutates the existing node.
+            </summary>
+      <param name="newValue">
+      </param>
+      <param name="lineage">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.OrderedAvlTree`2.Node.AvlBalance(Imms.Implementation.OrderedAvlTree{`0,`1}.Node,Imms.Implementation.OrderedAvlTree{`0,`1}.Node,Imms.Implementation.Lineage)">
+      <summary>
+                Creates a new tree from a root node and two child nodes, balancing it in the process. May mutate the root node,
+                depending on Lineage. O(1)
+            </summary>
+      <param name="left">
+      </param>
+      <param name="right">
+      </param>
+      <param name="lineage">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.OrderedAvlTree`2.Node.AvlAdd(`0,`1,Imms.Implementation.Lineage,System.Boolean)">
+      <summary>
+                Adds the specified key-value pair to the tree. O(logn)
+            </summary>
+      <param name="key">
+      </param>
+      <param name="value">
+      </param>
+      <param name="lineage">
+      </param>
+      <param name="overwrite">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.OrderedAvlTree`2.Node.RemoveMin(Imms.Implementation.Lineage)">
+      <summary>
+                Removes the minimum element. O(logn)
+            </summary>
+      <param name="lineage">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.OrderedAvlTree`2.Node.RemoveMax(Imms.Implementation.Lineage)">
+      <summary>
+                Removes the maximum element. O(logn)
+            </summary>
+      <param name="lineage">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.OrderedAvlTree`2.Node.ExtractMin(Imms.Implementation.OrderedAvlTree{`0,`1}.Node@,Imms.Implementation.Lineage)">
+      <summary>
+                Removes the minimum element and returns it. O(logn)
+            </summary>
+      <param name="min">
+      </param>
+      <param name="lineage">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.OrderedAvlTree`2.Node.ExtractMax(Imms.Implementation.OrderedAvlTree{`0,`1}.Node@,Imms.Implementation.Lineage)">
+      <summary>
+                Removes the maximum element and returns it. O(logn)
+            </summary>
+      <param name="max">
+      </param>
+      <param name="lineage">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.OrderedAvlTree`2.Node.FindKvp(`0)">
+      <summary>
+                Tries to find a value matching the specified key. O(logn)
+            </summary>
+      <param name="key">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.OrderedAvlTree`2.Node.Contains(`0)">
+      <summary>
+                Tries to find a value matching the specified key. O(logn)
+            </summary>
+      <param name="key">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.OrderedAvlTree`2.Node.Apply``1(System.Func{`0,`1,``0},Imms.Implementation.Lineage)">
+      <summary>
+                Applies a selector on the values of the tree, returning a new tree. O(n)
+            </summary>
+      <typeparam name="TValue2">
+      </typeparam>
+      <param name="selector">
+      </param>
+      <param name="lineage">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.OrderedAvlTree`2.Node.ForEachWhile(System.Func{`0,`1,System.Boolean})">
+      <summary>
+                Iterates over the tree, from minimum element to maximum element.
+            </summary>
+      <param name="act">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.OrderedAvlTree`2.Node.ForEachBackWhile(System.Func{`0,`1,System.Boolean})">
+      <summary>
+                Iterates over the tree, from maximum element to minimum element.
+            </summary>
+      <param name="act">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.OrderedAvlTree`2.Node.AvlErase(Imms.Implementation.Lineage)">
+      <summary>
+                Removes the current element from the tree. O(logn)
+            </summary>
+      <param name="lineage">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.OrderedAvlTree`2.Node.AvlRemove(`0,Imms.Implementation.Lineage)">
+      <summary>
+                Removes an element with the specified key from the tree. O(logn)
+            </summary>
+      <param name="key">
+      </param>
+      <param name="lineage">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.OrderedAvlTree`2.Node.Concat(Imms.Implementation.OrderedAvlTree{`0,`1}.Node,Imms.Implementation.OrderedAvlTree{`0,`1}.Node,Imms.Implementation.OrderedAvlTree{`0,`1}.Node,Imms.Implementation.Lineage)">
+      <summary>
+                Concatenates leftBranch-pivot-rightBranch and balances the result.
+            </summary>
+      <param name="leftBranch">
+      </param>
+      <param name="pivot">
+      </param>
+      <param name="rightBranch">
+      </param>
+      <param name="lineage">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.OrderedAvlTree`2.Node.Split(`0,Imms.Implementation.OrderedAvlTree{`0,`1}.Node@,Imms.Implementation.OrderedAvlTree{`0,`1}.Node@,Imms.Implementation.OrderedAvlTree{`0,`1}.Node@,Imms.Implementation.Lineage)">
+      <summary>
+                Splits the tree into a left subtree where all elements are smallest than the pivot, <br />
+                a right subtree where all elements are larger than the pivot, and a central value equal to the pivot (if one
+                exists)
+            </summary>
+      <param name="pivot">
+      </param>
+      <param name="leftBranch">
+      </param>
+      <param name="central">
+      </param>
+      <param name="rightBranch">
+      </param>
+      <param name="lin">
+      </param>
+    </member>
+    <member name="M:Imms.Implementation.OrderedAvlTree`2.Node.Concat(Imms.Implementation.OrderedAvlTree{`0,`1}.Node,Imms.Implementation.OrderedAvlTree{`0,`1}.Node,Imms.Implementation.Lineage)">
+      <summary>
+                Concantenates a left subtree and a right subtree.
+            </summary>
+      <param name="left">
+      </param>
+      <param name="right">
+      </param>
+      <param name="lin">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.OrderedAvlTree`2.Node.CountIntersection(Imms.Implementation.OrderedAvlTree{`0,`1}.Node)">
+      <summary>
+                Counts the number of elements shared between this tree and the specified tree, without actually evaluating the
+                intersection. O(min(m+n, mlogn, nlogm))
+            </summary>
+      <param name="b">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.OrderedAvlTree`2.Node.Relation(Imms.Implementation.OrderedAvlTree{`0,`1}.Node)">
+      <summary>
+                Returns the set-theoretic relation between this tree and another tree. O(min(m+n, nlogm)), where n ≤ m.
+            </summary>
+      <param name="other">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.OrderedAvlTree`2.Node.Except``1(Imms.Implementation.OrderedAvlTree{`0,``0}.Node,Imms.Implementation.Lineage,Imms.ValueSelector{`0,`1,``0,Imms.Optional{`1}})">
+      <summary>
+                Removes the keys of the other tree from this tree. Keys are ignored. <br />
+                Corresponds to a set theoretic relative complement: this ∖ other.
+            </summary>
+      <param name="other">
+      </param>
+      <param name="lin">
+      </param>
+      <param name="subtraction">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.OrderedAvlTree`2.Node.Union(Imms.Implementation.OrderedAvlTree{`0,`1}.Node,Imms.ValueSelector{`0,`1,`1,`1},Imms.Implementation.Lineage)">
+      <summary>
+                Returns the set-theoretic union, and applies a function on the values in case of a collision.  <br />
+                If the collision resolution function is null, the value of 'b' is used.
+            </summary>
+      <param name="b">
+      </param>
+      <param name="collision">
+      </param>
+      <param name="lin">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.OrderedAvlTree`2.Node.FromSortedList(System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{`0,`1}},System.Int32,System.Int32,System.Collections.Generic.IComparer{`0},Imms.Implementation.Lineage)">
+      <summary>
+                Constructs a tree from a sorted list.
+            </summary>
+      <param name="sorted">
+      </param>
+      <param name="startIndex">
+      </param>
+      <param name="endIndex">
+      </param>
+      <param name="comparer">
+      </param>
+      <param name="lineage">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.OrderedAvlTree`2.Node.IntersectElements(Imms.Implementation.OrderedAvlTree{`0,`1}.Node)">
+      <summary>
+                Returns an iterator for retrieving all the elements shared between this tree and another tree.
+            </summary>
+      <param name="other">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.OrderedAvlTree`2.Node.Intersect(Imms.Implementation.OrderedAvlTree{`0,`1}.Node,Imms.Implementation.Lineage,Imms.ValueSelector{`0,`1,`1,`1})">
+      <summary>
+                Returns the set-thereotic intersection between the two trees, and applies the collision resolution function on each
+                shared key-value pair. O(min(m+n,nlogm)) where n ≤ m. <br />
+                If the collision resolution function is null, it is ignored and the value is kept is arbitrary.
+            </summary>
+      <param name="other">
+      </param>
+      <param name="lineage">
+      </param>
+      <param name="collision">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="T:Imms.Implementation.HashedAvlTree`2">
+      <summary>
+                Container class for an hashed avl tree, which stores key-value pairs ordered by a hash value. Keys with identical
+                hashes are placed in buckets.
+            </summary>
+      <typeparam name="TKey">
+      </typeparam>
+      <typeparam name="TValue">
+      </typeparam>
+    </member>
+    <member name="M:Imms.Implementation.HashedAvlTree`2.TreeIterator.SeekForwardCloseTo(System.Int32)">
+      <summary>
+                Skips until it reaches 1 after or 1 before the hash. Worst case O(logn), amortized O(1).
+            </summary>
+      <param name="hash">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="T:Imms.Implementation.HashedAvlTree`2.Node">
+      <summary>
+                A node in the hashed AVL tree.
+            </summary>
+    </member>
+    <member name="F:Imms.Implementation.HashedAvlTree`2.Node.Empty">
+      <summary>
+                The singleton that represents an empty node.
+            </summary>
+    </member>
+    <member name="F:Imms.Implementation.HashedAvlTree`2.Node.Bucket">
+      <summary>
+                A bucket containing key-value pairs with identical hashes.
+            </summary>
+    </member>
+    <member name="F:Imms.Implementation.HashedAvlTree`2.Node.Hash">
+      <summary>
+                The hash of this node.
+            </summary>
+    </member>
+    <member name="M:Imms.Implementation.HashedAvlTree`2.Node.AvlBalance(Imms.Implementation.HashedAvlTree{`0,`1}.Node,Imms.Implementation.HashedAvlTree{`0,`1}.Node,Imms.Implementation.Lineage)">
+      <summary>
+                Creates a new tree and balances it.
+            </summary>
+      <param name="left">
+      </param>
+      <param name="right">
+      </param>
+      <param name="lineage">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="T:Imms.Implementation.HashedAvlTree`2.Bucket">
+      <summary>
+                An unordered linked list of elements used to store key-value pairs that have identical hashes.
+            </summary>
+    </member>
+    <member name="M:Imms.Implementation.Helpers.LastItem``1(System.Collections.Generic.List{``0})">
+      <summary>
+                Returns the last element of the list.
+            </summary>
+      <typeparam name="T">
+      </typeparam>
+      <param name="list">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.Helpers.RemoveDuplicatesInSortedArray``1(``0[],System.Func{``0,``0,System.Boolean},System.Int32@)">
+      <summary>
+            Removes the duplicates in sorted array.
+            </summary>
+      <typeparam name="T">
+      </typeparam>
+      <param name="arr">The array.</param>
+      <param name="equalityFunc">The equality function.</param>
+      <param name="len">The length.</param>
+    </member>
+    <member name="M:Imms.Implementation.Helpers.PopLast``1(System.Collections.Generic.List{``0})">
+      <summary>
+                Removes the last element from the list and returns it.
+            </summary>
+      <typeparam name="T">
+      </typeparam>
+      <param name="list">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="T:Imms.Implementation.ArrayExt">
+      <summary>
+                Provides some helpful operations on arrays.
+            </summary>
+    </member>
+    <member name="M:Imms.Implementation.ArrayExt.OfItems``1(System.Int32,``0,``0)">
+      <summary>
+                Returns a new array with a given size, and sets the first two elements.
+            </summary>
+      <typeparam name="T">
+      </typeparam>
+      <param name="size">
+      </param>
+      <param name="item1">
+      </param>
+      <param name="item2">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.ArrayExt.Resize``1(``0[],System.Int32)">
+      <summary>
+                Returns a new array consisting of the first elements from the current array. Any excess elements are uninitialized.
+            </summary>
+      <typeparam name="T">
+      </typeparam>
+      <param name="self">
+      </param>
+      <param name="count">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.ArrayExt.Update``1(``0[],System.Int32,``0,System.Int32)">
+      <summary>
+                Returns a new element with the specified element set to the specified value, and also truncates the result to the
+                specified length.
+            </summary>
+      <typeparam name="T">
+      </typeparam>
+      <param name="self">
+      </param>
+      <param name="index">
+      </param>
+      <param name="value">
+      </param>
+      <param name="truncate">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="T:Imms.Implementation.ImplementationException">
+      <summary>
+            An exception thrown by the deep, technical implementation level of a data structure.<br />
+            Checks for all exceptions must be performed at the user-visible wrapper level. If this exception is thrown, it means that there is a bug.
+            </summary>
+    </member>
+    <member name="T:Imms.Implementation.ImplErrors">
+      <summary>
+                Errors used by the implementation of some data structures. These shouldn't be user-visible and if they are, this
+                constitutes a bug.
+            </summary>
+    </member>
+    <member name="M:Imms.Implementation.ImplErrors.Invalid_digit_size(System.Int32,System.String)">
+      <summary>
+                Thrown when a digit gets an invalid size.
+            </summary>
+      <param name="size">
+      </param>
+      <param name="message">
+      </param>
+    </member>
+    <member name="M:Imms.Implementation.ImplErrors.Invalid_execution_path(System.String)">
+      <summary>
+                Thrown when a switch statement that was supposed to handle all cases somehow didn't.
+            </summary>
+      <param name="info">
+      </param>
+    </member>
+    <member name="M:Imms.Implementation.ImplErrors.Invalid_invocation(System.String)">
+      <summary>
+                Thrown when a method was executed on a node marked as Null, which is illegal for executions.
+            </summary>
+      <param name="objectKind">
+      </param>
+    </member>
+    <member name="T:Imms.Implementation.Lineage">
+      <summary>
+                A special lock-type object used to control whether mutation is possible or not. <br />
+                Used to guarantee persistence, while safely allowing some safe mutation to greatly reduce object construction
+                overhead.
+            </summary>
+    </member>
+    <member name="F:Imms.Implementation.Lineage.Immutable">
+      <summary>
+                An instance of the Lineage which always denies mutation.
+            </summary>
+    </member>
+    <member name="M:Imms.Implementation.Lineage.Mutable">
+      <summary>
+                Creates a new Lineage that allows controlled mutation for an operation with the right key.
+            </summary>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.TrieVector`1.Leaf.RemoveLast(Imms.Implementation.Lineage)">
+      <summary>
+                Removes the last element.
+            </summary>
+      <param name="lineage">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="P:Imms.Implementation.TrieVector`1.Node.IsParent">
+      <summary>
+                This method is not optimized.
+            </summary>
+    </member>
+    <member name="M:Imms.Implementation.TrieVector`1.Node.Take(System.Int32,Imms.Implementation.Lineage)">
+      <summary>
+                WARNING THE PARAMETER CALLED 'index' IS NOT THE INDEX IN THIS NODE, BUT IN THE ENTIRE TREE!!!! <br />
+                IF YOU DO index &lt; this.Length you will get FALSE!!!!
+            </summary>
+      <param name="index">
+      </param>
+      <param name="lineage">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Implementation.TrieVector`1.Node.IterWhileFrom(System.Int32,System.Func{`0,System.Boolean})">
+      <summary>
+                Begins iterating over the trie at the specified index.
+            </summary>
+      <param name="index">
+      </param>
+      <param name="conditional">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="T:Imms.Implementation.FingerTreeIterator`1">
+      <summary>
+                Returns an iterator for iterating over a finger tree.
+            </summary>
+      <typeparam name="TValue">The type of the value.</typeparam>
+    </member>
+    <member name="T:Imms.Implementation.Leaf`1">
+      <summary>
+                Used to wrap a single value. Needs to exist because Digit objects can only contain Measured objects.
+            </summary>
+      <typeparam name="TValue">The type of the value.</typeparam>
+    </member>
+    <member name="N:Imms">
+      <summary>
+            Main namespace of the Imms library. Contains core collections and additional types.
+            </summary>
+    </member>
+    <member name="T:Imms.ImmList">
+      <summary>
+            Utility and extension methods for working with the ImmList collection.
+            </summary>
+    </member>
+    <member name="M:Imms.ImmList.Empty``1">
+      <summary>
+            Returns the empty ImmList for the specified element type.
+            </summary>
+      <typeparam name="T">The type of element to return.</typeparam>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmList.ToImmList``1(System.Collections.Generic.IEnumerable{``0})">
+      <summary>
+                Creates a ImmList from a sequence of items.
+            </summary>
+      <typeparam name="T"> The type of the value. </typeparam>
+      <param name="items"> The elements from which to create the ImmList. </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmList.Of``1(``0[])">
+      <summary>
+            Creates a ImmList from a number of items.
+            </summary>
+      <typeparam name="T">The type of value.</typeparam>
+      <param name="items">The elements from which to create the ImmList.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="T:Imms.ImmMap">
+      <summary>
+            Contains utility and extension methods for working with the ImmMap[TKey, TValue] collection type.
+            </summary>
+    </member>
+    <member name="M:Imms.ImmMap.CreateMap``2(System.Collections.Generic.IEqualityComparer{``0})">
+      <summary>
+            Uses the specified IEqualityComparer as a factory, producing an empty ImmMap using that comparer.
+            </summary>
+      <typeparam name="TKey">
+      </typeparam>
+      <typeparam name="TValue">
+      </typeparam>
+      <param name="eq">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmMap.Of``2(System.Collections.Generic.KeyValuePair{``0,``1}[])">
+      <summary>
+            Returns a map containing the specified key-value pairs.
+            </summary>
+      <typeparam name="TKey">
+      </typeparam>
+      <typeparam name="TValue">
+      </typeparam>
+      <param name="kvps">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmMap.Empty``2(System.Collections.Generic.IEqualityComparer{``0})">
+      <summary>
+            Returns an empty ImmMap that uses the specified equality comparer to equate elements.
+            </summary>
+      <typeparam name="TKey">
+      </typeparam>
+      <typeparam name="TValue">
+      </typeparam>
+      <param name="eq">Optionally, the equality comparer used to equate keys. Otherwise, the default equality comparer is used.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmMap.ToImmMap``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}},System.Collections.Generic.IEqualityComparer{``0})">
+      <summary>
+            Converts the specified sequence of key-value pairs to a ImmMap, using the optionally specified equality comparer for determining equality between keys.
+            </summary>
+      <typeparam name="TKey">
+      </typeparam>
+      <typeparam name="TValue">
+      </typeparam>
+      <param name="kvps">A sequence of key-value pairs.</param>
+      <param name="eq">An equality comparer</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmMap.ToImmMap``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})">
+      <summary>
+            Converts the specified sequence into a ImmMap, using the key and value selectors to determine the keys and values.
+            </summary>
+      <typeparam name="T">The type of value contained in the sequence.</typeparam>
+      <typeparam name="TKey">The type of key selected.</typeparam>
+      <typeparam name="TValue">
+      </typeparam>
+      <param name="sequence">
+      </param>
+      <param name="keySelector">
+      </param>
+      <param name="valueSelector">
+      </param>
+      <param name="equality">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="T:Imms.ImmSet">
+      <summary>
+            Utility class for working with <see cref="T:Imms.ImmSet`1" />.
+            </summary>
+    </member>
+    <member name="M:Imms.ImmSet.Empty``1">
+      <summary>
+            Returns an empty <see cref="T:Imms.ImmSet`1" /> that uses default equality semantics.
+            </summary>
+      <typeparam name="T">
+      </typeparam>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmSet.CreateSet``1(System.Collections.Generic.IEqualityComparer{``0})">
+      <summary>
+            Returns an empty <see cref="T:Imms.ImmSet`1" /> that uses this eq comparer.
+            </summary>
+      <typeparam name="T">
+      </typeparam>
+      <param name="eq">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmSet.Of``1(``0[])">
+      <summary>
+            Returns a set consisting of the specified items.
+            </summary>
+      <typeparam name="T">
+      </typeparam>
+      <param name="items">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmSet.ToImmSet``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})">
+      <summary>
+            Converts the sequence to an <see cref="T:Imms.ImmSet`1" />. Optionally, you may provide an eq comparer.
+            </summary>
+      <typeparam name="T">
+      </typeparam>
+      <param name="items">
+      </param>
+      <param name="eq">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="T:Imms.ImmSortedMap">
+      <summary>
+            Utility methods for ordered map.
+            </summary>
+    </member>
+    <member name="M:Imms.ImmSortedMap.ToImmSortedMap``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}})">
+      <summary>
+            Converts a sequence of key-value pairs to an ordered map. The keys must be IComparable.
+            </summary>
+      <typeparam name="TKey">
+      </typeparam>
+      <typeparam name="TValue">
+      </typeparam>
+      <param name="kvps">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmSortedMap.ToImmSortedMap``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}},System.Collections.Generic.IComparer{``0})">
+      <summary>
+            Converts a sequence of key-value pairs to an ordered map, with the specified comparison semantics.
+            </summary>
+      <typeparam name="TKey">
+      </typeparam>
+      <typeparam name="TValue">
+      </typeparam>
+      <param name="kvps">
+      </param>
+      <param name="cmp">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmSortedMap.CreateOrderedMap``2(System.Collections.Generic.IComparer{``0})">
+      <summary>
+            Returns a new empty ordered map using the specified comparer.
+            </summary>
+      <typeparam name="TKey">
+      </typeparam>
+      <typeparam name="TValue">
+      </typeparam>
+      <param name="comparer">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmSortedMap.Of``2(System.Collections.Generic.KeyValuePair{``0,``1}[])">
+      <summary>
+            Returns a sorted map consisting of the specified key-value pairs.
+            </summary>
+      <param name="kvps">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmSortedMap.Empty``2">
+      <summary>
+            Returns an empty ordered map for the specified types using default comparison semantics.
+            </summary>
+      <typeparam name="TKey">
+      </typeparam>
+      <typeparam name="TValue">
+      </typeparam>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmSortedMap.Empty``2(System.Collections.Generic.IComparer{``0})">
+      <summary>
+            Returns an empty ordered map for the specified types using the specified comparison handler.
+            </summary>
+      <typeparam name="TKey">
+      </typeparam>
+      <typeparam name="TValue">
+      </typeparam>
+      <param name="cmp">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="T:Imms.ImmSortedSet">
+      <summary>
+            Utility methods for working with <see cref="T:Imms.ImmSortedSet`1" />.
+            </summary>
+    </member>
+    <member name="M:Imms.ImmSortedSet.Empty``1">
+      <summary>
+            Returns an empty <see cref="T:Imms.ImmSortedSet`1" /> using the default comparison semantics of the type.
+            </summary>
+      <typeparam name="T">The type of element.</typeparam>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmSortedSet.Empty``1(System.Collections.Generic.IComparer{``0})">
+      <summary>
+            Returns an empty instance of <see cref="T:Imms.ImmSortedSet`1" /> using the specified comparer.
+            </summary>
+      <typeparam name="T">The type of element.</typeparam>
+      <param name="cmp">The comparer.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmSortedSet.ToImmSortedSet``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IComparer{``0})">
+      <summary>
+            Converts a sequence of elements to an <see cref="T:Imms.ImmSortedSet`1" /> using the specified comparer.
+            </summary>
+      <typeparam name="T">The type of element.</typeparam>
+      <param name="items">The sequence to be converted.</param>
+      <param name="cmp">The comparer.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmSortedSet.Of``1(``0[])">
+      <summary>
+            Returns a sorted set consisting of the specified items.
+            </summary>
+      <typeparam name="T">
+      </typeparam>
+      <param name="items">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmSortedSet.ToImmSortedSet``1(System.Collections.Generic.IEnumerable{``0})">
+      <summary>
+            Converts a sequence of elements to an <see cref="T:Imms.ImmSortedSet`1" /> using the specified comparer.
+            </summary>
+      <typeparam name="T">The type of element.</typeparam>
+      <param name="items">The sequence to be converted.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmSortedSet.CreateOrderedSet``1(System.Collections.Generic.IComparer{``0})">
+      <summary>
+            Returns an empty <see cref="T:Imms.ImmSortedSet`1" /> using the specified comparer.
+            </summary>
+      <typeparam name="T">
+      </typeparam>
+      <param name="comparer">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="T:Imms.ImmVector">
+      <summary>
+            Static class containing utility and extension methods for working with the ImmVector[T] class.
+            </summary>
+    </member>
+    <member name="M:Imms.ImmVector.Empty``1">
+      <summary>
+            Returns the empty vector for the specified type.
+            </summary>
+      <typeparam name="T">The type of element contained in the vector.</typeparam>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmVector.ToImmVector``1(System.Collections.Generic.IEnumerable{``0})">
+      <summary>
+                Creates a Vector from a collection of items.
+            </summary>
+      <typeparam name="T"> The type of value. </typeparam>
+      <param name="items"> The items used as source. </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmVector.FromItems``1(``0[])">
+      <summary>
+            Creates a Vector from a number of elements.
+            </summary>
+      <typeparam name="T">The type of element contained in the vector.</typeparam>
+      <param name="items">The elements to add.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="T:Imms.ImmSortedMap`2">
+      <summary>
+            Immutable and persistent ordered map that uses comparison and allows looking up key-value pairs by sort order. 
+            </summary>
+      <typeparam name="TKey">
+      </typeparam>
+      <typeparam name="TValue">
+      </typeparam>
+    </member>
+    <member name="P:Imms.ImmSortedMap`2.IsEmpty">
+      <summary>
+                Returns true if the collection is empty.
+            </summary>
+    </member>
+    <member name="P:Imms.ImmSortedMap`2.Length">
+      <summary>
+                Returns the number of elements in the collection.
+            </summary>
+    </member>
+    <member name="P:Imms.ImmSortedMap`2.MaxItem">
+      <summary>
+            Returns the maximal key-value pair in this map.
+            </summary>
+    </member>
+    <member name="P:Imms.ImmSortedMap`2.MinItem">
+      <summary>
+            Returns the minimal key-value pair in this map.
+            </summary>
+    </member>
+    <member name="M:Imms.ImmSortedMap`2.Union(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}},Imms.ValueSelector{`0,`1,`1,`1})">
+      <summary>
+                Merges the two maps, applying the selector function for keys appearing in both maps.
+            </summary>
+      <param name="other">The other.</param>
+      <param name="collision">
+                The collision resolution function. If null, the values in the other map overwrite the values in this map.
+            </param>
+      <remarks>
+            The merge operation is analogous to a union operation over sets. 
+            
+            This operation returns all key-value pairs present in either map. If a key is shared between both maps, the collision resolution function is applied to determine the value in the result map.
+            </remarks>
+    </member>
+    <member name="M:Imms.ImmSortedMap`2.Empty(System.Collections.Generic.IComparer{`0})">
+      <summary>
+            Returns an empty <see cref="T:Imms.ImmSortedMap`2" /> using the specified comparer.
+            </summary>
+      <param name="comparer">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmSortedMap`2.GetEnumerator">
+      <summary>
+            Returns an enumerator that iterates through the collection.
+            </summary>
+      <returns>
+            A <see cref="T:System.Collections.Generic.IEnumerator`1" /> that can be used to iterate through the collection.
+            </returns>
+      <filterpriority>1</filterpriority>
+    </member>
+    <member name="M:Imms.ImmSortedMap`2.TryGet(`0)">
+      <summary>
+            Returns the value associated with the specified key, or None if no such key exists.
+            </summary>
+      <param name="key">The key.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmSortedMap`2.ForEachWhile(System.Func{System.Collections.Generic.KeyValuePair{`0,`1},System.Boolean})">
+      <summary>
+                Applies the specified function on every item in the collection, from last to first, and stops when the function returns false.
+            </summary>
+      <param name="function"> The function. </param>
+      <returns>
+      </returns>
+      <exception cref="T:System.ArgumentNullException">Thrown if the argument null.</exception>
+    </member>
+    <member name="M:Imms.ImmSortedMap`2.RemoveRange(System.Collections.Generic.IEnumerable{`0})">
+      <summary>
+            Removes several keys from this key-value map.
+            </summary>
+      <param name="keys">A sequence of keys to remove. Can be much faster if it's a set compatible with this map.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmSortedMap`2.Except``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,``0}},Imms.ValueSelector{`0,`1,``0,Imms.Optional{`1}})">
+      <summary>
+                Subtracts the key-value pairs in the specified map from this one, applying the subtraction function on each key shared between the maps.
+            </summary>
+      <param name="other">A sequence of key-value pairs. This operation is much faster if it's a map compatible with this one.</param>
+      <param name="subtraction">Optionally, a subtraction function that generates the value in the resulting key-value map. Otherwise, key-value pairs are always removed.</param>
+      <remarks>
+            Subtraction over maps is anaologous to Except over sets. 
+            If the subtraction function is not specified (or is null), the operation simply subtracts all the keys present in the other map from this one.
+            If a subtraction function is supplied, the operation invokes the function on each key-value pair shared with the other map. If the function returns a value,
+            that value is used in the return map. If the function returns None, the key is removed from the return map.
+            </remarks>
+    </member>
+    <member name="M:Imms.ImmSortedMap`2.ByOrder(System.Int32)">
+      <summary>
+            Returns the key-value pair at the specified index in the ordered map, by key order.
+            </summary>
+      <param name="index">
+      </param>
+      <returns>
+      </returns>
+      <exception cref="T:System.ArgumentOutOfRangeException">If the index is out of range</exception>
+    </member>
+    <member name="M:Imms.ImmSortedMap`2.Remove(`0)">
+      <summary>
+            Removes a key from the map, or does nothing if the key does not exist.
+            </summary>
+      <param name="key">The key to remove.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmSortedMap`2.RemoveMax">
+      <summary>
+            Removes the maximal key-value pair from this map.
+            </summary>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmSortedMap`2.RemoveMin">
+      <summary>
+            removes the minimal key-value pair from this map.
+            </summary>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmSortedMap`2.IndexOf(`0)">
+      <summary>
+            Returns the index of the specified key, by sort order, or None if the key was not found.
+            </summary>
+      <param name="key">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmSortedMap`2.Slice(Imms.Optional{`0},Imms.Optional{`0})">
+      <summary>
+            Returns a slice of the map, bounded by an optional minimum key and an optional maximum key. The bounds are included in the result.
+            </summary>
+      <returns>
+      </returns>
+    </member>
+    <member name="T:Imms.ImmSortedSet`1">
+      <summary>
+            Immutable and persistent ordered set. Uses comparison semantics, and allows looking up items by sort order.
+            </summary>
+      <typeparam name="T">
+      </typeparam>
+    </member>
+    <member name="P:Imms.ImmSortedSet`1.Length">
+      <summary>
+                Returns the number of elements in the collection.
+            </summary>
+    </member>
+    <member name="P:Imms.ImmSortedSet`1.MinItem">
+      <summary>
+            Returns the minimum element in this ordered set.
+            </summary>
+    </member>
+    <member name="P:Imms.ImmSortedSet`1.MaxItem">
+      <summary>
+            Returns the maximum element in this ordered set.
+            </summary>
+    </member>
+    <member name="M:Imms.ImmSortedSet`1.IndexOf(`0)">
+      <summary>
+            Returns the index of the specified key, by sort order, or None if the key was not found.
+            </summary>
+      <param name="key">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="P:Imms.ImmSortedSet`1.IsEmpty">
+      <summary>
+                Returns true if the collection is empty.
+            </summary>
+    </member>
+    <member name="M:Imms.ImmSortedSet`1.Empty(System.Collections.Generic.IComparer{`0})">
+      <summary>
+            Returns an empty <see cref="T:Imms.ImmSortedSet`1" /> using the specified comparer.
+            </summary>
+      <param name="cm">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmSortedSet`1.Union(System.Collections.Generic.IEnumerable{`0})">
+      <summary>
+                Returns the set-theoretic union between this set and a set-like collection.
+            </summary>
+      <param name="other">A sequence of values. This operation is much faster if it's a set compatible with this one.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmSortedSet`1.Add(`0)">
+      <summary>
+            Adds a new item to the set, or does nothing if the item already exists.
+            </summary>
+      <param name="item">The item to add.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmSortedSet`1.Remove(`0)">
+      <summary>
+            Removes an item from the set, or does nothing if the item does not exist.
+            </summary>
+      <param name="item">The item to remove.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmSortedSet`1.Contains(`0)">
+      <summary>
+                Returns true if the item is contained in the set.
+            </summary>
+      <param name="item">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmSortedSet`1.ForEachWhile(System.Func{`0,System.Boolean})">
+      <summary>
+                Applies the specified function on every item in the collection, from last to first, and stops when the function returns false.
+            </summary>
+      <param name="function"> The function. </param>
+      <returns>
+      </returns>
+      <exception cref="T:System.ArgumentNullException">Thrown if the argument null.</exception>
+    </member>
+    <member name="M:Imms.ImmSortedSet`1.RemoveMax">
+      <summary>
+            Removes the maximal element from the set.
+            </summary>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmSortedSet`1.ByOrder(System.Int32)">
+      <summary>
+            Returns the element at the specified position in the sort order.
+            </summary>
+      <param name="index">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmSortedSet`1.RemoveMin">
+      <summary>
+            Removes the minimal element from this set.
+            </summary>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmSortedSet`1.GetEnumerator">
+      <summary>
+            Returns an enumerator that iterates through the collection.
+            </summary>
+      <returns>
+            A <see cref="T:System.Collections.Generic.IEnumerator`1" /> that can be used to iterate through the collection.
+            </returns>
+      <filterpriority>1</filterpriority>
+    </member>
+    <member name="M:Imms.ImmSortedSet`1.Slice(Imms.Optional{`0},Imms.Optional{`0})">
+      <summary>
+            Returns a slice of the set, bounded by an optional minimum key and an optional maximum key. The bounds are included in the result.
+            </summary>
+      <returns>
+      </returns>
+    </member>
+    <member name="T:Imms.Convertion">
+      <summary>
+                Provides extension methods for converting between, to, and from Imm data structures.
+            </summary>
+    </member>
+    <member name="T:Imms.ImmMap`2">
+      <summary>
+            Immutable and persistent key-value map.
+            </summary>
+      <typeparam name="TKey">The type of the key.</typeparam>
+      <typeparam name="TValue">The type of the value.</typeparam>
+    </member>
+    <member name="P:Imms.ImmMap`2.Length">
+      <summary>
+                Returns the number of elements in the collection.
+            </summary>
+    </member>
+    <member name="P:Imms.ImmMap`2.IsEmpty">
+      <summary>
+                Returns true if the collection is empty.
+            </summary>
+    </member>
+    <member name="M:Imms.ImmMap`2.Empty(System.Collections.Generic.IEqualityComparer{`0})">
+      <summary>
+            Returns an empty <see cref="T:Imms.ImmMap`2" /> using the specified eq comparer.
+            </summary>
+      <param name="equality">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmMap`2.GetEnumerator">
+      <summary>
+            Returns an enumerator that iterates through the collection.
+            </summary>
+      <returns>
+            A <see cref="T:System.Collections.Generic.IEnumerator`1" /> that can be used to iterate through the collection.
+            </returns>
+      <filterpriority>1</filterpriority>
+    </member>
+    <member name="M:Imms.ImmMap`2.TryGet(`0)">
+      <summary>
+            Returns the value associated with the specified key, or None if no such key exists.
+            </summary>
+      <param name="key">The key.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmMap`2.Remove(`0)">
+      <summary>
+                Removes the specified key from the map, or does nothing if the key doesn't exist.
+            </summary>
+      <param name="k">The key.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmMap`2.RemoveRange(System.Collections.Generic.IEnumerable{`0})">
+      <summary>
+            Removes several keys from this key-value map.
+            </summary>
+      <param name="keys">A sequence of keys to remove. Can be much faster if it's a set compatible with this map.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmMap`2.Except``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,``0}},Imms.ValueSelector{`0,`1,``0,Imms.Optional{`1}})">
+      <summary>
+                Subtracts the key-value pairs in the specified map from this one, applying the subtraction function on each key shared between the maps.
+            </summary>
+      <param name="other">A sequence of key-value pairs. This operation is much faster if it's a map compatible with this one.</param>
+      <param name="subtraction">Optionally, a subtraction function that generates the value in the resulting key-value map. Otherwise, key-value pairs are always removed.</param>
+      <remarks>
+            Subtraction over maps is anaologous to Except over sets. 
+            If the subtraction function is not specified (or is null), the operation simply subtracts all the keys present in the other map from this one.
+            If a subtraction function is supplied, the operation invokes the function on each key-value pair shared with the other map. If the function returns a value,
+            that value is used in the return map. If the function returns None, the key is removed from the return map.
+            </remarks>
+    </member>
+    <member name="M:Imms.ImmMap`2.ForEachWhile(System.Func{System.Collections.Generic.KeyValuePair{`0,`1},System.Boolean})">
+      <summary>
+                Applies the specified function on every item in the collection, from last to first, and stops when the function returns false.
+            </summary>
+      <param name="function"> The function. </param>
+      <returns>
+      </returns>
+      <exception cref="T:System.ArgumentNullException">Thrown if the argument null.</exception>
+    </member>
+    <member name="T:Imms.ImmSet`1">
+      <summary>
+            Immutable and persistent set that uses hashing and equality for membership.
+            </summary>
+      <typeparam name="T">The type of element contained in the set.</typeparam>
+    </member>
+    <member name="P:Imms.ImmSet`1.Length">
+      <summary>
+                Returns the number of elements in the collection.
+            </summary>
+    </member>
+    <member name="P:Imms.ImmSet`1.IsEmpty">
+      <summary>
+                Returns true if the collection is empty.
+            </summary>
+    </member>
+    <member name="M:Imms.ImmSet`1.Empty(System.Collections.Generic.IEqualityComparer{`0})">
+      <summary>
+            Returns an empty <see cref="T:Imms.ImmSet`1" /> using the specified eq comparer, or the default.
+            </summary>
+      <param name="eq">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmSet`1.Add(`0)">
+      <summary>
+            Adds a new item to the set, or does nothing if the item already exists.
+            </summary>
+      <param name="item">The item to add.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmSet`1.Remove(`0)">
+      <summary>
+            Removes an item from the set, or does nothing if the item does not exist.
+            </summary>
+      <param name="item">The item to remove.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmSet`1.Contains(`0)">
+      <summary>
+                Returns true if the item is contained in the set.
+            </summary>
+      <param name="item">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmSet`1.ForEachWhile(System.Func{`0,System.Boolean})">
+      <summary>
+                Applies the specified function on every item in the collection, from last to first, and stops when the function returns false.
+            </summary>
+      <param name="function"> The function. </param>
+      <returns>
+      </returns>
+      <exception cref="T:System.ArgumentNullException">Thrown if the argument null.</exception>
+    </member>
+    <member name="M:Imms.ImmSet`1.GetEnumerator">
+      <summary>
+            Returns an enumerator that iterates through the collection.
+            </summary>
+      <returns>
+            A <see cref="T:System.Collections.Generic.IEnumerator`1" /> that can be used to iterate through the collection.
+            </returns>
+      <filterpriority>1</filterpriority>
+    </member>
+    <member name="T:Imms.ImmList`1">
+      <summary>
+                Immutable and persistent double-ended queue supporting many operations.
+            </summary>
+      <typeparam name="T"> The type of value stored in the data structure. </typeparam>
+    </member>
+    <member name="M:Imms.ImmList`1.Select``1(System.Func{`0,``0})">
+      <summary>
+                Applies a selector on every element of the collection.
+            </summary>
+      <typeparam name="TRElem">The type of the result element.</typeparam>
+      <param name="selector">The selector.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmList`1.Select``1(System.Func{`0,Imms.Optional{``0}})">
+      <summary>
+                Applies a selector on every element of the collection, also filtering elements
+                based on whether the selector returns Option.Some.
+            </summary>
+      <typeparam name="TRElem">The type of the output collection element.</typeparam>
+      <param name="selector">The selector.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmList`1.Choose``1(System.Func{`0,Imms.Optional{``0}})">
+      <summary>
+                Applies a selector on every element of the collection, also filtering elements
+                based on whether the selector returns Option.Some.
+            </summary>
+      <typeparam name="TRElem">The type of the output collection element.</typeparam>
+      <param name="selector">The selector.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmList`1.SelectMany``1(System.Func{`0,System.Collections.Generic.IEnumerable{``0}})">
+      <summary>
+                Applies a selector on every element of the collection, yielding a sequence.
+                Adds all the elements to a single result collection.
+            </summary>
+      <typeparam name="TRElem">The type of the ouput collection elem.</typeparam>
+      <param name="selector">The selector.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmList`1.SelectMany``2(System.Func{`0,System.Collections.Generic.IEnumerable{``0}},System.Func{`0,``0,``1})">
+      <summary>
+                Applies an element selector on every element of the collection, yielding a sequence.
+                Applies a result selector on every source element and generated sequence, yielding a result.
+                Adds all the results to a collection.
+            </summary>
+      <typeparam name="TElem2">The type of the sequence element.</typeparam>
+      <typeparam name="TRElem">The type of the result.</typeparam>
+      <param name="selector">The element selector.</param>
+      <param name="rSelector">The result selector.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmList`1.Join``3(System.Collections.Generic.IEnumerable{``1},System.Func{`0,``2},System.Func{``1,``2},System.Func{`0,``1,``0},System.Collections.Generic.IEqualityComparer{``2})">
+      <summary>
+                Correlates the elements of the collection with those of the specified sequence. Uses the specified equality
+                comparer.
+            </summary>
+      <typeparam name="TKey">The type of the key.</typeparam>
+      <typeparam name="TInner">The type of the inner sequence.</typeparam>
+      <typeparam name="TRElem">The type of the output collection elem.</typeparam>
+      <param name="inner">The inner sequence.</param>
+      <param name="oKeySelector">The outer key selector (for elements of the current collection).</param>
+      <param name="iKeySelector">The inner key selector (for the specified sequence).</param>
+      <param name="rSelector">The result selector.</param>
+      <param name="eq">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmList`1.Join``2(System.Collections.Generic.IEnumerable{``0},System.Func{`0,``1},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})">
+      <summary>
+                Correlates the elements of the collection with those of the specified sequence. Uses the specified equality
+                comparer.
+            </summary>
+      <typeparam name="TKey">The type of the key.</typeparam>
+      <typeparam name="TInner">The type of the inner sequence.</typeparam>
+      <param name="inner">The inner sequence.</param>
+      <param name="oKeySelector">The outer key selector (for elements of the current collection).</param>
+      <param name="iKeySelector">The inner key selector (for the specified sequence).</param>
+      <param name="eq">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmList`1.GroupBy``3(System.Func{`0,``2},System.Func{`0,``1},System.Func{``2,System.Collections.Generic.IEnumerable{``1},``0},System.Collections.Generic.IEqualityComparer{``2})">
+      <summary>
+                Groups the elements of the collection by key, applies a selector on each value, and then applies a result selector
+                on each key-group pair. Uses the specified equality comparer.
+            </summary>
+      <typeparam name="TRElem">The type of the output collection elem.</typeparam>
+      <typeparam name="TElem2">The type of the elem2.</typeparam>
+      <typeparam name="TKey">The type of the key.</typeparam>
+      <param name="keySelector">The key selector.</param>
+      <param name="valueSelector">The value selector.</param>
+      <param name="rSelector">The result selector.</param>
+      <param name="eq">The equality comparer.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmList`1.GroupBy``2(System.Func{`0,``0},System.Func{`0,``1},System.Collections.Generic.IEqualityComparer{``0})">
+      <summary>
+                Groups the elements of the collection by key, applies a selector on each value, and then applies a result selector
+                on each key-group pair. Uses the specified equality comparer.
+            </summary>
+      <typeparam>
+                The type of the key.
+                <name>TKey</name></typeparam>
+      <typeparam name="TKey">The type of key.</typeparam>
+      <typeparam name="TElem2">The element type.</typeparam>
+      <param name="keySelector">The key selector.</param>
+      <param name="elementSelector">The element selector.</param>
+      <param name="eq">The equality comparer.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmList`1.GroupBy``1(System.Func{`0,``0},System.Collections.Generic.IEqualityComparer{``0})">
+      <summary>
+                Groups the elements of the collection by key, applies a selector on each value, and then applies a result selector
+                on each key-group pair. Uses the specified equality comparer.
+            </summary>
+      <typeparam>
+                The type of the key.
+                <name>TKey</name></typeparam>
+      <typeparam name="TKey">The type of key.</typeparam>
+      <param name="keySelector">The key selector.</param>
+      <param name="eq">The equality comparer.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmList`1.Cast``1">
+      <summary>
+            Casts all the elements in this collection.
+            </summary>
+      <typeparam name="TRElem">The return element type.</typeparam>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmList`1.Scan``1(``0,System.Func{``0,`0,``0})">
+      <summary>
+                Applies the specified accumulator over each element of a collection, constructing a collection from its partial
+                results.
+            </summary>
+      <typeparam name="TRElem">The type of the output collection elem.</typeparam>
+      <param name="initial">The initial value for the accumulator.</param>
+      <param name="accumulator">The accumulator.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmList`1.ScanBack``1(``0,System.Func{``0,`0,``0})">
+      <summary>
+                Applies the specified accumulator over each element of a collection, constructing a collection from its partial
+                results. The accumulator is applied from the last element to the first element.
+            </summary>
+      <typeparam name="TRElem">The type of the output collection elem.</typeparam>
+      <param name="initial">The initial value for the accumulator.</param>
+      <param name="accumulator">The accumulator.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmList`1.Zip``2(System.Collections.Generic.IEnumerable{``0},System.Func{`0,``0,``1})">
+      <summary>
+            Zips this collection with another one.
+            </summary>
+      <typeparam name="TElem2">The type of element of the 2nd collection.</typeparam>
+      <typeparam name="TRElem">The type of element in the return collection/</typeparam>
+      <param name="other">The other collection. The right-hand parameter of the selector.</param>
+      <param name="selector">The selector used to select the result.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmList`1.Zip``1(System.Collections.Generic.IEnumerable{``0})">
+      <summary>
+            Zips this collection with another one, returning a collection of pairs.
+            </summary>
+      <typeparam name="TElem2">The type of element of the 2nd collection.</typeparam>
+      <param name="other">The other collection. The right-hand parameter of the selector.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="P:Imms.ImmList`1.Empty">
+      <summary>
+                Gets the empty list.
+            </summary>
+    </member>
+    <member name="P:Imms.ImmList`1.Length">
+      <summary>
+                Gets the number of items in the list.
+                <para>⚡⚡⚡ O(1)</para></summary>
+    </member>
+    <member name="P:Imms.ImmList`1.First">
+      <summary>
+                Gets the first item in the list.
+            </summary>
+      <exception cref="T:System.InvalidOperationException">Thrown if the list is empty.</exception>
+    </member>
+    <member name="P:Imms.ImmList`1.Item(System.Int32,System.Int32)">
+      <summary>
+                Returns a new collection containing a slice of the current collection, from index to index. The indexes may be
+                negative.
+            </summary>
+      <param name="from"> The initial index. </param>
+      <param name="to"> The final index.</param>
+    </member>
+    <member name="P:Imms.ImmList`1.IsEmpty">
+      <summary>
+                Returns true if the list is empty.
+            </summary>
+    </member>
+    <member name="P:Imms.ImmList`1.Last">
+      <summary>
+                Gets the last item in the list.
+            </summary>
+      <exception cref="T:System.InvalidOperationException">Thrown if the list is empty.</exception>
+    </member>
+    <member name="M:Imms.ImmList`1.AddFirst(`0)">
+      <summary>
+                Adds the specified item at the beginning of the list.
+            </summary>
+      <param name="item"> The item to add. </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmList`1.AddFirstRange(System.Collections.Generic.IEnumerable{`0})">
+      <summary>
+        <para>Joins the specified sequence or list to the beginning of this list.</para>
+        <para>⚡ O(m)</para>
+      </summary>
+      <param name="items"> The items to add. Very fast if the sequence is also an <see cref="T:Imms.ImmList`1" />.</param>
+      <returns>
+      </returns>
+      <exception cref="T:System.ArgumentNullException">Thrown if the argument is null.</exception>
+    </member>
+    <member name="M:Imms.ImmList`1.AddLast(`0)">
+      <summary>
+                Adds the specified item to the end of the list.
+            </summary>
+      <param name="item"> The item to add. </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmList`1.AddLastRange(Imms.ImmList{`0})">
+      <summary>
+                Concatenates another list to the end of this one.
+            </summary>
+      <param name="last">The list to add to the end.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmList`1.AddFirstRange(Imms.ImmList{`0})">
+      <summary>
+                Concatenates another list to the beginning of this one.
+            </summary>
+      <param name="last">The list to add to the beginning.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmList`1.AddLastRange(System.Collections.Generic.IEnumerable{`0})">
+      <summary>
+                Adds a sequence of items to the end of the list.
+            </summary>
+      <param name="items"> The sequence. Very fast if it is also an <see cref="T:Imms.ImmList`1" />.</param>
+      <returns>
+      </returns>
+      <exception cref="T:System.ArgumentNullException">Thrown if the argument is null.</exception>
+    </member>
+    <member name="M:Imms.ImmList`1.RemoveFirst">
+      <summary>
+                Removes the first item from the list.
+            </summary>
+      <returns>
+      </returns>
+      <exception cref="T:System.InvalidOperationException">Thrown if the list is empty.</exception>
+    </member>
+    <member name="M:Imms.ImmList`1.RemoveLast">
+      <summary>
+                Removes the last item from the list.
+            </summary>
+      <returns>
+      </returns>
+      <exception cref="T:System.InvalidOperationException">Thrown if the list is empty.</exception>
+    </member>
+    <member name="M:Imms.ImmList`1.Insert(System.Int32,`0)">
+      <summary>
+                Inserts an item at the specified index, pushing the element at the index forward.
+            </summary>
+      <param name="index"> The index before which to insert the item.  </param>
+      <param name="item"> The item to insert. </param>
+      <returns>
+      </returns>
+      <exception cref="T:System.ArgumentOutOfRangeException">Thrown if the index doesn't exist.</exception>
+    </member>
+    <member name="M:Imms.ImmList`1.InsertRange(System.Int32,Imms.ImmList{`0})">
+      <summary>
+                Inserts a list at the specified index, pushing the element at the index forward.
+            </summary>
+      <param name="index">The index. Can be negative. </param>
+      <param name="list"> The list to insert. </param>
+      <returns>
+      </returns>
+      <exception cref="T:System.ArgumentNullException">Thrown if the argument is null.</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">Thrown if the index does not exist in the list.</exception>
+    </member>
+    <member name="M:Imms.ImmList`1.InsertRange(System.Int32,System.Collections.Generic.IEnumerable{`0})">
+      <summary>
+                Inserts a sequence at the specified index, pushing the element at the index forward.
+            </summary>
+      <param name="index"> The index. </param>
+      <param name="items"> The sequence of items to insert. Very fast if the sequence is also an <see cref="T:Imms.ImmList`1" />.</param>
+      <returns>
+      </returns>
+      <exception cref="T:System.ArgumentOutOfRangeException">Thrown if the index doesn't exist.</exception>
+      <exception cref="T:System.ArgumentNullException">Thrown if the IEnumerable is null.</exception>
+    </member>
+    <member name="M:Imms.ImmList`1.RemoveAt(System.Int32)">
+      <summary>
+                Removes the element at some index from the list.
+            </summary>
+      <param name="index"> The index to remove. </param>
+      <exception cref="T:System.ArgumentOutOfRangeException">Thrown if the index does not exist in the list.</exception>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmList`1.Reverse">
+      <summary>
+                Reverses the list.
+            </summary>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmList`1.Update(System.Int32,`0)">
+      <summary>
+                Sets the value of the item at the specified index.
+            </summary>
+      <param name="index"> The index of the item to update. </param>
+      <param name="item"> The new value of the item. </param>
+      <returns>
+      </returns>
+      <exception cref="T:System.ArgumentOutOfRangeException">Thrown if the index doesn't exist.</exception>
+    </member>
+    <member name="M:Imms.ImmList`1.ForEach(System.Action{`0})">
+      <summary>
+                Applies the specified delegate on every item in the collection, from first to last.
+            </summary>
+      <exception cref="T:System.ArgumentNullException">Thrown if the argument null.</exception>
+    </member>
+    <member name="M:Imms.ImmList`1.ForEachBack(System.Action{`0})">
+      <summary>
+                Applies the specified delegate on every item in the collection, from last to first.
+            </summary>
+      <exception cref="T:System.ArgumentNullException">Thrown if the delegate is null.</exception>
+    </member>
+    <member name="M:Imms.ImmList`1.GetRange(System.Int32,System.Int32)">
+      <summary>
+                Returns a range of elements. Doesn't support negative indexing.
+            </summary>
+      <param name="from">
+      </param>
+      <param name="count">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmList`1.AddFirstList(Imms.ImmList{`0})">
+      <summary>
+                Joins the specified list to the beginning of this one.
+            </summary>
+      <param name="list"> The list to join. </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmList`1.AddLastList(Imms.ImmList{`0})">
+      <summary>
+                Adds the specified list to the end of this one.
+            </summary>
+      <param name="list"> The list. </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="P:Imms.ImmList`1.AsSeq">
+      <summary>
+            Not meant to be user-visible
+            </summary>
+    </member>
+    <member name="M:Imms.ImmList`1.op_Addition(Imms.ImmList{`0},`0)">
+      <summary>
+            Adds an element to the end. Identical to <see cref="M:Imms.ImmList`1.AddLast(`0)" />.
+            </summary>
+      <param name="left">The list to which the item will be added.</param>
+      <param name="item">The item to add.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmList`1.op_Addition(`0,Imms.ImmList{`0})">
+      <summary>
+            Adds an element to the start Identical to <see cref="M:Imms.ImmList`1.AddFirst(`0)" />.
+            </summary>
+      <param name="list">The list to which the item will be added.</param>
+      <param name="item">The item to add.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmList`1.op_Addition(Imms.ImmList{`0},System.Collections.Generic.IEnumerable{`0})">
+      <summary>
+            Adds a sequence of elements to the end. Identical to <see cref="M:Imms.ImmList`1.AddLastRange(System.Collections.Generic.IEnumerable{`0})" />.
+            </summary>
+      <param name="left">The list to which the item swill be added.</param>
+      <param name="items">The items to add.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmList`1.op_Addition(System.Collections.Generic.IEnumerable{`0},Imms.ImmList{`0})">
+      <summary>
+            Adds a sequence of elements to the end. Identical to <see cref="M:Imms.ImmList`1.AddFirstRange(System.Collections.Generic.IEnumerable{`0})" />.
+            </summary>
+      <param name="list">The list to which the item swill be added.</param>
+      <param name="items">The items to add.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmList`1.op_Addition(Imms.ImmList{`0},Imms.ImmList{`0})">
+      <summary>
+            Adds a sequence of elements to the end. Identical to <see cref="M:Imms.ImmList`1.AddLastRange(System.Collections.Generic.IEnumerable{`0})" />.
+            </summary>
+      <param name="left">The list to which the item swill be added.</param>
+      <param name="right">The items to add.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmList`1.ForEachBackWhile(System.Func{`0,System.Boolean})">
+      <summary>
+                Applies the specified delegate on every item in the collection, from last to first, until it returns false.
+            </summary>
+      <param name="function"> The function. </param>
+      <returns>
+      </returns>
+      <exception cref="T:System.ArgumentNullException">Thrown if the function null.</exception>
+    </member>
+    <member name="M:Imms.ImmList`1.ForEachWhile(System.Func{`0,System.Boolean})">
+      <summary>
+                Applies the specified function on every item in the collection, from last to first, and stops when the function returns false.
+            </summary>
+      <param name="function"> The function. </param>
+      <returns>
+      </returns>
+      <exception cref="T:System.ArgumentNullException">Thrown if the argument null.</exception>
+    </member>
+    <member name="M:Imms.ImmList`1.GetEnumerator">
+      <summary>
+                Gets a new enumerator that iterates over the list.
+            </summary>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.Specialized.ImmLazyList`1.#ctor(Imms.ImmList{Imms.Specialized.ImmLazyList{`0}.Block})">
+      <summary>
+            Initializes a new instance of the <see cref="T:System.Object" /> class.
+            </summary>
+    </member>
+    <member name="M:Imms.Specialized.ImmPriorityQueue`2.#ctor(System.Func{`0,`1},Imms.ImmSortedMap{`1,Imms.ImmList{`0}})">
+      <summary>
+            Initializes a new instance of the <see cref="T:System.Object" /> class.
+            </summary>
+    </member>
+    <member name="T:Imms.ImmVector`1">
+      <summary>
+                Implements a random access list.
+            </summary>
+      <typeparam name="T">The type of value stored in the list.</typeparam>
+    </member>
+    <member name="M:Imms.ImmVector`1.Select``1(System.Func{`0,``0})">
+      <summary>
+                Applies a selector on every element of the collection.
+            </summary>
+      <typeparam name="TRElem">The type of the result element.</typeparam>
+      <param name="selector">The selector.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmVector`1.Select``1(System.Func{`0,Imms.Optional{``0}})">
+      <summary>
+                Applies a selector on every element of the collection, also filtering elements
+                based on whether the selector returns Option.Some.
+            </summary>
+      <typeparam name="TRElem">The type of the output collection element.</typeparam>
+      <param name="selector">The selector.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmVector`1.Choose``1(System.Func{`0,Imms.Optional{``0}})">
+      <summary>
+                Applies a selector on every element of the collection, also filtering elements
+                based on whether the selector returns Option.Some.
+            </summary>
+      <typeparam name="TRElem">The type of the output collection element.</typeparam>
+      <param name="selector">The selector.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmVector`1.SelectMany``1(System.Func{`0,System.Collections.Generic.IEnumerable{``0}})">
+      <summary>
+                Applies a selector on every element of the collection, yielding a sequence.
+                Adds all the elements to a single result collection.
+            </summary>
+      <typeparam name="TRElem">The type of the ouput collection elem.</typeparam>
+      <param name="selector">The selector.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmVector`1.SelectMany``2(System.Func{`0,System.Collections.Generic.IEnumerable{``0}},System.Func{`0,``0,``1})">
+      <summary>
+                Applies an element selector on every element of the collection, yielding a sequence.
+                Applies a result selector on every source element and generated sequence, yielding a result.
+                Adds all the results to a collection.
+            </summary>
+      <typeparam name="TElem2">The type of the sequence element.</typeparam>
+      <typeparam name="TRElem">The type of the result.</typeparam>
+      <param name="selector">The element selector.</param>
+      <param name="rSelector">The result selector.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmVector`1.Join``3(System.Collections.Generic.IEnumerable{``1},System.Func{`0,``2},System.Func{``1,``2},System.Func{`0,``1,``0},System.Collections.Generic.IEqualityComparer{``2})">
+      <summary>
+                Correlates the elements of the collection with those of the specified sequence. Uses the specified equality
+                comparer.
+            </summary>
+      <typeparam name="TKey">The type of the key.</typeparam>
+      <typeparam name="TInner">The type of the inner sequence.</typeparam>
+      <typeparam name="TRElem">The type of the output collection elem.</typeparam>
+      <param name="inner">The inner sequence.</param>
+      <param name="oKeySelector">The outer key selector (for elements of the current collection).</param>
+      <param name="iKeySelector">The inner key selector (for the specified sequence).</param>
+      <param name="rSelector">The result selector.</param>
+      <param name="eq">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmVector`1.Join``2(System.Collections.Generic.IEnumerable{``0},System.Func{`0,``1},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})">
+      <summary>
+                Correlates the elements of the collection with those of the specified sequence. Uses the specified equality
+                comparer.
+            </summary>
+      <typeparam name="TKey">The type of the key.</typeparam>
+      <typeparam name="TInner">The type of the inner sequence.</typeparam>
+      <param name="inner">The inner sequence.</param>
+      <param name="oKeySelector">The outer key selector (for elements of the current collection).</param>
+      <param name="iKeySelector">The inner key selector (for the specified sequence).</param>
+      <param name="eq">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmVector`1.GroupBy``3(System.Func{`0,``2},System.Func{`0,``1},System.Func{``2,System.Collections.Generic.IEnumerable{``1},``0},System.Collections.Generic.IEqualityComparer{``2})">
+      <summary>
+                Groups the elements of the collection by key, applies a selector on each value, and then applies a result selector
+                on each key-group pair. Uses the specified equality comparer.
+            </summary>
+      <typeparam name="TRElem">The type of the output collection elem.</typeparam>
+      <typeparam name="TElem2">The type of the elem2.</typeparam>
+      <typeparam name="TKey">The type of the key.</typeparam>
+      <param name="keySelector">The key selector.</param>
+      <param name="valueSelector">The value selector.</param>
+      <param name="rSelector">The result selector.</param>
+      <param name="eq">The equality comparer.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmVector`1.GroupBy``2(System.Func{`0,``0},System.Func{`0,``1},System.Collections.Generic.IEqualityComparer{``0})">
+      <summary>
+                Groups the elements of the collection by key, applies a selector on each value, and then applies a result selector
+                on each key-group pair. Uses the specified equality comparer.
+            </summary>
+      <typeparam>
+                The type of the key.
+                <name>TKey</name></typeparam>
+      <typeparam name="TKey">The type of key.</typeparam>
+      <typeparam name="TElem2">The element type.</typeparam>
+      <param name="keySelector">The key selector.</param>
+      <param name="elementSelector">The element selector.</param>
+      <param name="eq">The equality comparer.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmVector`1.GroupBy``1(System.Func{`0,``0},System.Collections.Generic.IEqualityComparer{``0})">
+      <summary>
+                Groups the elements of the collection by key, applies a selector on each value, and then applies a result selector
+                on each key-group pair. Uses the specified equality comparer.
+            </summary>
+      <typeparam>
+                The type of the key.
+                <name>TKey</name></typeparam>
+      <typeparam name="TKey">The type of key.</typeparam>
+      <param name="keySelector">The key selector.</param>
+      <param name="eq">The equality comparer.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmVector`1.Cast``1">
+      <summary>
+            Casts all the elements in this collection.
+            </summary>
+      <typeparam name="TRElem">The return element type.</typeparam>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmVector`1.Scan``1(``0,System.Func{``0,`0,``0})">
+      <summary>
+                Applies the specified accumulator over each element of a collection, constructing a collection from its partial
+                results.
+            </summary>
+      <typeparam name="TRElem">The type of the output collection elem.</typeparam>
+      <param name="initial">The initial value for the accumulator.</param>
+      <param name="accumulator">The accumulator.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmVector`1.ScanBack``1(``0,System.Func{``0,`0,``0})">
+      <summary>
+                Applies the specified accumulator over each element of a collection, constructing a collection from its partial
+                results. The accumulator is applied from the last element to the first element.
+            </summary>
+      <typeparam name="TRElem">The type of the output collection elem.</typeparam>
+      <param name="initial">The initial value for the accumulator.</param>
+      <param name="accumulator">The accumulator.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmVector`1.Zip``2(System.Collections.Generic.IEnumerable{``0},System.Func{`0,``0,``1})">
+      <summary>
+            Zips this collection with another one.
+            </summary>
+      <typeparam name="TElem2">The type of element of the 2nd collection.</typeparam>
+      <typeparam name="TRElem">The type of element in the return collection/</typeparam>
+      <param name="other">The other collection. The right-hand parameter of the selector.</param>
+      <param name="selector">The selector used to select the result.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmVector`1.Zip``1(System.Collections.Generic.IEnumerable{``0})">
+      <summary>
+            Zips this collection with another one, returning a collection of pairs.
+            </summary>
+      <typeparam name="TElem2">The type of element of the 2nd collection.</typeparam>
+      <param name="other">The other collection. The right-hand parameter of the selector.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmVector`1.GetItem(System.Int32)">
+      <summary>
+                Gets the value of the item with the specified index. O(logn); immediate.
+            </summary>
+      <param name="index"> The index of the item to get. </param>
+      <returns>
+      </returns>
+      <exception cref="T:System.ArgumentOutOfRangeException">Thrown if the index is invalid.</exception>
+    </member>
+    <member name="M:Imms.ImmVector`1.GetEnumerator">
+      <summary>
+            Returns an enumerator that iterates through the collection.
+            </summary>
+      <returns>
+            A <see cref="T:System.Collections.Generic.IEnumerator`1" /> that can be used to iterate through the collection.
+            </returns>
+      <filterpriority>1</filterpriority>
+    </member>
+    <member name="P:Imms.ImmVector`1.AsSeq">
+      <summary>
+            Should not be visible.
+            </summary>
+    </member>
+    <member name="F:Imms.ImmVector`1.empty">
+      <summary>
+                The empty
+            </summary>
+    </member>
+    <member name="F:Imms.ImmVector`1.MaxCapacity">
+      <summary>
+                The data structure is limited by a 30-bit address space. This number returns its exact maximum capacity.
+                When an instance exceeds this capacity an <c>InvalidOperationException</c> will be thrown.
+            </summary>
+    </member>
+    <member name="F:Imms.ImmVector`1.Root">
+      <summary>
+                The root
+            </summary>
+    </member>
+    <member name="M:Imms.ImmVector`1.#ctor(Imms.Implementation.TrieVector{`0}.Node)">
+      <summary>
+                Initializes a new instance of the <see cref="T:Imms.ImmVector`1" /> class.
+            </summary>
+      <param name="root">The root.</param>
+    </member>
+    <member name="P:Imms.ImmVector`1.Empty">
+      <summary>
+                Returns the empty array.
+            </summary>
+    </member>
+    <member name="P:Imms.ImmVector`1.Length">
+      <summary>
+                Returns the number of elements in the collection.
+            </summary>
+    </member>
+    <member name="P:Imms.ImmVector`1.First">
+      <summary>
+                Returns the first element in the collection.
+                <para>⚡⚡⚡⚡⚡⚡ O(logn)</para></summary>
+      <exception cref="T:System.InvalidOperationException">Thrown if the collection is empty.</exception>
+    </member>
+    <member name="P:Imms.ImmVector`1.IsEmpty">
+      <summary>
+                Returns true if the collection is empty.
+            </summary>
+    </member>
+    <member name="P:Imms.ImmVector`1.Last">
+      <summary>
+                Gets the last element in the collection.
+            </summary>
+      <value> The last. </value>
+      <exception cref="T:System.InvalidOperationException">Thrown if the collection is empty.</exception>
+    </member>
+    <member name="M:Imms.ImmVector`1.Skip(System.Int32)">
+      <summary>
+                Returns a new collection without the specified initial number of elements. Returns empty if
+                <paramref name="count" /> is equal or greater than Length.
+            </summary>
+      <param name="count"> The number of elements to skip. </param>
+      <exception cref="T:System.ArgumentException">Thrown if the argument is smaller than 0.</exception>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmVector`1.GetRange(System.Int32,System.Int32)">
+      <summary>
+                Returns a range of elements. Doesn't support negative indexing.
+            </summary>
+      <param name="from">
+      </param>
+      <param name="count">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmVector`1.InsertRange(System.Int32,System.Collections.Generic.IEnumerable{`0})">
+      <summary>
+            Inserts a sequence of elements at the specified index.
+            </summary>
+      <param name="index">The index at which to insert. The element at this index is pushed forward.</param>
+      <param name="items">The items to insert. Faster if an array or a known collection type.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmVector`1.CopyTo(`0[],System.Int32,System.Int32,System.Int32)">
+      <summary>
+                Copies a range of elements from the collection to the specified array.
+            </summary>
+      <param name="arr"> The array. </param>
+      <param name="myStart"> The index of the collection at which to start copying. May be negative.</param>
+      <param name="arrStart">The index of the array at which to start copying. May be negative.</param>
+      <param name="count"> The number of items to copy. Must be non-negative.</param>
+      <exception cref="T:System.ArgumentNullException">Thrown if the array is null.</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+                Thrown if the array isn't long enough, or one of the parameters is
+                invalid.
+            </exception>
+    </member>
+    <member name="M:Imms.ImmVector`1.AddLast(`0)">
+      <summary>
+                Adds the specified element to the end of the vector. O(logn), fast.
+            </summary>
+      <param name="item">The item to add.</param>
+      <returns>ImmVector{`0}.</returns>
+      <exception cref="T:System.InvalidOperationException">Thrown if the data structure exceeds its maximum capacity.</exception>
+    </member>
+    <member name="M:Imms.ImmVector`1.ForEachWhile(System.Func{`0,System.Boolean})">
+      <summary>
+                Applies the specified function on every item in the collection, from last to first, and stops when the function returns false.
+            </summary>
+      <param name="function"> The function. </param>
+      <returns>
+      </returns>
+      <exception cref="T:System.ArgumentNullException">Thrown if the argument null.</exception>
+    </member>
+    <member name="M:Imms.ImmVector`1.ForEachBackWhile(System.Func{`0,System.Boolean})">
+      <summary>
+                Applies the specified delegate on every item in the collection, from last to first, until it returns false.
+            </summary>
+      <param name="function"> The function. </param>
+      <returns>
+      </returns>
+      <exception cref="T:System.ArgumentNullException">Thrown if the function null.</exception>
+    </member>
+    <member name="M:Imms.ImmVector`1.ForEachBack(System.Action{`0})">
+      <summary>
+                Applies the specified delegate on every item in the collection, from last to first.
+            </summary>
+      <param name="action"> The action. </param>
+      <exception cref="T:System.ArgumentNullException">Thrown if the delegate is null.</exception>
+    </member>
+    <member name="M:Imms.ImmVector`1.ForEach(System.Action{`0})">
+      <summary>
+                Applies the specified delegate on every item in the collection, from first to last.
+            </summary>
+      <param name="action"> The action. </param>
+      <exception cref="T:System.ArgumentNullException">Thrown if the argument null.</exception>
+    </member>
+    <member name="M:Imms.ImmVector`1.RemoveAt(System.Int32)">
+      <summary>
+                Provided for testing purposes only. Is too inefficient to be used in practice.
+            </summary>
+      <param name="index">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmVector`1.Insert(System.Int32,`0)">
+      <summary>
+                Provided for testing purposes only. Is too inefficient to be used in practice.
+            </summary>
+      <param name="index">
+      </param>
+      <param name="value">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmVector`1.AddLastRange(System.Collections.Generic.IEnumerable{`0})">
+      <summary>
+                Adds a sequence of items to the end of the collection.
+            </summary>
+      <param name="items">A sequence of items to add. Faster if the sequence is an array or a known collection type.</param>
+      <exception cref="T:System.ArgumentNullException">Thrown if the argument is null.</exception>
+      <exception cref="T:System.InvalidOperationException">Thrown if the collection exceeds its capacity.</exception>
+      <remarks>This member performs a lot better when the specified sequence is an array.</remarks>
+    </member>
+    <member name="M:Imms.ImmVector`1.AddFirstRange(System.Collections.Generic.IEnumerable{`0})">
+      <summary>
+                Adds a sequence of elements to the beginning of the collection.
+            </summary>
+      <param name="items">The sequence. Faster if the sequence is also a vector, an array, or a known collection type.</param>
+      <exception cref="T:System.ArgumentNullException">Thrown if the sequence is null.</exception>
+      <exception cref="T:System.InvalidOperationException">Thrown if the collection exceeds its capacity.</exception>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:Imms.ImmVector`1.CopyFrom(`0[],System.Int32,System.Int32)">
+      <summary>
+                Copies data from an array..
+            </summary>
+      <param name="arr">The arr.</param>
+      <param name="startIndex">The start index.</param>
+      <param name="count">The count.</param>
+      <exception cref="T:System.ArgumentNullException">Thrown if the array is null.</exception>
+      <exception cref="T:System.InvalidOperationException">Thrown if the collection exceeds its capacity.</exception>
+    </member>
+    <member name="M:Imms.ImmVector`1.RemoveLast">
+      <summary>
+                Removes the last item from the collection.
+            </summary>
+      <exception cref="T:System.InvalidOperationException">Thrown if the data structure is empty.</exception>
+    </member>
+    <member name="M:Imms.ImmVector`1.Update(System.Int32,`0)">
+      <summary>
+                Sets the value of the item with the specified index.
+            </summary>
+      <param name="index">The index of the item to update.</param>
+      <param name="item">The new value of the item</param>
+      <exception cref="T:System.ArgumentOutOfRangeException">Thrown if the index doesn't exist in the data structure.</exception>
+    </member>
+    <member name="M:Imms.ImmVector`1.Take(System.Int32)">
+      <summary>
+                Returns a subsequence consisting of the specified number of elements. Returns empty if <paramref name="count" /> is
+                greater than Length.
+            </summary>
+      <param name="count"> The number of elements.. </param>
+      <exception cref="T:System.ArgumentException">Thrown if the argument is smaller than 0.</exception>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:__ListLikeClass__`1.Select``1(System.Func{`0,``0})">
+      <summary>
+                Applies a selector on every element of the collection.
+            </summary>
+      <typeparam name="TRElem">The type of the result element.</typeparam>
+      <param name="selector">The selector.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:__ListLikeClass__`1.Select``1(System.Func{`0,Imms.Optional{``0}})">
+      <summary>
+                Applies a selector on every element of the collection, also filtering elements
+                based on whether the selector returns Option.Some.
+            </summary>
+      <typeparam name="TRElem">The type of the output collection element.</typeparam>
+      <param name="selector">The selector.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:__ListLikeClass__`1.Choose``1(System.Func{`0,Imms.Optional{``0}})">
+      <summary>
+                Applies a selector on every element of the collection, also filtering elements
+                based on whether the selector returns Option.Some.
+            </summary>
+      <typeparam name="TRElem">The type of the output collection element.</typeparam>
+      <param name="selector">The selector.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:__ListLikeClass__`1.SelectMany``1(System.Func{`0,System.Collections.Generic.IEnumerable{``0}})">
+      <summary>
+                Applies a selector on every element of the collection, yielding a sequence.
+                Adds all the elements to a single result collection.
+            </summary>
+      <typeparam name="TRElem">The type of the ouput collection elem.</typeparam>
+      <param name="selector">The selector.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:__ListLikeClass__`1.SelectMany``2(System.Func{`0,System.Collections.Generic.IEnumerable{``0}},System.Func{`0,``0,``1})">
+      <summary>
+                Applies an element selector on every element of the collection, yielding a sequence.
+                Applies a result selector on every source element and generated sequence, yielding a result.
+                Adds all the results to a collection.
+            </summary>
+      <typeparam name="TElem2">The type of the sequence element.</typeparam>
+      <typeparam name="TRElem">The type of the result.</typeparam>
+      <param name="selector">The element selector.</param>
+      <param name="rSelector">The result selector.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:__ListLikeClass__`1.Join``3(System.Collections.Generic.IEnumerable{``1},System.Func{`0,``2},System.Func{``1,``2},System.Func{`0,``1,``0},System.Collections.Generic.IEqualityComparer{``2})">
+      <summary>
+                Correlates the elements of the collection with those of the specified sequence. Uses the specified equality
+                comparer.
+            </summary>
+      <typeparam name="TKey">The type of the key.</typeparam>
+      <typeparam name="TInner">The type of the inner sequence.</typeparam>
+      <typeparam name="TRElem">The type of the output collection elem.</typeparam>
+      <param name="inner">The inner sequence.</param>
+      <param name="oKeySelector">The outer key selector (for elements of the current collection).</param>
+      <param name="iKeySelector">The inner key selector (for the specified sequence).</param>
+      <param name="rSelector">The result selector.</param>
+      <param name="eq">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:__ListLikeClass__`1.Join``2(System.Collections.Generic.IEnumerable{``0},System.Func{`0,``1},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})">
+      <summary>
+                Correlates the elements of the collection with those of the specified sequence. Uses the specified equality
+                comparer.
+            </summary>
+      <typeparam name="TKey">The type of the key.</typeparam>
+      <typeparam name="TInner">The type of the inner sequence.</typeparam>
+      <param name="inner">The inner sequence.</param>
+      <param name="oKeySelector">The outer key selector (for elements of the current collection).</param>
+      <param name="iKeySelector">The inner key selector (for the specified sequence).</param>
+      <param name="eq">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:__ListLikeClass__`1.GroupBy``3(System.Func{`0,``2},System.Func{`0,``1},System.Func{``2,System.Collections.Generic.IEnumerable{``1},``0},System.Collections.Generic.IEqualityComparer{``2})">
+      <summary>
+                Groups the elements of the collection by key, applies a selector on each value, and then applies a result selector
+                on each key-group pair. Uses the specified equality comparer.
+            </summary>
+      <typeparam name="TRElem">The type of the output collection elem.</typeparam>
+      <typeparam name="TElem2">The type of the elem2.</typeparam>
+      <typeparam name="TKey">The type of the key.</typeparam>
+      <param name="keySelector">The key selector.</param>
+      <param name="valueSelector">The value selector.</param>
+      <param name="rSelector">The result selector.</param>
+      <param name="eq">The equality comparer.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:__ListLikeClass__`1.GroupBy``2(System.Func{`0,``0},System.Func{`0,``1},System.Collections.Generic.IEqualityComparer{``0})">
+      <summary>
+                Groups the elements of the collection by key, applies a selector on each value, and then applies a result selector
+                on each key-group pair. Uses the specified equality comparer.
+            </summary>
+      <typeparam>
+                The type of the key.
+                <name>TKey</name></typeparam>
+      <typeparam name="TKey">The type of key.</typeparam>
+      <typeparam name="TElem2">The element type.</typeparam>
+      <param name="keySelector">The key selector.</param>
+      <param name="elementSelector">The element selector.</param>
+      <param name="eq">The equality comparer.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:__ListLikeClass__`1.GroupBy``1(System.Func{`0,``0},System.Collections.Generic.IEqualityComparer{``0})">
+      <summary>
+                Groups the elements of the collection by key, applies a selector on each value, and then applies a result selector
+                on each key-group pair. Uses the specified equality comparer.
+            </summary>
+      <typeparam>
+                The type of the key.
+                <name>TKey</name></typeparam>
+      <typeparam name="TKey">The type of key.</typeparam>
+      <param name="keySelector">The key selector.</param>
+      <param name="eq">The equality comparer.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:__ListLikeClass__`1.Cast``1">
+      <summary>
+            Casts all the elements in this collection.
+            </summary>
+      <typeparam name="TRElem">The return element type.</typeparam>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:__ListLikeClass__`1.Scan``1(``0,System.Func{``0,`0,``0})">
+      <summary>
+                Applies the specified accumulator over each element of a collection, constructing a collection from its partial
+                results.
+            </summary>
+      <typeparam name="TRElem">The type of the output collection elem.</typeparam>
+      <param name="initial">The initial value for the accumulator.</param>
+      <param name="accumulator">The accumulator.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:__ListLikeClass__`1.ScanBack``1(``0,System.Func{``0,`0,``0})">
+      <summary>
+                Applies the specified accumulator over each element of a collection, constructing a collection from its partial
+                results. The accumulator is applied from the last element to the first element.
+            </summary>
+      <typeparam name="TRElem">The type of the output collection elem.</typeparam>
+      <param name="initial">The initial value for the accumulator.</param>
+      <param name="accumulator">The accumulator.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:__ListLikeClass__`1.Zip``2(System.Collections.Generic.IEnumerable{``0},System.Func{`0,``0,``1})">
+      <summary>
+            Zips this collection with another one.
+            </summary>
+      <typeparam name="TElem2">The type of element of the 2nd collection.</typeparam>
+      <typeparam name="TRElem">The type of element in the return collection/</typeparam>
+      <param name="other">The other collection. The right-hand parameter of the selector.</param>
+      <param name="selector">The selector used to select the result.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:__ListLikeClass__`1.Zip``1(System.Collections.Generic.IEnumerable{``0})">
+      <summary>
+            Zips this collection with another one, returning a collection of pairs.
+            </summary>
+      <typeparam name="TElem2">The type of element of the 2nd collection.</typeparam>
+      <param name="other">The other collection. The right-hand parameter of the selector.</param>
+      <returns>
+      </returns>
+    </member>
+  </members>
+</doc>
