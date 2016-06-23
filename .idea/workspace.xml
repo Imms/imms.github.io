@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bbc7136-871e-4550-87cb-0c2fea76dd87" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.nojekyll" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_data/info.yaml" afterPath="$PROJECT_DIR$/_data/info.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/articles.yaml" afterPath="$PROJECT_DIR$/data/articles.yaml" />
     </list>
     <ignored path="Imms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,6 +56,26 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="articles.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/articles.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="496">
+              <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="info.yaml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_data/info.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/footer.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -65,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
-              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+              <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -105,19 +126,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sets.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/Sets.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-2635">
-                <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -141,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/scripts/ui/CmArticleTreeRenderer.tsx" />
         <option value="$PROJECT_DIR$/scripts/ui/RnArticleNav" />
         <option value="$PROJECT_DIR$/scripts/ui/RnArticleNav.tsx" />
         <option value="$PROJECT_DIR$/scripts/chartEntry.ts" />
@@ -174,7 +181,6 @@
         <option value="$PROJECT_DIR$/app/ui/complexity-table/types.ts" />
         <option value="$PROJECT_DIR$/app/ui/complexity-table/CmComplexityTable.tsx" />
         <option value="$PROJECT_DIR$/data/complexity.yaml" />
-        <option value="$PROJECT_DIR$/data/articles.yaml" />
         <option value="$PROJECT_DIR$/app/ui/navbar/CmArticleNav.tsx" />
         <option value="$PROJECT_DIR$/styles/includes/_complexity.scss" />
         <option value="$PROJECT_DIR$/styles/includes/_chart.scss" />
@@ -192,6 +198,8 @@
         <option value="$PROJECT_DIR$/_data/links.yaml" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/data/articles.yaml" />
+        <option value="$PROJECT_DIR$/_data/info.yaml" />
       </list>
     </option>
   </component>
@@ -384,6 +392,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="_layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -697,12 +719,12 @@
       <workItem from="1466532425277" duration="6671000" />
       <workItem from="1466581478623" duration="6592000" />
       <workItem from="1466674732146" duration="7185000" />
-      <workItem from="1466709413154" duration="8295000" />
+      <workItem from="1466709413154" duration="8629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="525853000" />
+    <option name="totallyTimeSpent" value="526187000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -715,9 +737,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-8" width="1873" height="1096" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16566758" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16566758" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31983384" sideWeight="0.4967033" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18587747" sideWeight="0.492865" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25337487" sideWeight="0.5082327" order="7" side_tool="true" content_ui="tabs" />
@@ -780,16 +802,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/styles/documentation.css.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/ui/complexity-table/CmMath.tsx" />
     <entry file="file://$PROJECT_DIR$/app/apiLinker.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -932,14 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1118">
           <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/articles.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="30" column="24" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1223,7 +1227,23 @@
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/articles.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/info.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
           <folding />
         </state>
       </provider>
