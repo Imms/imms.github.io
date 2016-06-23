@@ -2,98 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bbc7136-871e-4550-87cb-0c2fea76dd87" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/AspNet.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/BuildConceptualTopics.proj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/CSharp.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/ConceptualManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/FSharp.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/GenerateIntermediateTOC.proj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/GenerateRefInfo.proj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/HelpFileBuilderTokens.tokens" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/Imms.Abstract.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/Imms.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/JScript.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/JSharp.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/JavaScript.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/MRefBuilder.config" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/ManagedCPlusPlus.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/Output/Website/icons/Help.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/SHFBContent.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/StopWordList.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/TransformManifest.proj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/VisualBasic.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/VisualBasicUsage.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/XAML.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/_ConceptualTOC_.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/_ContentMetadata_.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/_MediaContent_.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/conceptual.config" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/ddueXml/Imms_Root.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/manifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/reflection.all" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/reflection.nofilenames" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/reflection.org" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/reflection.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/sandcastle.config" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/toc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/xmlComp/Imms_Root.cmp.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Abstract/Abstractions/Mixins/MForEach.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Abstract/Abstractions/Mixins/Mixin.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.FSharp/Operators.fs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/ForAgainst.md" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms" afterPath="$PROJECT_DIR$/Code/Imms" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms.sln" afterPath="$PROJECT_DIR$/Code/Imms.sln" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Abstract/Imms.Abstract.csproj" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Abstract/Imms.Abstract.csproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Abstract/Properties/ImmsInfo.cs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Abstract/Properties/ImmsInfo.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections/Imms.FSharp/Modules.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections/Imms.FSharp/Modules.fs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections/Imms.FSharp/Modules.tt" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections/Imms.FSharp/Modules.tt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections/Wrappers/Immutable/ImmSortedMap/ImmSortedMap.cs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections/Wrappers/Immutable/ImmSortedMap/ImmSortedMap.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections/Wrappers/Immutable/ImmSortedSet/ImmSortedSet.cs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections/Wrappers/Immutable/ImmSortedSet/ImmSortedSet.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections/Wrappers/Immutable/List/Core.cs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections/Wrappers/Immutable/List/Core.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.FSharp/Aliases.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.FSharp/Aliases.fs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.FSharp/BuilderTypes.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.FSharp/BuilderTypes.fs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.FSharp/Generic Operators.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.FSharp/Generic Operators.fs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.FSharp/Imms.FSharp.fsproj" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.FSharp/Imms.FSharp.fsproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.FSharp/Imms.FSharp.nuspec" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.FSharp/Imms.FSharp.nuspec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Messing.FSharp/Program.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Messing.FSharp/Program.fs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Integrity/MapWrappers.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Integrity/MapWrappers.fs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Integrity/Program.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Integrity/Program.fs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Integrity/SeqWrappers.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Integrity/SeqWrappers.fs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Definitions.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Definitions.fs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Program.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Program.fs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Report.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Report.fs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Test Script.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Test Script.fs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Tests.Map.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Tests.Map.fs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Tests.Sequential.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Tests.Sequential.fs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Tests.Set.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Tests.Set.fs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Tests.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Tests.fs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Wrappers.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Wrappers.fs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/mathjax-integration.html" afterPath="$PROJECT_DIR$/_includes/mathjax-integration.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/chart/RnChartSuite.js" afterPath="$PROJECT_DIR$/app/ui/chart/RnChartSuite.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/chart/RnChartSuite.js.map" afterPath="$PROJECT_DIR$/app/ui/chart/RnChartSuite.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/chart/RnChartSuite.tsx" afterPath="$PROJECT_DIR$/app/ui/chart/RnChartSuite.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/complexity-table/RnComplexityTable.js" afterPath="$PROJECT_DIR$/app/ui/complexity-table/RnComplexityTable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/complexity-table/RnComplexityTable.js.map" afterPath="$PROJECT_DIR$/app/ui/complexity-table/RnComplexityTable.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/complexity-table/RnComplexityTable.tsx" afterPath="$PROJECT_DIR$/app/ui/complexity-table/RnComplexityTable.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/navbar/CmArticleNav.js" afterPath="$PROJECT_DIR$/app/ui/navbar/CmArticleNav.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/navbar/CmArticleNav.js.map" afterPath="$PROJECT_DIR$/app/ui/navbar/CmArticleNav.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/navbar/CmArticleNav.tsx" afterPath="$PROJECT_DIR$/app/ui/navbar/CmArticleNav.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/articles.yaml" afterPath="$PROJECT_DIR$/data/articles.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/testSuites.yaml" afterPath="$PROJECT_DIR$/data/testSuites.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Maps.md" afterPath="$PROJECT_DIR$/pages/Maps.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Sequentials.md" afterPath="$PROJECT_DIR$/pages/Sequentials.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Sets.md" afterPath="$PROJECT_DIR$/pages/Sets.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/documentation.css" afterPath="$PROJECT_DIR$/styles/documentation.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/documentation.css.map" afterPath="$PROJECT_DIR$/styles/documentation.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/documentation.scss" afterPath="$PROJECT_DIR$/styles/documentation.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/getImms.css" afterPath="$PROJECT_DIR$/styles/getImms.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/getImms.css.map" afterPath="$PROJECT_DIR$/styles/getImms.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/includes/_articleTree.scss" afterPath="$PROJECT_DIR$/styles/includes/_articleTree.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/includes/_chart.scss" afterPath="$PROJECT_DIR$/styles/includes/_chart.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/includes/_main.scss" afterPath="$PROJECT_DIR$/styles/includes/_main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/landing.css" afterPath="$PROJECT_DIR$/styles/landing.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/landing.css.map" afterPath="$PROJECT_DIR$/styles/landing.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_data/links.yaml" afterPath="$PROJECT_DIR$/_data/links.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
     </list>
     <ignored path="Imms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -136,11 +47,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RnChartSuite.tsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RnChartSuite.tsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/ui/chart/RnChartSuite.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+            <state relative-caret-position="499">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".nojekyll" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.nojekyll">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="links.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_data/links.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -161,42 +102,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="235">
               <caret line="241" column="8" selection-start-line="241" selection-start-column="8" selection-end-line="241" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Maps.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/Maps.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="52">
-                <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="13" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Philosopy.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/Philosopy.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1456">
-                <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mathjax-integration.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/mathjax-integration.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -251,8 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/scripts/ui/cm-article-nav.tsx" />
-        <option value="$PROJECT_DIR$/scripts/ui/CmArticleTreeRenderer.ts" />
         <option value="$PROJECT_DIR$/scripts/ui/CmArticleTreeRenderer.tsx" />
         <option value="$PROJECT_DIR$/scripts/ui/RnArticleNav" />
         <option value="$PROJECT_DIR$/scripts/ui/RnArticleNav.tsx" />
@@ -302,6 +205,8 @@
         <option value="$PROJECT_DIR$/app/ui/complexity-table/RnComplexityTable.tsx" />
         <option value="$PROJECT_DIR$/data/testSuites.yaml" />
         <option value="$PROJECT_DIR$/app/ui/chart/RnChartSuite.tsx" />
+        <option value="$PROJECT_DIR$/_data/links.yaml" />
+        <option value="$PROJECT_DIR$/_includes/footer.html" />
       </list>
     </option>
   </component>
@@ -318,10 +223,10 @@
     <scope name="Hide js and map files" pattern="!file:*.css.map&amp;&amp;!file[Imms]:.sass-cache//*&amp;&amp;!file[Imms]:.idea//*&amp;&amp;!file:.gitmodules&amp;&amp;!file:.jekyll-metadata&amp;&amp;!file:about.md&amp;&amp;!file:feed.xml&amp;&amp;!file[Imms]:Code//*" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="79" />
-    <option name="y" value="692" />
-    <option name="width" value="1855" />
-    <option name="height" value="1078" />
+    <option name="x" value="55" />
+    <option name="y" value="-8" />
+    <option name="width" value="1873" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -493,97 +398,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Imms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Imms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Imms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Imms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="complexity-table" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Imms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Imms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Imms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Imms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="_layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Imms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Imms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_includes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -897,12 +712,12 @@
       <workItem from="1466532425277" duration="6671000" />
       <workItem from="1466581478623" duration="6592000" />
       <workItem from="1466674732146" duration="7185000" />
-      <workItem from="1466709413154" duration="7094000" />
+      <workItem from="1466709413154" duration="8038000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="524652000" />
+    <option name="totallyTimeSpent" value="525596000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -914,15 +729,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="79" y="692" width="1855" height="1078" extended-state="0" />
+    <frame x="55" y="-8" width="1873" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16730875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16566758" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31983384" sideWeight="0.4967033" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18587747" sideWeight="0.492865" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25337487" sideWeight="0.5082327" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271028" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24126984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23676012" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24918212" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25129804" sideWeight="0.4917673" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -980,27 +795,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/styles/documentation.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172588">
-          <caret line="6638" column="1" selection-start-line="6638" selection-start-column="1" selection-end-line="6638" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/main-heading.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/top-logo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/documentation.css.map">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1408,6 +1202,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_data/links.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ui/chart/RnChartSuite.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/testSuites.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="453">
@@ -1416,10 +1226,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/ui/chart/RnChartSuite.tsx">
+    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        <state relative-caret-position="494">
+          <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.nojekyll">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
