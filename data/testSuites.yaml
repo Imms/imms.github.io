@@ -1,53 +1,75 @@
 tests:
-  - &AddLast
-    test: AddLast
+  - &Seq-AddLast
+    test: Seq-AddLast
+    title: AddLast
 
-  - &AddFirst
-    test: AddFirst
+  - &Seq-AddFirst
+    test: Seq-AddFirst
+    title: AddFirst
 
-  - &AddLastRange
-    test: AddLastRange
+  - &Seq-AddLastRange
+    test: Seq-AddLastRange
+    title: AddLastRange
 
-  - &AddFirstRange
-    test: AddFirstRange
+  - &Seq-AddFirstRange
+    test: Seq-AddFirstRange
+    title: AddFirstRange
 
-  - &RemoveLast
-    test: RemoveLast
+  - &Seq-RemoveLast
+    test: Seq-RemoveLast
+    title: RemoveLast
 
-  - &RemoveFirst
-    test: RemoveFirst
+  - &Seq-RemoveFirst
+    test: Seq-RemoveFirst
+    title: RemoveFirst
 
-  - &Concat
-    test: Concat
-  - &Take
-    test: Take
+  - &Seq-Concat
+    test: Seq-Concat
+    title: Concat
 
-  - &Skip
-    test: Skip
+  - &Seq-Take
+    test: Seq-Take
+    title: Take
 
-  - &First
-    test: First
+  - &Seq-Skip
+    test: Seq-Skip
+    title: Skip
 
-  - &Last
-    test: Last
+  - &Seq-First
+    test: Seq-First
+    title: First
 
-  - &Insert
-    test: Insert
+  - &Seq-Last
+    test: Seq-Last
+    title: Last
 
-  - &Update
-    test: Update
+  - &Seq-Insert
+    test: Seq-Insert
+    title: Insert
 
-  - &Lookup
-    test: Lookup
+  - &Seq-Update
+    test: Seq-Update
+    title: Update
 
-  - &Remove
-    test: Remove
+  - &Seq-Lookup
+    test: Seq-Lookup
+    title: Lookup
 
-  - &InsertRange
-    test: InsertRange
+  - &Seq-Remove
+    test: Seq-Remove
+    title: Remove
 
-  - &InsertConcat
-    test: InsertConcat
+  - &Seq-InsertRange
+    test: Seq-InsertRange
+    title: InsertRange
+
+  - &Seq-InsertConcat
+    test: Seq-InsertConcat
+    title: InsertConcat
+
+  - &Seq-Slice
+    test: Seq-Slice
+    title: Slice
 
   - &IterateN
     test: IterateN
@@ -55,46 +77,76 @@ tests:
   - &IEnumerator
     test: IEnumerator
 
-  - &Set_Union
-    test: Set_Union
+  - &Set-Set_Union
+    test: Set-Set_Union
     title: Union
 
-  - &Set_Intersection
-    test: Set_Intersection
+  - &Set-Set_Intersection
+    test: Set-Set_Intersection
     title: Intersection
 
-  - &Set_Except
-    test: Set_Except
+  - &Set-Set_Except
+    test: Set-Set_Except
     title: Except
 
-  - &Set_Difference
-    test: Set_Difference
+  - &Set-Set_Difference
+    test: Set-Set_Difference
     title: Difference
 
-  - &Array_Union
-    test: Array_Union
+  - &Set-Array_Union
+    test: Set-Array_Union
     title: Union
 
-  - &Array_Intersection
-    test: Array_Intersection
+  - &Set-Array_Intersection
+    test: Set-Array_Intersection
     title: Intersection
 
-  - &Array_Except
-    test: Array_Except
+  - &Set-Array_Except
+    test: Set-Array_Except
     title: Except
 
-  - &Array_Difference
-    test: Array_Difference
+  - &Set-Array_Difference
+    test: Set-Array_Difference
     title: Difference
 
-  - &Add
-    test: Add
+  - &Set-Add
+    test: Set-Add
+    title: Add
 
-  - &Remove
-    test: Remove
+  - &Set-Remove
+    test: Set-Remove
+    title: Remove
 
-  - &Contains
-    test: Contains
+  - &Set-Contains
+    test: Set-Contains
+    title: Contains
+
+  - &Map-Add
+    test: Map-Add
+    title: Add
+
+  - &Map-Remove
+    test: Map-RemoveKey
+    title: Remove
+
+  - &Map-Contains
+    test: Map-Contains
+    title: Contains
+
+  - &Map-Lookup
+    test: Map-Lookup
+    title: Lookup
+
+  - &Map-AddRange
+    test: Map-AddRange
+    title: AddRange
+
+  - &Map-RemoveRange
+    test: Map-RemoveRange
+    title: RemoveRange
+
+
+
    
 sequentials:
   long: >
@@ -118,10 +170,10 @@ sequentials:
       long: >
         Addition and removal of single elements.
       tests:
-        - *AddLast
-        - *AddFirst
-        - *RemoveLast
-        - *RemoveFirst
+        - *Seq-AddLast
+        - *Seq-AddFirst
+        - *Seq-RemoveLast
+        - *Seq-RemoveFirst
 
     - group: AddRemoveMany
       title: Bulk add, remove
@@ -130,31 +182,38 @@ sequentials:
         Note that here, one of the variables was the size of the input data set. These results are for a large data set and few iterations.
 
       tests:
-        - *AddLastRange
-        - *AddFirstRange
-        - *Concat
-        - *Take
-        - *Skip
+        - *Seq-AddLastRange
+        - *Seq-AddFirstRange
+        - *Seq-Concat
+
+    - group: Subsequences
+      title: Subsequences
+      long: |
+        Subsequences from the beginning (Take) and end (Skip) of the collection.
+      tests:
+        - *Seq-Take
+        - *Seq-Skip
+        - *Seq-Slice
 
     - group: Lookups
       title: Lookups
       long: >
         Looking up elements at different positions.
       tests:
-        - *First
-        - *Last
-        - *Lookup
+        - *Seq-First
+        - *Seq-Last
+        - *Seq-Lookup
 
     - group: Indexing
       title: Indexing
       long: >
         Addition/removal of one or more elements at an index.
       tests:
-        - *Insert
-        - *Update
-        - *Remove
-        - *InsertRange
-        - *InsertConcat
+        - *Seq-Insert
+        - *Seq-Update
+        - *Seq-Remove
+        - *Seq-InsertRange
+        - *Seq-InsertConcat
 
     - group: Iteration
       title: Iteration
@@ -163,6 +222,47 @@ sequentials:
       tests:
         - *IterateN
         - *IEnumerator
+
+maps:
+  long: >
+    Benchmarks of map collections.
+  footer: |
+    Lower is better.
+    NaN values mean the collection didn't participate in the benchmark. Extremely low values just mean extremely high performance.
+  targets:
+    - target: System.ImmutableDict
+      color: rgb(243, 139, 139)
+
+    - target: System.ImmutableSortedDict
+      color: rgb(243, 120, 120)
+
+    - target: FSharp.Map
+      color: "#000"
+
+    - target: ImmMap
+      color: "#5b67ff"
+
+    - target: ImmSortedMap
+      color: "#2935d0"
+
+  groups:
+    - group: Single
+      title: Single
+      long: >
+        Lookup of single elements
+      tests:
+        - *Map-Contains
+        - *Map-Lookup
+        - *Map-Add
+        - *Map-Remove
+
+    - group: Multiple
+      title: Multiple
+      long: >
+        Operations on multiple elements.
+      tests:
+        - *Map-AddRange
+        - *Map-RemoveRange
 
 sets:
   long: >
@@ -194,9 +294,9 @@ sets:
       long: >
         Addition and removal of single elements.
       tests:
-        - *Contains
-        - *Add
-        - *Remove
+        - *Set-Contains
+        - *Set-Add
+        - *Set-Remove
 
     - group: SetOperators
       title: Set Operators (C)
@@ -205,20 +305,20 @@ sets:
         Note that here, one of the variables was the size of the input data set. These results are for a large data set and few iterations.
 
       tests:
-        - *Set_Union
-        - *Set_Intersection
-        - *Set_Except
-        - *Set_Difference
+        - *Set-Set_Union
+        - *Set-Set_Intersection
+        - *Set-Set_Except
+        - *Set-Set_Difference
 
     - group: SetOperatorsSeq
       title: Set Operators (N)
       long: >
         Looking up elements at different positions.
       tests:
-        - *Array_Union
-        - *Array_Intersection
-        - *Array_Except
-        - *Array_Difference
+        - *Set-Array_Union
+        - *Set-Array_Intersection
+        - *Set-Array_Except
+        - *Set-Array_Difference
 
     - group: Iteration
       title: Iteration

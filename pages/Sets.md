@@ -1,5 +1,6 @@
 ---
 layout: main
+mathjax: true
 styles:
   - documentation.css
 

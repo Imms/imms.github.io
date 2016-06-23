@@ -1,0 +1,37 @@
+.cm-chart-tabs__tab--active {
+	@extend .active;
+}
+
+.cm-chart__footer {
+	padding-left: 60px;
+	font-size: 12px;
+}
+
+.cm-chart-tabs__tab {
+	a:hover {
+		background:#7db4ff !important;
+		font-weight:inherit !important;
+		cursor: pointer;
+	}
+	&--active.cm-chart-tabs__tab a {
+		background:#9ac5ff !important;
+		font-weight:500 !important;
+		cursor: inherit;
+
+	}
+}
+
+.cm-chart-inner {
+	background: rgba(255, 255, 255, 0.23);
+	border-radius: 0 0 30px 30px;
+}
+
+.cm-chart__footer {
+	white-space: pre-wrap;
+}
+
+
+.tab-list {
+	@extend .nav;
+	@extend .nav-tabs;
+}

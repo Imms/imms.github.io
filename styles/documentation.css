@@ -6290,6 +6290,8 @@ button.close {
   padding-top: 0; }
   .nav-heading--depth-0 {
     border-bottom: 1px solid white; }
+  .nav-heading.future a {
+    color: silver; }
 
 .nav-container {
   padding-left: 10px; }
@@ -6444,6 +6446,58 @@ button.close {
   color: #008080; }
 .highlight .il {
   color: #099; }
+
+.complexity-table {
+  width: 100%;
+  overflow-x: auto;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 10px; }
+  .complexity-table__footer {
+    padding-left: 10px;
+    font-size: 12px; }
+  .complexity-table__footnote {
+    list-style: none; }
+  .complexity-table td, .complexity-table th {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px; }
+  .complexity-table__heading-info {
+    text-align: left;
+    white-space: nowrap; }
+  .complexity-table__heading-math {
+    text-align: center;
+    white-space: nowrap; }
+  .complexity-table__math {
+    font-size: 15px;
+    text-align: center; }
+  .complexity-table__info {
+    white-space: nowrap; }
+
+.cm-chart__footer {
+  padding-left: 60px;
+  font-size: 12px; }
+
+.cm-chart-tabs__tab a:hover {
+  background: #7db4ff !important;
+  font-weight: inherit !important;
+  cursor: pointer; }
+.cm-chart-tabs__tab--active.cm-chart-tabs__tab a {
+  background: #9ac5ff !important;
+  font-weight: 500 !important;
+  cursor: inherit; }
+
+.cm-chart-inner {
+  background: rgba(255, 255, 255, 0.23);
+  border-radius: 0 0 30px 30px; }
+
+.cm-chart__footer {
+  white-space: pre-wrap; }
+
+.mathjax-macros * {
+  visibility: collapse !important;
+  position: absolute !important; }
 
 .imms-github-forkme {
   z-index: 1000;
@@ -6601,23 +6655,6 @@ a {
   .title-row.title-row {
     justify-content: center;
     width: auto; } }
-.cm-chart__footer {
-  padding-left: 60px;
-  font-size: 12px; }
-
-.cm-chart-tabs__tab a:hover {
-  background: #7db4ff !important;
-  font-weight: inherit !important;
-  cursor: pointer; }
-.cm-chart-tabs__tab--active.cm-chart-tabs__tab a {
-  background: #9ac5ff !important;
-  font-weight: 500 !important;
-  cursor: inherit; }
-
-.cm-chart-inner {
-  background: rgba(255, 255, 255, 0.23);
-  border-radius: 0 0 30px 30px; }
-
 .central-nav-column-box {
   position: relative;
   min-height: 1px;
@@ -6669,40 +6706,5 @@ a {
   line-height: 19px; }
   .sidebar h3 {
     margin: 0; }
-
-.mathjax-macros * {
-  visibility: collapse !important;
-  position: absolute !important; }
-
-.cm-chart__footer {
-  white-space: pre-wrap; }
-
-.complexity-table {
-  width: 100%;
-  overflow-x: auto;
-  margin-bottom: 15px;
-  padding-bottom: 15px;
-  background: rgba(255, 255, 255, 0.18);
-  border-radius: 10px; }
-  .complexity-table__footer {
-    padding-left: 10px;
-    font-size: 12px; }
-  .complexity-table__footnote {
-    list-style: none; }
-  .complexity-table td, .complexity-table th {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 5px; }
-  .complexity-table__heading-info {
-    text-align: left;
-    white-space: nowrap; }
-  .complexity-table__heading-math {
-    text-align: center;
-    white-space: nowrap; }
-  .complexity-table__math {
-    font-size: 15px;
-    text-align: center; }
-  .complexity-table__info {
-    white-space: nowrap; }
 
 /*# sourceMappingURL=documentation.css.map */

@@ -24,7 +24,9 @@ class RnComplexityTable {
 			assert.isObject(this._complexities);
 			ReactDOM.render(<CmComplexityTable complexities={this._complexities} table={myTable}/>, e);
 		});
-		MathJax.Hub.Typeset(document, null);
+		if (typeof MathJax != "undefined") {
+			MathJax.Hub.Typeset(document, null);
+		}
 	}
 }
 

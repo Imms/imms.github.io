@@ -34,5 +34,6 @@ class RnArticleNav {
         });
     }
 }
-new RnArticleNav("/data/testSuites.yaml", "/data/Benchmarks/021.log.json").render();
+let n = "027";
+new RnArticleNav("/data/testSuites.yaml", `/data/Benchmarks/${n}.log.json`).render();
 //# sourceMappingURL=RnChartSuite.js.map

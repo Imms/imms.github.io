@@ -28,7 +28,9 @@ class RnComplexityTable {
                 chai_1.assert.isObject(this._complexities);
                 ReactDOM.render(React.createElement(CmComplexityTable_1.CmComplexityTable, {complexities: this._complexities, table: myTable}), e);
             });
-            MathJax.Hub.Typeset(document, null);
+            if (typeof MathJax != "undefined") {
+                MathJax.Hub.Typeset(document, null);
+            }
         });
     }
 }

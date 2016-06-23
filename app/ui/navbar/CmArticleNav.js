@@ -1,16 +1,11 @@
 "use strict";
 const React = require('react');
-class ArticleTreeEntry {
-}
-exports.ArticleTreeEntry = ArticleTreeEntry;
-class CmArticleEntryProps {
-}
 class CmArticleEntry extends React.Component {
     get article() {
         return this.props.entry;
     }
     render() {
-        var headingClass = `nav-heading nav-heading--depth-${this.props.nesting}`;
+        var headingClass = `nav-heading nav-heading--depth-${this.props.nesting} ${this.props.entry.text_class}`;
         var containerClass = `nav-container nav-container--depth-${this.props.nesting}`;
         var list = null;
         if (this.article.children && this.article.children.length) {

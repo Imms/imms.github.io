@@ -4,7 +4,14 @@
 	&--depth-0 {
 		border-bottom:1px solid white;
 	}
+
+	&.future {
+		a {
+			color: silver;
+		}
+	}
 }
+
 .nav-container {
 	padding-left: 10px;
 

@@ -1,7 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4bbc7136-871e-4550-87cb-0c2fea76dd87" name="Default" comment="" />
+    <list default="true" id="4bbc7136-871e-4550-87cb-0c2fea76dd87" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/AspNet.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/BuildConceptualTopics.proj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/CSharp.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/ConceptualManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/FSharp.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/GenerateIntermediateTOC.proj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/GenerateRefInfo.proj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/HelpFileBuilderTokens.tokens" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/Imms.Abstract.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/Imms.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/JScript.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/JSharp.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/JavaScript.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/MRefBuilder.config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/ManagedCPlusPlus.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/Output/Website/icons/Help.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/SHFBContent.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/StopWordList.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/TransformManifest.proj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/VisualBasic.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/VisualBasicUsage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/XAML.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/_ConceptualTOC_.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/_ContentMetadata_.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/_MediaContent_.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/conceptual.config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/ddueXml/Imms_Root.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/manifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/reflection.all" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/reflection.nofilenames" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/reflection.org" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/reflection.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/sandcastle.config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/toc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/Working/xmlComp/Imms_Root.cmp.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Abstract/Abstractions/Mixins/MForEach.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Abstract/Abstractions/Mixins/Mixin.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.FSharp/Operators.fs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/ForAgainst.md" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms" afterPath="$PROJECT_DIR$/Code/Imms" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms.sln" afterPath="$PROJECT_DIR$/Code/Imms.sln" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Abstract/Imms.Abstract.csproj" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Abstract/Imms.Abstract.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Abstract/Properties/ImmsInfo.cs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Abstract/Properties/ImmsInfo.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections/Imms.FSharp/Modules.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections/Imms.FSharp/Modules.fs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections/Imms.FSharp/Modules.tt" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections/Imms.FSharp/Modules.tt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections/Wrappers/Immutable/ImmSortedMap/ImmSortedMap.cs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections/Wrappers/Immutable/ImmSortedMap/ImmSortedMap.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections/Wrappers/Immutable/ImmSortedSet/ImmSortedSet.cs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections/Wrappers/Immutable/ImmSortedSet/ImmSortedSet.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections/Wrappers/Immutable/List/Core.cs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Collections/Wrappers/Immutable/List/Core.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.FSharp/Aliases.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.FSharp/Aliases.fs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.FSharp/BuilderTypes.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.FSharp/BuilderTypes.fs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.FSharp/Generic Operators.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.FSharp/Generic Operators.fs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.FSharp/Imms.FSharp.fsproj" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.FSharp/Imms.FSharp.fsproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.FSharp/Imms.FSharp.nuspec" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.FSharp/Imms.FSharp.nuspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Messing.FSharp/Program.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Messing.FSharp/Program.fs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Integrity/MapWrappers.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Integrity/MapWrappers.fs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Integrity/Program.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Integrity/Program.fs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Integrity/SeqWrappers.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Integrity/SeqWrappers.fs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Definitions.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Definitions.fs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Program.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Program.fs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Report.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Report.fs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Test Script.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Test Script.fs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Tests.Map.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Tests.Map.fs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Tests.Sequential.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Tests.Sequential.fs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Tests.Set.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Tests.Set.fs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Tests.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Tests.fs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Wrappers.fs" afterPath="$PROJECT_DIR$/Code/Imms/Imms/Imms.Tests.Performance/Wrappers.fs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/mathjax-integration.html" afterPath="$PROJECT_DIR$/_includes/mathjax-integration.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/chart/RnChartSuite.js" afterPath="$PROJECT_DIR$/app/ui/chart/RnChartSuite.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/chart/RnChartSuite.js.map" afterPath="$PROJECT_DIR$/app/ui/chart/RnChartSuite.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/chart/RnChartSuite.tsx" afterPath="$PROJECT_DIR$/app/ui/chart/RnChartSuite.tsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/complexity-table/RnComplexityTable.js" afterPath="$PROJECT_DIR$/app/ui/complexity-table/RnComplexityTable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/complexity-table/RnComplexityTable.js.map" afterPath="$PROJECT_DIR$/app/ui/complexity-table/RnComplexityTable.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/complexity-table/RnComplexityTable.tsx" afterPath="$PROJECT_DIR$/app/ui/complexity-table/RnComplexityTable.tsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/navbar/CmArticleNav.js" afterPath="$PROJECT_DIR$/app/ui/navbar/CmArticleNav.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/navbar/CmArticleNav.js.map" afterPath="$PROJECT_DIR$/app/ui/navbar/CmArticleNav.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/navbar/CmArticleNav.tsx" afterPath="$PROJECT_DIR$/app/ui/navbar/CmArticleNav.tsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/articles.yaml" afterPath="$PROJECT_DIR$/data/articles.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/testSuites.yaml" afterPath="$PROJECT_DIR$/data/testSuites.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Maps.md" afterPath="$PROJECT_DIR$/pages/Maps.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Sequentials.md" afterPath="$PROJECT_DIR$/pages/Sequentials.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Sets.md" afterPath="$PROJECT_DIR$/pages/Sets.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/documentation.css" afterPath="$PROJECT_DIR$/styles/documentation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/documentation.css.map" afterPath="$PROJECT_DIR$/styles/documentation.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/documentation.scss" afterPath="$PROJECT_DIR$/styles/documentation.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/getImms.css" afterPath="$PROJECT_DIR$/styles/getImms.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/getImms.css.map" afterPath="$PROJECT_DIR$/styles/getImms.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/includes/_articleTree.scss" afterPath="$PROJECT_DIR$/styles/includes/_articleTree.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/includes/_chart.scss" afterPath="$PROJECT_DIR$/styles/includes/_chart.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/includes/_main.scss" afterPath="$PROJECT_DIR$/styles/includes/_main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/landing.css" afterPath="$PROJECT_DIR$/styles/landing.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/landing.css.map" afterPath="$PROJECT_DIR$/styles/landing.css.map" />
+    </list>
     <ignored path="Imms.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,105 +114,116 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CmChartSuite.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/ui/chart/CmChartSuite.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="654">
-              <caret line="61" column="44" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CmComplexityTable.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/ui/complexity-table/CmComplexityTable.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CmChartGroup.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/ui/chart/CmChartGroup.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="types.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/ui/chart/types.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testSuites.yaml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testSuites.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/testSuites.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-471">
-              <caret line="180" column="19" selection-start-line="180" selection-start-column="19" selection-end-line="180" selection-end-column="19" />
+            <state relative-caret-position="453">
+              <caret line="71" column="16" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RnComplexityTable.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/ui/complexity-table/RnComplexityTable.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="728">
+              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
               <folding>
-                <element signature="e#5#1257#1" expanded="false" />
-                <element signature="e#1684#2876#0" expanded="false" />
+                <element signature="e#0#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="types.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/ui/complexity-table/types.ts">
+      <file leaf-file-name="RnChartSuite.tsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/ui/chart/RnChartSuite.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="701">
-              <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+            <state relative-caret-position="395">
+              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="complexity.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/complexity.yaml">
+      <file leaf-file-name="_main.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/includes/_main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="323" column="25" selection-start-line="323" selection-start-column="25" selection-end-line="323" selection-end-column="25" />
+            <state relative-caret-position="364">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/main.html">
+      <file leaf-file-name="index.d.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/typings/globals/mathjax/index.d.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+            <state relative-caret-position="235">
+              <caret line="241" column="8" selection-start-line="241" selection-start-column="8" selection-end-line="241" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CmChart.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/ui/chart/CmChart.tsx">
+      <file leaf-file-name="Maps.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/Maps.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="52">
+                <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="13" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Philosopy.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/Philosopy.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="1456">
+                <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mathjax-integration.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/mathjax-integration.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+            <state relative-caret-position="0">
+              <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="documentation.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/documentation.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1661">
-              <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-              <folding />
+      <file leaf-file-name="Sequentials.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/Sequentials.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="52">
+                <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sets.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/Sets.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-2635">
+                <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -134,10 +238,10 @@
         <option value="Markdown" />
         <option value="JSON FIle" />
         <option value="Yaml File" />
-        <option value="SCSS File" />
         <option value="TypeScript File" />
         <option value="TSX File" />
         <option value="HTML File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -147,13 +251,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/scripts/ui/chart-suite.tsx" />
-        <option value="$PROJECT_DIR$/data/suiteSuites.yaml" />
-        <option value="$PROJECT_DIR$/scripts/ui/cm-chart-suite.tsx" />
-        <option value="$PROJECT_DIR$/scripts/ui/cm-chart-group.tsx" />
-        <option value="$PROJECT_DIR$/scripts/articleTreeBuilder.ts" />
-        <option value="$PROJECT_DIR$/scripts/main.ts" />
-        <option value="$PROJECT_DIR$/scripts/ui/cm-chart.tsx" />
         <option value="$PROJECT_DIR$/scripts/ui/cm-article-nav.tsx" />
         <option value="$PROJECT_DIR$/scripts/ui/CmArticleTreeRenderer.ts" />
         <option value="$PROJECT_DIR$/scripts/ui/CmArticleTreeRenderer.tsx" />
@@ -177,27 +274,34 @@
         <option value="$PROJECT_DIR$/app/ui/chart/chartEntry.ts" />
         <option value="$PROJECT_DIR$/app/extraDefs.ts" />
         <option value="$PROJECT_DIR$/app/helpers.ts" />
-        <option value="$PROJECT_DIR$/pages/Sequentials.md" />
         <option value="$PROJECT_DIR$/app/main.tsx" />
         <option value="$PROJECT_DIR$/styles/documentation.css" />
-        <option value="$PROJECT_DIR$/_includes/mathjax-integration.html" />
         <option value="$PROJECT_DIR$/app/ui/complexity-table/CmMath.tsx" />
         <option value="$PROJECT_DIR$/_config.yml" />
-        <option value="$PROJECT_DIR$/app/ui/complexity-table/RnComplexityTable.tsx" />
         <option value="$PROJECT_DIR$/app/apiLinker.ts" />
         <option value="$PROJECT_DIR$/_layouts/main.html" />
-        <option value="$PROJECT_DIR$/styles/includes/_main.scss" />
         <option value="$PROJECT_DIR$/app/ui/chart/CmChartSuite.tsx" />
-        <option value="$PROJECT_DIR$/pages/Sets.md" />
         <option value="$PROJECT_DIR$/_includes/mathjax-extra-macros.html" />
-        <option value="$PROJECT_DIR$/app/ui/chart/RnChartSuite.tsx" />
-        <option value="$PROJECT_DIR$/styles/documentation.scss" />
         <option value="$PROJECT_DIR$/app/ui/chart/types.ts" />
         <option value="$PROJECT_DIR$/app/ui/chart/CmChartGroup.tsx" />
         <option value="$PROJECT_DIR$/app/ui/complexity-table/types.ts" />
         <option value="$PROJECT_DIR$/app/ui/complexity-table/CmComplexityTable.tsx" />
         <option value="$PROJECT_DIR$/data/complexity.yaml" />
+        <option value="$PROJECT_DIR$/data/articles.yaml" />
+        <option value="$PROJECT_DIR$/app/ui/navbar/CmArticleNav.tsx" />
+        <option value="$PROJECT_DIR$/styles/includes/_complexity.scss" />
+        <option value="$PROJECT_DIR$/styles/includes/_chart.scss" />
+        <option value="$PROJECT_DIR$/styles/includes/_math.scss" />
+        <option value="$PROJECT_DIR$/styles/includes/_main.scss" />
+        <option value="$PROJECT_DIR$/styles/documentation.scss" />
+        <option value="$PROJECT_DIR$/styles/includes/_articleTree.scss" />
+        <option value="$PROJECT_DIR$/_includes/mathjax-integration.html" />
+        <option value="$PROJECT_DIR$/pages/Maps.md" />
+        <option value="$PROJECT_DIR$/pages/Sequentials.md" />
+        <option value="$PROJECT_DIR$/pages/Sets.md" />
+        <option value="$PROJECT_DIR$/app/ui/complexity-table/RnComplexityTable.tsx" />
         <option value="$PROJECT_DIR$/data/testSuites.yaml" />
+        <option value="$PROJECT_DIR$/app/ui/chart/RnChartSuite.tsx" />
       </list>
     </option>
   </component>
@@ -214,10 +318,10 @@
     <scope name="Hide js and map files" pattern="!file:*.css.map&amp;&amp;!file[Imms]:.sass-cache//*&amp;&amp;!file[Imms]:.idea//*&amp;&amp;!file:.gitmodules&amp;&amp;!file:.jekyll-metadata&amp;&amp;!file:about.md&amp;&amp;!file:feed.xml&amp;&amp;!file[Imms]:Code//*" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="56" />
-    <option name="y" value="-8" />
-    <option name="width" value="1872" />
-    <option name="height" value="1096" />
+    <option name="x" value="79" />
+    <option name="y" value="692" />
+    <option name="width" value="1855" />
+    <option name="height" value="1078" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -278,6 +382,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Hide js and map files">
           <PATH>
@@ -374,20 +479,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Imms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Imms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -423,10 +514,6 @@
               <option name="myItemId" value="ui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="navbar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -448,32 +535,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="complexity-table" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Imms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Imms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="types.ts" />
-              <option name="myItemType" value="com.intellij.lang.typescript.compiler.ui.projectView.TypeScriptNestingTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -528,7 +589,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -835,12 +895,14 @@
       <workItem from="1466438904415" duration="2672000" />
       <workItem from="1466530247727" duration="1198000" />
       <workItem from="1466532425277" duration="6671000" />
-      <workItem from="1466581478623" duration="6529000" />
+      <workItem from="1466581478623" duration="6592000" />
+      <workItem from="1466674732146" duration="7185000" />
+      <workItem from="1466709413154" duration="7094000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="510310000" />
+    <option name="totallyTimeSpent" value="524652000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -852,15 +914,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="-8" width="1872" height="1096" extended-state="6" />
+    <frame x="79" y="692" width="1855" height="1078" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16412213" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16730875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31983384" sideWeight="0.4967033" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18380062" sideWeight="0.492865" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18587747" sideWeight="0.492865" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25337487" sideWeight="0.5082327" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271028" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23774765" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24126984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24918212" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25129804" sideWeight="0.4917673" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -918,156 +980,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/typescriptCompiler/external/lib.es6.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="172" column="24" selection-start-line="172" selection-start-column="24" selection-end-line="172" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/typescript/lib/lib.es7.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="2586" column="4" selection-start-line="2586" selection-start-column="4" selection-end-line="2586" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/prism.js" />
-    <entry file="file://$PROJECT_DIR$/scripts/yaml.js" />
-    <entry file="file://$PROJECT_DIR$/app/helpers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Philosopy.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/WhyImms.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/index.json" />
-    <entry file="file://$PROJECT_DIR$/pages/WhyImmutable.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/extraDefs.ts" />
-    <entry file="file://$PROJECT_DIR$/app/ui/navbar/RnArticleNav.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ui/chart/RnChartSuite.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/exampleBenchmarkData.json" />
-    <entry file="file://$PROJECT_DIR$/app/helpers.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/typescript/lib/lib.core.es7.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="4161" column="4" selection-start-line="4161" selection-start-column="4" selection-end-line="4161" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/typescript/lib/lib.core.es6.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="4161" column="4" selection-start-line="4161" selection-start-column="4" selection-end-line="4161" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/getImms.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/landing.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-754">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typings/globals/mathjax/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="241" column="8" selection-start-line="241" selection-start-column="8" selection-end-line="241" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/includes/_common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/documentation.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172588">
@@ -1089,31 +1001,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/articles.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/documentation.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ui/complexity-table/CmMath.tsx" />
-    <entry file="file://$PROJECT_DIR$/app/ui/navbar/CmArticleNav.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/ui/complexity-table/CmMath.tsx" />
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
@@ -1128,28 +1026,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/mathjax-integration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Sequentials.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2158">
-            <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="86" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/main.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
@@ -1157,68 +1033,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/includes/_main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2548">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Sets.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="354">
-            <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/mathjax-extra-macros.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ui/complexity-table/RnComplexityTable.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ui/chart/RnChartSuite.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/ui/chart/CmChartGroup.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/ui/chart/CmChartSuite.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
+        <state relative-caret-position="1508">
           <caret line="61" column="44" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/ui/complexity-table/CmComplexityTable.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
+        <state relative-caret-position="364">
           <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1226,31 +1058,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/ui/complexity-table/types.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="701">
+        <state relative-caret-position="1014">
           <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ui/chart/CmChart.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/complexity.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="323" column="25" selection-start-line="323" selection-start-column="25" selection-end-line="323" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1262,22 +1076,351 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/ui/chart/CmChart.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ui/navbar/RnArticleNav.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/includes/_chart.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/includes/_bootstrap.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/includes/_common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/landing.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/getImms.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/includes/_math.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ui/navbar/CmArticleNav.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/complexity.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="708">
+          <caret line="323" column="25" selection-start-line="323" selection-start-column="25" selection-end-line="323" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/includes/_complexity.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1118">
+          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/articles.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/includes/_articleTree.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/styles/documentation.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1661">
-          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+        <state relative-caret-position="494">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/mathjax-extra-macros.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/ForAgainst.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1126">
+            <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/blah.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-346">
+            <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/General.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1092">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/FSharpIntegration.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/GetImms.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Home.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/ImplementationDetails.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-3102">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Specialized.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="364">
+            <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/WhyImmutable.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/WhyImms.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Indexed.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Optional.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Philosopy.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1456">
+            <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/mathjax-integration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Maps.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="52">
+            <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="13" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Sequentials.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="52">
+            <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Sets.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-2635">
+            <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typings/globals/mathjax/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="241" column="8" selection-start-line="241" selection-start-column="8" selection-end-line="241" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ui/complexity-table/RnComplexityTable.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/includes/_main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/testSuites.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-471">
-          <caret line="180" column="19" selection-start-line="180" selection-start-column="19" selection-end-line="180" selection-end-column="19" />
-          <folding>
-            <element signature="e#5#1257#1" expanded="false" />
-            <element signature="e#1684#2876#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="453">
+          <caret line="71" column="16" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ui/chart/RnChartSuite.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>

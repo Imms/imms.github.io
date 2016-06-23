@@ -10,9 +10,6 @@
 
     - text: Why Imms?
       link: WhyImms
-      children:
-        - text: Performance
-          link: Performance
 
     - text: Get Imms
       link: GetImms.html
@@ -29,13 +26,21 @@
     - text: Maps
       link: Maps
 
+    - text: Specialized
+      link: Specialized
+      text_class: future
+
+    - text: Mutable
+      link: Mutable
+      text_class: future
+
 - text: Other Features
   children:
     - text: Optional Type
       link: Optional
 
     - text: Miscellaneous
-      link: Miscellaneous
+      link: Misc
 
 - text: F# Integration
   link: FSharpIntegration

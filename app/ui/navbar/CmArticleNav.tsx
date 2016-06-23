@@ -2,13 +2,14 @@
 import * as React from 'react';
 
 
-export class ArticleTreeEntry {
+export interface ArticleTreeEntry {
 	text:string;
 	link:string;
+	text_class?: string;
 	children:Array<ArticleTreeEntry>;
 }
 
-class CmArticleEntryProps {
+interface CmArticleEntryProps {
 	entry : ArticleTreeEntry;
 	nesting : number;
 }
@@ -20,7 +21,7 @@ class CmArticleEntry extends React.Component<CmArticleEntryProps, {}> {
 	}
 	render() {
 
-		var headingClass = `nav-heading nav-heading--depth-${this.props.nesting}`;
+		var headingClass = `nav-heading nav-heading--depth-${this.props.nesting} ${this.props.entry.text_class}`;
 		var containerClass = `nav-container nav-container--depth-${this.props.nesting}`;
 
 		var list = null;

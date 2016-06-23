@@ -1,0 +1,3141 @@
+[
+  {
+    "Test": "Seq-AddFirst",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        6.0758500000000009
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "Adds arbitrary items repeatedly to the beginning of the sequence.",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-AddLast",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        5.50184
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-RemoveLast",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        2.068175
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-RemoveFirst",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        2.093445
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-Insert",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        38.758250000000004
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-Remove",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        24.151580000000003
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-Update",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        14.007250000000003
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "Randomly updates items by index from the entire collection.",
+    "Ratio": null
+  },
+  {
+    "Test": "IEnumerator",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.87311500000000009
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-Lookup",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        3.2743349999999998
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "Randomly looks up {iters} items by index from the entire collection.",
+    "Ratio": null
+  },
+  {
+    "Test": "IterateN",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.08871
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-First",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.06868500000000001
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-Last",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.113205
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-AddLastRange",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        1.068225
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "Description": "Adds a collection of items to the end {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-AddFirstRange",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        1.073715
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "Description": "Adds a collection of items to the beginning {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-InsertRange",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        1.1182500000000002
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-Concat",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.00987
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "ImmList",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "Description": "Adds a collection of items to the end {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-InsertConcat",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.016945
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "ImmList",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-Take",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.0041800000000000006
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "Returns a starting subsequence consisting of a random number of items (from the entire collection), {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-Skip",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.0050500000000000007
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-Slice",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.006265
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "Returns a starting subsequence consisting of a random number of items (from the entire collection), {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "Iterate",
+    "Target": "ImmList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.091900000000000009
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 1,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-AddLast",
+    "Target": "ImmVector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        5.39515
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-RemoveLast",
+    "Target": "ImmVector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        4.73294
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-Update",
+    "Target": "ImmVector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        5.81462
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "Randomly updates items by index from the entire collection.",
+    "Ratio": null
+  },
+  {
+    "Test": "IEnumerator",
+    "Target": "ImmVector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.244325
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-Lookup",
+    "Target": "ImmVector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.97956
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "Randomly looks up {iters} items by index from the entire collection.",
+    "Ratio": null
+  },
+  {
+    "Test": "IterateN",
+    "Target": "ImmVector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.04167
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-First",
+    "Target": "ImmVector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.17058500000000001
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-Last",
+    "Target": "ImmVector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.158935
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-AddLastRange",
+    "Target": "ImmVector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.071685
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "Description": "Adds a collection of items to the end {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-AddFirstRange",
+    "Target": "ImmVector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.346955
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "Description": "Adds a collection of items to the beginning {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-InsertRange",
+    "Target": "ImmVector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.26189500000000004
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-Concat",
+    "Target": "ImmVector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.18284
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "ImmVector",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "Description": "Adds a collection of items to the end {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-InsertConcat",
+    "Target": "ImmVector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.35251
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "ImmVector",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-Take",
+    "Target": "ImmVector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.001335
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "Returns a starting subsequence consisting of a random number of items (from the entire collection), {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-Skip",
+    "Target": "ImmVector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.092585
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-Slice",
+    "Target": "ImmVector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.02732
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "Returns a starting subsequence consisting of a random number of items (from the entire collection), {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "Iterate",
+    "Target": "ImmVector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.030910000000000003
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 1,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-AddFirst",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        20.854835
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "Adds arbitrary items repeatedly to the beginning of the sequence.",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-AddLast",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        21.064095000000002
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-RemoveLast",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        10.27161
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-RemoveFirst",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        10.487010000000001
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-Insert",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        30.332660000000004
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-Remove",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        17.566035000000003
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-Update",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        10.472565
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "Randomly updates items by index from the entire collection.",
+    "Ratio": null
+  },
+  {
+    "Test": "IEnumerator",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        3.379905
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-Lookup",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        2.42182
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "Randomly looks up {iters} items by index from the entire collection.",
+    "Ratio": null
+  },
+  {
+    "Test": "IterateN",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        2.00624
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-First",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.9280250000000001
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-Last",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.84156500000000012
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-AddLastRange",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        11.578145000000001
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "Description": "Adds a collection of items to the end {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-AddFirstRange",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        11.85283
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "Description": "Adds a collection of items to the beginning {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-InsertRange",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        12.428875000000001
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-Concat",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        17.289455
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "System.ImmutableList",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "Description": "Adds a collection of items to the end {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-InsertConcat",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        16.968915000000003
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "System.ImmutableList",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-Take",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.99758000000000013
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "Returns a starting subsequence consisting of a random number of items (from the entire collection), {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-Skip",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        1.170205
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Iterate",
+    "Target": "System.ImmutableList",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        2.346555
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 1,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-AddLast",
+    "Target": "FSharpx.Vector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        4.999505
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-RemoveLast",
+    "Target": "FSharpx.Vector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        9.420495
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-Update",
+    "Target": "FSharpx.Vector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        10.97162
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "Randomly updates items by index from the entire collection.",
+    "Ratio": null
+  },
+  {
+    "Test": "IEnumerator",
+    "Target": "FSharpx.Vector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.333955
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-Lookup",
+    "Target": "FSharpx.Vector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.64745
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "Randomly looks up {iters} items by index from the entire collection.",
+    "Ratio": null
+  },
+  {
+    "Test": "IterateN",
+    "Target": "FSharpx.Vector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.218975
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-First",
+    "Target": "FSharpx.Vector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.59133
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-Last",
+    "Target": "FSharpx.Vector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.133745
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 20000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Seq-AddLastRange",
+    "Target": "FSharpx.Vector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        5.2046
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 2,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "Description": "Adds a collection of items to the end {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "Iterate",
+    "Target": "FSharpx.Vector",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.21544500000000003
+      ]
+    },
+    "Target_InitialSize": 10000,
+    "Iterations": 1,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Integers by Length\"; ElementType = System.Int32; Range = (2, 16)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Add",
+    "Target": "System.ImmutableSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        72.451215
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Remove",
+    "Target": "System.ImmutableSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        32.382755
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Contains",
+    "Target": "System.ImmutableSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        5.727445
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "Determines if a random element of the set is part of it, {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "IEnumerator",
+    "Target": "System.ImmutableSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        11.309575
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "IterateN",
+    "Target": "System.ImmutableSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.44315
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Set_Union",
+    "Target": "System.ImmutableSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        51.082625
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "System.ImmutableSet",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic union with another data structure {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Set_Intersection",
+    "Target": "System.ImmutableSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        18.653825
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "System.ImmutableSet",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic intersection with another data structure {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Set_Except",
+    "Target": "System.ImmutableSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        18.58455
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "System.ImmutableSet",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic relative complement (or Except) operation.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Set_Difference",
+    "Target": "System.ImmutableSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        59.52367
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "System.ImmutableSet",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic symmetric difference operation.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Array_Union",
+    "Target": "System.ImmutableSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        34.111625000000004
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic union with another data structure {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Array_Intersection",
+    "Target": "System.ImmutableSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        4.83554
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic intersection with another data structure {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Array_Except",
+    "Target": "System.ImmutableSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        4.851545
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic relative complement (or Except) operation.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Array_Difference",
+    "Target": "System.ImmutableSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        91.284770000000009
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic symmetric difference operation.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Add",
+    "Target": "System.ImmutableSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        91.488495
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Remove",
+    "Target": "System.ImmutableSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        56.641870000000004
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Contains",
+    "Target": "System.ImmutableSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        36.03492
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "Determines if a random element of the set is part of it, {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "IEnumerator",
+    "Target": "System.ImmutableSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        7.827705
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "IterateN",
+    "Target": "System.ImmutableSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.327145
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Set_Union",
+    "Target": "System.ImmutableSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        8.73595
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "System.ImmutableSortedSet",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic union with another data structure {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Set_Intersection",
+    "Target": "System.ImmutableSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        51.354975
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "System.ImmutableSortedSet",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic intersection with another data structure {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Set_Except",
+    "Target": "System.ImmutableSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        59.915150000000004
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "System.ImmutableSortedSet",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic relative complement (or Except) operation.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Set_Difference",
+    "Target": "System.ImmutableSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        161.027045
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "System.ImmutableSortedSet",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic symmetric difference operation.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Array_Union",
+    "Target": "System.ImmutableSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        71.352255
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic union with another data structure {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Array_Intersection",
+    "Target": "System.ImmutableSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        40.77351
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic intersection with another data structure {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Array_Except",
+    "Target": "System.ImmutableSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        48.200345000000006
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic relative complement (or Except) operation.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Array_Difference",
+    "Target": "System.ImmutableSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        216.28968
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic symmetric difference operation.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Add",
+    "Target": "FSharp.Set",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        53.906330000000004
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Remove",
+    "Target": "FSharp.Set",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        33.834845
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Contains",
+    "Target": "FSharp.Set",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        5.78562
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "Determines if a random element of the set is part of it, {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "IEnumerator",
+    "Target": "FSharp.Set",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        1.855725
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "IterateN",
+    "Target": "FSharp.Set",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.026119999999999997
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Set_Union",
+    "Target": "FSharp.Set",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        3.4482350000000004
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "FSharp.Set",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic union with another data structure {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Set_Intersection",
+    "Target": "FSharp.Set",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        6.00928
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "FSharp.Set",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic intersection with another data structure {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Set_Except",
+    "Target": "FSharp.Set",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        30.715854999999998
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "FSharp.Set",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic relative complement (or Except) operation.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Set_Difference",
+    "Target": "FSharp.Set",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        42.537645000000005
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "FSharp.Set",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic symmetric difference operation.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Array_Union",
+    "Target": "FSharp.Set",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        59.711065000000005
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic union with another data structure {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Array_Intersection",
+    "Target": "FSharp.Set",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        60.32776
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic intersection with another data structure {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Array_Except",
+    "Target": "FSharp.Set",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        84.112355000000008
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic relative complement (or Except) operation.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Array_Difference",
+    "Target": "FSharp.Set",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        95.567285
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic symmetric difference operation.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Add",
+    "Target": "ImmSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        50.999170000000007
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Remove",
+    "Target": "ImmSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        13.995010000000002
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Contains",
+    "Target": "ImmSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        2.963235
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "Determines if a random element of the set is part of it, {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "IEnumerator",
+    "Target": "ImmSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        2.81198
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "IterateN",
+    "Target": "ImmSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.022015
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Set_Union",
+    "Target": "ImmSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        2.4517100000000003
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "ImmSet",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic union with another data structure {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Set_Intersection",
+    "Target": "ImmSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        1.6845000000000003
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "ImmSet",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic intersection with another data structure {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Set_Except",
+    "Target": "ImmSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        2.396615
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "ImmSet",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic relative complement (or Except) operation.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Set_Difference",
+    "Target": "ImmSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        5.0732
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "ImmSet",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic symmetric difference operation.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Array_Union",
+    "Target": "ImmSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        17.93109
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic union with another data structure {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Array_Intersection",
+    "Target": "ImmSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        7.4786150000000005
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic intersection with another data structure {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Array_Except",
+    "Target": "ImmSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        7.5570800000000009
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic relative complement (or Except) operation.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Array_Difference",
+    "Target": "ImmSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        22.867295000000002
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic symmetric difference operation.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Add",
+    "Target": "ImmSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        83.85593
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Remove",
+    "Target": "ImmSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        54.392375
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Contains",
+    "Target": "ImmSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        33.09266
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "Determines if a random element of the set is part of it, {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "IEnumerator",
+    "Target": "ImmSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        2.40109
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "IterateN",
+    "Target": "ImmSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.012545
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Set_Union",
+    "Target": "ImmSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        4.01848
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "ImmSortedSet",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic union with another data structure {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Set_Intersection",
+    "Target": "ImmSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        7.005185
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "ImmSortedSet",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic intersection with another data structure {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Set_Except",
+    "Target": "ImmSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        3.4961600000000006
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "ImmSortedSet",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic relative complement (or Except) operation.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Set_Difference",
+    "Target": "ImmSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        10.874945
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "ImmSortedSet",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic symmetric difference operation.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Array_Union",
+    "Target": "ImmSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        61.7313
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic union with another data structure {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Array_Intersection",
+    "Target": "ImmSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        80.390865
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic intersection with another data structure {iters} times.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Array_Except",
+    "Target": "ImmSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        77.910635
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic relative complement (or Except) operation.",
+    "Ratio": null
+  },
+  {
+    "Test": "Set-Array_Difference",
+    "Target": "ImmSortedSet",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        71.019915
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "Computes the set-theoretic symmetric difference operation.",
+    "Ratio": null
+  },
+  {
+    "Test": "Map-Lookup",
+    "Target": "ImmMap",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        3.200905
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "IEnumerator",
+    "Target": "ImmMap",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        2.4558600000000004
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Map-RemoveKey",
+    "Target": "ImmMap",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        18.773000000000003
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Map-Contains",
+    "Target": "ImmMap",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        3.077515
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "IterateN",
+    "Target": "ImmMap",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.036835
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Map-Add",
+    "Target": "ImmMap",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        48.997015000000005
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Map-AddRange",
+    "Target": "ImmMap",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        55.874335000000009
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.Collections.Generic.KeyValuePair`2[System.String,System.String]]",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Map-RemoveRange",
+    "Target": "ImmMap",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        1.108625
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": {
+      "Case": "Some",
+      "Fields": [
+        0.6
+      ]
+    }
+  },
+  {
+    "Test": "Map-Lookup",
+    "Target": "System.ImmutableDict",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        5.97406
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "IEnumerator",
+    "Target": "System.ImmutableDict",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        11.842160000000002
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Map-RemoveKey",
+    "Target": "System.ImmutableDict",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        53.257715000000005
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Map-Contains",
+    "Target": "System.ImmutableDict",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        5.55316
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "IterateN",
+    "Target": "System.ImmutableDict",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.46772
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Map-Add",
+    "Target": "System.ImmutableDict",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        86.545080000000013
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Map-AddRange",
+    "Target": "System.ImmutableDict",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        42.590065
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.Collections.Generic.KeyValuePair`2[System.String,System.String]]",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Map-RemoveRange",
+    "Target": "System.ImmutableDict",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        1.5919
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": {
+      "Case": "Some",
+      "Fields": [
+        0.6
+      ]
+    }
+  },
+  {
+    "Test": "Map-Lookup",
+    "Target": "FSharp.Map",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        6.4622300000000008
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "IEnumerator",
+    "Target": "FSharp.Map",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        2.022455
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Map-RemoveKey",
+    "Target": "FSharp.Map",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        31.328880000000005
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Map-Contains",
+    "Target": "FSharp.Map",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        6.445065
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "IterateN",
+    "Target": "FSharp.Map",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.10106
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Map-Add",
+    "Target": "FSharp.Map",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        57.081835
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Map-AddRange",
+    "Target": "FSharp.Map",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        56.758030000000005
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.Collections.Generic.KeyValuePair`2[System.String,System.String]]",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Map-RemoveRange",
+    "Target": "FSharp.Map",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        1.7712400000000001
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": {
+      "Case": "Some",
+      "Fields": [
+        0.6
+      ]
+    }
+  },
+  {
+    "Test": "Map-Lookup",
+    "Target": "System.ImmutableSortedDict",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        33.827535
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "IEnumerator",
+    "Target": "System.ImmutableSortedDict",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        6.4973750000000008
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Map-RemoveKey",
+    "Target": "System.ImmutableSortedDict",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        62.503125
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Map-Contains",
+    "Target": "System.ImmutableSortedDict",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        34.093865
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "IterateN",
+    "Target": "System.ImmutableSortedDict",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.30896500000000005
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Map-Add",
+    "Target": "System.ImmutableSortedDict",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        93.662510000000012
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Map-AddRange",
+    "Target": "System.ImmutableSortedDict",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        69.85896
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.Collections.Generic.KeyValuePair`2[System.String,System.String]]",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Map-RemoveRange",
+    "Target": "System.ImmutableSortedDict",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        3.007385
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": {
+      "Case": "Some",
+      "Fields": [
+        0.6
+      ]
+    }
+  },
+  {
+    "Test": "Map-Lookup",
+    "Target": "ImmSortedMap",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        33.667975
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "IEnumerator",
+    "Target": "ImmSortedMap",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        2.1544350000000003
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Map-RemoveKey",
+    "Target": "ImmSortedMap",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        52.420080000000006
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Map-Contains",
+    "Target": "ImmSortedMap",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        33.698235
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "IterateN",
+    "Target": "ImmSortedMap",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        0.029339999999999998
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 30000,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Map-Add",
+    "Target": "ImmSortedMap",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        85.772695
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Map-AddRange",
+    "Target": "ImmSortedMap",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        62.824395
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 10000,
+    "DataSource_Type": "Array",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.Collections.Generic.KeyValuePair`2[System.String,System.String]]",
+    "Description": "",
+    "Ratio": null
+  },
+  {
+    "Test": "Map-RemoveRange",
+    "Target": "ImmSortedMap",
+    "Time": {
+      "Case": "Time",
+      "Fields": [
+        2.3731
+      ]
+    },
+    "Target_InitialSize": 1000,
+    "Iterations": 3,
+    "DataSource_Size": 0,
+    "DataSource_Type": "",
+    "Target_InitialGenerator": "[Name = \"Unique Strings of Letters by Length\"; ElementType = System.String; Range = (1, 10)]",
+    "DataGenerator": "",
+    "Description": "",
+    "Ratio": {
+      "Case": "Some",
+      "Fields": [
+        0.6
+      ]
+    }
+  }
+]
