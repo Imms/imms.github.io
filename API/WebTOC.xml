@@ -1,38 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="e90716aa-d0ce-4dec-9e01-c0e4ded17d8f" Title="Imms API" Url="html/Imms_Root.htm">
-    <HelpTOCNode Id="ad80141d-b03b-4e9d-aaba-c7b8a75ccaef" Title="Imms" Url="html/N_Imms.htm">
-      <HelpTOCNode Id="f78ce301-60df-4de6-b764-a4945a4ed077" Title="IAnyOptional Interface" Url="html/T_Imms_IAnyOptional.htm">
-        <HelpTOCNode Id="ce1d2b9b-0b75-4748-8c6b-d2dea62bfd30" Title="IAnyOptional Properties" Url="html/Properties_T_Imms_IAnyOptional.htm">
+  <HelpTOCNode Id="54b2061c-71b1-426b-8e1b-14268051f45b" Title="Imms API" Url="html/Imms_Root.htm">
+    <HelpTOCNode Id="4034d644-62ca-46f3-ab19-7c64268c185a" Title="Imms" Url="html/N_Imms.htm">
+      <HelpTOCNode Id="7d29e72e-20f7-4c96-9490-4a51915a765f" Title="IAnyOptional Interface" Url="html/T_Imms_IAnyOptional.htm">
+        <HelpTOCNode Id="b474b0dd-f531-4387-991d-eb418b35d42c" Title="IAnyOptional Properties" Url="html/Properties_T_Imms_IAnyOptional.htm">
           <HelpTOCNode Title="IsNone Property " Url="html/P_Imms_IAnyOptional_IsNone.htm" />
           <HelpTOCNode Title="IsSome Property " Url="html/P_Imms_IAnyOptional_IsSome.htm" />
           <HelpTOCNode Title="Value Property " Url="html/P_Imms_IAnyOptional_Value.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="3a92c8d2-d387-476b-acbf-4f05932c9b8f" Title="ImmList Class" Url="html/T_Imms_ImmList.htm">
-        <HelpTOCNode Id="e4711794-f90e-4742-b40a-8c211235d76a" Title="ImmList Methods" Url="html/Methods_T_Imms_ImmList.htm">
+      <HelpTOCNode Id="5b012a66-dd86-4f91-ab2b-7d3793a02c7b" Title="ImmList Class" Url="html/T_Imms_ImmList.htm">
+        <HelpTOCNode Id="8e1577ec-f389-4fcf-a52e-560901d5d435" Title="ImmList Methods" Url="html/Methods_T_Imms_ImmList.htm">
           <HelpTOCNode Title="Empty(T) Method " Url="html/M_Imms_ImmList_Empty__1.htm" />
           <HelpTOCNode Title="Of(T) Method " Url="html/M_Imms_ImmList_Of__1.htm" />
           <HelpTOCNode Title="ToImmList(T) Method " Url="html/M_Imms_ImmList_ToImmList__1.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="8050603f-384c-4c45-9c0d-bd0197ce7e94" Title="ImmList(T) Class" Url="html/T_Imms_ImmList_1.htm">
-        <HelpTOCNode Id="63d6e031-739c-4488-a56b-aff19204cc85" Title="ImmList(T) Properties" Url="html/Properties_T_Imms_ImmList_1.htm">
+      <HelpTOCNode Id="6b17535a-81b0-41e8-9568-516583e0b0ce" Title="ImmList(T) Class" Url="html/T_Imms_ImmList_1.htm">
+        <HelpTOCNode Id="f1dfe3b0-0283-4e97-ac67-7b5b20c90cb6" Title="ImmList(T) Properties" Url="html/Properties_T_Imms_ImmList_1.htm">
           <HelpTOCNode Title="Empty Property " Url="html/P_Imms_ImmList_1_Empty.htm" />
           <HelpTOCNode Title="First Property " Url="html/P_Imms_ImmList_1_First.htm" />
           <HelpTOCNode Title="IsEmpty Property " Url="html/P_Imms_ImmList_1_IsEmpty.htm" />
           <HelpTOCNode Title="Last Property " Url="html/P_Imms_ImmList_1_Last.htm" />
           <HelpTOCNode Title="Length Property " Url="html/P_Imms_ImmList_1_Length.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="49f4c585-1570-4638-9380-09f8a6412976" Title="ImmList(T) Methods" Url="html/Methods_T_Imms_ImmList_1.htm">
+        <HelpTOCNode Id="9f279750-8deb-49a8-b79a-8981f36c81ac" Title="ImmList(T) Methods" Url="html/Methods_T_Imms_ImmList_1.htm">
           <HelpTOCNode Title="AddFirst Method " Url="html/M_Imms_ImmList_1_AddFirst.htm" />
-          <HelpTOCNode Id="23a786ab-01b2-456d-9e5e-023b6c361147" Title="AddFirstRange Method " Url="html/Overload_Imms_ImmList_1_AddFirstRange.htm">
+          <HelpTOCNode Id="72b7f4b7-a56f-45b5-adb7-a8ba1934e18a" Title="AddFirstRange Method " Url="html/Overload_Imms_ImmList_1_AddFirstRange.htm">
             <HelpTOCNode Title="AddFirstRange Method (IEnumerable(T))" Url="html/M_Imms_ImmList_1_AddFirstRange_1.htm" />
             <HelpTOCNode Title="AddFirstRange Method (ImmList(T))" Url="html/M_Imms_ImmList_1_AddFirstRange.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="AddLast Method " Url="html/M_Imms_ImmList_1_AddLast.htm" />
-          <HelpTOCNode Id="5843273f-4247-44fe-9f24-3a365606b09c" Title="AddLastRange Method " Url="html/Overload_Imms_ImmList_1_AddLastRange.htm">
+          <HelpTOCNode Id="add8653b-e49b-4551-bc4c-ea06c22cf216" Title="AddLastRange Method " Url="html/Overload_Imms_ImmList_1_AddLastRange.htm">
             <HelpTOCNode Title="AddLastRange Method (IEnumerable(T))" Url="html/M_Imms_ImmList_1_AddLastRange_1.htm" />
             <HelpTOCNode Title="AddLastRange Method (ImmList(T))" Url="html/M_Imms_ImmList_1_AddLastRange.htm" />
           </HelpTOCNode>
@@ -43,18 +43,18 @@
           <HelpTOCNode Title="ForEachBackWhile Method " Url="html/M_Imms_ImmList_1_ForEachBackWhile.htm" />
           <HelpTOCNode Title="ForEachWhile Method " Url="html/M_Imms_ImmList_1_ForEachWhile.htm" />
           <HelpTOCNode Title="GetEnumerator Method " Url="html/M_Imms_ImmList_1_GetEnumerator.htm" />
-          <HelpTOCNode Id="7e0c4774-9000-401f-a48c-64426770acdc" Title="GroupBy Method " Url="html/Overload_Imms_ImmList_1_GroupBy.htm">
+          <HelpTOCNode Id="3caf9414-8ea4-487f-aad2-df9fd487bebb" Title="GroupBy Method " Url="html/Overload_Imms_ImmList_1_GroupBy.htm">
             <HelpTOCNode Title="GroupBy(TKey) Method (Func(T, TKey), IEqualityComparer(TKey))" Url="html/M_Imms_ImmList_1_GroupBy__1.htm" />
             <HelpTOCNode Title="GroupBy(TKey, TElem2) Method (Func(T, TKey), Func(T, TElem2), IEqualityComparer(TKey))" Url="html/M_Imms_ImmList_1_GroupBy__2.htm" />
             <HelpTOCNode Title="GroupBy(TRElem, TElem2, TKey) Method (Func(T, TKey), Func(T, TElem2), Func(TKey, IEnumerable(TElem2), TRElem), IEqualityComparer(TKey))" Url="html/M_Imms_ImmList_1_GroupBy__3.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="GroupJoin(TInner, TKey, TResult) Method " Url="html/M_Imms_ImmList_1_GroupJoin__3.htm" />
           <HelpTOCNode Title="Insert Method " Url="html/M_Imms_ImmList_1_Insert.htm" />
-          <HelpTOCNode Id="3c6932bb-2464-4287-adef-6255e92b0422" Title="InsertRange Method " Url="html/Overload_Imms_ImmList_1_InsertRange.htm">
+          <HelpTOCNode Id="b8a460ce-dc8a-454e-994f-bc31bcda13cb" Title="InsertRange Method " Url="html/Overload_Imms_ImmList_1_InsertRange.htm">
             <HelpTOCNode Title="InsertRange Method (Int32, ImmList(T))" Url="html/M_Imms_ImmList_1_InsertRange.htm" />
             <HelpTOCNode Title="InsertRange Method (Int32, IEnumerable(T))" Url="html/M_Imms_ImmList_1_InsertRange_1.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="e26f197f-5f74-45cc-a8e9-e126f1074470" Title="Join Method " Url="html/Overload_Imms_ImmList_1_Join.htm">
+          <HelpTOCNode Id="2b8c1e44-4d6f-414e-904f-4ef658dd3122" Title="Join Method " Url="html/Overload_Imms_ImmList_1_Join.htm">
             <HelpTOCNode Title="Join(TInner, TKey) Method (IEnumerable(TInner), Func(T, TKey), Func(TInner, TKey), IEqualityComparer(TKey))" Url="html/M_Imms_ImmList_1_Join__2.htm" />
             <HelpTOCNode Title="Join(TRElem, TInner, TKey) Method (IEnumerable(TInner), Func(T, TKey), Func(TInner, TKey), Func(T, TInner, TRElem), IEqualityComparer(TKey))" Url="html/M_Imms_ImmList_1_Join__3.htm" />
           </HelpTOCNode>
@@ -64,22 +64,22 @@
           <HelpTOCNode Title="Reverse Method " Url="html/M_Imms_ImmList_1_Reverse.htm" />
           <HelpTOCNode Title="Scan(TRElem) Method " Url="html/M_Imms_ImmList_1_Scan__1.htm" />
           <HelpTOCNode Title="ScanBack(TRElem) Method " Url="html/M_Imms_ImmList_1_ScanBack__1.htm" />
-          <HelpTOCNode Id="0e251d74-bc43-4651-a70d-7067fa174533" Title="Select Method " Url="html/Overload_Imms_ImmList_1_Select.htm">
+          <HelpTOCNode Id="80a68412-1c42-4123-8d9b-1b82ccaf46a5" Title="Select Method " Url="html/Overload_Imms_ImmList_1_Select.htm">
             <HelpTOCNode Title="Select(TRElem) Method (Func(T, TRElem))" Url="html/M_Imms_ImmList_1_Select__1_1.htm" />
             <HelpTOCNode Title="Select(TRElem) Method (Func(T, Optional(TRElem)))" Url="html/M_Imms_ImmList_1_Select__1.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="74e94b1c-798f-418b-9036-61af221b4bee" Title="SelectMany Method " Url="html/Overload_Imms_ImmList_1_SelectMany.htm">
+          <HelpTOCNode Id="b36892fc-faf3-4eaa-8d28-93e53c4c1fe6" Title="SelectMany Method " Url="html/Overload_Imms_ImmList_1_SelectMany.htm">
             <HelpTOCNode Title="SelectMany(TRElem) Method (Func(T, IEnumerable(TRElem)))" Url="html/M_Imms_ImmList_1_SelectMany__1.htm" />
             <HelpTOCNode Title="SelectMany(TElem2, TRElem) Method (Func(T, IEnumerable(TElem2)), Func(T, TElem2, TRElem))" Url="html/M_Imms_ImmList_1_SelectMany__2.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="Update Method " Url="html/M_Imms_ImmList_1_Update.htm" />
-          <HelpTOCNode Id="51d7e3a4-c48f-4bfb-aefd-ec4c6630c611" Title="Zip Method " Url="html/Overload_Imms_ImmList_1_Zip.htm">
+          <HelpTOCNode Id="08cf9d98-69da-4296-90ba-dddfdd57ae03" Title="Zip Method " Url="html/Overload_Imms_ImmList_1_Zip.htm">
             <HelpTOCNode Title="Zip(TElem2) Method (IEnumerable(TElem2))" Url="html/M_Imms_ImmList_1_Zip__1.htm" />
             <HelpTOCNode Title="Zip(TElem2, TRElem) Method (IEnumerable(TElem2), Func(T, TElem2, TRElem))" Url="html/M_Imms_ImmList_1_Zip__2.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
-        <HelpTOCNode Id="fca73ea8-2ba7-4732-9265-648e8e1933ac" Title="ImmList(T) Operators" Url="html/Operators_T_Imms_ImmList_1.htm">
-          <HelpTOCNode Id="f01f5fd2-c8ba-48bd-89e3-367811bca503" Title="Addition Operator " Url="html/Overload_Imms_ImmList_1_op_Addition.htm">
+        <HelpTOCNode Id="3e00b3cd-31f6-4f84-acb7-3083246efba1" Title="ImmList(T) Operators" Url="html/Operators_T_Imms_ImmList_1.htm">
+          <HelpTOCNode Id="a28651e5-e297-46eb-9b01-949f6c8d9b61" Title="Addition Operator " Url="html/Overload_Imms_ImmList_1_op_Addition.htm">
             <HelpTOCNode Title="Addition Operator (IEnumerable(T), ImmList(T))" Url="html/M_Imms_ImmList_1_op_Addition_3.htm" />
             <HelpTOCNode Title="Addition Operator (T, ImmList(T))" Url="html/M_Imms_ImmList_1_op_Addition_4.htm" />
             <HelpTOCNode Title="Addition Operator (ImmList(T), ImmList(T))" Url="html/M_Imms_ImmList_1_op_Addition.htm" />
@@ -88,50 +88,50 @@
           </HelpTOCNode>
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="f5cab443-91a3-414b-8118-91563cd2e791" Title="ImmMap Class" Url="html/T_Imms_ImmMap.htm">
-        <HelpTOCNode Id="54e78c0a-4426-4811-bf9a-ddcde8c25ed6" Title="ImmMap Methods" Url="html/Methods_T_Imms_ImmMap.htm">
+      <HelpTOCNode Id="a4e5a119-2ee6-44cd-998c-3aad218c9589" Title="ImmMap Class" Url="html/T_Imms_ImmMap.htm">
+        <HelpTOCNode Id="43129e6b-d35c-4bb0-b613-4958ec770020" Title="ImmMap Methods" Url="html/Methods_T_Imms_ImmMap.htm">
           <HelpTOCNode Title="CreateMap(TKey, TValue) Method " Url="html/M_Imms_ImmMap_CreateMap__2.htm" />
           <HelpTOCNode Title="Empty(TKey, TValue) Method " Url="html/M_Imms_ImmMap_Empty__2.htm" />
           <HelpTOCNode Title="Of(TKey, TValue) Method " Url="html/M_Imms_ImmMap_Of__2.htm" />
-          <HelpTOCNode Id="e45b302d-520e-47b6-8e81-373c7f431767" Title="ToImmMap Method " Url="html/Overload_Imms_ImmMap_ToImmMap.htm">
+          <HelpTOCNode Id="1f0a268a-ee6a-40d2-b14c-20155bf7f014" Title="ToImmMap Method " Url="html/Overload_Imms_ImmMap_ToImmMap.htm">
             <HelpTOCNode Title="ToImmMap(TKey, TValue) Method (IEnumerable(KeyValuePair(TKey, TValue)), IEqualityComparer(TKey))" Url="html/M_Imms_ImmMap_ToImmMap__2.htm" />
             <HelpTOCNode Title="ToImmMap(T, TKey, TValue) Method (IEnumerable(T), Func(T, TKey), Func(T, TValue), IEqualityComparer(TKey))" Url="html/M_Imms_ImmMap_ToImmMap__3.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="7c661a40-1716-4f77-aa70-050e6188801a" Title="ImmMap(TKey, TValue) Class" Url="html/T_Imms_ImmMap_2.htm">
-        <HelpTOCNode Id="71828f72-23a8-486b-8ac2-5b8cbe7be731" Title="ImmMap(TKey, TValue) Properties" Url="html/Properties_T_Imms_ImmMap_2.htm">
+      <HelpTOCNode Id="852e96e5-baec-4e47-9c1b-de39c8b7769c" Title="ImmMap(TKey, TValue) Class" Url="html/T_Imms_ImmMap_2.htm">
+        <HelpTOCNode Id="185255b8-e5f6-4544-a089-37d8d6412cd1" Title="ImmMap(TKey, TValue) Properties" Url="html/Properties_T_Imms_ImmMap_2.htm">
           <HelpTOCNode Title="IsEmpty Property " Url="html/P_Imms_ImmMap_2_IsEmpty.htm" />
           <HelpTOCNode Title="Length Property " Url="html/P_Imms_ImmMap_2_Length.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="7d28cc65-c7b3-40ec-b83a-beb2bfffdc08" Title="ImmMap(TKey, TValue) Methods" Url="html/Methods_T_Imms_ImmMap_2.htm">
+        <HelpTOCNode Id="0226916e-960c-4613-9f37-c382327081ff" Title="ImmMap(TKey, TValue) Methods" Url="html/Methods_T_Imms_ImmMap_2.htm">
           <HelpTOCNode Title="Empty Method " Url="html/M_Imms_ImmMap_2_Empty.htm" />
-          <HelpTOCNode Id="57a391d5-70fb-4804-bbda-8352a9a61867" Title="ForEachWhile Method " Url="html/Overload_Imms_ImmMap_2_ForEachWhile.htm">
+          <HelpTOCNode Id="0a7e9f65-34b3-4811-b64c-e4c9c38eda8a" Title="ForEachWhile Method " Url="html/Overload_Imms_ImmMap_2_ForEachWhile.htm">
             <HelpTOCNode Title="ForEachWhile Method (Func(KeyValuePair(TKey, TValue), Boolean))" Url="html/M_Imms_ImmMap_2_ForEachWhile.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="GetEnumerator Method " Url="html/M_Imms_ImmMap_2_GetEnumerator.htm" />
           <HelpTOCNode Title="Remove Method " Url="html/M_Imms_ImmMap_2_Remove.htm" />
           <HelpTOCNode Title="RemoveRange Method " Url="html/M_Imms_ImmMap_2_RemoveRange.htm" />
-          <HelpTOCNode Id="56adc7af-0322-4ca3-9fe9-892979d49990" Title="Subtract Method " Url="html/Overload_Imms_ImmMap_2_Subtract.htm">
+          <HelpTOCNode Id="16111f8d-1271-4c12-8743-f21b7aef2a49" Title="Subtract Method " Url="html/Overload_Imms_ImmMap_2_Subtract.htm">
             <HelpTOCNode Title="Subtract(TValue2) Method (IEnumerable(KeyValuePair(TKey, TValue2)), ValueSelector(TKey, TValue, TValue2, Optional(TValue)))" Url="html/M_Imms_ImmMap_2_Subtract__1.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="TryGet Method " Url="html/M_Imms_ImmMap_2_TryGet.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="7ffe10bc-1168-41bb-bef7-ae2166b3fb5e" Title="ImmSet Class" Url="html/T_Imms_ImmSet.htm">
-        <HelpTOCNode Id="4f1a5d84-7e65-4de3-a6b5-a528b3b412c0" Title="ImmSet Methods" Url="html/Methods_T_Imms_ImmSet.htm">
+      <HelpTOCNode Id="6aa97ae3-4cb4-44d2-ac1e-3fe6e50c98a1" Title="ImmSet Class" Url="html/T_Imms_ImmSet.htm">
+        <HelpTOCNode Id="4a8c989a-bf68-4629-aed4-3c0c5500380c" Title="ImmSet Methods" Url="html/Methods_T_Imms_ImmSet.htm">
           <HelpTOCNode Title="CreateSet(T) Method " Url="html/M_Imms_ImmSet_CreateSet__1.htm" />
           <HelpTOCNode Title="Empty(T) Method " Url="html/M_Imms_ImmSet_Empty__1.htm" />
           <HelpTOCNode Title="Of(T) Method " Url="html/M_Imms_ImmSet_Of__1.htm" />
           <HelpTOCNode Title="ToImmSet(T) Method " Url="html/M_Imms_ImmSet_ToImmSet__1.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="fd1f784b-216e-46a3-ba47-a16db15cdddd" Title="ImmSet(T) Class" Url="html/T_Imms_ImmSet_1.htm">
-        <HelpTOCNode Id="ed2e668a-935b-4d74-abbb-a92f9299c599" Title="ImmSet(T) Properties" Url="html/Properties_T_Imms_ImmSet_1.htm">
+      <HelpTOCNode Id="9bca065f-0a55-4f49-ae47-6a4d641d8e5c" Title="ImmSet(T) Class" Url="html/T_Imms_ImmSet_1.htm">
+        <HelpTOCNode Id="6ad16537-854f-4288-92d6-82bae9a1075c" Title="ImmSet(T) Properties" Url="html/Properties_T_Imms_ImmSet_1.htm">
           <HelpTOCNode Title="IsEmpty Property " Url="html/P_Imms_ImmSet_1_IsEmpty.htm" />
           <HelpTOCNode Title="Length Property " Url="html/P_Imms_ImmSet_1_Length.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="e8026511-ff0c-474f-a139-38045ae0a782" Title="ImmSet(T) Methods" Url="html/Methods_T_Imms_ImmSet_1.htm">
+        <HelpTOCNode Id="3b65fcd1-8f41-4f33-81e8-c8e332a64a35" Title="ImmSet(T) Methods" Url="html/Methods_T_Imms_ImmSet_1.htm">
           <HelpTOCNode Title="Add Method " Url="html/M_Imms_ImmSet_1_Add.htm" />
           <HelpTOCNode Title="Contains Method " Url="html/M_Imms_ImmSet_1_Contains.htm" />
           <HelpTOCNode Title="Empty Method " Url="html/M_Imms_ImmSet_1_Empty.htm" />
@@ -140,31 +140,31 @@
           <HelpTOCNode Title="Remove Method " Url="html/M_Imms_ImmSet_1_Remove.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="e0232ad0-56f6-43fe-8079-67d2751def45" Title="ImmSortedMap Class" Url="html/T_Imms_ImmSortedMap.htm">
-        <HelpTOCNode Id="a046f8e2-2d4d-4d1a-b827-f6fcb69314ba" Title="ImmSortedMap Methods" Url="html/Methods_T_Imms_ImmSortedMap.htm">
+      <HelpTOCNode Id="60992f86-ad34-4f7e-a446-42877a5a4973" Title="ImmSortedMap Class" Url="html/T_Imms_ImmSortedMap.htm">
+        <HelpTOCNode Id="ab112956-3f6d-4454-ad45-7df6fbc63c4c" Title="ImmSortedMap Methods" Url="html/Methods_T_Imms_ImmSortedMap.htm">
           <HelpTOCNode Title="CreateOrderedMap(TKey, TValue) Method " Url="html/M_Imms_ImmSortedMap_CreateOrderedMap__2.htm" />
-          <HelpTOCNode Id="c4111180-5034-421c-af63-70bf79ccf13e" Title="Empty Method " Url="html/Overload_Imms_ImmSortedMap_Empty.htm">
+          <HelpTOCNode Id="f9993ab3-16a4-4972-89fc-8dbfd0c7cb9a" Title="Empty Method " Url="html/Overload_Imms_ImmSortedMap_Empty.htm">
             <HelpTOCNode Title="Empty(TKey, TValue) Method " Url="html/M_Imms_ImmSortedMap_Empty__2.htm" />
             <HelpTOCNode Title="Empty(TKey, TValue) Method (IComparer(TKey))" Url="html/M_Imms_ImmSortedMap_Empty__2_1.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="Of(TKey, TValue) Method " Url="html/M_Imms_ImmSortedMap_Of__2.htm" />
-          <HelpTOCNode Id="28c0b424-0e4d-4d7a-a7df-aebaeb501678" Title="ToImmSortedMap Method " Url="html/Overload_Imms_ImmSortedMap_ToImmSortedMap.htm">
+          <HelpTOCNode Id="aacfa912-e266-4bb5-8456-bc24928a99e3" Title="ToImmSortedMap Method " Url="html/Overload_Imms_ImmSortedMap_ToImmSortedMap.htm">
             <HelpTOCNode Title="ToImmSortedMap(TKey, TValue) Method (IEnumerable(KeyValuePair(TKey, TValue)))" Url="html/M_Imms_ImmSortedMap_ToImmSortedMap__2.htm" />
             <HelpTOCNode Title="ToImmSortedMap(TKey, TValue) Method (IEnumerable(KeyValuePair(TKey, TValue)), IComparer(TKey))" Url="html/M_Imms_ImmSortedMap_ToImmSortedMap__2_1.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="62676306-84f5-4205-9968-f7de78d5f61a" Title="ImmSortedMap(TKey, TValue) Class" Url="html/T_Imms_ImmSortedMap_2.htm">
-        <HelpTOCNode Id="865e1e39-2034-4ec6-a979-5d0ce0f51bc2" Title="ImmSortedMap(TKey, TValue) Properties" Url="html/Properties_T_Imms_ImmSortedMap_2.htm">
+      <HelpTOCNode Id="6221d399-1975-4475-a203-40cea028cdc9" Title="ImmSortedMap(TKey, TValue) Class" Url="html/T_Imms_ImmSortedMap_2.htm">
+        <HelpTOCNode Id="d2cc2de6-c297-4fd1-aba4-2b1b26eaa983" Title="ImmSortedMap(TKey, TValue) Properties" Url="html/Properties_T_Imms_ImmSortedMap_2.htm">
           <HelpTOCNode Title="IsEmpty Property " Url="html/P_Imms_ImmSortedMap_2_IsEmpty.htm" />
           <HelpTOCNode Title="Length Property " Url="html/P_Imms_ImmSortedMap_2_Length.htm" />
           <HelpTOCNode Title="MaxItem Property " Url="html/P_Imms_ImmSortedMap_2_MaxItem.htm" />
           <HelpTOCNode Title="MinItem Property " Url="html/P_Imms_ImmSortedMap_2_MinItem.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="b3145ac8-989b-4cbe-8628-5dc05983d6dd" Title="ImmSortedMap(TKey, TValue) Methods" Url="html/Methods_T_Imms_ImmSortedMap_2.htm">
+        <HelpTOCNode Id="e2fb0701-9fc5-47e2-9505-f2aa217e4e0c" Title="ImmSortedMap(TKey, TValue) Methods" Url="html/Methods_T_Imms_ImmSortedMap_2.htm">
           <HelpTOCNode Title="ByOrder Method " Url="html/M_Imms_ImmSortedMap_2_ByOrder.htm" />
           <HelpTOCNode Title="Empty Method " Url="html/M_Imms_ImmSortedMap_2_Empty.htm" />
-          <HelpTOCNode Id="82671d47-74e5-4068-9e56-eb8f1e8f250b" Title="ForEachWhile Method " Url="html/Overload_Imms_ImmSortedMap_2_ForEachWhile.htm">
+          <HelpTOCNode Id="b0932be6-a5c6-4ffe-9d7a-b21a41a5c674" Title="ForEachWhile Method " Url="html/Overload_Imms_ImmSortedMap_2_ForEachWhile.htm">
             <HelpTOCNode Title="ForEachWhile Method (Func(KeyValuePair(TKey, TValue), Boolean))" Url="html/M_Imms_ImmSortedMap_2_ForEachWhile.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="GetEnumerator Method " Url="html/M_Imms_ImmSortedMap_2_GetEnumerator.htm" />
@@ -174,34 +174,34 @@
           <HelpTOCNode Title="RemoveMin Method " Url="html/M_Imms_ImmSortedMap_2_RemoveMin.htm" />
           <HelpTOCNode Title="RemoveRange Method " Url="html/M_Imms_ImmSortedMap_2_RemoveRange.htm" />
           <HelpTOCNode Title="Slice Method " Url="html/M_Imms_ImmSortedMap_2_Slice.htm" />
-          <HelpTOCNode Id="6ec703b8-14e5-41e5-a1e8-4faaed10cfd2" Title="Subtract Method " Url="html/Overload_Imms_ImmSortedMap_2_Subtract.htm">
+          <HelpTOCNode Id="2b7ef231-4696-4e93-9552-0eab07ea2099" Title="Subtract Method " Url="html/Overload_Imms_ImmSortedMap_2_Subtract.htm">
             <HelpTOCNode Title="Subtract(TValue2) Method (IEnumerable(KeyValuePair(TKey, TValue2)), ValueSelector(TKey, TValue, TValue2, Optional(TValue)))" Url="html/M_Imms_ImmSortedMap_2_Subtract__1.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="TryGet Method " Url="html/M_Imms_ImmSortedMap_2_TryGet.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="24fde276-92a9-4657-ae70-7d035a39ec72" Title="ImmSortedSet Class" Url="html/T_Imms_ImmSortedSet.htm">
-        <HelpTOCNode Id="be7260ed-4c87-4d11-a567-6ff2ac5e0955" Title="ImmSortedSet Methods" Url="html/Methods_T_Imms_ImmSortedSet.htm">
+      <HelpTOCNode Id="517b31a3-fbb1-41a2-937d-7464988b1c17" Title="ImmSortedSet Class" Url="html/T_Imms_ImmSortedSet.htm">
+        <HelpTOCNode Id="bda51ec3-1ca0-4509-be61-61e3b60633fe" Title="ImmSortedSet Methods" Url="html/Methods_T_Imms_ImmSortedSet.htm">
           <HelpTOCNode Title="CreateOrderedSet(T) Method " Url="html/M_Imms_ImmSortedSet_CreateOrderedSet__1.htm" />
-          <HelpTOCNode Id="89096e3a-4f6e-479c-81d3-3f0285ec3ed7" Title="Empty Method " Url="html/Overload_Imms_ImmSortedSet_Empty.htm">
+          <HelpTOCNode Id="5154a0d5-4273-4e07-8ff0-705674afc912" Title="Empty Method " Url="html/Overload_Imms_ImmSortedSet_Empty.htm">
             <HelpTOCNode Title="Empty(T) Method " Url="html/M_Imms_ImmSortedSet_Empty__1.htm" />
             <HelpTOCNode Title="Empty(T) Method (IComparer(T))" Url="html/M_Imms_ImmSortedSet_Empty__1_1.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="Of(T) Method " Url="html/M_Imms_ImmSortedSet_Of__1.htm" />
-          <HelpTOCNode Id="980c3355-0b99-486b-ae5e-15ef67fb57a0" Title="ToImmSortedSet Method " Url="html/Overload_Imms_ImmSortedSet_ToImmSortedSet.htm">
+          <HelpTOCNode Id="43fbabc9-9db1-42b8-8c94-c36284606999" Title="ToImmSortedSet Method " Url="html/Overload_Imms_ImmSortedSet_ToImmSortedSet.htm">
             <HelpTOCNode Title="ToImmSortedSet(T) Method (IEnumerable(T))" Url="html/M_Imms_ImmSortedSet_ToImmSortedSet__1.htm" />
             <HelpTOCNode Title="ToImmSortedSet(T) Method (IEnumerable(T), IComparer(T))" Url="html/M_Imms_ImmSortedSet_ToImmSortedSet__1_1.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="fbf21b8c-c217-4006-86ac-0723ba4b924d" Title="ImmSortedSet(T) Class" Url="html/T_Imms_ImmSortedSet_1.htm">
-        <HelpTOCNode Id="8a70cea7-d8b8-4137-a320-d66cff36988d" Title="ImmSortedSet(T) Properties" Url="html/Properties_T_Imms_ImmSortedSet_1.htm">
+      <HelpTOCNode Id="686ffc3a-f135-4827-8b6c-0849350e7266" Title="ImmSortedSet(T) Class" Url="html/T_Imms_ImmSortedSet_1.htm">
+        <HelpTOCNode Id="eea30723-d8da-42eb-9d3d-1998bf2e71de" Title="ImmSortedSet(T) Properties" Url="html/Properties_T_Imms_ImmSortedSet_1.htm">
           <HelpTOCNode Title="IsEmpty Property " Url="html/P_Imms_ImmSortedSet_1_IsEmpty.htm" />
           <HelpTOCNode Title="Length Property " Url="html/P_Imms_ImmSortedSet_1_Length.htm" />
           <HelpTOCNode Title="MaxItem Property " Url="html/P_Imms_ImmSortedSet_1_MaxItem.htm" />
           <HelpTOCNode Title="MinItem Property " Url="html/P_Imms_ImmSortedSet_1_MinItem.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="b57112a8-48f0-4db3-b264-e118e30f3417" Title="ImmSortedSet(T) Methods" Url="html/Methods_T_Imms_ImmSortedSet_1.htm">
+        <HelpTOCNode Id="88abee2a-de2b-424f-bd5d-1c164621b8fb" Title="ImmSortedSet(T) Methods" Url="html/Methods_T_Imms_ImmSortedSet_1.htm">
           <HelpTOCNode Title="Add Method " Url="html/M_Imms_ImmSortedSet_1_Add.htm" />
           <HelpTOCNode Title="ByOrder Method " Url="html/M_Imms_ImmSortedSet_1_ByOrder.htm" />
           <HelpTOCNode Title="Contains Method " Url="html/M_Imms_ImmSortedSet_1_Contains.htm" />
@@ -215,28 +215,28 @@
           <HelpTOCNode Title="Slice Method " Url="html/M_Imms_ImmSortedSet_1_Slice.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="3a90d77e-0848-4145-a840-8b6ed613cae6" Title="ImmVector Class" Url="html/T_Imms_ImmVector.htm">
-        <HelpTOCNode Id="20ebe578-ce9b-42e9-ba88-4157c897bcfe" Title="ImmVector Methods" Url="html/Methods_T_Imms_ImmVector.htm">
+      <HelpTOCNode Id="5dd1d5f5-d494-4cc9-8cca-86c238489c95" Title="ImmVector Class" Url="html/T_Imms_ImmVector.htm">
+        <HelpTOCNode Id="3faa813a-0c19-48f0-9c3c-7f87a210666d" Title="ImmVector Methods" Url="html/Methods_T_Imms_ImmVector.htm">
           <HelpTOCNode Title="Empty(T) Method " Url="html/M_Imms_ImmVector_Empty__1.htm" />
           <HelpTOCNode Title="FromItems(T) Method " Url="html/M_Imms_ImmVector_FromItems__1.htm" />
           <HelpTOCNode Title="ToImmVector(T) Method " Url="html/M_Imms_ImmVector_ToImmVector__1.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="9aea4f95-4a47-4d6b-ac7c-4a01e2d785e3" Title="ImmVector(T) Class" Url="html/T_Imms_ImmVector_1.htm">
-        <HelpTOCNode Id="b996689e-cc5e-4892-8584-4fddb0050fca" Title="ImmVector(T) Properties" Url="html/Properties_T_Imms_ImmVector_1.htm">
+      <HelpTOCNode Id="b2955bba-bdae-418c-b3af-689808d08383" Title="ImmVector(T) Class" Url="html/T_Imms_ImmVector_1.htm">
+        <HelpTOCNode Id="14f0244e-c7d5-426f-8c18-890b5d9fd6d8" Title="ImmVector(T) Properties" Url="html/Properties_T_Imms_ImmVector_1.htm">
           <HelpTOCNode Title="Empty Property " Url="html/P_Imms_ImmVector_1_Empty.htm" />
           <HelpTOCNode Title="First Property " Url="html/P_Imms_ImmVector_1_First.htm" />
           <HelpTOCNode Title="IsEmpty Property " Url="html/P_Imms_ImmVector_1_IsEmpty.htm" />
           <HelpTOCNode Title="Last Property " Url="html/P_Imms_ImmVector_1_Last.htm" />
           <HelpTOCNode Title="Length Property " Url="html/P_Imms_ImmVector_1_Length.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="f361e83a-ef09-4108-a4a2-c5a61268daa7" Title="ImmVector(T) Methods" Url="html/Methods_T_Imms_ImmVector_1.htm">
+        <HelpTOCNode Id="eb75f0fb-64dc-44a6-ac2c-b8f446f34d17" Title="ImmVector(T) Methods" Url="html/Methods_T_Imms_ImmVector_1.htm">
           <HelpTOCNode Title="AddFirstRange Method " Url="html/M_Imms_ImmVector_1_AddFirstRange.htm" />
           <HelpTOCNode Title="AddLast Method " Url="html/M_Imms_ImmVector_1_AddLast.htm" />
           <HelpTOCNode Title="AddLastRange Method " Url="html/M_Imms_ImmVector_1_AddLastRange.htm" />
           <HelpTOCNode Title="Cast(TRElem) Method " Url="html/M_Imms_ImmVector_1_Cast__1.htm" />
           <HelpTOCNode Title="Choose(TRElem) Method " Url="html/M_Imms_ImmVector_1_Choose__1.htm" />
-          <HelpTOCNode Id="9bed91e5-f5fa-4a82-acb8-7d166f7510ca" Title="CopyTo Method " Url="html/Overload_Imms_ImmVector_1_CopyTo.htm">
+          <HelpTOCNode Id="4e5a92f9-788e-4061-950e-d30ade033408" Title="CopyTo Method " Url="html/Overload_Imms_ImmVector_1_CopyTo.htm">
             <HelpTOCNode Title="CopyTo Method (T[], Int32, Int32, Int32)" Url="html/M_Imms_ImmVector_1_CopyTo.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="ForEach Method " Url="html/M_Imms_ImmVector_1_ForEach.htm" />
@@ -244,7 +244,7 @@
           <HelpTOCNode Title="ForEachBackWhile Method " Url="html/M_Imms_ImmVector_1_ForEachBackWhile.htm" />
           <HelpTOCNode Title="ForEachWhile Method " Url="html/M_Imms_ImmVector_1_ForEachWhile.htm" />
           <HelpTOCNode Title="GetEnumerator Method " Url="html/M_Imms_ImmVector_1_GetEnumerator.htm" />
-          <HelpTOCNode Id="d6a41f6a-3bb0-49d2-85bb-9a4a8ea3a085" Title="GroupBy Method " Url="html/Overload_Imms_ImmVector_1_GroupBy.htm">
+          <HelpTOCNode Id="d4220827-42fb-4901-bccb-e637316fc236" Title="GroupBy Method " Url="html/Overload_Imms_ImmVector_1_GroupBy.htm">
             <HelpTOCNode Title="GroupBy(TKey) Method (Func(T, TKey), IEqualityComparer(TKey))" Url="html/M_Imms_ImmVector_1_GroupBy__1.htm" />
             <HelpTOCNode Title="GroupBy(TKey, TElem2) Method (Func(T, TKey), Func(T, TElem2), IEqualityComparer(TKey))" Url="html/M_Imms_ImmVector_1_GroupBy__2.htm" />
             <HelpTOCNode Title="GroupBy(TRElem, TElem2, TKey) Method (Func(T, TKey), Func(T, TElem2), Func(TKey, IEnumerable(TElem2), TRElem), IEqualityComparer(TKey))" Url="html/M_Imms_ImmVector_1_GroupBy__3.htm" />
@@ -252,67 +252,67 @@
           <HelpTOCNode Title="GroupJoin(TInner, TKey, TResult) Method " Url="html/M_Imms_ImmVector_1_GroupJoin__3.htm" />
           <HelpTOCNode Title="Insert Method " Url="html/M_Imms_ImmVector_1_Insert.htm" />
           <HelpTOCNode Title="InsertRange Method " Url="html/M_Imms_ImmVector_1_InsertRange.htm" />
-          <HelpTOCNode Id="22440ec6-1702-46fc-bb8d-1dbe459f960f" Title="Join Method " Url="html/Overload_Imms_ImmVector_1_Join.htm">
+          <HelpTOCNode Id="17e3e337-1e37-42a3-bced-7b9c4df076fd" Title="Join Method " Url="html/Overload_Imms_ImmVector_1_Join.htm">
             <HelpTOCNode Title="Join(TInner, TKey) Method (IEnumerable(TInner), Func(T, TKey), Func(TInner, TKey), IEqualityComparer(TKey))" Url="html/M_Imms_ImmVector_1_Join__2.htm" />
             <HelpTOCNode Title="Join(TRElem, TInner, TKey) Method (IEnumerable(TInner), Func(T, TKey), Func(TInner, TKey), Func(T, TInner, TRElem), IEqualityComparer(TKey))" Url="html/M_Imms_ImmVector_1_Join__3.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="RemoveLast Method " Url="html/M_Imms_ImmVector_1_RemoveLast.htm" />
           <HelpTOCNode Title="Scan(TRElem) Method " Url="html/M_Imms_ImmVector_1_Scan__1.htm" />
           <HelpTOCNode Title="ScanBack(TRElem) Method " Url="html/M_Imms_ImmVector_1_ScanBack__1.htm" />
-          <HelpTOCNode Id="773c6fd5-20ea-48df-a38e-5819cb64136a" Title="Select Method " Url="html/Overload_Imms_ImmVector_1_Select.htm">
+          <HelpTOCNode Id="6239bbcd-9e11-4bf4-b46d-28e57dd9504d" Title="Select Method " Url="html/Overload_Imms_ImmVector_1_Select.htm">
             <HelpTOCNode Title="Select(TRElem) Method (Func(T, TRElem))" Url="html/M_Imms_ImmVector_1_Select__1_1.htm" />
             <HelpTOCNode Title="Select(TRElem) Method (Func(T, Optional(TRElem)))" Url="html/M_Imms_ImmVector_1_Select__1.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="7d5e19d4-9ad0-4bc1-bcef-0037b3e3426b" Title="SelectMany Method " Url="html/Overload_Imms_ImmVector_1_SelectMany.htm">
+          <HelpTOCNode Id="a4d96bed-bb08-418a-a613-d5843fb945ee" Title="SelectMany Method " Url="html/Overload_Imms_ImmVector_1_SelectMany.htm">
             <HelpTOCNode Title="SelectMany(TRElem) Method (Func(T, IEnumerable(TRElem)))" Url="html/M_Imms_ImmVector_1_SelectMany__1.htm" />
             <HelpTOCNode Title="SelectMany(TElem2, TRElem) Method (Func(T, IEnumerable(TElem2)), Func(T, TElem2, TRElem))" Url="html/M_Imms_ImmVector_1_SelectMany__2.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="Skip Method " Url="html/M_Imms_ImmVector_1_Skip.htm" />
           <HelpTOCNode Title="Take Method " Url="html/M_Imms_ImmVector_1_Take.htm" />
           <HelpTOCNode Title="Update Method " Url="html/M_Imms_ImmVector_1_Update.htm" />
-          <HelpTOCNode Id="4f39204d-b459-47f3-b2e0-7c3613a92eff" Title="Zip Method " Url="html/Overload_Imms_ImmVector_1_Zip.htm">
+          <HelpTOCNode Id="cf5fdc78-13b2-490c-ab08-78bf3080bb1e" Title="Zip Method " Url="html/Overload_Imms_ImmVector_1_Zip.htm">
             <HelpTOCNode Title="Zip(TElem2) Method (IEnumerable(TElem2))" Url="html/M_Imms_ImmVector_1_Zip__1.htm" />
             <HelpTOCNode Title="Zip(TElem2, TRElem) Method (IEnumerable(TElem2), Func(T, TElem2, TRElem))" Url="html/M_Imms_ImmVector_1_Zip__2.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
-        <HelpTOCNode Id="b46af7b2-0860-457d-acbf-cb4a47e82d11" Title="ImmVector(T) Fields" Url="html/Fields_T_Imms_ImmVector_1.htm">
+        <HelpTOCNode Id="78a83f70-d1e5-4e2b-be97-a74a3e095b0b" Title="ImmVector(T) Fields" Url="html/Fields_T_Imms_ImmVector_1.htm">
           <HelpTOCNode Title="MaxCapacity Field" Url="html/F_Imms_ImmVector_1_MaxCapacity.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="389241b3-c4db-4d02-a492-136e89307645" Title="Kvp Class" Url="html/T_Imms_Kvp.htm">
-        <HelpTOCNode Id="6cc2a774-bdcf-4d59-9b72-704542cd13ba" Title="Kvp Methods" Url="html/Methods_T_Imms_Kvp.htm">
-          <HelpTOCNode Id="ab098439-00fd-40f0-886e-3d30a6ac8d03" Title="Of Method " Url="html/Overload_Imms_Kvp_Of.htm">
+      <HelpTOCNode Id="5df76954-a20e-4256-8def-d4f4ac6ba331" Title="Kvp Class" Url="html/T_Imms_Kvp.htm">
+        <HelpTOCNode Id="a1877ba3-b541-4841-8da7-9674b034b87e" Title="Kvp Methods" Url="html/Methods_T_Imms_Kvp.htm">
+          <HelpTOCNode Id="e7dfae5d-58b2-403b-8761-9881b2b598f7" Title="Of Method " Url="html/Overload_Imms_Kvp_Of.htm">
             <HelpTOCNode Title="Of(TKey, TValue) Method (Tuple(TKey, TValue))" Url="html/M_Imms_Kvp_Of__2.htm" />
             <HelpTOCNode Title="Of(TKey, TValue) Method (TKey, TValue)" Url="html/M_Imms_Kvp_Of__2_1.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="ToTuple(TKey, TValue) Method " Url="html/M_Imms_Kvp_ToTuple__2.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="a4459795-a383-4fe7-bea1-25e77391e342" Title="NoValueException Class" Url="html/T_Imms_NoValueException.htm">
+      <HelpTOCNode Id="4c7e0c98-f8d5-4d5c-9a0b-c50bdc452a58" Title="NoValueException Class" Url="html/T_Imms_NoValueException.htm">
         <HelpTOCNode Title="NoValueException Constructor " Url="html/M_Imms_NoValueException__ctor.htm" />
         <HelpTOCNode Title="NoValueException Properties" Url="html/Properties_T_Imms_NoValueException.htm" />
         <HelpTOCNode Title="NoValueException Methods" Url="html/Methods_T_Imms_NoValueException.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="994a8836-60e6-4821-8577-c8ef8eaa91ce" Title="Optional Class" Url="html/T_Imms_Optional.htm">
-        <HelpTOCNode Id="1c5b00a3-315c-4fab-8485-33a6ce1de13c" Title="Optional Properties" Url="html/Properties_T_Imms_Optional.htm">
+      <HelpTOCNode Id="372d7de5-d294-4b86-9180-c1397a79d68b" Title="Optional Class" Url="html/T_Imms_Optional.htm">
+        <HelpTOCNode Id="4986a682-d463-41bb-bd3d-622cc4c399f4" Title="Optional Properties" Url="html/Properties_T_Imms_Optional.htm">
           <HelpTOCNode Title="None Property " Url="html/P_Imms_Optional_None.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="43ed679a-6d7d-44d6-9517-3a6522f14a02" Title="Optional Methods" Url="html/Methods_T_Imms_Optional.htm">
+        <HelpTOCNode Id="969e9d20-ffe4-4458-bf02-f4e2f429dd7a" Title="Optional Methods" Url="html/Methods_T_Imms_Optional.htm">
           <HelpTOCNode Title="NoneOf(T) Method " Url="html/M_Imms_Optional_NoneOf__1.htm" />
           <HelpTOCNode Title="Some(T) Method " Url="html/M_Imms_Optional_Some__1.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="1d676d12-60c3-4de2-82c9-55ed1866bb87" Title="Optional(T) Structure" Url="html/T_Imms_Optional_1.htm">
-        <HelpTOCNode Id="78e1b85f-b732-40ff-93d3-cd958afbfe1b" Title="Optional(T) Properties" Url="html/Properties_T_Imms_Optional_1.htm">
+      <HelpTOCNode Id="de23bd33-a19b-4c5e-b73e-06980f771011" Title="Optional(T) Structure" Url="html/T_Imms_Optional_1.htm">
+        <HelpTOCNode Id="28fa37a5-f76a-4990-b7c2-6f4440f9f668" Title="Optional(T) Properties" Url="html/Properties_T_Imms_Optional_1.htm">
           <HelpTOCNode Title="IsNone Property " Url="html/P_Imms_Optional_1_IsNone.htm" />
           <HelpTOCNode Title="IsSome Property " Url="html/P_Imms_Optional_1_IsSome.htm" />
           <HelpTOCNode Title="None Property " Url="html/P_Imms_Optional_1_None.htm" />
           <HelpTOCNode Title="Value Property " Url="html/P_Imms_Optional_1_Value.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="dc2f62e8-527c-47bb-ab0e-c5e96b0b80ed" Title="Optional(T) Methods" Url="html/Methods_T_Imms_Optional_1.htm">
+        <HelpTOCNode Id="3a14ab5e-2e80-46f7-8ea8-e2edde3b39a7" Title="Optional(T) Methods" Url="html/Methods_T_Imms_Optional_1.htm">
           <HelpTOCNode Title="As(TOut) Method " Url="html/M_Imms_Optional_1_As__1.htm" />
           <HelpTOCNode Title="Cast(TOut) Method " Url="html/M_Imms_Optional_1_Cast__1.htm" />
-          <HelpTOCNode Id="1af972df-d124-4b21-800f-175e6ab70711" Title="Equals Method " Url="html/Overload_Imms_Optional_1_Equals.htm">
+          <HelpTOCNode Id="5199354f-f32f-44b9-8bbc-7814332513fd" Title="Equals Method " Url="html/Overload_Imms_Optional_1_Equals.htm">
             <HelpTOCNode Title="Equals Method (Object)" Url="html/M_Imms_Optional_1_Equals_2.htm" />
             <HelpTOCNode Title="Equals Method (T)" Url="html/M_Imms_Optional_1_Equals_3.htm" />
             <HelpTOCNode Title="Equals Method (IAnyOptional)" Url="html/M_Imms_Optional_1_Equals.htm" />
@@ -323,20 +323,20 @@
           <HelpTOCNode Title="Some Method " Url="html/M_Imms_Optional_1_Some.htm" />
           <HelpTOCNode Title="ToString Method " Url="html/M_Imms_Optional_1_ToString.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="f12b051d-1186-4204-8e09-b5b8d8f504a2" Title="Optional(T) Operators and Type Conversions" Url="html/Operators_T_Imms_Optional_1.htm">
+        <HelpTOCNode Id="d1a9ff99-4718-42c3-88a9-569909a95411" Title="Optional(T) Operators and Type Conversions" Url="html/Operators_T_Imms_Optional_1.htm">
           <HelpTOCNode Title="BitwiseOr Operator " Url="html/M_Imms_Optional_1_op_BitwiseOr.htm" />
-          <HelpTOCNode Id="5c86bcaf-2d99-4a74-8e61-6e030dd53b6e" Title="Equality Operator " Url="html/Overload_Imms_Optional_1_op_Equality.htm">
+          <HelpTOCNode Id="4a8e45e0-0cf9-4c54-972f-c650eab45691" Title="Equality Operator " Url="html/Overload_Imms_Optional_1_op_Equality.htm">
             <HelpTOCNode Title="Equality Operator (T, Optional(T))" Url="html/M_Imms_Optional_1_op_Equality_3.htm" />
             <HelpTOCNode Title="Equality Operator (Optional(T), IAnyOptional)" Url="html/M_Imms_Optional_1_op_Equality.htm" />
             <HelpTOCNode Title="Equality Operator (Optional(T), Optional(T))" Url="html/M_Imms_Optional_1_op_Equality_1.htm" />
             <HelpTOCNode Title="Equality Operator (Optional(T), T)" Url="html/M_Imms_Optional_1_op_Equality_2.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="Explicit Conversion (Optional(T) to T)" Url="html/M_Imms_Optional_1_op_Explicit.htm" />
-          <HelpTOCNode Id="288adb74-0580-4416-84a8-5c0614daa94f" Title="Implicit Conversion Operators" Url="html/Overload_Imms_Optional_1_op_Implicit.htm">
+          <HelpTOCNode Id="36c002d2-9a88-46b2-b4fd-e852fab9bda7" Title="Implicit Conversion Operators" Url="html/Overload_Imms_Optional_1_op_Implicit.htm">
             <HelpTOCNode Title="Implicit Conversion (AnyNone to Optional(T))" Url="html/M_Imms_Optional_1_op_Implicit.htm" />
             <HelpTOCNode Title="Implicit Conversion (T to Optional(T))" Url="html/M_Imms_Optional_1_op_Implicit_1.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="edbe5d9d-0b04-4f58-96c7-92ebe325f154" Title="Inequality Operator " Url="html/Overload_Imms_Optional_1_op_Inequality.htm">
+          <HelpTOCNode Id="41ca0af8-0e25-4b5e-9ee9-bedde31837ef" Title="Inequality Operator " Url="html/Overload_Imms_Optional_1_op_Inequality.htm">
             <HelpTOCNode Title="Inequality Operator (T, Optional(T))" Url="html/M_Imms_Optional_1_op_Inequality_3.htm" />
             <HelpTOCNode Title="Inequality Operator (Optional(T), IAnyOptional)" Url="html/M_Imms_Optional_1_op_Inequality.htm" />
             <HelpTOCNode Title="Inequality Operator (Optional(T), Optional(T))" Url="html/M_Imms_Optional_1_op_Inequality_1.htm" />
@@ -344,27 +344,27 @@
           </HelpTOCNode>
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="0003687e-ca8e-472a-b732-286199d7ddb5" Title="OptionalExt Class" Url="html/T_Imms_OptionalExt.htm">
-        <HelpTOCNode Id="86de1e19-0db3-4346-b9b7-fe8017c84a13" Title="OptionalExt Methods" Url="html/Methods_T_Imms_OptionalExt.htm">
-          <HelpTOCNode Id="17e1210a-8cb3-4275-b4b7-a8839bd40514" Title="AsOptional Method " Url="html/Overload_Imms_OptionalExt_AsOptional.htm">
+      <HelpTOCNode Id="10040e7a-0fb3-4640-b20e-4f9a4b86acf0" Title="OptionalExt Class" Url="html/T_Imms_OptionalExt.htm">
+        <HelpTOCNode Id="54b3d2d8-35f3-4c02-ab7c-6277d83e16d6" Title="OptionalExt Methods" Url="html/Methods_T_Imms_OptionalExt.htm">
+          <HelpTOCNode Id="c67b0a29-a430-4bf9-98db-ab3310ab9d0f" Title="AsOptional Method " Url="html/Overload_Imms_OptionalExt_AsOptional.htm">
             <HelpTOCNode Title="AsOptional(T) Method (Nullable(T))" Url="html/M_Imms_OptionalExt_AsOptional__1.htm" />
             <HelpTOCNode Title="AsOptional(T) Method (T)" Url="html/M_Imms_OptionalExt_AsOptional__1_1.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="633476ad-f51b-4f5d-b2dc-fe3916b8db7d" Title="AsString Method " Url="html/Overload_Imms_OptionalExt_AsString.htm">
+          <HelpTOCNode Id="befa25ed-d334-4cea-9852-b5d5d0c0a5a9" Title="AsString Method " Url="html/Overload_Imms_OptionalExt_AsString.htm">
             <HelpTOCNode Title="AsString(T) Method (Optional(T))" Url="html/M_Imms_OptionalExt_AsString__1.htm" />
             <HelpTOCNode Title="AsString(T) Method (Optional(T), IFormatProvider)" Url="html/M_Imms_OptionalExt_AsString__1_1.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="2e70f2c1-b4af-42f2-ae4b-ddf15e15f602" Title="CompareTo Method " Url="html/Overload_Imms_OptionalExt_CompareTo.htm">
+          <HelpTOCNode Id="720a5672-00f6-4499-b723-3be5e32394d3" Title="CompareTo Method " Url="html/Overload_Imms_OptionalExt_CompareTo.htm">
             <HelpTOCNode Title="CompareTo(T) Method (Optional(T), Optional(T))" Url="html/M_Imms_OptionalExt_CompareTo__1.htm" />
             <HelpTOCNode Title="CompareTo(T) Method (Optional(T), T)" Url="html/M_Imms_OptionalExt_CompareTo__1_1.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="Filter(T) Method " Url="html/M_Imms_OptionalExt_Filter__1.htm" />
           <HelpTOCNode Title="Flatten(T) Method " Url="html/M_Imms_OptionalExt_Flatten__1.htm" />
-          <HelpTOCNode Id="a08a2ba1-b264-43ef-b916-b0bf8a477c4e" Title="Map Method " Url="html/Overload_Imms_OptionalExt_Map.htm">
+          <HelpTOCNode Id="ca5c618f-6087-42bc-9bc9-0732ebe29a6d" Title="Map Method " Url="html/Overload_Imms_OptionalExt_Map.htm">
             <HelpTOCNode Title="Map(T, TOut) Method (Optional(T), Func(T, Optional(TOut)))" Url="html/M_Imms_OptionalExt_Map__2.htm" />
             <HelpTOCNode Title="Map(T, TOut) Method (Optional(T), Func(T, TOut))" Url="html/M_Imms_OptionalExt_Map__2_1.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="a74050e8-f49e-4c49-9261-db52d6cd15a5" Title="Or Method " Url="html/Overload_Imms_OptionalExt_Or.htm">
+          <HelpTOCNode Id="16582d0d-642e-457e-a190-191d66a04795" Title="Or Method " Url="html/Overload_Imms_OptionalExt_Or.htm">
             <HelpTOCNode Title="Or(T) Method (Optional(T), Optional(T))" Url="html/M_Imms_OptionalExt_Or__1.htm" />
             <HelpTOCNode Title="Or(T) Method (Optional(T), T)" Url="html/M_Imms_OptionalExt_Or__1_1.htm" />
           </HelpTOCNode>
@@ -374,20 +374,20 @@
       <HelpTOCNode Title="SetRelation Enumeration" Url="html/T_Imms_SetRelation.htm" />
       <HelpTOCNode Title="ValueSelector(TKey, TVal1, TVal2, TOut) Delegate" Url="html/T_Imms_ValueSelector_4.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="92dc9e04-c3e4-4556-99f1-1fe9e7c143e2" Title="Imms.Abstract" Url="html/N_Imms_Abstract.htm">
-      <HelpTOCNode Id="669c3afe-6422-4559-84c6-86bb30f6dfa2" Title="AbstractIterable(TElem, TIterable, TBuilder) Class" Url="html/T_Imms_Abstract_AbstractIterable_3.htm">
-        <HelpTOCNode Id="bd1a5bb4-0cb1-4f25-aced-49682e1f6315" Title="AbstractIterable(TElem, TIterable, TBuilder) Properties" Url="html/Properties_T_Imms_Abstract_AbstractIterable_3.htm">
+    <HelpTOCNode Id="85e1409b-06f2-498a-910e-c838b9ffe89d" Title="Imms.Abstract" Url="html/N_Imms_Abstract.htm">
+      <HelpTOCNode Id="511be069-5864-491a-bcca-6c8236ce0e12" Title="AbstractIterable(TElem, TIterable, TBuilder) Class" Url="html/T_Imms_Abstract_AbstractIterable_3.htm">
+        <HelpTOCNode Id="5f63fcfd-afc3-450b-b987-be2929062b50" Title="AbstractIterable(TElem, TIterable, TBuilder) Properties" Url="html/Properties_T_Imms_Abstract_AbstractIterable_3.htm">
           <HelpTOCNode Title="IsEmpty Property " Url="html/P_Imms_Abstract_AbstractIterable_3_IsEmpty.htm" />
           <HelpTOCNode Title="Length Property " Url="html/P_Imms_Abstract_AbstractIterable_3_Length.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="70964c63-7ab0-40d9-851e-a1a300041735" Title="AbstractIterable(TElem, TIterable, TBuilder) Methods" Url="html/Methods_T_Imms_Abstract_AbstractIterable_3.htm">
-          <HelpTOCNode Id="b37deb3b-4944-4215-a4f0-08a196e23d87" Title="Aggregate Method " Url="html/Overload_Imms_Abstract_AbstractIterable_3_Aggregate.htm">
+        <HelpTOCNode Id="c8606466-6b50-4794-ad6a-7d569e254f24" Title="AbstractIterable(TElem, TIterable, TBuilder) Methods" Url="html/Methods_T_Imms_Abstract_AbstractIterable_3.htm">
+          <HelpTOCNode Id="2846e598-4fea-45fc-9b68-81f41140b7dc" Title="Aggregate Method " Url="html/Overload_Imms_Abstract_AbstractIterable_3_Aggregate.htm">
             <HelpTOCNode Title="Aggregate Method (Func(TElem, TElem, TElem))" Url="html/M_Imms_Abstract_AbstractIterable_3_Aggregate.htm" />
             <HelpTOCNode Title="Aggregate(TResult) Method (TResult, Func(TResult, TElem, TResult))" Url="html/M_Imms_Abstract_AbstractIterable_3_Aggregate__1.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="All Method " Url="html/M_Imms_Abstract_AbstractIterable_3_All.htm" />
           <HelpTOCNode Title="Any Method " Url="html/M_Imms_Abstract_AbstractIterable_3_Any.htm" />
-          <HelpTOCNode Id="23f097b7-6ab0-4407-a413-5f5954d319f3" Title="CopyTo Method " Url="html/Overload_Imms_Abstract_AbstractIterable_3_CopyTo.htm">
+          <HelpTOCNode Id="b0db8203-8f47-483f-b3d1-27b1741af39d" Title="CopyTo Method " Url="html/Overload_Imms_Abstract_AbstractIterable_3_CopyTo.htm">
             <HelpTOCNode Title="CopyTo Method (TElem[], Int32)" Url="html/M_Imms_Abstract_AbstractIterable_3_CopyTo.htm" />
             <HelpTOCNode Title="CopyTo Method (TElem[], Int32, Int32)" Url="html/M_Imms_Abstract_AbstractIterable_3_CopyTo_1.htm" />
           </HelpTOCNode>
@@ -402,53 +402,53 @@
           <HelpTOCNode Title="ToArray Method " Url="html/M_Imms_Abstract_AbstractIterable_3_ToArray.htm" />
           <HelpTOCNode Title="Where Method " Url="html/M_Imms_Abstract_AbstractIterable_3_Where.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="0c440bda-dc51-45eb-90b9-22f4742ebb54" Title="AbstractIterable(TElem, TIterable, TBuilder) Type Conversions" Url="html/Operators_T_Imms_Abstract_AbstractIterable_3.htm">
+        <HelpTOCNode Id="08d31f69-0187-4769-ba51-9722ae703496" Title="AbstractIterable(TElem, TIterable, TBuilder) Type Conversions" Url="html/Operators_T_Imms_Abstract_AbstractIterable_3.htm">
           <HelpTOCNode Title="Implicit Conversion (AbstractIterable(TElem, TIterable, TBuilder) to TIterable)" Url="html/M_Imms_Abstract_AbstractIterable_3_op_Implicit.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="06a8e23b-753d-4018-873b-8145c8aa6974" Title="AbstractMap(TKey, TValue, TMap) Class" Url="html/T_Imms_Abstract_AbstractMap_3.htm">
-        <HelpTOCNode Id="a2c40b54-5e1d-459a-8469-4e5dfa9194ae" Title="AbstractMap(TKey, TValue, TMap) Properties" Url="html/Properties_T_Imms_Abstract_AbstractMap_3.htm">
+      <HelpTOCNode Id="e04f59da-41fb-4e9f-9c1d-7b476f318901" Title="AbstractMap(TKey, TValue, TMap) Class" Url="html/T_Imms_Abstract_AbstractMap_3.htm">
+        <HelpTOCNode Id="d34a7b1a-c9b1-4d23-9c5f-c070b96d5326" Title="AbstractMap(TKey, TValue, TMap) Properties" Url="html/Properties_T_Imms_Abstract_AbstractMap_3.htm">
           <HelpTOCNode Title="Item Property " Url="html/P_Imms_Abstract_AbstractMap_3_Item.htm" />
           <HelpTOCNode Title="Keys Property " Url="html/P_Imms_Abstract_AbstractMap_3_Keys.htm" />
           <HelpTOCNode Title="Values Property " Url="html/P_Imms_Abstract_AbstractMap_3_Values.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="80fe6bfd-fdf1-4f72-880b-6c4589a7724f" Title="AbstractMap(TKey, TValue, TMap) Methods" Url="html/Methods_T_Imms_Abstract_AbstractMap_3.htm">
-          <HelpTOCNode Id="b91989e6-e6c8-439b-8bce-5b6e409aeb4c" Title="Add Method " Url="html/Overload_Imms_Abstract_AbstractMap_3_Add.htm">
+        <HelpTOCNode Id="0fc46acd-c24d-4a9f-9c8d-ed02d7b170cb" Title="AbstractMap(TKey, TValue, TMap) Methods" Url="html/Methods_T_Imms_Abstract_AbstractMap_3.htm">
+          <HelpTOCNode Id="e7133fc8-0bc6-4136-97d6-b5afbba4c017" Title="Add Method " Url="html/Overload_Imms_Abstract_AbstractMap_3_Add.htm">
             <HelpTOCNode Title="Add Method (KeyValuePair(TKey, TValue))" Url="html/M_Imms_Abstract_AbstractMap_3_Add.htm" />
             <HelpTOCNode Title="Add Method (TKey, TValue)" Url="html/M_Imms_Abstract_AbstractMap_3_Add_1.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="AddRange Method " Url="html/M_Imms_Abstract_AbstractMap_3_AddRange.htm" />
-          <HelpTOCNode Id="149a6c25-a4b5-44f6-92ba-522a5d2d74f0" Title="Aggregate Method " Url="html/Overload_Imms_Abstract_AbstractMap_3_Aggregate.htm">
+          <HelpTOCNode Id="08e7c286-9ff0-46e7-b08b-0f1165f9ed37" Title="Aggregate Method " Url="html/Overload_Imms_Abstract_AbstractMap_3_Aggregate.htm">
             <HelpTOCNode Title="Aggregate(TResult) Method (TResult, Func(TResult, TKey, TValue, TResult))" Url="html/M_Imms_Abstract_AbstractMap_3_Aggregate__1.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="6c2d90d3-a1ff-4e1d-b277-d7e8621160e3" Title="All Method " Url="html/Overload_Imms_Abstract_AbstractMap_3_All.htm">
+          <HelpTOCNode Id="d6a4d619-6bea-4b30-a61b-2e7f4a0378bf" Title="All Method " Url="html/Overload_Imms_Abstract_AbstractMap_3_All.htm">
             <HelpTOCNode Title="All Method (Func(TKey, TValue, Boolean))" Url="html/M_Imms_Abstract_AbstractMap_3_All.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="1268903f-7161-43c6-b88e-66f9a3442b5f" Title="Any Method " Url="html/Overload_Imms_Abstract_AbstractMap_3_Any.htm">
+          <HelpTOCNode Id="dab7b83f-5fac-4864-a579-0101171d3807" Title="Any Method " Url="html/Overload_Imms_Abstract_AbstractMap_3_Any.htm">
             <HelpTOCNode Title="Any Method (Func(TKey, TValue, Boolean))" Url="html/M_Imms_Abstract_AbstractMap_3_Any.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="ContainsKey Method " Url="html/M_Imms_Abstract_AbstractMap_3_ContainsKey.htm" />
-          <HelpTOCNode Id="7daa9c6c-d42f-4e0c-a115-b12d624312b4" Title="Count Method " Url="html/Overload_Imms_Abstract_AbstractMap_3_Count.htm">
+          <HelpTOCNode Id="f2a56491-2659-4e99-ba42-93b923c2ef29" Title="Count Method " Url="html/Overload_Imms_Abstract_AbstractMap_3_Count.htm">
             <HelpTOCNode Title="Count Method (Func(TKey, TValue, Boolean))" Url="html/M_Imms_Abstract_AbstractMap_3_Count.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="Difference Method " Url="html/M_Imms_Abstract_AbstractMap_3_Difference.htm" />
-          <HelpTOCNode Id="85dd0e4d-188a-4dc6-9e99-a7842dbb9057" Title="Find Method " Url="html/Overload_Imms_Abstract_AbstractMap_3_Find.htm">
+          <HelpTOCNode Id="15542a3f-75a1-49ad-9065-79eb89d5c921" Title="Find Method " Url="html/Overload_Imms_Abstract_AbstractMap_3_Find.htm">
             <HelpTOCNode Title="Find Method (Func(TKey, TValue, Boolean))" Url="html/M_Imms_Abstract_AbstractMap_3_Find.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="262ee660-95b5-4a71-b0cd-4f7c68f61b48" Title="ForEach Method " Url="html/Overload_Imms_Abstract_AbstractMap_3_ForEach.htm">
+          <HelpTOCNode Id="dc12a0a6-10a4-45d2-818e-938613e7fa4d" Title="ForEach Method " Url="html/Overload_Imms_Abstract_AbstractMap_3_ForEach.htm">
             <HelpTOCNode Title="ForEach Method (Action(TKey, TValue))" Url="html/M_Imms_Abstract_AbstractMap_3_ForEach.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="ff5c18ba-04e6-4a66-9a2d-d50fc82d7976" Title="ForEachWhile Method " Url="html/Overload_Imms_Abstract_AbstractMap_3_ForEachWhile.htm">
+          <HelpTOCNode Id="aa7d0ea5-8a09-4a4d-a3ea-a16e8aea0640" Title="ForEachWhile Method " Url="html/Overload_Imms_Abstract_AbstractMap_3_ForEachWhile.htm">
             <HelpTOCNode Title="ForEachWhile Method (Func(TKey, TValue, Boolean))" Url="html/M_Imms_Abstract_AbstractMap_3_ForEachWhile.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="Join(TValue2) Method " Url="html/M_Imms_Abstract_AbstractMap_3_Join__1.htm" />
-          <HelpTOCNode Id="f5b4e61c-b12e-4dd3-8e33-a47c8742fa4c" Title="MapEquals Method " Url="html/Overload_Imms_Abstract_AbstractMap_3_MapEquals.htm">
+          <HelpTOCNode Id="5eb4625b-74c1-4a62-953f-c67f19265c92" Title="MapEquals Method " Url="html/Overload_Imms_Abstract_AbstractMap_3_MapEquals.htm">
             <HelpTOCNode Title="MapEquals Method (IEnumerable(KeyValuePair(TKey, TValue)), IComparer(TValue))" Url="html/M_Imms_Abstract_AbstractMap_3_MapEquals.htm" />
             <HelpTOCNode Title="MapEquals Method (IEnumerable(KeyValuePair(TKey, TValue)), IEqualityComparer(TValue))" Url="html/M_Imms_Abstract_AbstractMap_3_MapEquals_1.htm" />
             <HelpTOCNode Title="MapEquals Method (IEnumerable(KeyValuePair(TKey, TValue)), Func(TValue, TValue, Boolean))" Url="html/M_Imms_Abstract_AbstractMap_3_MapEquals_2.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="Merge Method " Url="html/M_Imms_Abstract_AbstractMap_3_Merge.htm" />
-          <HelpTOCNode Id="6a6f8bfa-e22c-4d32-a69f-3353885ae9ce" Title="Pick Method " Url="html/Overload_Imms_Abstract_AbstractMap_3_Pick.htm">
+          <HelpTOCNode Id="7073c23e-c862-46d2-8ce9-aebdbe7adb69" Title="Pick Method " Url="html/Overload_Imms_Abstract_AbstractMap_3_Pick.htm">
             <HelpTOCNode Title="Pick(TResult) Method (Func(TKey, TValue, Optional(TResult)))" Url="html/M_Imms_Abstract_AbstractMap_3_Pick__1.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="Remove Method " Url="html/M_Imms_Abstract_AbstractMap_3_Remove.htm" />
@@ -458,22 +458,22 @@
           <HelpTOCNode Title="Subtract(TValue2) Method " Url="html/M_Imms_Abstract_AbstractMap_3_Subtract__1.htm" />
           <HelpTOCNode Title="TryGet Method " Url="html/M_Imms_Abstract_AbstractMap_3_TryGet.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="47e022e8-7bcb-49ed-8623-a353dd11b682" Title="AbstractMap(TKey, TValue, TMap) Operators" Url="html/Operators_T_Imms_Abstract_AbstractMap_3.htm">
-          <HelpTOCNode Id="e259dd57-a7aa-40dc-8132-476e56194374" Title="Addition Operator " Url="html/Overload_Imms_Abstract_AbstractMap_3_op_Addition.htm">
+        <HelpTOCNode Id="e85642c9-69a4-4de8-bb5a-d0d486af133b" Title="AbstractMap(TKey, TValue, TMap) Operators" Url="html/Operators_T_Imms_Abstract_AbstractMap_3.htm">
+          <HelpTOCNode Id="90d01551-9136-49d6-b422-bd3fe707fe7d" Title="Addition Operator " Url="html/Overload_Imms_Abstract_AbstractMap_3_op_Addition.htm">
             <HelpTOCNode Title="Addition Operator (AbstractMap(TKey, TValue, TMap), IEnumerable(KeyValuePair(TKey, TValue)))" Url="html/M_Imms_Abstract_AbstractMap_3_op_Addition.htm" />
             <HelpTOCNode Title="Addition Operator (AbstractMap(TKey, TValue, TMap), KeyValuePair(TKey, TValue))" Url="html/M_Imms_Abstract_AbstractMap_3_op_Addition_1.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="ab01a1dc-c389-4de7-a1ae-19fcfae4c2f6" Title="Subtraction Operator " Url="html/Overload_Imms_Abstract_AbstractMap_3_op_Subtraction.htm">
+          <HelpTOCNode Id="44a0e7de-a642-42dc-b779-26590a44a26d" Title="Subtraction Operator " Url="html/Overload_Imms_Abstract_AbstractMap_3_op_Subtraction.htm">
             <HelpTOCNode Title="Subtraction Operator (AbstractMap(TKey, TValue, TMap), IEnumerable(KeyValuePair(TKey, TValue)))" Url="html/M_Imms_Abstract_AbstractMap_3_op_Subtraction.htm" />
             <HelpTOCNode Title="Subtraction Operator (AbstractMap(TKey, TValue, TMap), IEnumerable(TKey))" Url="html/M_Imms_Abstract_AbstractMap_3_op_Subtraction_1.htm" />
             <HelpTOCNode Title="Subtraction Operator (AbstractMap(TKey, TValue, TMap), TKey)" Url="html/M_Imms_Abstract_AbstractMap_3_op_Subtraction_2.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="e630c402-fa99-4202-893e-c531bfcc205f" Title="AbstractSequential(TElem, TList) Class" Url="html/T_Imms_Abstract_AbstractSequential_2.htm">
-        <HelpTOCNode Id="75e74258-cb61-42b3-bc0a-5748fe2894fb" Title="AbstractSequential(TElem, TList) Properties" Url="html/Properties_T_Imms_Abstract_AbstractSequential_2.htm">
+      <HelpTOCNode Id="11c4ff0f-b324-4ecc-abe4-e002414fb3bb" Title="AbstractSequential(TElem, TList) Class" Url="html/T_Imms_Abstract_AbstractSequential_2.htm">
+        <HelpTOCNode Id="ae6559cd-9145-4f24-856b-e1c5ee942bc1" Title="AbstractSequential(TElem, TList) Properties" Url="html/Properties_T_Imms_Abstract_AbstractSequential_2.htm">
           <HelpTOCNode Title="First Property " Url="html/P_Imms_Abstract_AbstractSequential_2_First.htm" />
-          <HelpTOCNode Id="c93d1f29-26d3-4b9c-8d92-a66057084bb2" Title="Item Property " Url="html/Overload_Imms_Abstract_AbstractSequential_2_Item.htm">
+          <HelpTOCNode Id="f38c2653-b3db-4b18-90e9-2c1b40b664cf" Title="Item Property " Url="html/Overload_Imms_Abstract_AbstractSequential_2_Item.htm">
             <HelpTOCNode Title="Item Property (Int32)" Url="html/P_Imms_Abstract_AbstractSequential_2_Item.htm" />
             <HelpTOCNode Title="Item Property (Int32, Int32)" Url="html/P_Imms_Abstract_AbstractSequential_2_Item_1.htm" />
           </HelpTOCNode>
@@ -481,20 +481,20 @@
           <HelpTOCNode Title="TryFirst Property " Url="html/P_Imms_Abstract_AbstractSequential_2_TryFirst.htm" />
           <HelpTOCNode Title="TryLast Property " Url="html/P_Imms_Abstract_AbstractSequential_2_TryLast.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="1f58495b-790d-46a4-a00f-f399bcf98f51" Title="AbstractSequential(TElem, TList) Methods" Url="html/Methods_T_Imms_Abstract_AbstractSequential_2.htm">
-          <HelpTOCNode Id="36dd6eb2-667c-475d-9390-53a656528c2c" Title="AggregateBack Method " Url="html/Overload_Imms_Abstract_AbstractSequential_2_AggregateBack.htm">
+        <HelpTOCNode Id="96d5b290-6929-4934-9d85-2d0092967d26" Title="AbstractSequential(TElem, TList) Methods" Url="html/Methods_T_Imms_Abstract_AbstractSequential_2.htm">
+          <HelpTOCNode Id="dad12e22-cc1e-45cd-b4d2-de9418ca51d2" Title="AggregateBack Method " Url="html/Overload_Imms_Abstract_AbstractSequential_2_AggregateBack.htm">
             <HelpTOCNode Title="AggregateBack Method (Func(TElem, TElem, TElem))" Url="html/M_Imms_Abstract_AbstractSequential_2_AggregateBack.htm" />
             <HelpTOCNode Title="AggregateBack(TResult) Method (TResult, Func(TResult, TElem, TResult))" Url="html/M_Imms_Abstract_AbstractSequential_2_AggregateBack__1.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="20cafbc5-671a-45e0-bb53-d798e7a0721e" Title="CopyTo Method " Url="html/Overload_Imms_Abstract_AbstractSequential_2_CopyTo.htm">
+          <HelpTOCNode Id="59f4b283-5b77-4088-8442-a5f13246b56f" Title="CopyTo Method " Url="html/Overload_Imms_Abstract_AbstractSequential_2_CopyTo.htm">
             <HelpTOCNode Title="CopyTo Method (TElem[], Int32, Int32)" Url="html/M_Imms_Abstract_AbstractSequential_2_CopyTo.htm" />
             <HelpTOCNode Title="CopyTo Method (TElem[], Int32, Int32, Int32)" Url="html/M_Imms_Abstract_AbstractSequential_2_CopyTo_1.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="cd745a17-b4dc-4b41-9318-258a734433bb" Title="Equals Method " Url="html/Overload_Imms_Abstract_AbstractSequential_2_Equals.htm">
+          <HelpTOCNode Id="4f3b2785-f056-439d-8ae3-e8aa03a33841" Title="Equals Method " Url="html/Overload_Imms_Abstract_AbstractSequential_2_Equals.htm">
             <HelpTOCNode Title="Equals Method (Object)" Url="html/M_Imms_Abstract_AbstractSequential_2_Equals.htm" />
             <HelpTOCNode Title="Equals Method (TList)" Url="html/M_Imms_Abstract_AbstractSequential_2_Equals_1.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="72ec7e81-e2e9-42bf-a744-30113699d30a" Title="FindIndex Method " Url="html/Overload_Imms_Abstract_AbstractSequential_2_FindIndex.htm">
+          <HelpTOCNode Id="1642c89c-883e-4ba3-8e49-5944e7bf2222" Title="FindIndex Method " Url="html/Overload_Imms_Abstract_AbstractSequential_2_FindIndex.htm">
             <HelpTOCNode Title="FindIndex Method (Func(TElem, Boolean))" Url="html/M_Imms_Abstract_AbstractSequential_2_FindIndex.htm" />
             <HelpTOCNode Title="FindIndex Method (TElem)" Url="html/M_Imms_Abstract_AbstractSequential_2_FindIndex_1.htm" />
           </HelpTOCNode>
@@ -503,7 +503,7 @@
           <HelpTOCNode Title="ForEachBack Method " Url="html/M_Imms_Abstract_AbstractSequential_2_ForEachBack.htm" />
           <HelpTOCNode Title="ForEachBackWhile Method " Url="html/M_Imms_Abstract_AbstractSequential_2_ForEachBackWhile.htm" />
           <HelpTOCNode Title="GetHashCode Method " Url="html/M_Imms_Abstract_AbstractSequential_2_GetHashCode.htm" />
-          <HelpTOCNode Id="3cdccb66-e434-4301-b125-068e6dfe356e" Title="OrderBy Method " Url="html/Overload_Imms_Abstract_AbstractSequential_2_OrderBy.htm">
+          <HelpTOCNode Id="edb96074-b4c9-4dc4-8124-3b78dbc51821" Title="OrderBy Method " Url="html/Overload_Imms_Abstract_AbstractSequential_2_OrderBy.htm">
             <HelpTOCNode Title="OrderBy Method (IComparer(TElem))" Url="html/M_Imms_Abstract_AbstractSequential_2_OrderBy.htm" />
             <HelpTOCNode Title="OrderBy Method (IComparer(TElem)[])" Url="html/M_Imms_Abstract_AbstractSequential_2_OrderBy_1.htm" />
             <HelpTOCNode Title="OrderBy(TKey1) Method (Func(TElem, TKey1))" Url="html/M_Imms_Abstract_AbstractSequential_2_OrderBy__1.htm" />
@@ -517,16 +517,16 @@
           <HelpTOCNode Title="TakeWhile Method " Url="html/M_Imms_Abstract_AbstractSequential_2_TakeWhile.htm" />
           <HelpTOCNode Title="TryGet Method " Url="html/M_Imms_Abstract_AbstractSequential_2_TryGet.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="c613d63b-b983-46d2-9dc2-329a7cf22d5d" Title="AbstractSequential(TElem, TList) Operators" Url="html/Operators_T_Imms_Abstract_AbstractSequential_2.htm">
+        <HelpTOCNode Id="8d4ba979-af25-4d29-91d9-e2ab088089cc" Title="AbstractSequential(TElem, TList) Operators" Url="html/Operators_T_Imms_Abstract_AbstractSequential_2.htm">
           <HelpTOCNode Title="Equality Operator " Url="html/M_Imms_Abstract_AbstractSequential_2_op_Equality.htm" />
           <HelpTOCNode Title="Inequality Operator " Url="html/M_Imms_Abstract_AbstractSequential_2_op_Inequality.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="a118a337-d26a-4e8f-8315-197769d2849c" Title="AbstractSet(TElem, TSet) Class" Url="html/T_Imms_Abstract_AbstractSet_2.htm">
-        <HelpTOCNode Id="3cce8786-fa68-45b6-b7ae-fb2fda6da311" Title="AbstractSet(TElem, TSet) Properties" Url="html/Properties_T_Imms_Abstract_AbstractSet_2.htm">
+      <HelpTOCNode Id="988282d2-29e6-42e5-9c20-917b82432cdf" Title="AbstractSet(TElem, TSet) Class" Url="html/T_Imms_Abstract_AbstractSet_2.htm">
+        <HelpTOCNode Id="b599dfe8-a27e-43b7-9850-d6e538942d36" Title="AbstractSet(TElem, TSet) Properties" Url="html/Properties_T_Imms_Abstract_AbstractSet_2.htm">
           <HelpTOCNode Title="Item Property " Url="html/P_Imms_Abstract_AbstractSet_2_Item.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="a56f4f47-0358-42b2-a5bd-79e0fa3ecb99" Title="AbstractSet(TElem, TSet) Methods" Url="html/Methods_T_Imms_Abstract_AbstractSet_2.htm">
+        <HelpTOCNode Id="22232427-87e5-49ea-bab0-f8698db73e5c" Title="AbstractSet(TElem, TSet) Methods" Url="html/Methods_T_Imms_Abstract_AbstractSet_2.htm">
           <HelpTOCNode Title="Add Method " Url="html/M_Imms_Abstract_AbstractSet_2_Add.htm" />
           <HelpTOCNode Title="AddRange Method " Url="html/M_Imms_Abstract_AbstractSet_2_AddRange.htm" />
           <HelpTOCNode Title="Contains Method " Url="html/M_Imms_Abstract_AbstractSet_2_Contains.htm" />
@@ -544,62 +544,62 @@
           <HelpTOCNode Title="SetEquals Method " Url="html/M_Imms_Abstract_AbstractSet_2_SetEquals.htm" />
           <HelpTOCNode Title="Union Method " Url="html/M_Imms_Abstract_AbstractSet_2_Union.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="ebab703f-e411-4097-b82f-a8f690ae9266" Title="AbstractSet(TElem, TSet) Operators" Url="html/Operators_T_Imms_Abstract_AbstractSet_2.htm">
-          <HelpTOCNode Id="95a163b0-06e6-4081-ae83-f79969b576f6" Title="Addition Operator " Url="html/Overload_Imms_Abstract_AbstractSet_2_op_Addition.htm">
+        <HelpTOCNode Id="ac806832-a483-4d15-91dd-6a72e6a9ee3d" Title="AbstractSet(TElem, TSet) Operators" Url="html/Operators_T_Imms_Abstract_AbstractSet_2.htm">
+          <HelpTOCNode Id="f1a5388a-3a3b-4c74-8624-004682b1fd86" Title="Addition Operator " Url="html/Overload_Imms_Abstract_AbstractSet_2_op_Addition.htm">
             <HelpTOCNode Title="Addition Operator (AbstractSet(TElem, TSet), IEnumerable(TElem))" Url="html/M_Imms_Abstract_AbstractSet_2_op_Addition.htm" />
             <HelpTOCNode Title="Addition Operator (AbstractSet(TElem, TSet), TElem)" Url="html/M_Imms_Abstract_AbstractSet_2_op_Addition_1.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="BitwiseAnd Operator " Url="html/M_Imms_Abstract_AbstractSet_2_op_BitwiseAnd.htm" />
           <HelpTOCNode Title="ExclusiveOr Operator " Url="html/M_Imms_Abstract_AbstractSet_2_op_ExclusiveOr.htm" />
-          <HelpTOCNode Id="5e115502-a68b-4167-9988-d5cf536fee7a" Title="Subtraction Operator " Url="html/Overload_Imms_Abstract_AbstractSet_2_op_Subtraction.htm">
+          <HelpTOCNode Id="1146ef79-d374-4428-b478-ae2349d9de82" Title="Subtraction Operator " Url="html/Overload_Imms_Abstract_AbstractSet_2_op_Subtraction.htm">
             <HelpTOCNode Title="Subtraction Operator (AbstractSet(TElem, TSet), IEnumerable(TElem))" Url="html/M_Imms_Abstract_AbstractSet_2_op_Subtraction.htm" />
             <HelpTOCNode Title="Subtraction Operator (AbstractSet(TElem, TSet), TElem)" Url="html/M_Imms_Abstract_AbstractSet_2_op_Subtraction_1.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="1e747833-031c-4e53-a490-6a78e15addd7" Title="IAnyIterableBuilder(TElem) Interface" Url="html/T_Imms_Abstract_IAnyIterableBuilder_1.htm">
-        <HelpTOCNode Id="0491e729-ae98-44e9-8172-f0cfb2e63bde" Title="IAnyIterableBuilder(TElem) Properties" Url="html/Properties_T_Imms_Abstract_IAnyIterableBuilder_1.htm">
+      <HelpTOCNode Id="e706c922-9282-47cc-b8aa-9dddb476c557" Title="IAnyIterableBuilder(TElem) Interface" Url="html/T_Imms_Abstract_IAnyIterableBuilder_1.htm">
+        <HelpTOCNode Id="91fa4c10-57bc-4449-9158-b59b55794226" Title="IAnyIterableBuilder(TElem) Properties" Url="html/Properties_T_Imms_Abstract_IAnyIterableBuilder_1.htm">
           <HelpTOCNode Title="Length Property " Url="html/P_Imms_Abstract_IAnyIterableBuilder_1_Length.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="f61d5f82-286c-4131-a4c8-b420066fd2fc" Title="IAnyIterableBuilder(TElem) Methods" Url="html/Methods_T_Imms_Abstract_IAnyIterableBuilder_1.htm">
+        <HelpTOCNode Id="0ed1d5a4-7003-4009-a309-81f17e0cca65" Title="IAnyIterableBuilder(TElem) Methods" Url="html/Methods_T_Imms_Abstract_IAnyIterableBuilder_1.htm">
           <HelpTOCNode Title="Add Method " Url="html/M_Imms_Abstract_IAnyIterableBuilder_1_Add.htm" />
           <HelpTOCNode Title="AddRange Method " Url="html/M_Imms_Abstract_IAnyIterableBuilder_1_AddRange.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="7caa2ca9-c9a0-44d9-a412-12fc14fa8eba" Title="IAnyMapBuilder(TKey, TValue) Interface" Url="html/T_Imms_Abstract_IAnyMapBuilder_2.htm">
+      <HelpTOCNode Id="d21fc3fd-5628-4ae5-a5da-d2fc582cf726" Title="IAnyMapBuilder(TKey, TValue) Interface" Url="html/T_Imms_Abstract_IAnyMapBuilder_2.htm">
         <HelpTOCNode Title="IAnyMapBuilder(TKey, TValue) Properties" Url="html/Properties_T_Imms_Abstract_IAnyMapBuilder_2.htm" />
-        <HelpTOCNode Id="b7cd5eda-6fa2-4253-a8cd-247284919bad" Title="IAnyMapBuilder(TKey, TValue) Methods" Url="html/Methods_T_Imms_Abstract_IAnyMapBuilder_2.htm">
+        <HelpTOCNode Id="482448d9-8069-4a20-8318-aa87a504796b" Title="IAnyMapBuilder(TKey, TValue) Methods" Url="html/Methods_T_Imms_Abstract_IAnyMapBuilder_2.htm">
           <HelpTOCNode Title="Remove Method " Url="html/M_Imms_Abstract_IAnyMapBuilder_2_Remove.htm" />
           <HelpTOCNode Title="TryGetKvp Method " Url="html/M_Imms_Abstract_IAnyMapBuilder_2_TryGetKvp.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="cf2f1e7d-fec3-4bea-9594-bfd61f074124" Title="IAnySetBuilder(TElem) Interface" Url="html/T_Imms_Abstract_IAnySetBuilder_1.htm">
+      <HelpTOCNode Id="fd8bb156-207b-4773-806c-073f02c25b6a" Title="IAnySetBuilder(TElem) Interface" Url="html/T_Imms_Abstract_IAnySetBuilder_1.htm">
         <HelpTOCNode Title="IAnySetBuilder(TElem) Properties" Url="html/Properties_T_Imms_Abstract_IAnySetBuilder_1.htm" />
-        <HelpTOCNode Id="9a18676e-19bc-4691-89ae-59cc676b0121" Title="IAnySetBuilder(TElem) Methods" Url="html/Methods_T_Imms_Abstract_IAnySetBuilder_1.htm">
+        <HelpTOCNode Id="bd7c4fda-b2d8-471e-8557-1e47a806dca0" Title="IAnySetBuilder(TElem) Methods" Url="html/Methods_T_Imms_Abstract_IAnySetBuilder_1.htm">
           <HelpTOCNode Title="Contains Method " Url="html/M_Imms_Abstract_IAnySetBuilder_1_Contains.htm" />
           <HelpTOCNode Title="Remove Method " Url="html/M_Imms_Abstract_IAnySetBuilder_1_Remove.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="cff10a6b-aa37-472f-9211-75d678ce90a7" Title="IBuilderFactory(TBuilder) Interface" Url="html/T_Imms_Abstract_IBuilderFactory_1.htm">
-        <HelpTOCNode Id="c92c8138-94a5-4873-9145-860888023acd" Title="IBuilderFactory(TBuilder) Properties" Url="html/Properties_T_Imms_Abstract_IBuilderFactory_1.htm">
+      <HelpTOCNode Id="746429cd-32d2-4e47-92af-48c7014bb809" Title="IBuilderFactory(TBuilder) Interface" Url="html/T_Imms_Abstract_IBuilderFactory_1.htm">
+        <HelpTOCNode Id="1f56132d-b049-492b-901d-1ed549cadd76" Title="IBuilderFactory(TBuilder) Properties" Url="html/Properties_T_Imms_Abstract_IBuilderFactory_1.htm">
           <HelpTOCNode Title="EmptyBuilder Property " Url="html/P_Imms_Abstract_IBuilderFactory_1_EmptyBuilder.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="eee4affe-4736-4eba-9361-8cab09c77ed1" Title="IIterableBuilder(TElem, TResult) Interface" Url="html/T_Imms_Abstract_IIterableBuilder_2.htm">
+      <HelpTOCNode Id="ae5c696c-5990-4d99-8cb7-c5f2c5e01d18" Title="IIterableBuilder(TElem, TResult) Interface" Url="html/T_Imms_Abstract_IIterableBuilder_2.htm">
         <HelpTOCNode Title="IIterableBuilder(TElem, TResult) Properties" Url="html/Properties_T_Imms_Abstract_IIterableBuilder_2.htm" />
-        <HelpTOCNode Id="40911c35-0fa7-42c3-880a-228e1b5f6927" Title="IIterableBuilder(TElem, TResult) Methods" Url="html/Methods_T_Imms_Abstract_IIterableBuilder_2.htm">
+        <HelpTOCNode Id="54ec5ccc-5f96-4124-ae36-1d5104ac4757" Title="IIterableBuilder(TElem, TResult) Methods" Url="html/Methods_T_Imms_Abstract_IIterableBuilder_2.htm">
           <HelpTOCNode Title="Produce Method " Url="html/M_Imms_Abstract_IIterableBuilder_2_Produce.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="cfb3ce5e-5af7-4b31-8d02-72acec7b28a4" Title="IMapBuilder(TKey, TValue, TMap) Interface" Url="html/T_Imms_Abstract_IMapBuilder_3.htm">
+      <HelpTOCNode Id="1df7bed6-b4a2-4361-a795-bec88e3ecafc" Title="IMapBuilder(TKey, TValue, TMap) Interface" Url="html/T_Imms_Abstract_IMapBuilder_3.htm">
         <HelpTOCNode Title="IMapBuilder(TKey, TValue, TMap) Properties" Url="html/Properties_T_Imms_Abstract_IMapBuilder_3.htm" />
         <HelpTOCNode Title="IMapBuilder(TKey, TValue, TMap) Methods" Url="html/Methods_T_Imms_Abstract_IMapBuilder_3.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="7a95f170-74b5-4073-b423-66a818451610" Title="ISequentialBuilder(TElem, TList) Interface" Url="html/T_Imms_Abstract_ISequentialBuilder_2.htm">
+      <HelpTOCNode Id="53a1bdb4-9aba-4edd-9f6c-552598027d92" Title="ISequentialBuilder(TElem, TList) Interface" Url="html/T_Imms_Abstract_ISequentialBuilder_2.htm">
         <HelpTOCNode Title="ISequentialBuilder(TElem, TList) Properties" Url="html/Properties_T_Imms_Abstract_ISequentialBuilder_2.htm" />
         <HelpTOCNode Title="ISequentialBuilder(TElem, TList) Methods" Url="html/Methods_T_Imms_Abstract_ISequentialBuilder_2.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="c40113c6-e942-47b7-a199-4644c5f5fc82" Title="ISetBuilder(TElem, TSet) Interface" Url="html/T_Imms_Abstract_ISetBuilder_2.htm">
+      <HelpTOCNode Id="406a8f13-9af7-4689-94c1-3cb509988b45" Title="ISetBuilder(TElem, TSet) Interface" Url="html/T_Imms_Abstract_ISetBuilder_2.htm">
         <HelpTOCNode Title="ISetBuilder(TElem, TSet) Properties" Url="html/Properties_T_Imms_Abstract_ISetBuilder_2.htm" />
         <HelpTOCNode Title="ISetBuilder(TElem, TSet) Methods" Url="html/Methods_T_Imms_Abstract_ISetBuilder_2.htm" />
       </HelpTOCNode>
