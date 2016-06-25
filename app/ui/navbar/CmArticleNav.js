@@ -13,7 +13,7 @@ class CmArticleEntry extends React.Component {
             containerClass += " imms-nav-item-w-children";
             list = React.createElement("ul", null, children);
         }
-        var link = this.article.link ? React.createElement("a", {href: `/pages/${this.article.link}`}, this.article.text) : React.createElement("span", null, this.article.text);
+        var link = this.article.link ? React.createElement("a", {href: `${this.article.link}`}, this.article.text) : React.createElement("span", null, this.article.text);
         var container = React.createElement("li", {className: containerClass}, React.createElement("div", {className: headingClass}, link), list);
         return container;
     }

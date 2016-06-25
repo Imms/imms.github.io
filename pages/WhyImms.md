@@ -1,5 +1,7 @@
 ---
 layout: main
+title: Why Imms?
+description: The benefits of the Imms collections library as compared to other solutions.
 styles:
   - documentation.css
 
@@ -15,7 +17,7 @@ Imms is the best immutable collections library for .NET out there. It has many t
     Among other things, this lets you use Imms to implement specialized immutable collections easily and efficiently.
    
 2. #### Blazing fast performance
-    Imms performs as well or better than other libraries in almost every respect. You don't have to take my word for it -- you can see detailed performance information in the [performance summary](/pages/perfSummary) and in the pages for every collection type.
+    Imms performs as well or better than other libraries in almost every respect. You don't have to take my word for it -- you can see detailed performance information in the pages for every collection type.
    
 3. #### Intuitive, powerful API
     Imms has a really intuitive and powerful API that's based on LINQ, the standard collections API, and a few more things.
@@ -39,7 +41,3 @@ Imms is the best immutable collections library for .NET out there. It has many t
 
 7. #### No dependencies, small footprint
     Imms has no dependencies, requring only minimal framework libraries. It consists of only two assemblies (plus the optional F# integration assembly). It exposes only a small number of types and a handful of extension methods.
-
-   ```csharp
-   int x = 5;
-   ```

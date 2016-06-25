@@ -1,5 +1,7 @@
 ---
 layout: main
+title: Imms for F#
+description: Imms for F#
 styles:
   - documentation.css
 

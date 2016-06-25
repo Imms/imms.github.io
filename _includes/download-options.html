@@ -1,4 +1,5 @@
 <div class="down-options" id="down-options">
+
     <div class="down-options__col">
         <a href="{{ links.library.nuget }}">
             <div class="down-option down-option--nuget down-option--primary">
@@ -14,8 +15,9 @@
             </div>
         </a>
     </div>
+    {% assign binaries = "https://github.com/Imms/Imms/releases/tag/v" | append: site.data.info.release_version %}
     <div class="down-options__col">
-        <a href="{{ links.library.binaries }}">
+        <a href="{{ binaries }}">
             <div class="down-option down-option--binaries">
                 <div class="down-option__icon">
                     <img src="/images/zip.png"/>

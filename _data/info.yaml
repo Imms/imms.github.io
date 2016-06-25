@@ -1,1 +1,8 @@
-version: 0.6.2
+version: 0.7.0
+release_version: 0.7.0
+keywords: >
+  imms,immutable,collections,.net,dotnet,C#,csharp,
+  fsharp,F#,persistent,library,assembly,catenable,confluent,
+  data structures,sequence,map,set,dictionary,vector,deque,queue,stack,
+  performance
+

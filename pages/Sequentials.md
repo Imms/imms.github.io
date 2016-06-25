@@ -1,6 +1,8 @@
 ---
 layout: main
 mathjax: true
+title: Sequential Collections
+description: API and performance information for Imms sequential collections.
 styles:
   - documentation.css
 

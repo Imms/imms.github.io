@@ -1,13 +1,29 @@
 ---
 layout: main
+title: Future Features
+description: Future features of the Imms immutable collections library.
+mathjax: true
 styles:
   - documentation.css
 
 ---
-# Mutable Imms
+# Future Features
+Some probable future features include:
+
+## More Collections
+In the future, Imms should offer a variety of specialized immutable collections built on top of the core immutable collections presented in the previous sections. Some examples of possible specialized collections:
+
+1. A flexible priority queue, which is an ordered collection that keeps elements according to their sort order, and allows for duplicates.
+2. A multi-set. This is a set where elements can appear more than once, and a number of 'appearances' is kept for each element.
+3. A multi-map. This is a map where more than one value can be associated with the same key.
+4. A graph, which links keys together bi-directionally. The same key can be associated with any number of other keys in the graph. Entirely new elements can be added, and links between keys can be created or removed.
+
+These collections will not offer optimal performance because they won't be implemented first-class, using custom data structures, but they will still perform well.
+
+## Mutability
 Part of the appeal of immutable collections is their ability to control mutation, rather than suppressing it completely, and enhance the functionality of mutable collections. To this end, several kinds of mutable collections be built based around the immutable collections provided by Imms.
 
-## Advanced mutable collections
+### Advanced Mutable Collections
 Part of the appeal of immutable collections is that they allow you to control mutability. To this end, it's possible to write a set of mutable collections that rely on Imms, with features including:
 
 1. History tracking
@@ -15,7 +31,7 @@ Part of the appeal of immutable collections is that they allow you to control mu
 3. Snapshots
 4. Thread safety
 
-## Collection builders
+### Collection Builders
 Imms collections have the groundwork for providing highly efficient mutable collection builders.
 
 A collection builder is a mutable version of an Imms collection. You can change this collection and when you're done, you can produce an immutable version of the collection in a single operation. Here is an example of the concept:
@@ -50,4 +66,3 @@ Collection builders solve several problems simultaneously:
 The `Build()` and `Produce()` operations are constant time operations, but `Produce()` reduces the efficiency of the collection builder, because calling it reduces the builder's ability to mutate the underlying data structure.
 	
 Collection builders are already used as an internal optimization in many situations, but require a bit more work to be publically accessible.
-	

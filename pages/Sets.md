@@ -1,6 +1,8 @@
 ---
 layout: main
 mathjax: true
+title: Set Collections
+description: API and performance information for Imms set collections.
 styles:
   - documentation.css
 

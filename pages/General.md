@@ -1,5 +1,7 @@
 ---
 layout: main
+title: Collections API
+descriptions: General API for the Imms collections library.
 styles:
   - documentation.css
 

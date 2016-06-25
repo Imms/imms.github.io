@@ -3,47 +3,39 @@
 # link: Link
 # children: Children
 - text: Introduction
-  link: Home
+  link: /index
   children:
     - text: Why Immutable?
-      link: WhyImmutable
+      link: /pages/WhyImmutable
 
     - text: Why Imms?
-      link: WhyImms
+      link: /pages/WhyImms
 
     - text: Get Imms
-      link: GetImms.html
+      link: /pages/GetImms.html
 
 - text: Collections API
-  link: General
+  link: /pages/General
   children:
     - text: Sequentials
-      link: Sequentials
+      link: /pages/Sequentials
 
     - text: Sets
-      link: Sets
+      link: /pages/Sets
 
     - text: Maps
-      link: Maps
-
-    - text: Specialized
-      link: Specialized
-      text_class: future
-
-    - text: Mutable
-      link: Mutable
-      text_class: future
+      link: /pages/Maps
 
 - text: Other Features
   children:
     - text: Optional Type
-      link: Optional
-
-    - text: Miscellaneous
-      link: Misc
+      link: /pages/Optional
 
 - text: F# Integration
-  link: FSharpIntegration
+  link: /pages/FSharpIntegration
+
+- text: Future Features
+  link: /pages/Future
 
 - text: API Reference
   link: /API/index.html

@@ -1,6 +1,8 @@
 ---
 layout: main
 mathjax: true
+title: Map Collections
+description: API and performance information for Imms map/dictionary collections.
 styles:
   - documentation.css
 

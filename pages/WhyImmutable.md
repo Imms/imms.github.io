@@ -1,5 +1,7 @@
 ---
 layout: main
+title: Why Immutable?
+description: The benefits of immutable collections versus mutable collections.
 styles:
   - documentation.css
 
@@ -81,8 +83,6 @@ These general advantages apply no matter what kind of code you're writing.
 	Although multiple writing threads can run into problems of working on out-dated information, this can be solved with locks that never interfere with reading.
 
 	Furthermore, "changing" an immutable collection basically amounts to changing a reference, which is an atomic operation.
-	
-	See [thread safety with immutable collections](/pages/docs/threadSafety) for more info.
 
 ### Additional Advantages
 Only some kinds of code will benefit from these advantages.
@@ -143,6 +143,6 @@ It would be wrong, of course, to indulge in [benefits-only analysis](https://med
 ## More Reading
 For more discussion about mutability versus immutability, see the following related links:
 
-* Link 1
-* Link 2
-* Link 3
+* [Why immutable collections?](https://scott.mn/2014/04/27/why_immutable_collections/)
+* [Objects Should Be Immutable](http://www.yegor256.com/2014/06/09/objects-should-be-immutable.html)
+* [Java theory and practice: To mutate or not to mutate?](http://www.ibm.com/developerworks/library/j-jtp02183/)

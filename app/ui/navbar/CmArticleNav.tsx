@@ -33,7 +33,7 @@ class CmArticleEntry extends React.Component<CmArticleEntryProps, {}> {
 			</ul>
 		}
 
-		var link = this.article.link ? <a href={`/pages/${this.article.link}`}>{this.article.text}</a> : <span>{this.article.text}</span>;
+		var link = this.article.link ? <a href={`${this.article.link}`}>{this.article.text}</a> : <span>{this.article.text}</span>;
 
 		var container = <li className={containerClass}>
 			<div className={headingClass}>
@@ -57,6 +57,6 @@ export class CmArticleTree extends React.Component<CmArticleTreeProps, {}> {
 		let x = this.props.articles.map(node => <CmArticleEntry entry={node} key={node.link} nesting={0}/>);
 		return <ul>
 			{x}
-		</ul>
+		</ul>  
 	}
 }

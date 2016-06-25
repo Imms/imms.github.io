@@ -2,11 +2,531 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bbc7136-871e-4550-87cb-0c2fea76dd87" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/API/toc/Imms_Root.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pages/ImplementationDetails.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/info.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Indexed.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Misc.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Mutable.md" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms" afterPath="$PROJECT_DIR$/Code/Imms" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/404.html" afterPath="$PROJECT_DIR$/404.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/WebTOC.xml" afterPath="$PROJECT_DIR$/API/WebTOC.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Imms/Readme.md" afterPath="$PROJECT_DIR$/Code/Imms/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_100.json" afterPath="$PROJECT_DIR$/API/fti/FTI_100.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_101.json" afterPath="$PROJECT_DIR$/API/fti/FTI_101.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_102.json" afterPath="$PROJECT_DIR$/API/fti/FTI_102.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_103.json" afterPath="$PROJECT_DIR$/API/fti/FTI_103.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_105.json" afterPath="$PROJECT_DIR$/API/fti/FTI_105.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_106.json" afterPath="$PROJECT_DIR$/API/fti/FTI_106.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_107.json" afterPath="$PROJECT_DIR$/API/fti/FTI_107.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_109.json" afterPath="$PROJECT_DIR$/API/fti/FTI_109.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_110.json" afterPath="$PROJECT_DIR$/API/fti/FTI_110.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_111.json" afterPath="$PROJECT_DIR$/API/fti/FTI_111.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_112.json" afterPath="$PROJECT_DIR$/API/fti/FTI_112.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_114.json" afterPath="$PROJECT_DIR$/API/fti/FTI_114.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_115.json" afterPath="$PROJECT_DIR$/API/fti/FTI_115.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_116.json" afterPath="$PROJECT_DIR$/API/fti/FTI_116.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_117.json" afterPath="$PROJECT_DIR$/API/fti/FTI_117.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_97.json" afterPath="$PROJECT_DIR$/API/fti/FTI_97.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_98.json" afterPath="$PROJECT_DIR$/API/fti/FTI_98.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_99.json" afterPath="$PROJECT_DIR$/API/fti/FTI_99.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/fti/FTI_Files.json" afterPath="$PROJECT_DIR$/API/fti/FTI_Files.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/F_Imms_ImmVector_1_MaxCapacity.htm" afterPath="$PROJECT_DIR$/API/html/F_Imms_ImmVector_1_MaxCapacity.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Fields_T_Imms_ImmVector_1.htm" afterPath="$PROJECT_DIR$/API/html/Fields_T_Imms_ImmVector_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Imms_Root.htm" afterPath="$PROJECT_DIR$/API/html/Imms_Root.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_Aggregate.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_Aggregate.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_Aggregate__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_Aggregate__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_All.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_All.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_Any.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_Any.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_CopyTo.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_CopyTo.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_CopyTo_1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_CopyTo_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_Count.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_Count.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_Find.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_Find.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_ForEach.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_ForEach.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_ForEachWhile.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_ForEachWhile.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_GetEnumerator.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_GetEnumerator.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_Pick__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_Pick__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_Print.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_Print.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_Single.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_Single.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_ToArray.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_ToArray.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_Where.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_Where.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_op_Implicit.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractIterable_3_op_Implicit.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Add.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Add.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_AddRange.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_AddRange.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Add_1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Add_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Aggregate__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Aggregate__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_All.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_All.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Any.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Any.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_ContainsKey.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_ContainsKey.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Count.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Count.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Difference.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Difference.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Find.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Find.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_ForEach.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_ForEach.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_ForEachWhile.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_ForEachWhile.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Join__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Join__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_MapEquals.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_MapEquals.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_MapEquals_1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_MapEquals_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_MapEquals_2.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_MapEquals_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Merge.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Merge.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Pick__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Pick__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Remove.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Remove.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_RemoveRange.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_RemoveRange.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Set.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Set.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_SetRange.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_SetRange.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Subtract__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_Subtract__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_TryGet.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_TryGet.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_op_Addition.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_op_Addition.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_op_Addition_1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_op_Addition_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_op_Subtraction.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_op_Subtraction.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_op_Subtraction_1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_op_Subtraction_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_op_Subtraction_2.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractMap_3_op_Subtraction_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_AggregateBack.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_AggregateBack.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_AggregateBack__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_AggregateBack__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_CopyTo.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_CopyTo.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_CopyTo_1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_CopyTo_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_Equals.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_Equals.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_Equals_1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_Equals_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_FindIndex.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_FindIndex.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_FindIndex_1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_FindIndex_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_FindLast.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_FindLast.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_FindLastIndex.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_FindLastIndex.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_ForEachBack.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_ForEachBack.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_ForEachBackWhile.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_ForEachBackWhile.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_GetHashCode.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_GetHashCode.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_OrderBy.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_OrderBy.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_OrderByDescending__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_OrderByDescending__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_OrderBy_1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_OrderBy_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_OrderBy__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_OrderBy__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_Reverse.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_Reverse.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_SequenceEquals.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_SequenceEquals.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_Skip.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_Skip.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_SkipWhile.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_SkipWhile.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_Take.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_Take.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_TakeWhile.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_TakeWhile.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_TryGet.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_TryGet.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_op_Equality.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_op_Equality.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_op_Inequality.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSequential_2_op_Inequality.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_Add.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_Add.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_AddRange.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_AddRange.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_Contains.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_Contains.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_Difference.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_Difference.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_Except.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_Except.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_ExceptInverse.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_ExceptInverse.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_Intersect.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_Intersect.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_IsDisjointWith.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_IsDisjointWith.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_IsProperSubsetOf.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_IsProperSubsetOf.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_IsProperSupersetOf.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_IsProperSupersetOf.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_IsSubsetOf.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_IsSubsetOf.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_IsSupersetOf.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_IsSupersetOf.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_RelatesTo.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_RelatesTo.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_Remove.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_Remove.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_SetEquals.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_SetEquals.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_Union.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_Union.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_op_Addition.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_op_Addition.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_op_Addition_1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_op_Addition_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_op_BitwiseAnd.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_op_BitwiseAnd.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_op_ExclusiveOr.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_op_ExclusiveOr.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_op_Subtraction.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_op_Subtraction.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_op_Subtraction_1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_AbstractSet_2_op_Subtraction_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_IAnyIterableBuilder_1_Add.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_IAnyIterableBuilder_1_Add.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_IAnyIterableBuilder_1_AddRange.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_IAnyIterableBuilder_1_AddRange.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_IAnyMapBuilder_2_Remove.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_IAnyMapBuilder_2_Remove.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_IAnyMapBuilder_2_TryGetKvp.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_IAnyMapBuilder_2_TryGetKvp.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_IAnySetBuilder_1_Contains.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_IAnySetBuilder_1_Contains.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_IAnySetBuilder_1_Remove.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_IAnySetBuilder_1_Remove.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Abstract_IIterableBuilder_2_Produce.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Abstract_IIterableBuilder_2_Produce.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_AddFirst.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_AddFirst.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_AddFirstRange.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_AddFirstRange.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_AddFirstRange_1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_AddFirstRange_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_AddLast.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_AddLast.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_AddLastRange.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_AddLastRange.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_AddLastRange_1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_AddLastRange_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Cast__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Cast__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Choose__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Choose__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_ForEach.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_ForEach.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_ForEachBack.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_ForEachBack.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_ForEachBackWhile.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_ForEachBackWhile.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_ForEachWhile.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_ForEachWhile.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_GetEnumerator.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_GetEnumerator.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_GroupBy__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_GroupBy__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_GroupBy__2.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_GroupBy__2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_GroupBy__3.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_GroupBy__3.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_GroupJoin__3.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_GroupJoin__3.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Insert.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Insert.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_InsertRange.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_InsertRange.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_InsertRange_1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_InsertRange_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Join__2.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Join__2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Join__3.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Join__3.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_RemoveAt.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_RemoveAt.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_RemoveFirst.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_RemoveFirst.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_RemoveLast.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_RemoveLast.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Reverse.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Reverse.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_ScanBack__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_ScanBack__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Scan__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Scan__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_SelectMany__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_SelectMany__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_SelectMany__2.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_SelectMany__2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Select__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Select__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Select__1_1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Select__1_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Update.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Update.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Zip__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Zip__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Zip__2.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_Zip__2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_op_Addition.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_op_Addition.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_op_Addition_1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_op_Addition_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_op_Addition_2.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_op_Addition_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_op_Addition_3.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_op_Addition_3.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_op_Addition_4.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_1_op_Addition_4.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_Empty__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_Empty__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_Of__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_Of__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmList_ToImmList__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmList_ToImmList__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_2_Empty.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_2_Empty.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_2_ForEachWhile.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_2_ForEachWhile.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_2_GetEnumerator.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_2_GetEnumerator.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_2_Remove.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_2_Remove.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_2_RemoveRange.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_2_RemoveRange.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_2_Subtract__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_2_Subtract__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_2_TryGet.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_2_TryGet.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_CreateMap__2.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_CreateMap__2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_Empty__2.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_Empty__2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_Of__2.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_Of__2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_ToImmMap__2.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_ToImmMap__2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_ToImmMap__3.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmMap_ToImmMap__3.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSet_1_Add.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSet_1_Add.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSet_1_Contains.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSet_1_Contains.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSet_1_Empty.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSet_1_Empty.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSet_1_ForEachWhile.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSet_1_ForEachWhile.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSet_1_GetEnumerator.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSet_1_GetEnumerator.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSet_1_Remove.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSet_1_Remove.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSet_CreateSet__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSet_CreateSet__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSet_Empty__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSet_Empty__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSet_Of__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSet_Of__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSet_ToImmSet__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSet_ToImmSet__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_ByOrder.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_ByOrder.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_Empty.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_Empty.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_ForEachWhile.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_ForEachWhile.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_GetEnumerator.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_GetEnumerator.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_IndexOf.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_IndexOf.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_Remove.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_Remove.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_RemoveMax.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_RemoveMax.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_RemoveMin.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_RemoveMin.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_RemoveRange.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_RemoveRange.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_Slice.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_Slice.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_Subtract__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_Subtract__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_TryGet.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_2_TryGet.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_CreateOrderedMap__2.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_CreateOrderedMap__2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_Empty__2.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_Empty__2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_Empty__2_1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_Empty__2_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_Of__2.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_Of__2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_ToImmSortedMap__2.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_ToImmSortedMap__2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_ToImmSortedMap__2_1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedMap_ToImmSortedMap__2_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_1_Add.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_1_Add.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_1_ByOrder.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_1_ByOrder.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_1_Contains.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_1_Contains.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_1_Empty.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_1_Empty.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_1_ForEachWhile.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_1_ForEachWhile.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_1_GetEnumerator.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_1_GetEnumerator.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_1_IndexOf.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_1_IndexOf.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_1_Remove.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_1_Remove.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_1_RemoveMax.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_1_RemoveMax.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_1_RemoveMin.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_1_RemoveMin.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_1_Slice.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_1_Slice.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_CreateOrderedSet__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_CreateOrderedSet__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_Empty__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_Empty__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_Empty__1_1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_Empty__1_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_Of__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_Of__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_ToImmSortedSet__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_ToImmSortedSet__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_ToImmSortedSet__1_1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmSortedSet_ToImmSortedSet__1_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_AddFirstRange.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_AddFirstRange.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_AddLast.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_AddLast.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_AddLastRange.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_AddLastRange.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Cast__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Cast__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Choose__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Choose__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_CopyTo.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_CopyTo.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_ForEach.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_ForEach.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_ForEachBack.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_ForEachBack.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_ForEachBackWhile.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_ForEachBackWhile.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_ForEachWhile.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_ForEachWhile.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_GetEnumerator.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_GetEnumerator.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_GroupBy__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_GroupBy__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_GroupBy__2.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_GroupBy__2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_GroupBy__3.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_GroupBy__3.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_GroupJoin__3.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_GroupJoin__3.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Insert.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Insert.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_InsertRange.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_InsertRange.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Join__2.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Join__2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Join__3.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Join__3.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_RemoveLast.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_RemoveLast.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_ScanBack__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_ScanBack__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Scan__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Scan__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_SelectMany__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_SelectMany__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_SelectMany__2.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_SelectMany__2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Select__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Select__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Select__1_1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Select__1_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Skip.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Skip.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Take.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Take.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Update.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Update.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Zip__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Zip__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Zip__2.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_1_Zip__2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_Empty__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_Empty__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_FromItems__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_FromItems__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_ToImmVector__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_ImmVector_ToImmVector__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Kvp_Of__2.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Kvp_Of__2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Kvp_Of__2_1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Kvp_Of__2_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Kvp_ToTuple__2.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Kvp_ToTuple__2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_NoValueException__ctor.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_NoValueException__ctor.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_AsOptional__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_AsOptional__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_AsOptional__1_1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_AsOptional__1_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_AsString__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_AsString__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_AsString__1_1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_AsString__1_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_CompareTo__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_CompareTo__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_CompareTo__1_1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_CompareTo__1_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_Filter__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_Filter__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_Flatten__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_Flatten__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_Map__2.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_Map__2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_Map__2_1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_Map__2_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_Or__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_Or__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_Or__1_1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_Or__1_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_ValueOrError__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_OptionalExt_ValueOrError__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_As__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_As__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_Cast__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_Cast__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_Equals.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_Equals.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_Equals_1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_Equals_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_Equals_2.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_Equals_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_Equals_3.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_Equals_3.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_Equals__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_Equals__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_GetHashCode.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_GetHashCode.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_Some.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_Some.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_ToString.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_ToString.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_BitwiseOr.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_BitwiseOr.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_Equality.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_Equality.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_Equality_1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_Equality_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_Equality_2.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_Equality_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_Equality_3.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_Equality_3.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_Explicit.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_Explicit.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_Implicit.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_Implicit.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_Implicit_1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_Implicit_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_Inequality.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_Inequality.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_Inequality_1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_Inequality_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_Inequality_2.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_Inequality_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_Inequality_3.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Optional_1_op_Inequality_3.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_NoneOf__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Optional_NoneOf__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/M_Imms_Optional_Some__1.htm" afterPath="$PROJECT_DIR$/API/html/M_Imms_Optional_Some__1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_Abstract_AbstractIterable_3.htm" afterPath="$PROJECT_DIR$/API/html/Methods_T_Imms_Abstract_AbstractIterable_3.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_Abstract_AbstractMap_3.htm" afterPath="$PROJECT_DIR$/API/html/Methods_T_Imms_Abstract_AbstractMap_3.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_Abstract_AbstractSequential_2.htm" afterPath="$PROJECT_DIR$/API/html/Methods_T_Imms_Abstract_AbstractSequential_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_Abstract_AbstractSet_2.htm" afterPath="$PROJECT_DIR$/API/html/Methods_T_Imms_Abstract_AbstractSet_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_Abstract_IAnyIterableBuilder_1.htm" afterPath="$PROJECT_DIR$/API/html/Methods_T_Imms_Abstract_IAnyIterableBuilder_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_Abstract_IAnyMapBuilder_2.htm" afterPath="$PROJECT_DIR$/API/html/Methods_T_Imms_Abstract_IAnyMapBuilder_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_Abstract_IAnySetBuilder_1.htm" afterPath="$PROJECT_DIR$/API/html/Methods_T_Imms_Abstract_IAnySetBuilder_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_Abstract_IIterableBuilder_2.htm" afterPath="$PROJECT_DIR$/API/html/Methods_T_Imms_Abstract_IIterableBuilder_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_Abstract_IMapBuilder_3.htm" afterPath="$PROJECT_DIR$/API/html/Methods_T_Imms_Abstract_IMapBuilder_3.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_Abstract_ISequentialBuilder_2.htm" afterPath="$PROJECT_DIR$/API/html/Methods_T_Imms_Abstract_ISequentialBuilder_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_Abstract_ISetBuilder_2.htm" afterPath="$PROJECT_DIR$/API/html/Methods_T_Imms_Abstract_ISetBuilder_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmList.htm" afterPath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmList.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmList_1.htm" afterPath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmList_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmMap.htm" afterPath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmMap.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmMap_2.htm" afterPath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmMap_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmSet.htm" afterPath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmSet.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmSet_1.htm" afterPath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmSet_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmSortedMap.htm" afterPath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmSortedMap.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmSortedMap_2.htm" afterPath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmSortedMap_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmSortedSet.htm" afterPath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmSortedSet.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmSortedSet_1.htm" afterPath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmSortedSet_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmVector.htm" afterPath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmVector.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmVector_1.htm" afterPath="$PROJECT_DIR$/API/html/Methods_T_Imms_ImmVector_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_Kvp.htm" afterPath="$PROJECT_DIR$/API/html/Methods_T_Imms_Kvp.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_NoValueException.htm" afterPath="$PROJECT_DIR$/API/html/Methods_T_Imms_NoValueException.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_Optional.htm" afterPath="$PROJECT_DIR$/API/html/Methods_T_Imms_Optional.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_OptionalExt.htm" afterPath="$PROJECT_DIR$/API/html/Methods_T_Imms_OptionalExt.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Methods_T_Imms_Optional_1.htm" afterPath="$PROJECT_DIR$/API/html/Methods_T_Imms_Optional_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/N_Imms.htm" afterPath="$PROJECT_DIR$/API/html/N_Imms.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/N_Imms_Abstract.htm" afterPath="$PROJECT_DIR$/API/html/N_Imms_Abstract.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Operators_T_Imms_Abstract_AbstractIterable_3.htm" afterPath="$PROJECT_DIR$/API/html/Operators_T_Imms_Abstract_AbstractIterable_3.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Operators_T_Imms_Abstract_AbstractMap_3.htm" afterPath="$PROJECT_DIR$/API/html/Operators_T_Imms_Abstract_AbstractMap_3.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Operators_T_Imms_Abstract_AbstractSequential_2.htm" afterPath="$PROJECT_DIR$/API/html/Operators_T_Imms_Abstract_AbstractSequential_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Operators_T_Imms_Abstract_AbstractSet_2.htm" afterPath="$PROJECT_DIR$/API/html/Operators_T_Imms_Abstract_AbstractSet_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Operators_T_Imms_ImmList_1.htm" afterPath="$PROJECT_DIR$/API/html/Operators_T_Imms_ImmList_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Operators_T_Imms_Optional_1.htm" afterPath="$PROJECT_DIR$/API/html/Operators_T_Imms_Optional_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractIterable_3_Aggregate.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractIterable_3_Aggregate.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractIterable_3_CopyTo.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractIterable_3_CopyTo.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_Add.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_Add.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_Aggregate.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_Aggregate.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_All.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_All.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_Any.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_Any.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_Count.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_Count.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_Find.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_Find.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_ForEach.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_ForEach.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_ForEachWhile.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_ForEachWhile.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_MapEquals.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_MapEquals.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_Pick.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_Pick.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_op_Addition.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_op_Addition.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_op_Subtraction.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractMap_3_op_Subtraction.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractSequential_2_AggregateBack.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractSequential_2_AggregateBack.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractSequential_2_CopyTo.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractSequential_2_CopyTo.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractSequential_2_Equals.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractSequential_2_Equals.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractSequential_2_FindIndex.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractSequential_2_FindIndex.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractSequential_2_Item.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractSequential_2_Item.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractSequential_2_OrderBy.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractSequential_2_OrderBy.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractSet_2_op_Addition.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractSet_2_op_Addition.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractSet_2_op_Subtraction.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_Abstract_AbstractSet_2_op_Subtraction.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmList_1_AddFirstRange.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_ImmList_1_AddFirstRange.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmList_1_AddLastRange.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_ImmList_1_AddLastRange.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmList_1_GroupBy.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_ImmList_1_GroupBy.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmList_1_InsertRange.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_ImmList_1_InsertRange.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmList_1_Join.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_ImmList_1_Join.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmList_1_Select.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_ImmList_1_Select.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmList_1_SelectMany.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_ImmList_1_SelectMany.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmList_1_Zip.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_ImmList_1_Zip.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmList_1_op_Addition.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_ImmList_1_op_Addition.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmMap_2_ForEachWhile.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_ImmMap_2_ForEachWhile.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmMap_2_Subtract.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_ImmMap_2_Subtract.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmMap_ToImmMap.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_ImmMap_ToImmMap.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmSortedMap_2_ForEachWhile.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_ImmSortedMap_2_ForEachWhile.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmSortedMap_2_Subtract.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_ImmSortedMap_2_Subtract.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmSortedMap_Empty.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_ImmSortedMap_Empty.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmSortedMap_ToImmSortedMap.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_ImmSortedMap_ToImmSortedMap.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmSortedSet_Empty.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_ImmSortedSet_Empty.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmSortedSet_ToImmSortedSet.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_ImmSortedSet_ToImmSortedSet.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmVector_1_CopyTo.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_ImmVector_1_CopyTo.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmVector_1_GroupBy.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_ImmVector_1_GroupBy.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmVector_1_Join.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_ImmVector_1_Join.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmVector_1_Select.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_ImmVector_1_Select.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmVector_1_SelectMany.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_ImmVector_1_SelectMany.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_ImmVector_1_Zip.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_ImmVector_1_Zip.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Kvp_Of.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_Kvp_Of.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_OptionalExt_AsOptional.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_OptionalExt_AsOptional.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_OptionalExt_AsString.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_OptionalExt_AsString.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_OptionalExt_CompareTo.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_OptionalExt_CompareTo.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_OptionalExt_Map.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_OptionalExt_Map.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_OptionalExt_Or.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_OptionalExt_Or.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Optional_1_Equals.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_Optional_1_Equals.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Optional_1_op_Equality.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_Optional_1_op_Equality.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Optional_1_op_Implicit.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_Optional_1_op_Implicit.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Overload_Imms_Optional_1_op_Inequality.htm" afterPath="$PROJECT_DIR$/API/html/Overload_Imms_Optional_1_op_Inequality.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractIterable_3_IsEmpty.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractIterable_3_IsEmpty.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractIterable_3_Length.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractIterable_3_Length.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractMap_3_Item.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractMap_3_Item.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractMap_3_Keys.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractMap_3_Keys.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractMap_3_Values.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractMap_3_Values.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractSequential_2_First.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractSequential_2_First.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractSequential_2_Item.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractSequential_2_Item.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractSequential_2_Item_1.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractSequential_2_Item_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractSequential_2_Last.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractSequential_2_Last.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractSequential_2_TryFirst.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractSequential_2_TryFirst.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractSequential_2_TryLast.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractSequential_2_TryLast.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractSet_2_Item.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_Abstract_AbstractSet_2_Item.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_Abstract_IAnyIterableBuilder_1_Length.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_Abstract_IAnyIterableBuilder_1_Length.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_Abstract_IBuilderFactory_1_EmptyBuilder.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_Abstract_IBuilderFactory_1_EmptyBuilder.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_IAnyOptional_IsNone.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_IAnyOptional_IsNone.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_IAnyOptional_IsSome.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_IAnyOptional_IsSome.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_IAnyOptional_Value.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_IAnyOptional_Value.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmList_1_Empty.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_ImmList_1_Empty.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmList_1_First.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_ImmList_1_First.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmList_1_IsEmpty.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_ImmList_1_IsEmpty.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmList_1_Last.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_ImmList_1_Last.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmList_1_Length.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_ImmList_1_Length.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmMap_2_IsEmpty.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_ImmMap_2_IsEmpty.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmMap_2_Length.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_ImmMap_2_Length.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmSet_1_IsEmpty.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_ImmSet_1_IsEmpty.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmSet_1_Length.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_ImmSet_1_Length.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmSortedMap_2_IsEmpty.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_ImmSortedMap_2_IsEmpty.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmSortedMap_2_Length.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_ImmSortedMap_2_Length.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmSortedMap_2_MaxItem.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_ImmSortedMap_2_MaxItem.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmSortedMap_2_MinItem.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_ImmSortedMap_2_MinItem.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmSortedSet_1_IsEmpty.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_ImmSortedSet_1_IsEmpty.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmSortedSet_1_Length.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_ImmSortedSet_1_Length.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmSortedSet_1_MaxItem.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_ImmSortedSet_1_MaxItem.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmSortedSet_1_MinItem.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_ImmSortedSet_1_MinItem.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmVector_1_Empty.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_ImmVector_1_Empty.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmVector_1_First.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_ImmVector_1_First.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmVector_1_IsEmpty.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_ImmVector_1_IsEmpty.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmVector_1_Last.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_ImmVector_1_Last.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_ImmVector_1_Length.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_ImmVector_1_Length.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_Optional_1_IsNone.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_Optional_1_IsNone.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_Optional_1_IsSome.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_Optional_1_IsSome.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_Optional_1_None.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_Optional_1_None.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_Optional_1_Value.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_Optional_1_Value.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/P_Imms_Optional_None.htm" afterPath="$PROJECT_DIR$/API/html/P_Imms_Optional_None.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_AbstractIterable_3.htm" afterPath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_AbstractIterable_3.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_AbstractMap_3.htm" afterPath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_AbstractMap_3.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_AbstractSequential_2.htm" afterPath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_AbstractSequential_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_AbstractSet_2.htm" afterPath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_AbstractSet_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_IAnyIterableBuilder_1.htm" afterPath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_IAnyIterableBuilder_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_IAnyMapBuilder_2.htm" afterPath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_IAnyMapBuilder_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_IAnySetBuilder_1.htm" afterPath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_IAnySetBuilder_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_IBuilderFactory_1.htm" afterPath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_IBuilderFactory_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_IIterableBuilder_2.htm" afterPath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_IIterableBuilder_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_IMapBuilder_3.htm" afterPath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_IMapBuilder_3.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_ISequentialBuilder_2.htm" afterPath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_ISequentialBuilder_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_ISetBuilder_2.htm" afterPath="$PROJECT_DIR$/API/html/Properties_T_Imms_Abstract_ISetBuilder_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_IAnyOptional.htm" afterPath="$PROJECT_DIR$/API/html/Properties_T_Imms_IAnyOptional.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_ImmList_1.htm" afterPath="$PROJECT_DIR$/API/html/Properties_T_Imms_ImmList_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_ImmMap_2.htm" afterPath="$PROJECT_DIR$/API/html/Properties_T_Imms_ImmMap_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_ImmSet_1.htm" afterPath="$PROJECT_DIR$/API/html/Properties_T_Imms_ImmSet_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_ImmSortedMap_2.htm" afterPath="$PROJECT_DIR$/API/html/Properties_T_Imms_ImmSortedMap_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_ImmSortedSet_1.htm" afterPath="$PROJECT_DIR$/API/html/Properties_T_Imms_ImmSortedSet_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_ImmVector_1.htm" afterPath="$PROJECT_DIR$/API/html/Properties_T_Imms_ImmVector_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_NoValueException.htm" afterPath="$PROJECT_DIR$/API/html/Properties_T_Imms_NoValueException.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_Optional.htm" afterPath="$PROJECT_DIR$/API/html/Properties_T_Imms_Optional.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/Properties_T_Imms_Optional_1.htm" afterPath="$PROJECT_DIR$/API/html/Properties_T_Imms_Optional_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/T_Imms_Abstract_AbstractIterable_3.htm" afterPath="$PROJECT_DIR$/API/html/T_Imms_Abstract_AbstractIterable_3.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/T_Imms_Abstract_AbstractMap_3.htm" afterPath="$PROJECT_DIR$/API/html/T_Imms_Abstract_AbstractMap_3.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/T_Imms_Abstract_AbstractSequential_2.htm" afterPath="$PROJECT_DIR$/API/html/T_Imms_Abstract_AbstractSequential_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/T_Imms_Abstract_AbstractSet_2.htm" afterPath="$PROJECT_DIR$/API/html/T_Imms_Abstract_AbstractSet_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/T_Imms_Abstract_IAnyIterableBuilder_1.htm" afterPath="$PROJECT_DIR$/API/html/T_Imms_Abstract_IAnyIterableBuilder_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/T_Imms_Abstract_IAnyMapBuilder_2.htm" afterPath="$PROJECT_DIR$/API/html/T_Imms_Abstract_IAnyMapBuilder_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/T_Imms_Abstract_IAnySetBuilder_1.htm" afterPath="$PROJECT_DIR$/API/html/T_Imms_Abstract_IAnySetBuilder_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/T_Imms_Abstract_IBuilderFactory_1.htm" afterPath="$PROJECT_DIR$/API/html/T_Imms_Abstract_IBuilderFactory_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/T_Imms_Abstract_IIterableBuilder_2.htm" afterPath="$PROJECT_DIR$/API/html/T_Imms_Abstract_IIterableBuilder_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/T_Imms_Abstract_IMapBuilder_3.htm" afterPath="$PROJECT_DIR$/API/html/T_Imms_Abstract_IMapBuilder_3.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/T_Imms_Abstract_ISequentialBuilder_2.htm" afterPath="$PROJECT_DIR$/API/html/T_Imms_Abstract_ISequentialBuilder_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/T_Imms_Abstract_ISetBuilder_2.htm" afterPath="$PROJECT_DIR$/API/html/T_Imms_Abstract_ISetBuilder_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/T_Imms_IAnyOptional.htm" afterPath="$PROJECT_DIR$/API/html/T_Imms_IAnyOptional.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/T_Imms_ImmList.htm" afterPath="$PROJECT_DIR$/API/html/T_Imms_ImmList.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/T_Imms_ImmList_1.htm" afterPath="$PROJECT_DIR$/API/html/T_Imms_ImmList_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/T_Imms_ImmMap.htm" afterPath="$PROJECT_DIR$/API/html/T_Imms_ImmMap.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/T_Imms_ImmMap_2.htm" afterPath="$PROJECT_DIR$/API/html/T_Imms_ImmMap_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/T_Imms_ImmSet.htm" afterPath="$PROJECT_DIR$/API/html/T_Imms_ImmSet.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/T_Imms_ImmSet_1.htm" afterPath="$PROJECT_DIR$/API/html/T_Imms_ImmSet_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/T_Imms_ImmSortedMap.htm" afterPath="$PROJECT_DIR$/API/html/T_Imms_ImmSortedMap.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/T_Imms_ImmSortedMap_2.htm" afterPath="$PROJECT_DIR$/API/html/T_Imms_ImmSortedMap_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/T_Imms_ImmSortedSet.htm" afterPath="$PROJECT_DIR$/API/html/T_Imms_ImmSortedSet.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/T_Imms_ImmSortedSet_1.htm" afterPath="$PROJECT_DIR$/API/html/T_Imms_ImmSortedSet_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/T_Imms_ImmVector.htm" afterPath="$PROJECT_DIR$/API/html/T_Imms_ImmVector.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/T_Imms_ImmVector_1.htm" afterPath="$PROJECT_DIR$/API/html/T_Imms_ImmVector_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/T_Imms_Kvp.htm" afterPath="$PROJECT_DIR$/API/html/T_Imms_Kvp.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/T_Imms_NoValueException.htm" afterPath="$PROJECT_DIR$/API/html/T_Imms_NoValueException.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/T_Imms_Optional.htm" afterPath="$PROJECT_DIR$/API/html/T_Imms_Optional.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/T_Imms_OptionalExt.htm" afterPath="$PROJECT_DIR$/API/html/T_Imms_OptionalExt.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/T_Imms_Optional_1.htm" afterPath="$PROJECT_DIR$/API/html/T_Imms_Optional_1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/T_Imms_SetRelation.htm" afterPath="$PROJECT_DIR$/API/html/T_Imms_SetRelation.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/html/T_Imms_ValueSelector_4.htm" afterPath="$PROJECT_DIR$/API/html/T_Imms_ValueSelector_4.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/index.html" afterPath="$PROJECT_DIR$/API/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/search.html" afterPath="$PROJECT_DIR$/API/search.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/toc/roottoc.xml" afterPath="$PROJECT_DIR$/API/toc/roottoc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Indexer/Indexer.fsproj" afterPath="$PROJECT_DIR$/Code/Indexer/Indexer.fsproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Indexer/packages.config" afterPath="$PROJECT_DIR$/Code/Indexer/packages.config" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/Sandcastle/ContentLayout.content" afterPath="$PROJECT_DIR$/Code/Sandcastle/ContentLayout.content" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_data/info.yaml" afterPath="$PROJECT_DIR$/_data/info.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/download-options.html" afterPath="$PROJECT_DIR$/_includes/download-options.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/main.html" afterPath="$PROJECT_DIR$/_layouts/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/navbar/CmArticleNav.js" afterPath="$PROJECT_DIR$/app/ui/navbar/CmArticleNav.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/navbar/CmArticleNav.js.map" afterPath="$PROJECT_DIR$/app/ui/navbar/CmArticleNav.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/navbar/CmArticleNav.tsx" afterPath="$PROJECT_DIR$/app/ui/navbar/CmArticleNav.tsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/articles.yaml" afterPath="$PROJECT_DIR$/data/articles.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/FSharpIntegration.md" afterPath="$PROJECT_DIR$/pages/FSharpIntegration.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/General.md" afterPath="$PROJECT_DIR$/pages/General.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/GetImms.html" afterPath="$PROJECT_DIR$/pages/GetImms.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Maps.md" afterPath="$PROJECT_DIR$/pages/Maps.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Sequentials.md" afterPath="$PROJECT_DIR$/pages/Sequentials.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Sets.md" afterPath="$PROJECT_DIR$/pages/Sets.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WhyImms.md" afterPath="$PROJECT_DIR$/pages/WhyImms.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WhyImmutable.md" afterPath="$PROJECT_DIR$/pages/WhyImmutable.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Home.md" afterPath="$PROJECT_DIR$/index.md" />
     </list>
     <ignored path="Imms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,71 +547,86 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="testSuites.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/testSuites.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1846">
-              <caret line="71" column="16" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
-              <folding />
+      <file leaf-file-name="WhyImms.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/WhyImms.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="286">
+                <caret line="35" column="177" selection-start-line="35" selection-start-column="177" selection-end-line="35" selection-end-column="177" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RnChartSuite.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/ui/chart/RnChartSuite.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="676">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding />
+      <file leaf-file-name="WhyImmutable.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/WhyImmutable.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-78">
+                <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="articles.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/articles.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1248">
-              <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
-              <folding />
+      <file leaf-file-name="Philosopy.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/Philosopy.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="312">
+                <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="info.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_data/info.yaml">
+      <file leaf-file-name="blah.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/blah.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="468">
+                <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-471">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
+      <file leaf-file-name="General.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/General.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-3198">
+                <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+      <file leaf-file-name="info.yaml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_data/info.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+            <state relative-caret-position="156">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -101,7 +636,7 @@
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
-              <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -117,11 +652,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_main.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/includes/_main.scss">
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="208">
+              <caret line="8" column="48" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -150,15 +685,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/scripts/ui/RnArticleNav.tsx" />
-        <option value="$PROJECT_DIR$/scripts/chartEntry.ts" />
-        <option value="$PROJECT_DIR$/scripts/embedChart.tsx" />
-        <option value="$PROJECT_DIR$/scripts/ui/CmArticleNav.tsx" />
-        <option value="$PROJECT_DIR$/scripts/ui/CmChartSuite.tsx" />
-        <option value="$PROJECT_DIR$/scripts/ui/chartEntry.ts" />
-        <option value="$PROJECT_DIR$/scripts/helpers.ts" />
-        <option value="$PROJECT_DIR$/scripts/extraDefs.ts" />
-        <option value="$PROJECT_DIR$/data/contentIndex.yml" />
         <option value="$PROJECT_DIR$/scripts/ui/CmChart.tsx" />
         <option value="$PROJECT_DIR$/scripts/ui/RnChartSuite.tsx" />
         <option value="$PROJECT_DIR$/scripts/ui/CmChartGroup.tsx" />
@@ -173,7 +699,6 @@
         <option value="$PROJECT_DIR$/styles/documentation.css" />
         <option value="$PROJECT_DIR$/app/ui/complexity-table/CmMath.tsx" />
         <option value="$PROJECT_DIR$/app/apiLinker.ts" />
-        <option value="$PROJECT_DIR$/_layouts/main.html" />
         <option value="$PROJECT_DIR$/app/ui/chart/CmChartSuite.tsx" />
         <option value="$PROJECT_DIR$/_includes/mathjax-extra-macros.html" />
         <option value="$PROJECT_DIR$/app/ui/chart/types.ts" />
@@ -181,7 +706,6 @@
         <option value="$PROJECT_DIR$/app/ui/complexity-table/types.ts" />
         <option value="$PROJECT_DIR$/app/ui/complexity-table/CmComplexityTable.tsx" />
         <option value="$PROJECT_DIR$/data/complexity.yaml" />
-        <option value="$PROJECT_DIR$/app/ui/navbar/CmArticleNav.tsx" />
         <option value="$PROJECT_DIR$/styles/includes/_complexity.scss" />
         <option value="$PROJECT_DIR$/styles/includes/_chart.scss" />
         <option value="$PROJECT_DIR$/styles/includes/_math.scss" />
@@ -189,18 +713,29 @@
         <option value="$PROJECT_DIR$/styles/documentation.scss" />
         <option value="$PROJECT_DIR$/styles/includes/_articleTree.scss" />
         <option value="$PROJECT_DIR$/_includes/mathjax-integration.html" />
-        <option value="$PROJECT_DIR$/pages/Maps.md" />
-        <option value="$PROJECT_DIR$/pages/Sequentials.md" />
-        <option value="$PROJECT_DIR$/pages/Sets.md" />
         <option value="$PROJECT_DIR$/app/ui/complexity-table/RnComplexityTable.tsx" />
         <option value="$PROJECT_DIR$/data/testSuites.yaml" />
         <option value="$PROJECT_DIR$/app/ui/chart/RnChartSuite.tsx" />
         <option value="$PROJECT_DIR$/_data/links.yaml" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
-        <option value="$PROJECT_DIR$/_config.yml" />
-        <option value="$PROJECT_DIR$/data/articles.yaml" />
-        <option value="$PROJECT_DIR$/_data/info.yaml" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/pages/GetImms.html" />
+        <option value="$PROJECT_DIR$/pages/Home.md" />
+        <option value="$PROJECT_DIR$/app/ui/navbar/CmArticleNav.tsx" />
+        <option value="$PROJECT_DIR$/pages/FSharpIntegration.md" />
+        <option value="$PROJECT_DIR$/pages/General.md" />
+        <option value="$PROJECT_DIR$/data/articles.yaml" />
+        <option value="$PROJECT_DIR$/pages/WhyImmutable.md" />
+        <option value="$PROJECT_DIR$/pages/Sets.md" />
+        <option value="$PROJECT_DIR$/pages/Sequentials.md" />
+        <option value="$PROJECT_DIR$/pages/Maps.md" />
+        <option value="$PROJECT_DIR$/pages/Future.md" />
+        <option value="$PROJECT_DIR$/_includes/download-options.html" />
+        <option value="$PROJECT_DIR$/404.html" />
+        <option value="$PROJECT_DIR$/pages/WhyImms.md" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/_layouts/main.html" />
+        <option value="$PROJECT_DIR$/_data/info.yaml" />
       </list>
     </option>
   </component>
@@ -281,6 +816,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -309,7 +845,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
+              <option name="myItemId" value="typings" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -323,11 +859,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
+              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -355,7 +887,75 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="navbar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="_layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_includes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -375,7 +975,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Hide js and map files">
           <PATH>
@@ -443,11 +1042,11 @@
       <recent name="D:\Projects\Repositories\Imms\custom-typings" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\Repositories\Imms" />
       <recent name="D:\Projects\Repositories\Imms\scripts\ui\chart" />
       <recent name="D:\Projects\Repositories\Imms\scripts\ui\navbar" />
       <recent name="D:\Projects\Repositories\Imms\scripts\ui" />
       <recent name="D:\Projects\Repositories\Imms\styles\includes" />
-      <recent name="D:\Projects\Repositories\Imms\typings" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -721,12 +1320,13 @@
       <workItem from="1466581478623" duration="6592000" />
       <workItem from="1466674732146" duration="7185000" />
       <workItem from="1466709413154" duration="9218000" />
-      <workItem from="1466760452420" duration="1480000" />
+      <workItem from="1466760452420" duration="3824000" />
+      <workItem from="1466845353353" duration="5021000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="528256000" />
+    <option name="totallyTimeSpent" value="535621000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -746,25 +1346,25 @@
       <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18587747" sideWeight="0.492865" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25337487" sideWeight="0.5082327" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271028" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2357217" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24918212" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25129804" sideWeight="0.4917673" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25129804" sideWeight="0.4917673" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3561786" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="170" y="92" width="1658" height="896" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23676012" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32502595" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3561786" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31983384" sideWeight="0.4967033" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1879543" sideWeight="0.492865" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18587747" sideWeight="0.492865" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25337487" sideWeight="0.5082327" order="7" side_tool="true" content_ui="tabs" />
@@ -772,9 +1372,9 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271028" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22949117" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2357217" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25129804" sideWeight="0.4917673" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16303162" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16566758" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32502595" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24918212" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -799,130 +1399,11 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="22" />
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/main.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ui/chart/CmChartGroup.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ui/chart/CmChartSuite.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1508">
-          <caret line="61" column="44" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ui/complexity-table/CmComplexityTable.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ui/chart/types.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ui/complexity-table/types.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1014">
-          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ui/chart/CmChart.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ui/navbar/RnArticleNav.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/includes/_chart.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/includes/_bootstrap.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/includes/_common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/landing.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/getImms.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/includes/_math.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ui/navbar/CmArticleNav.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/complexity.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="708">
-          <caret line="323" column="25" selection-start-line="323" selection-start-column="25" selection-end-line="323" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/includes/_complexity.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1118">
@@ -952,98 +1433,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/ForAgainst.md" />
-    <entry file="file://$PROJECT_DIR$/pages/blah.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-346">
-            <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/General.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1092">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/FSharpIntegration.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/GetImms.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Home.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/ImplementationDetails.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-3102">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/Specialized.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="364">
             <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/WhyImmutable.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/WhyImms.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Indexed.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           </first_editor>
           <second_editor />
         </state>
@@ -1059,16 +1453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Philosopy.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1456">
-            <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/mathjax-integration.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1076,46 +1460,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Maps.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="52">
-            <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Sequentials.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="52">
-            <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Sets.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-2635">
-            <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/typings/globals/mathjax/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6240">
           <caret line="241" column="8" selection-start-line="241" selection-start-column="8" selection-end-line="241" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1123,9 +1471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
           <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1133,6 +1478,353 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ui/chart/RnChartSuite.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.nojekyll" />
+    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/testSuites.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1872">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/main.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ui/navbar/RnArticleNav.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ui/navbar/CmArticleNav.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Indexed.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1886">
+            <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Misc.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/articles.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Mutable.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/ImplementationDetails.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-2652">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Sets.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="52">
+            <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="70" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Sequentials.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="104">
+            <caret line="4" column="64" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Maps.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="104">
+            <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Future.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="78">
+            <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/FSharpIntegration.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="52">
+            <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="78">
+            <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="78">
+            <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/GetImms.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/download-box.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/download-options.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="111" selection-start-line="17" selection-start-column="111" selection-end-line="17" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/WhyImms.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="286">
+            <caret line="35" column="177" selection-start-line="35" selection-start-column="177" selection-end-line="35" selection-end-column="177" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/WhyImmutable.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-78">
+            <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/General.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-3198">
+            <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Philosopy.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="312">
+            <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/blah.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="468">
+            <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -1145,67 +1837,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/ui/chart/RnChartSuite.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/testSuites.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1846">
-          <caret line="71" column="16" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.nojekyll" />
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/articles.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1248">
-          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_data/info.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-471">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="156">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>
