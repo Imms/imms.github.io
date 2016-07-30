@@ -1,1 +1,0 @@
-module.exports = require("npm:mathjax@2.6.1/MathJax.js");

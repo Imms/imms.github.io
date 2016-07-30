@@ -1,1 +1,0 @@
-module.exports = require("npm:es-abstract@1.5.1/index.js");

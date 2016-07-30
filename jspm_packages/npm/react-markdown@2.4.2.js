@@ -1,0 +1,1 @@
+module.exports = require("npm:react-markdown@2.4.2/src/react-markdown.js");

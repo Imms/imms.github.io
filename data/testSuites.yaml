@@ -118,7 +118,7 @@ tests:
     title: Remove
 
   - &Set-Contains
-    test: Set-Contains
+    test: Set-Consmarttains
     title: Contains
 
   - &Map-Add

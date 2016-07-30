@@ -1,0 +1,31 @@
+"use strict";
+/**
+ * Created by GregRos on 30/07/2016.
+ */
+var data_1 = require('./data');
+var Links;
+(function (Links) {
+    Links.home = "/";
+    Links.getImms = "/pages/GetImms.html";
+    Links.whyImmutable = "/pages/WhyImmutable";
+    Links.whyImms = "/pages/WhyImms";
+    Links.general = "/pages/General";
+    function article(name) {
+        return "/page/" + name;
+    }
+    Links.article = article;
+    var External;
+    (function (External) {
+        External.sources = "https://github.com/Imms/Imms";
+        External.nuget = "https://www.nuget.org/packages/Imms/";
+        External.siteSources = "https://github.com/Imms/imms.github.io";
+        External.sass = "http://sass-lang.com/";
+        External.bootstrap = "http://getbootstrap.com/";
+        External.typescript = "https://www.typescriptlang.org/";
+        External.webstorm = "https://www.jetbrains.com/webstorm/specials/webstorm/webstorm.html";
+        External.gregrosProfile = "https://github.com/GregRos";
+        External.react = "https://facebook.github.io/react/";
+        External.binaries = "https://github.com/Imms/Imms/releases/tag/v" + data_1.Data.version;
+    })(External = Links.External || (Links.External = {}));
+})(Links = exports.Links || (exports.Links = {}));
+//# sourceMappingURL=links.js.map

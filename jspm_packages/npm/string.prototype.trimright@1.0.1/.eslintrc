@@ -1,9 +1,0 @@
-{
-	"root": true,
-
-	"extends": "@ljharb",
-
-	"rules": {
-		"max-nested-callbacks": [2, 3]
-	}
-}

@@ -1,1 +1,0 @@
-module.exports = require("npm:string.prototype.trimleft@1.0.1/index.js");

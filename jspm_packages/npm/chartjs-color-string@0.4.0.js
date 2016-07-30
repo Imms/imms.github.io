@@ -1,1 +1,0 @@
-module.exports = require("npm:chartjs-color-string@0.4.0/color-string");

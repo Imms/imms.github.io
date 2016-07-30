@@ -1,1 +1,0 @@
-module.exports = require("npm:object.getownpropertydescriptors@1.0.4/index.js");

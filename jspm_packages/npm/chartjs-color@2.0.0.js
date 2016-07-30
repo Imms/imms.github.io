@@ -1,1 +1,0 @@
-module.exports = require("npm:chartjs-color@2.0.0/index");

@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/e16990532af5f8dc11ae6c2d299e69e4ddc6894d/yamljs/yamljs.d.ts",
+    "raw": "registry:dt/yamljs#0.2.3+20160602141818",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/e16990532af5f8dc11ae6c2d299e69e4ddc6894d/yamljs/yamljs.d.ts"
+  }
+}

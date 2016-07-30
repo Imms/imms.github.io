@@ -1536,13 +1536,13 @@ pre {
   .container-fluid:after {
     clear: both; }
 
-.row {
+.row, .explanation, .down-options {
   margin-left: -15px;
   margin-right: -15px; }
-  .row:before, .row:after {
+  .row:before, .explanation:before, .down-options:before, .row:after, .explanation:after, .down-options:after {
     content: " ";
     display: table; }
-  .row:after {
+  .row:after, .explanation:after, .down-options:after {
     clear: both; }
 
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
@@ -5675,7 +5675,7 @@ button.close {
   background-color: transparent;
   border: 0; }
 
-.hidden, .central-nav-column-box {
+.hidden {
   display: none !important; }
 
 .affix {
@@ -5810,10 +5810,10 @@ button.close {
     display: inline-block !important; } }
 
 @media (max-width: 767px) {
-  .hidden-xs, .imms-logo, .download-box {
+  .hidden-xs, .imms-logo, .download-box, .central-nav-column-box {
     display: none !important; } }
 @media (min-width: 768px) and (max-width: 991px) {
-  .hidden-sm, .imms-logo, .download-box {
+  .hidden-sm, .imms-logo, .download-box, .central-nav-column-box {
     display: none !important; } }
 @media (min-width: 992px) and (max-width: 1199px) {
   .hidden-md {
@@ -6290,6 +6290,8 @@ button.close {
   padding-top: 0; }
   .nav-heading--depth-0 {
     border-bottom: 1px solid white; }
+  .nav-heading.future a {
+    color: silver; }
 
 .nav-container {
   padding-left: 10px; }
@@ -6653,14 +6655,104 @@ a {
   .title-row.title-row {
     justify-content: center;
     width: auto; } }
+.central-nav-column-box {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 992px) {
+    .central-nav-column-box {
+      float: left;
+      width: 25%; } }
+
 .central-text {
   position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  float: left;
+  width: 100%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px; }
   @media (min-width: 992px) {
     .central-text {
       float: left;
-      width: 100%; } }
+      width: 75%; } }
+
+.title-row {
+  height: 200px;
+  margin: 0 auto;
+  max-width: 800px; }
+
+.tldr {
+  margin-bottom: 1.5em;
+  margin-left: 2em;
+  padding: 10px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  font-weight: 400; }
+
+.sidebar {
+  float: right;
+  width: 25%;
+  margin-bottom: 1.5em;
+  margin-left: 2em;
+  padding: 10px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  line-height: 19px; }
+  .sidebar h3 {
+    margin: 0; }
+
+.explanation {
+  padding-bottom: 60px; }
+  .explanation__content {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+
+.down-options__col {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 100%; }
+  @media (min-width: 768px) {
+    .down-options__col {
+      float: left;
+      width: 33.33333%; } }
+
+.down-option {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  border: 2px solid #496cbb;
+  margin: 5px;
+  padding: 7px;
+  border-radius: 10px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.3); }
+  .down-option:hover {
+    background: rgba(255, 255, 255, 0.6); }
+  .down-option__icon {
+    width: 100%;
+    max-height: 50px; }
+    .down-option__icon img {
+      max-height: 50px;
+      max-width: 100%; }
 
 /*# sourceMappingURL=landing.css.map */

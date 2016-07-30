@@ -1,0 +1,1 @@
+module.exports = require("github:chartjs/Chart.js@2.1.6/src/chart.js");

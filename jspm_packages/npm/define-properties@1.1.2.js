@@ -1,1 +1,0 @@
-module.exports = require("npm:define-properties@1.1.2/index.js");

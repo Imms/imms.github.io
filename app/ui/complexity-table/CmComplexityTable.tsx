@@ -1,19 +1,76 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import {ComplexityRoot, TableDef, Collection, Op} from "./types";
-import '../../helpers';
 
-
-class CmComplexityTableProps {
-	complexities:ComplexityRoot;
-	table:TableDef;
+import { At} from '../../react-ext/decorators';
+import {MyComponent} from "../../MyComponent";
+export interface Op {
+	name : string;
+	description ?: string;
+	title ?: string;
 }
 
-export class CmComplexityTable extends React.Component<CmComplexityTableProps, {}> {
+export interface OpImplementation {
+	operation: Op;
+	simple : string;
+	advanced ?: string;
+}
+
+export interface Collection {
+	collection : string;
+	implementation : string;
+	rowclass : string;
+	operations : OpImplementation[];
+}
+
+export interface Footnote {
+	name : string;
+	math : string;
+	text : string;
+}
+export interface ComplexityRoot {
+	operations : Op[];
+	collections: Collection[];
+	tables : TableDef[];
+	footnotes : Footnote[];
+}
+
+export interface TableDef {
+	table : string;
+	collections : Collection[];
+	operations : Op[];
+	footnotes: Footnote[];
+}
+
+interface CmComplexityTableProps {
+	complexities:Promise<ComplexityRoot>;
+	table : string;
+}
+
+interface CmComplexityTableState {
+	table : TableDef;
+}
+
+export class CmComplexityTable extends MyComponent<CmComplexityTableProps, CmComplexityTableState> {
+
+	constructor(props : CmComplexityTableProps) {
+		super(props);
+		this.state = {table : null};
+	}
+
+	@At.willReceiveProps()
+	private componentWillReceiveProps(props : CmComplexityTableProps) {
+		if (props.complexities && props.table) {
+			props.complexities.then(root => {
+				this.withState(s => s.table = root.tables.find(tbl => tbl.table == props.table));
+			})
+		}
+	}
 
 	render() {
-		let complexities = this.props.complexities;
-		let myTable = this.props.table;
+		let myTable = this.state.table;
+		if (!myTable) {
+			return null;
+		}
 		let collections:Collection[] = myTable.collections;
 		let operations:Op[] = myTable.operations;
 		let cls = "complexity-table__heading";

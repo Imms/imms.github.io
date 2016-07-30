@@ -1,1 +1,0 @@
-module.exports = require("npm:es-to-primitive@1.1.1/index.js");

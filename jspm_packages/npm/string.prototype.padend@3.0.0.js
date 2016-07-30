@@ -1,1 +1,0 @@
-module.exports = require("npm:string.prototype.padend@3.0.0/index.js");

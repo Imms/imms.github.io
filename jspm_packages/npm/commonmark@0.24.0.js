@@ -1,0 +1,1 @@
+module.exports = require("npm:commonmark@0.24.0/lib/index.js");

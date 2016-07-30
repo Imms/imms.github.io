@@ -1,1 +1,0 @@
-module.exports = require("npm:string.prototype.trimright@1.0.1/index.js");
