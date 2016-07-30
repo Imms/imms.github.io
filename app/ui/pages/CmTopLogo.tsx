@@ -181,7 +181,7 @@ const mathjaxDefs = `
     |newcommand{|o}[1]{|overline{ #1}}
 `.replace("|", "\\");
 
-class PgArticle extends React.Component<{}, {}> {
+export class PgArticle extends React.Component<{}, {}> {
 	render() {
 		return <div class="imms-root">
 			<CmMathjaxMacros>

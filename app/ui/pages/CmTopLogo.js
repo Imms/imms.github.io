@@ -100,4 +100,5 @@ var PgArticle = (function (_super) {
     };
     return PgArticle;
 }(React.Component));
+exports.PgArticle = PgArticle;
 //# sourceMappingURL=CmTopLogo.js.map

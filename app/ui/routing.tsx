@@ -2,6 +2,7 @@ import React = require('react');
 import {Route, Router, browserHistory} from 'react-router';
 import {ArticleTreeEntry} from './navbar/CmArticleNav';
 import {Links} from './links';
+import {PgArticle} from "./pages/CmTopLogo";
 
 interface AppState {
 	articles : ArticleTreeEntry[];
@@ -11,10 +12,12 @@ abstract class CmRoute<TParams> extends React.Component<{params : TParams}, {}> 
 	
 }
 
-class RtArticle extends CmRoute<{name : string}, {}> {
+class RtArticle extends CmRoute<{name : string}> {
 	render() {
-		let path = `${name}.md`;
-		
+		let params = this.props.params;
+		let path = Links.article(params.name) + ".md";
+		let content = $.get(path);
+		return <PgArticle />;
 	}
 }
 

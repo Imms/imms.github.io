@@ -7,6 +7,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 var React = require('react');
 var react_router_1 = require('react-router');
 var links_1 = require('./links');
+var CmTopLogo_1 = require("./pages/CmTopLogo");
 var CmRoute = (function (_super) {
     __extends(CmRoute, _super);
     function CmRoute() {
@@ -20,7 +21,10 @@ var RtArticle = (function (_super) {
         _super.apply(this, arguments);
     }
     RtArticle.prototype.render = function () {
-        var path = name + ".md";
+        var params = this.props.params;
+        var path = links_1.Links.article(params.name) + ".md";
+        var content = $.get(path);
+        return React.createElement(CmTopLogo_1.PgArticle, null);
     };
     return RtArticle;
 }(CmRoute));

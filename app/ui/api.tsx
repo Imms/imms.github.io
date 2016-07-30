@@ -7,6 +7,7 @@ export module Api {
 	const srcArticles = "/data/articles.yaml";
 	const srcComplexity = "/data/complexity.yaml";
 	const srcTestSuites = "/data/testSuites.yaml";
+
 	export function articles() : JQueryPromise<ArticleTreeEntry[]> {
 		return $.get(srcArticles)
 			.then(text => YAML.parse(text) as ArticleTreeEntry[])
