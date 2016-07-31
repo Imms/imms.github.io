@@ -1,6 +1,7 @@
 import React = require('react');
-import {Route, Router, browserHistory} from 'react-router';
+import {Route, Router, Redirect ,browserHistory, hashHistory} from 'react-router';
 import {ArticleTreeEntry} from './navbar/CmArticleNav';
+import $ = require('jquery');
 import {Links} from './links';
 import {PgArticle} from "./pages/CmTopLogo";
 import {MyComponent} from "../MyComponent";
@@ -39,8 +40,9 @@ export class App extends React.Component<{}, {}> {
 	}
 
 	render() {
-		return <Router history={browserHistory}>
+		return <Router history={hashHistory}>
 			<Route path={Links.article(":name")} component={RtArticle}  />
+			<Redirect from="/" to={Links.article("index")}/>
 		</Router>;
 	}
 }

@@ -6,6 +6,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var React = require('react');
 var react_router_1 = require('react-router');
+var $ = require('jquery');
 var links_1 = require('./links');
 var CmTopLogo_1 = require("./pages/CmTopLogo");
 var MyComponent_1 = require("../MyComponent");
@@ -37,7 +38,7 @@ var App = (function (_super) {
         this.state = { articles: null };
     }
     App.prototype.render = function () {
-        return React.createElement(react_router_1.Router, {history: react_router_1.browserHistory}, React.createElement(react_router_1.Route, {path: links_1.Links.article(":name"), component: RtArticle}));
+        return React.createElement(react_router_1.Router, {history: react_router_1.hashHistory}, React.createElement(react_router_1.Route, {path: links_1.Links.article(":name"), component: RtArticle}), React.createElement(react_router_1.Redirect, {from: "/", to: links_1.Links.article("index")}));
     };
     return App;
 }(React.Component));

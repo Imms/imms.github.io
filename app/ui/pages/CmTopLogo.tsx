@@ -1,6 +1,8 @@
 import React = require('react');
 import { Link} from 'react-router';
+import $ = require('jquery');
 import {Links} from '../links';
+import YAML = require('yamljs');
 import {Data} from '../data';
 import {Api} from '../api';
 import {CmArticleTree, ArticleTreeEntry} from '../navbar/CmArticleNav';
@@ -199,36 +201,62 @@ const components = {
 	CmComplexityTable : props =>
 		<CmComplexityTable complexities={Api.complexity()} table={props.table}/>
 };
-
+const markdownHeader = /^---$/m;
 export class PgArticle extends React.Component<PgArticleProps, {}> {
+
+	readHeader(header : any) {
+		document.title = `${header.title} | Imms - Immutable Collections for .NET`;
+		let descElement = $("head meta[name='description']")[0];
+		if (!descElement) {
+			$("head").append($(`<meta name='description' content='${header.description}'/>`))
+		} else {
+			descElement.setAttribute("content", header.description);
+		}
+		let kwElement = $("head meta[name='keywords']")[0];
+		if (!kwElement) {
+			$("head").append($(`<meta name='keywords' content'${header.keywords}'/>`));
+		} else {
+			kwElement.setAttribute("content", header.keywords);
+		}
+	}
+
 	render() {
-		return <div class="imms-root">
+		let article = $.get(this.props.src).then((text : string) => {
+			if (text.startsWith("---")) {
+				let split = text.split("---", 3);
+				let headerText = split[1];
+				let header = YAML.parse(headerText.trim());
+				let content = split[2];
+				this.readHeader(header);
+				return content;
+			}
+		});
+		return <div className="imms-root">
 			<CmMathjaxMacros>
 				{mathjaxDefs}
 			</CmMathjaxMacros>
 			<CmForkMe/>
-			<div class="title-backdrop">
-				<div class="title-box">
-					<div class="title-row">
+			<div className="title-backdrop">
+				<div className="title-box">
+					<div className="title-row">
 						<CmTopLogo/>
 						<CmMainHeading/>
 						<CmDownloadBox/>
 					</div>
-					<CmTopNavBar/>
 				</div>
 			</div>
-			<div class="central-backdrop">
+			<div className="central-backdrop">
 
-				<div class="central-layout">
-					<div class="central-nav-column-box">
+				<div className="central-layout">
+					<div className="central-nav-column-box">
 						<CmArticleTree/>
 					</div>
-					<div class="central-text">
-						<CmMarkdown apiLinks={Api.apiRefs()} content={this.props.src} components={components} />
+					<div className="central-text">
+						<CmMarkdown apiLinks={Api.apiRefs()} content={article} components={components} />
 					</div>
 				</div>
 			</div>
-			<div class="footer-backdrop">
+			<div className="footer-backdrop">
 				<CmFooter/>
 			</div>
 		</div>;

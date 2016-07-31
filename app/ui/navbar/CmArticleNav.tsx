@@ -2,6 +2,7 @@
 import * as React from 'react';
 import {MyComponent} from "../../MyComponent";
 import {Api} from '../api';
+import {Link} from 'react-router';
 export interface ArticleTreeEntry {
 	text:string;
 	link:string;
@@ -33,7 +34,7 @@ class CmArticleEntry extends React.Component<CmArticleEntryProps, {}> {
 			</ul>
 		}
 
-		var link = this.article.link ? <a href={`${this.article.link}`}>{this.article.text}</a> : <span>{this.article.text}</span>;
+		var link = this.article.link ? <Link to={`${this.article.link}`}>{this.article.text}</Link> : <span>{this.article.text}</span>;
 
 		var container = <li className={containerClass}>
 			<div className={headingClass}>
@@ -55,12 +56,16 @@ export class CmArticleTree extends MyComponent<{}, CmArticleTreeState> {
 	constructor(props) {
 		super(props);
 		this.state = {articles : null};
-		Api.articles().then(articles => this.withState(s => s.articles = articles));
+		Api.articles().then(articles => {
+			this.withState(s => {
+				s.articles = articles;
+			});
+		});
 	}
 
 	render() {
 		if (!this.state.articles) {
-			return "Loading...";
+			return <div>Loading...</div>;
 		}
 		let x = this.state.articles.map(node => <CmArticleEntry entry={node} key={node.link} nesting={0}/>);
 		return <ul>

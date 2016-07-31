@@ -3,10 +3,13 @@ import {MyComponent} from '../../MyComponent';
 import $ = require('jquery');
 import {At} from '../../react-ext/decorators'
 import ReactDOM = require('react-dom');
+import YAML = require('yamljs');
+
 let ReactMarkdown = require('react-markdown');
 
 interface CmMarkdownState {
 	content : string;
+	header : any;
     apiLinkResolver : (link : string) => string;
 }
 
@@ -18,9 +21,10 @@ export interface CmMarkdownProps {
 }
 
 const nameAttr = "data-component";
-const propAttrRegex = /data-prop-([\w\d]+)/;
+const propAttrRegex = /data-props-([\w\d]+)/;
 const defaultRenderers = ReactMarkdown.renderers;
 const apiRefRegex = /^\w:/;
+
 export class CmMarkdown extends MyComponent<CmMarkdownProps, CmMarkdownState> {
 	private  _root : Element;
 	private _nodes : Element[] = [];
@@ -34,19 +38,21 @@ export class CmMarkdown extends MyComponent<CmMarkdownProps, CmMarkdownState> {
 	};
 	constructor(props : CmMarkdownProps) {
 		super(props);
-		this.state = { content: null, apiLinkResolver: null};
-		this.downloadUrl();
+		this.state = { content: null, apiLinkResolver: null, header : null};
+		this.downloadUrl(props);
 	}
 
-	downloadUrl() {
-		this.props.content.then(text => this.withState(s => s.content = text));
-        this.props.apiLinks.then(data => this.withState(s => s.apiLinkResolver = (s : string) => data[s]))
+	downloadUrl(props : CmMarkdownProps) {
+		props.content.then(text => {
+			this.withState(s => s.content = text)
+		});
+		props.apiLinks.then(data => this.withState(s => s.apiLinkResolver = (s : string) => data[s]))
 	}
 
     @At.willReceiveProps()
 	componentWillReceiveProps(props : CmMarkdownProps) {
 		if (this.props.content !== props.content) {
-			this.downloadUrl();
+			this.downloadUrl(props);
 		}
 	}
 

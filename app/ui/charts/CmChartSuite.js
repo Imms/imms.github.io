@@ -24,12 +24,15 @@ var CmChartSuite = (function (_super) {
     Object.defineProperty(CmChartSuite.prototype, "currentGroup", {
         get: function () {
             var _this = this;
-            return this.state.suite.groups.find(function (x) { return x.group == _this.state.active; });
+            return this.state.suite.groups.find(function (x) { return x.group == _this.state.active; }) || this.state.suite.groups[0];
         },
         enumerable: true,
         configurable: true
     });
-    CmChartSuite.prototype.willReceiveProps = function (props) {
+    CmChartSuite.prototype.didMount = function () {
+        this.loadSuite(this.props);
+    };
+    CmChartSuite.prototype.loadSuite = function (props) {
         var _this = this;
         props.suite && props.suite.then(function (suite) { return _this.withState(function (s) { return s.suite = suite; }); });
     };
@@ -64,8 +67,11 @@ var CmChartSuite = (function (_super) {
         return body;
     };
     __decorate([
+        decorators_1.At.didMount()
+    ], CmChartSuite.prototype, "didMount", null);
+    __decorate([
         decorators_1.At.willReceiveProps()
-    ], CmChartSuite.prototype, "willReceiveProps", null);
+    ], CmChartSuite.prototype, "loadSuite", null);
     return CmChartSuite;
 }(MyComponent_1.MyComponent));
 exports.CmChartSuite = CmChartSuite;

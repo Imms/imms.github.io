@@ -16,7 +16,7 @@ var $ = require('jquery');
 var decorators_1 = require('../../react-ext/decorators');
 var ReactMarkdown = require('react-markdown');
 var nameAttr = "data-component";
-var propAttrRegex = /data-prop-([\w\d]+)/;
+var propAttrRegex = /data-props-([\w\d]+)/;
 var defaultRenderers = ReactMarkdown.renderers;
 var apiRefRegex = /^\w:/;
 var CmMarkdown = (function (_super) {
@@ -24,17 +24,19 @@ var CmMarkdown = (function (_super) {
     function CmMarkdown(props) {
         _super.call(this, props);
         this._nodes = [];
-        this.state = { content: null, apiLinkResolver: null };
-        this.downloadUrl();
+        this.state = { content: null, apiLinkResolver: null, header: null };
+        this.downloadUrl(props);
     }
-    CmMarkdown.prototype.downloadUrl = function () {
+    CmMarkdown.prototype.downloadUrl = function (props) {
         var _this = this;
-        this.props.content.then(function (text) { return _this.withState(function (s) { return s.content = text; }); });
-        this.props.apiLinks.then(function (data) { return _this.withState(function (s) { return s.apiLinkResolver = function (s) { return data[s]; }; }); });
+        props.content.then(function (text) {
+            _this.withState(function (s) { return s.content = text; });
+        });
+        props.apiLinks.then(function (data) { return _this.withState(function (s) { return s.apiLinkResolver = function (s) { return data[s]; }; }); });
     };
     CmMarkdown.prototype.componentWillReceiveProps = function (props) {
         if (this.props.content !== props.content) {
-            this.downloadUrl();
+            this.downloadUrl(props);
         }
     };
     CmMarkdown.prototype.renderLink = function (renderProps) {

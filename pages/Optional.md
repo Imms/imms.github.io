@@ -1,4 +1,5 @@
 ---
+title: Optional Type
 layout: main
 styles:
   - documentation.css

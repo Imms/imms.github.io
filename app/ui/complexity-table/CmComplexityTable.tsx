@@ -57,13 +57,21 @@ export class CmComplexityTable extends MyComponent<CmComplexityTableProps, CmCom
 		this.state = {table : null};
 	}
 
-	@At.willReceiveProps()
-	private componentWillReceiveProps(props : CmComplexityTableProps) {
+	private loadComplex(props : CmComplexityTableProps) {
 		if (props.complexities && props.table) {
 			props.complexities.then(root => {
 				this.withState(s => s.table = root.tables.find(tbl => tbl.table == props.table));
 			})
 		}
+	}
+
+	@At.willReceiveProps()
+	private componentWillReceiveProps(props : CmComplexityTableProps) {
+		this.loadComplex(props);
+	}
+	@At.willMount()
+	private componentWillMount() {
+		this.loadComplex(this.props);
 	}
 
 	render() {

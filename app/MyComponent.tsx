@@ -4,7 +4,7 @@ export class MyComponent<P, S> extends React.Component<P, S> {
 	withState(act : (stateCopy : S) => void) {
 		this.setState(s => {
 			let cloned = _.cloneDeep(s);
-			act(s);
+			act(cloned);
 			return cloned;
 		});
 	}

@@ -18,23 +18,23 @@ export module Api {
 	let _testData : JQueryPromise<any[]>;
 
 	export function articles() : JQueryPromise<ArticleTreeEntry[]> {
-		return _articles || (_articles = $.get(srcArticles)
+		return  (_articles = $.get(srcArticles)
 			.then(text => YAML.parse(text) as ArticleTreeEntry[]));
 	}
 	
 	export function complexity() : JQueryPromise<ComplexityRoot> {
-		return _complexity || (_complexity = $.get(srcComplexity)
+		return (_complexity = $.get(srcComplexity)
 			.then(text => YAML.parse(text) as ComplexityRoot));
 	}
 
 	export function apiRefs() : JQueryPromise<any> {
-		return _apiRefs || (_apiRefs = $.get(srcApiRefs));
+		return (_apiRefs = $.get(srcApiRefs));
 	}
 
 	export function testSuite(suite : string) : JQueryPromise<TestSuite> {
-		_testSuites || (_testSuites = $.get(srcTestSuites)
+		(_testSuites = $.get(srcTestSuites)
 				.then(text => YAML.parse(text) as TestSuiteCollection));
-		_testData || (_testData = $.get(srcTestData).then(x => x as any[]));
+		(_testData = $.get(srcTestData).then(x => x as any[]));
 
 		return $.when(_testData as any, _testSuites as any).then((data, suites) => Charts.open(data, suites[suite]));
 	}

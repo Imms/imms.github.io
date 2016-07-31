@@ -7,6 +7,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 var React = require('react');
 var MyComponent_1 = require("../../MyComponent");
 var api_1 = require('../api');
+var react_router_1 = require('react-router');
 var CmArticleEntry = (function (_super) {
     __extends(CmArticleEntry, _super);
     function CmArticleEntry() {
@@ -29,7 +30,7 @@ var CmArticleEntry = (function (_super) {
             containerClass += " imms-nav-item-w-children";
             list = React.createElement("ul", null, children);
         }
-        var link = this.article.link ? React.createElement("a", {href: "" + this.article.link}, this.article.text) : React.createElement("span", null, this.article.text);
+        var link = this.article.link ? React.createElement(react_router_1.Link, {to: "" + this.article.link}, this.article.text) : React.createElement("span", null, this.article.text);
         var container = React.createElement("li", {className: containerClass}, React.createElement("div", {className: headingClass}, link), list);
         return container;
     };
@@ -41,11 +42,15 @@ var CmArticleTree = (function (_super) {
         var _this = this;
         _super.call(this, props);
         this.state = { articles: null };
-        api_1.Api.articles().then(function (articles) { return _this.withState(function (s) { return s.articles = articles; }); });
+        api_1.Api.articles().then(function (articles) {
+            _this.withState(function (s) {
+                s.articles = articles;
+            });
+        });
     }
     CmArticleTree.prototype.render = function () {
         if (!this.state.articles) {
-            return "Loading...";
+            return React.createElement("div", null, "Loading...");
         }
         var x = this.state.articles.map(function (node) { return React.createElement(CmArticleEntry, {entry: node, key: node.link, nesting: 0}); });
         return React.createElement("ul", null, x);

@@ -11,7 +11,7 @@ var CmMathjaxMacros = (function (_super) {
         _super.apply(this, arguments);
     }
     CmMathjaxMacros.prototype.render = function () {
-        return React.createElement("div", {class: "mathjax-macros"}, React.createElement("script", {type: "math/tex"}, this.props.children));
+        return React.createElement("div", {className: "mathjax-macros"}, React.createElement("script", {type: "math/tex"}, this.props.children));
     };
     return CmMathjaxMacros;
 }(React.Component));

@@ -24,11 +24,16 @@ export class CmChartSuite extends MyComponent<CmChartSuiteProps,  CmChartSuiteSt
 	}
 
 	get currentGroup() {
-		return this.state.suite.groups.find(x => x.group == this.state.active);
+		return this.state.suite.groups.find(x => x.group == this.state.active) || this.state.suite.groups[0];
+	}
+
+	@At.didMount()
+	private didMount() {
+		this.loadSuite(this.props);
 	}
 
 	@At.willReceiveProps()
-	private willReceiveProps(props : CmChartSuiteProps) {
+	private loadSuite(props : CmChartSuiteProps) {
         props.suite && props.suite.then(suite => this.withState(s => s.suite = suite));
 	}
 

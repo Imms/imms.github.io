@@ -77,11 +77,11 @@ Similar optimizations will enable creating high-performance mutable collection b
 
 ### Complexity
 The computational complexity of Imms sequential collections and comparable non-Imms collections can be seen below.
-<div class="react-complexity-table" data-table="sequentials">--[COMPLEXITY TABLE]--</div>
+<div data-component="CmComplexityTable" data-props-table="sequentials">--[COMPLEXITY TABLE]--</div>
 
 ### Performance
 The collections have been put through thorough benchmarking and compared against similar collections from other libraries. These results are from one benchmarking session, with a specific number of iterations and other parameters. However, the parameters between different tests and test groups are comparable.
 
 For example, the `AddLast` benchmark might've been executed for 100,000 iterations, while the `AddLastRange` benchmark might've been executed with input datasets of 10,000 elements 10 times.
 
-<div class="react-chart-suite" data-suite="sequentials">--[PERFORMANCE CHARTS]--</div>
+<div data-component="CmChartSuite" data-props-suite="sequentials">--[PERFORMANCE CHARTS]--</div>

@@ -19,13 +19,19 @@ var CmComplexityTable = (function (_super) {
         _super.call(this, props);
         this.state = { table: null };
     }
-    CmComplexityTable.prototype.componentWillReceiveProps = function (props) {
+    CmComplexityTable.prototype.loadComplex = function (props) {
         var _this = this;
         if (props.complexities && props.table) {
             props.complexities.then(function (root) {
                 _this.withState(function (s) { return s.table = root.tables.find(function (tbl) { return tbl.table == props.table; }); });
             });
         }
+    };
+    CmComplexityTable.prototype.componentWillReceiveProps = function (props) {
+        this.loadComplex(props);
+    };
+    CmComplexityTable.prototype.componentWillMount = function () {
+        this.loadComplex(this.props);
     };
     CmComplexityTable.prototype.render = function () {
         var myTable = this.state.table;
@@ -57,6 +63,9 @@ var CmComplexityTable = (function (_super) {
     __decorate([
         decorators_1.At.willReceiveProps()
     ], CmComplexityTable.prototype, "componentWillReceiveProps", null);
+    __decorate([
+        decorators_1.At.willMount()
+    ], CmComplexityTable.prototype, "componentWillMount", null);
     return CmComplexityTable;
 }(MyComponent_1.MyComponent));
 exports.CmComplexityTable = CmComplexityTable;

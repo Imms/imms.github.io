@@ -14,7 +14,7 @@ var MyComponent = (function (_super) {
     MyComponent.prototype.withState = function (act) {
         this.setState(function (s) {
             var cloned = _.cloneDeep(s);
-            act(s);
+            act(cloned);
             return cloned;
         });
     };

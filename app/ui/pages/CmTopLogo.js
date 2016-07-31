@@ -6,7 +6,9 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var React = require('react');
 var react_router_1 = require('react-router');
+var $ = require('jquery');
 var links_1 = require('../links');
+var YAML = require('yamljs');
 var data_1 = require('../data');
 var api_1 = require('../api');
 var CmArticleNav_1 = require('../navbar/CmArticleNav');
@@ -101,13 +103,42 @@ var components = {
         return React.createElement(CmComplexityTable_1.CmComplexityTable, {complexities: api_1.Api.complexity(), table: props.table});
     }
 };
+var markdownHeader = /^---$/m;
 var PgArticle = (function (_super) {
     __extends(PgArticle, _super);
     function PgArticle() {
         _super.apply(this, arguments);
     }
+    PgArticle.prototype.readHeader = function (header) {
+        document.title = header.title + " | Imms - Immutable Collections for .NET";
+        var descElement = $("head meta[name='description']")[0];
+        if (!descElement) {
+            $("head").append($("<meta name='description' content='" + header.description + "'/>"));
+        }
+        else {
+            descElement.setAttribute("content", header.description);
+        }
+        var kwElement = $("head meta[name='keywords']")[0];
+        if (!kwElement) {
+            $("head").append($("<meta name='keywords' content'" + header.keywords + "'/>"));
+        }
+        else {
+            kwElement.setAttribute("content", header.keywords);
+        }
+    };
     PgArticle.prototype.render = function () {
-        return React.createElement("div", {class: "imms-root"}, React.createElement(CmMathjaxMacros_1.CmMathjaxMacros, null, mathjaxDefs), React.createElement(CmForkMe, null), React.createElement("div", {class: "title-backdrop"}, React.createElement("div", {class: "title-box"}, React.createElement("div", {class: "title-row"}, React.createElement(CmTopLogo, null), React.createElement(CmMainHeading, null), React.createElement(CmDownloadBox, null)), React.createElement(CmTopNavBar, null))), React.createElement("div", {class: "central-backdrop"}, React.createElement("div", {class: "central-layout"}, React.createElement("div", {class: "central-nav-column-box"}, React.createElement(CmArticleNav_1.CmArticleTree, null)), React.createElement("div", {class: "central-text"}, React.createElement(CmMarkdown_1.CmMarkdown, {apiLinks: api_1.Api.apiRefs(), content: this.props.src, components: components})))), React.createElement("div", {class: "footer-backdrop"}, React.createElement(CmFooter, null)));
+        var _this = this;
+        var article = $.get(this.props.src).then(function (text) {
+            if (text.startsWith("---")) {
+                var split = text.split("---", 3);
+                var headerText = split[1];
+                var header = YAML.parse(headerText.trim());
+                var content = split[2];
+                _this.readHeader(header);
+                return content;
+            }
+        });
+        return React.createElement("div", {className: "imms-root"}, React.createElement(CmMathjaxMacros_1.CmMathjaxMacros, null, mathjaxDefs), React.createElement(CmForkMe, null), React.createElement("div", {className: "title-backdrop"}, React.createElement("div", {className: "title-box"}, React.createElement("div", {className: "title-row"}, React.createElement(CmTopLogo, null), React.createElement(CmMainHeading, null), React.createElement(CmDownloadBox, null)))), React.createElement("div", {className: "central-backdrop"}, React.createElement("div", {className: "central-layout"}, React.createElement("div", {className: "central-nav-column-box"}, React.createElement(CmArticleNav_1.CmArticleTree, null)), React.createElement("div", {className: "central-text"}, React.createElement(CmMarkdown_1.CmMarkdown, {apiLinks: api_1.Api.apiRefs(), content: article, components: components})))), React.createElement("div", {className: "footer-backdrop"}, React.createElement(CmFooter, null)));
     };
     return PgArticle;
 }(React.Component));
