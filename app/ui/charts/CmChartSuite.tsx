@@ -6,7 +6,7 @@ import {MyComponent} from "../../MyComponent";
 import {At} from '../../react-ext/decorators';
 
 interface CmChartSuiteProps {
-	suite:Promise<TestSuite>;
+	suite:JQueryPromise<TestSuite>;
 	rendering:ChartRendering;
 }
 

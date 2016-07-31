@@ -8,6 +8,7 @@ var React = require('react');
 var react_router_1 = require('react-router');
 var links_1 = require('./links');
 var CmTopLogo_1 = require("./pages/CmTopLogo");
+var MyComponent_1 = require("../MyComponent");
 var CmRoute = (function (_super) {
     __extends(CmRoute, _super);
     function CmRoute() {
@@ -17,17 +18,18 @@ var CmRoute = (function (_super) {
 }(React.Component));
 var RtArticle = (function (_super) {
     __extends(RtArticle, _super);
-    function RtArticle() {
-        _super.apply(this, arguments);
+    function RtArticle(props) {
+        _super.call(this, props);
+        this.state = { articles: null };
     }
     RtArticle.prototype.render = function () {
         var params = this.props.params;
         var path = links_1.Links.article(params.name) + ".md";
         var content = $.get(path);
-        return React.createElement(CmTopLogo_1.PgArticle, null);
+        return React.createElement(CmTopLogo_1.PgArticle, {src: path});
     };
     return RtArticle;
-}(CmRoute));
+}(MyComponent_1.MyComponent));
 var App = (function (_super) {
     __extends(App, _super);
     function App(props) {
@@ -35,10 +37,7 @@ var App = (function (_super) {
         this.state = { articles: null };
     }
     App.prototype.render = function () {
-        if (!this.state.articles) {
-            return null;
-        }
-        return React.createElement(react_router_1.Router, {history: react_router_1.browserHistory}, React.createElement(react_router_1.Route, {path: links_1.Links.article(":name")}));
+        return React.createElement(react_router_1.Router, {history: react_router_1.browserHistory}, React.createElement(react_router_1.Route, {path: links_1.Links.article(":name"), component: RtArticle}));
     };
     return App;
 }(React.Component));

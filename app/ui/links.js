@@ -11,7 +11,7 @@ var Links;
     Links.whyImms = "/pages/WhyImms";
     Links.general = "/pages/General";
     function article(name) {
-        return "/page/" + name;
+        return "Pages/" + name;
     }
     Links.article = article;
     var External;

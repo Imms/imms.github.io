@@ -10,9 +10,11 @@ System.config({
   map: {
     "chai": "npm:chai@3.5.0",
     "chart": "github:chartjs/Chart.js@2.1.6",
+    "chartjs-color": "npm:chartjs-color@2.0.0",
     "es6-shim": "github:es-shims/es6-shim@0.35.1",
     "jquery": "npm:jquery@3.1.0",
     "lodash": "npm:lodash@4.13.1",
+    "moment": "npm:moment@2.14.1",
     "react": "npm:react@15.3.0",
     "react-dom": "npm:react-dom@15.2.1",
     "react-markdown": "npm:react-markdown@2.4.2",
@@ -112,6 +114,14 @@ System.config({
       "process": "github:jspm/nodelibs-process@0.1.2",
       "systemjs-json": "github:systemjs/plugin-json@0.1.2",
       "type-detect": "npm:type-detect@1.0.0"
+    },
+    "npm:chartjs-color-string@0.4.0": {
+      "color-name": "npm:color-name@1.1.1"
+    },
+    "npm:chartjs-color@2.0.0": {
+      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
+      "chartjs-color-string": "npm:chartjs-color-string@0.4.0",
+      "color-convert": "npm:color-convert@0.5.3"
     },
     "npm:commonmark-react-renderer@4.2.4": {
       "commonmark": "npm:commonmark@0.24.0",

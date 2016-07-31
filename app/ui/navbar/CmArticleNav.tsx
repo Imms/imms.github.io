@@ -1,5 +1,7 @@
 
 import * as React from 'react';
+import {MyComponent} from "../../MyComponent";
+import {Api} from '../api';
 export interface ArticleTreeEntry {
 	text:string;
 	link:string;
@@ -45,14 +47,22 @@ class CmArticleEntry extends React.Component<CmArticleEntryProps, {}> {
 
 
 
-class CmArticleTreeProps {
+interface CmArticleTreeState {
 	articles : ArticleTreeEntry[];
 }
 
-export class CmArticleTree extends React.Component<CmArticleTreeProps, {}> {
-	
+export class CmArticleTree extends MyComponent<{}, CmArticleTreeState> {
+	constructor(props) {
+		super(props);
+		this.state = {articles : null};
+		Api.articles().then(articles => this.withState(s => s.articles = articles));
+	}
+
 	render() {
-		let x = this.props.articles.map(node => <CmArticleEntry entry={node} key={node.link} nesting={0}/>);
+		if (!this.state.articles) {
+			return "Loading...";
+		}
+		let x = this.state.articles.map(node => <CmArticleEntry entry={node} key={node.link} nesting={0}/>);
 		return <ul>
 			{x}
 		</ul>  

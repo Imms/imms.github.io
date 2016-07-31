@@ -3,25 +3,35 @@ import {Route, Router, browserHistory} from 'react-router';
 import {ArticleTreeEntry} from './navbar/CmArticleNav';
 import {Links} from './links';
 import {PgArticle} from "./pages/CmTopLogo";
+import {MyComponent} from "../MyComponent";
+import {Api} from './api';
 
-interface AppState {
-	articles : ArticleTreeEntry[];
-}
 
 abstract class CmRoute<TParams> extends React.Component<{params : TParams}, {}> {
 	
 }
 
-class RtArticle extends CmRoute<{name : string}> {
+interface RtArticleProps {
+	params : {name : string};
+
+}
+
+class RtArticle extends MyComponent<RtArticleProps, {}> {
+
+	constructor(props : RtArticleProps) {
+		super(props);
+		this.state = {articles : null};
+	}
+
 	render() {
 		let params = this.props.params;
 		let path = Links.article(params.name) + ".md";
 		let content = $.get(path);
-		return <PgArticle />;
+		return <PgArticle src={path} />;
 	}
 }
 
-export class App extends React.Component<{}, AppState> {
+export class App extends React.Component<{}, {}> {
 
 	constructor(props) {
 		super(props);
@@ -29,11 +39,8 @@ export class App extends React.Component<{}, AppState> {
 	}
 
 	render() {
-		if (!this.state.articles) {
-			return null;
-		}
 		return <Router history={browserHistory}>
-			<Route path={Links.article(":name")}  />
+			<Route path={Links.article(":name")} component={RtArticle}  />
 		</Router>;
 	}
 }

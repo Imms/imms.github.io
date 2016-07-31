@@ -384,5 +384,16 @@
     "loose-envify": "npm:loose-envify@^1.1.0",
     "object-assign": "npm:object-assign@^4.1.0",
     "process": "github:jspm/nodelibs-process@^0.1.0"
-  }
+  },
+  "npm:moment@2.14.1": {},
+  "npm:chartjs-color@2.0.0": {
+    "color-convert": "npm:color-convert@^0.5.3",
+    "chartjs-color-string": "npm:chartjs-color-string@^0.4.0",
+    "buffer": "github:jspm/nodelibs-buffer@^0.1.0"
+  },
+  "npm:color-convert@0.5.3": {},
+  "npm:chartjs-color-string@0.4.0": {
+    "color-name": "npm:color-name@^1.0.0"
+  },
+  "npm:color-name@1.1.1": {}
 }

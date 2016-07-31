@@ -3,9 +3,11 @@
     "dependencies": {
       "chai": "npm:chai@^3.5.0",
       "chart": "github:chartjs/Chart.js@^2.1.6",
+      "chartjs-color": "npm:chartjs-color@^2.0.0",
       "es6-shim": "github:es-shims/es6-shim@^0.35.1",
       "jquery": "npm:jquery@^3.1.0",
       "lodash": "npm:lodash@^4.13.1",
+      "moment": "npm:moment@^2.14.1",
       "react": "npm:react@^15.2.1",
       "react-dom": "npm:react-dom@^15.2.1",
       "react-markdown": "npm:react-markdown@^2.4.2",

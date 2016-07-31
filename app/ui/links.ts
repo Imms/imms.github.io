@@ -9,7 +9,7 @@ export module Links {
 	export const whyImms = "/pages/WhyImms";
 	export const general = "/pages/General";
 	export function article(name : string) {
-		return `/page/${name}`;
+		return `Pages/${name}`;
 	}
 
 	export module External {

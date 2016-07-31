@@ -2,6 +2,13 @@ import React = require('react');
 import { Link} from 'react-router';
 import {Links} from '../links';
 import {Data} from '../data';
+import {Api} from '../api';
+import {CmArticleTree, ArticleTreeEntry} from '../navbar/CmArticleNav';
+import { CmMathjaxMacros} from '../CmMathjaxMacros';
+import {CmMarkdown} from '../markdown/CmMarkdown';
+import {CmChartSuite} from '../charts/CmChartSuite';
+import { CmComplexityTable} from '../complexity-table/CmComplexityTable';
+import {Charts} from '../charts/types';
 class CmTopLogo extends React.Component<{}, {}> {
 	render() {
 		return <div className="imms-logo">
@@ -136,8 +143,7 @@ class CmDownloadOptions extends React.Component<{}, {}> {
 	}
 }
 
-import {CmArticleTree} from '../navbar/CmArticleNav';
-import { CmMathjaxMacros} from '../CmMathjaxMacros';
+
 class CmTopNavBar extends React.Component<{}, {}> {
 	render() {
 		return <ul className="top-navbar">
@@ -181,7 +187,20 @@ const mathjaxDefs = `
     |newcommand{|o}[1]{|overline{ #1}}
 `.replace("|", "\\");
 
-export class PgArticle extends React.Component<{}, {}> {
+interface PgArticleProps {
+	src : string;
+
+}
+
+const components = {
+	CmChartSuite : props => <CmChartSuite
+		suite={$.when(Api.testSuite(props.suite))}
+		rendering={{height: 300, width: 600}}/>,
+	CmComplexityTable : props =>
+		<CmComplexityTable complexities={Api.complexity()} table={props.table}/>
+};
+
+export class PgArticle extends React.Component<PgArticleProps, {}> {
 	render() {
 		return <div class="imms-root">
 			<CmMathjaxMacros>
@@ -202,10 +221,10 @@ export class PgArticle extends React.Component<{}, {}> {
 
 				<div class="central-layout">
 					<div class="central-nav-column-box">
-						Test
+						<CmArticleTree/>
 					</div>
 					<div class="central-text">
-						Hi
+						<CmMarkdown apiLinks={Api.apiRefs()} content={this.props.src} components={components} />
 					</div>
 				</div>
 			</div>
