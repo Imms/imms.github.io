@@ -51,7 +51,7 @@ interface CmComplexityTableState {
 }
 
 export class CmComplexityTable extends MyComponent<CmComplexityTableProps, CmComplexityTableState> {
-
+	_root : Element;
 	constructor(props : CmComplexityTableProps) {
 		super(props);
 		this.state = {table : null};
@@ -73,8 +73,18 @@ export class CmComplexityTable extends MyComponent<CmComplexityTableProps, CmCom
 	private componentWillMount() {
 		this.loadComplex(this.props);
 	}
+	timeout : number;
+
+	@At.didMount()
+	@At.didUpdate()
+	doMathjax() {
+		if (this._root) {
+			MathJax.Hub.Process(this._root, null);
+		}
+	}
 
 	render() {
+		this._root = null;
 		let myTable = this.state.table;
 		if (!myTable) {
 			return null;
@@ -100,7 +110,7 @@ export class CmComplexityTable extends MyComponent<CmComplexityTableProps, CmCom
 					mathString = mathString ? `$${mathString}$` : "—";
 					return <td key={op.name} className="complexity-table__math">{mathString}</td>;
 				});
-				return <tr className={col.rowclass}>
+				return <tr className={col.rowclass} key={col.collection}>
 					<td className="complexity-table__info">{col.collection}</td>
 					<td className="complexity-table__info">{col.implementation}</td>
 					{ops}
@@ -118,7 +128,7 @@ export class CmComplexityTable extends MyComponent<CmComplexityTableProps, CmCom
 			//Note that the "$" appear INSIDE the { ... }. Otherwise, react and MathJax don't play well.
 			footnotes.map(note => <li key={note.name} className="complexity-table__footnote">{"$" + note.math + "$"} - {note.text}</li>);
 
-		let table = <div className="complexity-table">
+		let table = <div ref={e => this._root = e} className="complexity-table">
 			<table className="complexity-table__table">
 				{headings}
 				{body}

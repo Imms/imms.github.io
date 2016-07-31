@@ -67,7 +67,7 @@ export class CmArticleTree extends MyComponent<{}, CmArticleTreeState> {
 		if (!this.state.articles) {
 			return <div>Loading...</div>;
 		}
-		let x = this.state.articles.map(node => <CmArticleEntry entry={node} key={node.link} nesting={0}/>);
+		let x = this.state.articles.map((node, n) => <CmArticleEntry entry={node} key={node.link || node.text} nesting={0}/>);
 		return <ul>
 			{x}
 		</ul>  

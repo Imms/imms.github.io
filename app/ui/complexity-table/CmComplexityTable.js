@@ -33,7 +33,14 @@ var CmComplexityTable = (function (_super) {
     CmComplexityTable.prototype.componentWillMount = function () {
         this.loadComplex(this.props);
     };
+    CmComplexityTable.prototype.doMathjax = function () {
+        if (this._root) {
+            MathJax.Hub.Process(this._root, null);
+        }
+    };
     CmComplexityTable.prototype.render = function () {
+        var _this = this;
+        this._root = null;
         var myTable = this.state.table;
         if (!myTable) {
             return null;
@@ -50,14 +57,14 @@ var CmComplexityTable = (function (_super) {
                 mathString = mathString ? "$" + mathString + "$" : "—";
                 return React.createElement("td", {key: op.name, className: "complexity-table__math"}, mathString);
             });
-            return React.createElement("tr", {className: col.rowclass}, React.createElement("td", {className: "complexity-table__info"}, col.collection), React.createElement("td", {className: "complexity-table__info"}, col.implementation), ops);
+            return React.createElement("tr", {className: col.rowclass, key: col.collection}, React.createElement("td", {className: "complexity-table__info"}, col.collection), React.createElement("td", {className: "complexity-table__info"}, col.implementation), ops);
         });
         var body = React.createElement("tbody", null, lines);
         var footnotes = myTable.footnotes;
         var footnoteItems = 
         //Note that the "$" appear INSIDE the { ... }. Otherwise, react and MathJax don't play well.
         footnotes.map(function (note) { return React.createElement("li", {key: note.name, className: "complexity-table__footnote"}, "$" + note.math + "$", " - ", note.text); });
-        var table = React.createElement("div", {className: "complexity-table"}, React.createElement("table", {className: "complexity-table__table"}, headings, body), React.createElement("ul", {className: "complexity-table__footer"}, footnoteItems));
+        var table = React.createElement("div", {ref: function (e) { return _this._root = e; }, className: "complexity-table"}, React.createElement("table", {className: "complexity-table__table"}, headings, body), React.createElement("ul", {className: "complexity-table__footer"}, footnoteItems));
         return table;
     };
     __decorate([
@@ -66,6 +73,10 @@ var CmComplexityTable = (function (_super) {
     __decorate([
         decorators_1.At.willMount()
     ], CmComplexityTable.prototype, "componentWillMount", null);
+    __decorate([
+        decorators_1.At.didMount(),
+        decorators_1.At.didUpdate()
+    ], CmComplexityTable.prototype, "doMathjax", null);
     return CmComplexityTable;
 }(MyComponent_1.MyComponent));
 exports.CmComplexityTable = CmComplexityTable;

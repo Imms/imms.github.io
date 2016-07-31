@@ -3,6 +3,7 @@ import { Link} from 'react-router';
 import $ = require('jquery');
 import {Links} from '../links';
 import YAML = require('yamljs');
+import {At} from '../../react-ext/decorators';
 import {Data} from '../data';
 import {Api} from '../api';
 import {CmArticleTree, ArticleTreeEntry} from '../navbar/CmArticleNav';
@@ -187,7 +188,7 @@ const mathjaxDefs = `
     |newcommand{|fastt}{⚡⚡}
     |newcommand{|u}[1]{|underline{ #1}}
     |newcommand{|o}[1]{|overline{ #1}}
-`.replace("|", "\\");
+`.replace(/|/g, "\\");
 
 interface PgArticleProps {
 	src : string;
@@ -204,6 +205,8 @@ const components = {
 const markdownHeader = /^---$/m;
 export class PgArticle extends React.Component<PgArticleProps, {}> {
 
+
+
 	readHeader(header : any) {
 		document.title = `${header.title} | Imms - Immutable Collections for .NET`;
 		let descElement = $("head meta[name='description']")[0];
@@ -214,7 +217,7 @@ export class PgArticle extends React.Component<PgArticleProps, {}> {
 		}
 		let kwElement = $("head meta[name='keywords']")[0];
 		if (!kwElement) {
-			$("head").append($(`<meta name='keywords' content'${header.keywords}'/>`));
+			$("head").append($(`<meta name='keywords' content='${header.keywords}'/>`));
 		} else {
 			kwElement.setAttribute("content", header.keywords);
 		}

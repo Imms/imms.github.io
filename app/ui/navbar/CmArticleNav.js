@@ -52,7 +52,7 @@ var CmArticleTree = (function (_super) {
         if (!this.state.articles) {
             return React.createElement("div", null, "Loading...");
         }
-        var x = this.state.articles.map(function (node) { return React.createElement(CmArticleEntry, {entry: node, key: node.link, nesting: 0}); });
+        var x = this.state.articles.map(function (node, n) { return React.createElement(CmArticleEntry, {entry: node, key: node.link || node.text, nesting: 0}); });
         return React.createElement("ul", null, x);
     };
     return CmArticleTree;

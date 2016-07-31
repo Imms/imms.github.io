@@ -96,7 +96,7 @@ var CmTopNavBar = (function (_super) {
     };
     return CmTopNavBar;
 }(React.Component));
-var mathjaxDefs = "\n    |newcommand{|amr}{ {^|text{amr}}}\n    |newcommand{|fast}{\u26A1}\n    |newcommand{|fastt}{\u26A1\u26A1}\n    |newcommand{|u}[1]{|underline{ #1}}\n    |newcommand{|o}[1]{|overline{ #1}}\n".replace("|", "\\");
+var mathjaxDefs = "\n    |newcommand{|amr}{ {^|text{amr}}}\n    |newcommand{|fast}{\u26A1}\n    |newcommand{|fastt}{\u26A1\u26A1}\n    |newcommand{|u}[1]{|underline{ #1}}\n    |newcommand{|o}[1]{|overline{ #1}}\n".replace(/|/g, "\\");
 var components = {
     CmChartSuite: function (props) { return React.createElement(CmChartSuite_1.CmChartSuite, {suite: $.when(api_1.Api.testSuite(props.suite)), rendering: { height: 300, width: 600 }}); },
     CmComplexityTable: function (props) {
@@ -120,7 +120,7 @@ var PgArticle = (function (_super) {
         }
         var kwElement = $("head meta[name='keywords']")[0];
         if (!kwElement) {
-            $("head").append($("<meta name='keywords' content'" + header.keywords + "'/>"));
+            $("head").append($("<meta name='keywords' content='" + header.keywords + "'/>"));
         }
         else {
             kwElement.setAttribute("content", header.keywords);

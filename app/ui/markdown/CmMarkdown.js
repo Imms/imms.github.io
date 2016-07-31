@@ -74,6 +74,7 @@ var CmMarkdown = (function (_super) {
     };
     CmMarkdown.prototype.render = function () {
         var _this = this;
+        this._root = null;
         var props = this.props;
         var defaultRenderers = ReactMarkdown.renderers;
         var renderers = {
@@ -82,7 +83,7 @@ var CmMarkdown = (function (_super) {
         };
         var innerHtml = "";
         if (this.state.content) {
-            var e = React.createElement(ReactMarkdown, {source: this.state.content, renderers: renderers});
+            var e = React.createElement("div", {ref: function (e) { return _this._root = e; }}, React.createElement(ReactMarkdown, {source: this.state.content, renderers: renderers}));
             return e;
         }
         return React.createElement("div", null);

@@ -64,6 +64,8 @@ export class CmMarkdown extends MyComponent<CmMarkdownProps, CmMarkdownState> {
         return <a href={link} title={renderProps.title} />;
     }
 
+
+
 	renderHtmlBlock(renderProps) {
 		let props = this.props;
 		let html:string = renderProps.literal;
@@ -92,6 +94,7 @@ export class CmMarkdown extends MyComponent<CmMarkdownProps, CmMarkdownState> {
 	}
 
 	render() {
+		this._root = null;
 		let props = this.props;
 		let defaultRenderers = ReactMarkdown.renderers;
 		let renderers = {
@@ -100,7 +103,7 @@ export class CmMarkdown extends MyComponent<CmMarkdownProps, CmMarkdownState> {
 		};
 		let innerHtml = "";
 		if (this.state.content) {
-			let e = <ReactMarkdown source={this.state.content} renderers={renderers}/>;
+			let e = <div ref={e => this._root = e}><ReactMarkdown source={this.state.content} renderers={renderers}/></div>;
 			return e;
 		}
 		return <div></div>;
