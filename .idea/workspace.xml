@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bbc7136-871e-4550-87cb-0c2fea76dd87" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pages/GetImms.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/FSharpIntegration.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Future.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/General.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Maps.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Optional.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Philosopy.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Sequentials.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Sets.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Specialized.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/WhyImms.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/WhyImmutable.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/index.md" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/routing.js" afterPath="$PROJECT_DIR$/app/ui/routing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/routing.js.map" afterPath="$PROJECT_DIR$/app/ui/routing.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/routing.tsx" afterPath="$PROJECT_DIR$/app/ui/routing.tsx" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/FSharpIntegration.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/GetImms.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/WhyImms.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/WhyImmutable.markdown" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/articles.yaml" afterPath="$PROJECT_DIR$/data/articles.yaml" />
     </list>
     <ignored path="Imms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,7 +59,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routing.tsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="routing.tsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/ui/routing.tsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -81,6 +68,26 @@
                 <element signature="e#33#115#0" expanded="true" />
                 <element signature="e#202#232#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_articleTree.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/includes/_articleTree.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="articles.yaml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/articles.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -122,26 +129,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2025">
               <caret line="81" column="23" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CmChart.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/ui/charts/CmChart.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="41" column="115" selection-start-line="41" selection-start-column="115" selection-end-line="41" selection-end-column="115" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CmChartGroup.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/ui/charts/CmChartGroup.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -209,7 +196,6 @@
         <option value="$PROJECT_DIR$/Pages/Sets.md" />
         <option value="$PROJECT_DIR$/Pages/Maps.md" />
         <option value="$PROJECT_DIR$/app/ui/navbar/CmArticleNav.tsx" />
-        <option value="$PROJECT_DIR$/data/articles.yaml" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/styles/includes/_syntax-highlighting.scss" />
         <option value="$PROJECT_DIR$/styles/includes/_main.scss" />
@@ -222,6 +208,7 @@
         <option value="$PROJECT_DIR$/app/ui/pages/CmTopLogo.tsx" />
         <option value="$PROJECT_DIR$/app/ui/links.ts" />
         <option value="$PROJECT_DIR$/app/ui/routing.tsx" />
+        <option value="$PROJECT_DIR$/data/articles.yaml" />
       </list>
     </option>
   </component>
@@ -419,6 +406,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -747,12 +748,12 @@
       <workItem from="1470037450091" duration="6668000" />
       <workItem from="1470060220347" duration="5443000" />
       <workItem from="1470075993868" duration="4858000" />
-      <workItem from="1470081344702" duration="1194000" />
+      <workItem from="1470081344702" duration="1652000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="585298000" />
+    <option name="totallyTimeSpent" value="585756000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -764,8 +765,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="-8" width="1873" height="1096" extended-state="6" />
-    <editor active="false" />
+    <frame x="55" y="-8" width="1873" height="1096" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06334372" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22997275" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -773,7 +774,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29685807" sideWeight="0.5105374" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3229491" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271028" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23468328" sideWeight="0.49367756" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23468328" sideWeight="0.49367756" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24918212" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20664589" sideWeight="0.48946258" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1074,13 +1075,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/articles.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/ui/navbar/CmArticleNav.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="925">
@@ -1128,13 +1122,6 @@
     <entry file="file://$PROJECT_DIR$/styles/includes/_bootstrap.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/includes/_articleTree.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-969">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
@@ -1247,6 +1234,22 @@
             <element signature="e#33#115#0" expanded="true" />
             <element signature="e#202#232#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/includes/_articleTree.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/articles.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
