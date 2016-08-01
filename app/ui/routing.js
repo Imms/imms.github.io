@@ -31,6 +31,18 @@ var RtArticle = (function (_super) {
     };
     return RtArticle;
 }(MyComponent_1.MyComponent));
+var RtPage = (function (_super) {
+    __extends(RtPage, _super);
+    function RtPage(props) {
+        _super.call(this, props);
+        this.state = { content: "" };
+    }
+    RtPage.prototype.render = function () {
+        var element = React.createElement("iframe", {style: { width: '100%', height: '100%' }, src: "/API/" + this.props.params.page});
+        return element;
+    };
+    return RtPage;
+}(MyComponent_1.MyComponent));
 var App = (function (_super) {
     __extends(App, _super);
     function App(props) {
@@ -38,7 +50,7 @@ var App = (function (_super) {
         this.state = { articles: null };
     }
     App.prototype.render = function () {
-        return React.createElement(react_router_1.Router, {history: react_router_1.hashHistory}, React.createElement(react_router_1.Route, {path: links_1.Links.article(":name"), component: RtArticle}), React.createElement(react_router_1.Redirect, {from: "/", to: links_1.Links.article("index")}));
+        return React.createElement(react_router_1.Router, {history: react_router_1.hashHistory}, React.createElement(react_router_1.Route, {path: links_1.Links.article(":name"), component: RtArticle}), React.createElement(react_router_1.Route, {path: links_1.Links.api(":page"), component: RtPage}), React.createElement(react_router_1.Redirect, {from: "/", to: links_1.Links.article("index")}));
     };
     return App;
 }(React.Component));

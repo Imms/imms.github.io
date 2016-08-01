@@ -115,7 +115,7 @@ This is a very useful performance guarantee to make, because it means operations
 ### Complexity
 Here is a rundown of the complexity of each operation, which just showcases what we've discussed previously:
 
-<div class="react-complexity-table" data-table="sets">--[COMPLEXITY TABLE]--</div>
+<div data-component="CmComplexityTable" data-props-table="sets">--[COMPLEXITY TABLE]--</div>
 
 `ImmSet` and `ImmSortedSet` have the same time complexity per operation, with the exception that `ImmSet` is a hash set that uses buckets, and therefore the performance is averaged over the inputs, and assumes a decent `GetHashCode` implementation.
 
@@ -141,4 +141,4 @@ In tests involving data sources, two kinds of data sources were tested: Compatib
 The size of the input collection was 10 times the size of the target, to showcase set algorithm intelligence.
 
 #### Results
-<div class="react-chart-suite" data-suite="sets">--[PERFORMANCE CHARTS]--</div>
+<div data-component="CmChartSuite" data-props-suite="sets">--[PERFORMANCE CHARTS]--</div>

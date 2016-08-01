@@ -11,6 +11,9 @@ export module Links {
 	export function article(name : string) {
 		return `Pages/${name}`;
 	}
+	export function api(relative : string) {
+		return `API/${relative}`;
+	}
 
 	export module External {
 		export const sources = "https://github.com/Imms/Imms";

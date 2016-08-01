@@ -200,7 +200,9 @@ const components = {
 		suite={$.when(Api.testSuite(props.suite))}
 		rendering={{height: 300, width: 600}}/>,
 	CmComplexityTable : props =>
-		<CmComplexityTable complexities={Api.complexity()} table={props.table}/>
+		<CmComplexityTable complexities={Api.complexity()} table={props.table}/>,
+	CmDownloadOptions : props => <CmDownloadOptions/>
+
 };
 const markdownHeader = /^---$/m;
 export class PgArticle extends React.Component<PgArticleProps, {}> {
@@ -232,6 +234,8 @@ export class PgArticle extends React.Component<PgArticleProps, {}> {
 				let content = split[2];
 				this.readHeader(header);
 				return content;
+			} else {
+				return text;
 			}
 		});
 		return <div className="imms-root">

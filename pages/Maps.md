@@ -115,4 +115,4 @@ This is also the reason it performs so much better than other ordered sets in si
 Benchmarks were performed with string data types because they are often kept in sets and have good built-in hash functions and comparison algorithms, while not being trivial like integers.
 
 #### Results
-<div class="react-chart-suite" data-suite="maps">--[PERFORMANCE CHARTS]--</div>
+<div data-component="CmChartSuite" data-props-suite="maps">--[PERFORMANCE CHARTS]--</div>

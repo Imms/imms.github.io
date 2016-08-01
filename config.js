@@ -11,12 +11,15 @@ System.config({
     "chai": "npm:chai@3.5.0",
     "chart": "github:chartjs/Chart.js@2.1.6",
     "chartjs-color": "npm:chartjs-color@2.0.0",
+    "css": "github:systemjs/plugin-css@0.1.26",
     "es6-shim": "github:es-shims/es6-shim@0.35.1",
+    "highlightjs": "github:components/highlightjs@9.5.0",
     "jquery": "npm:jquery@3.1.0",
     "lodash": "npm:lodash@4.13.1",
     "moment": "npm:moment@2.14.1",
     "react": "npm:react@15.3.0",
-    "react-dom": "npm:react-dom@15.2.1",
+    "react-dom": "npm:react-dom@15.3.0",
+    "react-highlight": "npm:react-highlight@0.8.0",
     "react-markdown": "npm:react-markdown@2.4.2",
     "react-router": "npm:react-router@2.6.1",
     "yamljs": "npm:yamljs@0.2.8",
@@ -190,6 +193,10 @@ System.config({
       "process": "github:jspm/nodelibs-process@0.1.2",
       "util": "github:jspm/nodelibs-util@0.1.0"
     },
+    "npm:highlight.js@8.9.1": {
+      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.2"
+    },
     "npm:history@2.1.2": {
       "deep-equal": "npm:deep-equal@1.0.1",
       "invariant": "npm:invariant@2.2.1",
@@ -289,8 +296,14 @@ System.config({
     "npm:query-string@3.0.3": {
       "strict-uri-encode": "npm:strict-uri-encode@1.1.0"
     },
-    "npm:react-dom@15.2.1": {
+    "npm:react-dom@15.3.0": {
       "react": "npm:react@15.3.0"
+    },
+    "npm:react-highlight@0.8.0": {
+      "highlight.js": "npm:highlight.js@8.9.1",
+      "path": "github:jspm/nodelibs-path@0.1.0",
+      "react": "npm:react@15.3.0",
+      "react-dom": "npm:react-dom@15.3.0"
     },
     "npm:react-markdown@2.4.2": {
       "commonmark": "npm:commonmark@0.24.0",

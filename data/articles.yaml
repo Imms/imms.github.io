@@ -12,7 +12,7 @@
       link: /pages/WhyImms
 
     - text: Get Imms
-      link: /pages/GetImms.html
+      link: /pages/GetImms
 
 - text: Collections API
   link: /pages/General
@@ -38,4 +38,4 @@
   link: /pages/Future
 
 - text: API Reference
-  link: /API/index.html
+  link: @/API/index.html

@@ -101,7 +101,8 @@ var components = {
     CmChartSuite: function (props) { return React.createElement(CmChartSuite_1.CmChartSuite, {suite: $.when(api_1.Api.testSuite(props.suite)), rendering: { height: 300, width: 600 }}); },
     CmComplexityTable: function (props) {
         return React.createElement(CmComplexityTable_1.CmComplexityTable, {complexities: api_1.Api.complexity(), table: props.table});
-    }
+    },
+    CmDownloadOptions: function (props) { return React.createElement(CmDownloadOptions, null); }
 };
 var markdownHeader = /^---$/m;
 var PgArticle = (function (_super) {
@@ -136,6 +137,9 @@ var PgArticle = (function (_super) {
                 var content = split[2];
                 _this.readHeader(header);
                 return content;
+            }
+            else {
+                return text;
             }
         });
         return React.createElement("div", {className: "imms-root"}, React.createElement(CmMathjaxMacros_1.CmMathjaxMacros, null, mathjaxDefs), React.createElement(CmForkMe, null), React.createElement("div", {className: "title-backdrop"}, React.createElement("div", {className: "title-box"}, React.createElement("div", {className: "title-row"}, React.createElement(CmTopLogo, null), React.createElement(CmMainHeading, null), React.createElement(CmDownloadBox, null)))), React.createElement("div", {className: "central-backdrop"}, React.createElement("div", {className: "central-layout"}, React.createElement("div", {className: "central-nav-column-box"}, React.createElement(CmArticleNav_1.CmArticleTree, null)), React.createElement("div", {className: "central-text"}, React.createElement(CmMarkdown_1.CmMarkdown, {apiLinks: api_1.Api.apiRefs(), content: article, components: components})))), React.createElement("div", {className: "footer-backdrop"}, React.createElement(CmFooter, null)));

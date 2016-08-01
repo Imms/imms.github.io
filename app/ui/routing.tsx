@@ -5,6 +5,7 @@ import $ = require('jquery');
 import {Links} from './links';
 import {PgArticle} from "./pages/CmTopLogo";
 import {MyComponent} from "../MyComponent";
+import {At} from '../react-ext/decorators';
 import {Api} from './api';
 
 
@@ -32,6 +33,23 @@ class RtArticle extends MyComponent<RtArticleProps, {}> {
 	}
 }
 
+interface RtPageProps {
+	params : {page : string};
+}
+
+class RtPage extends MyComponent<RtPageProps, {content : string}> {
+
+	constructor(props) {
+		super(props);
+		this.state = {content : ""};
+	}
+
+	render() {
+		let element = <iframe style={{width: '100%', height: '100%'}} src={`/API/${this.props.params.page}`}></iframe>;
+		return element;
+	}
+}
+
 export class App extends React.Component<{}, {}> {
 
 	constructor(props) {
@@ -42,6 +60,7 @@ export class App extends React.Component<{}, {}> {
 	render() {
 		return <Router history={hashHistory}>
 			<Route path={Links.article(":name")} component={RtArticle}  />
+			<Route path={Links.api(":page")} component={RtPage}/>
 			<Redirect from="/" to={Links.article("index")}/>
 		</Router>;
 	}

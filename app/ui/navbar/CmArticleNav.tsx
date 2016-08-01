@@ -34,7 +34,18 @@ class CmArticleEntry extends React.Component<CmArticleEntryProps, {}> {
 			</ul>
 		}
 
-		var link = this.article.link ? <Link to={`${this.article.link}`}>{this.article.text}</Link> : <span>{this.article.text}</span>;
+		let url = this.article.link;
+		let link : any;
+		if (url) {
+			if (url.startsWith("@")) {
+				url = url.substr(1);
+				link = <a href={url}>{this.article.text}</a>;
+			} else {
+				link = <Link to={`${this.article.link}`}>{this.article.text}</Link>;
+			}
+		} else {
+			link = <span>{this.article.text}</span>;
+		}
 
 		var container = <li className={containerClass}>
 			<div className={headingClass}>

@@ -14,6 +14,8 @@ var React = require('react');
 var MyComponent_1 = require('../../MyComponent');
 var $ = require('jquery');
 var decorators_1 = require('../../react-ext/decorators');
+var react_router_1 = require("react-router");
+var ReactHighlight = require('react-highlight');
 var ReactMarkdown = require('react-markdown');
 var nameAttr = "data-component";
 var propAttrRegex = /data-props-([\w\d]+)/;
@@ -44,7 +46,10 @@ var CmMarkdown = (function (_super) {
         if (this.state.apiLinkResolver && apiRefRegex.test(link)) {
             link = this.state.apiLinkResolver(link);
         }
-        return React.createElement("a", {href: link, title: renderProps.title});
+        if (link && !link.startsWith("http://" && !link.startsWith("/API"))) {
+            return React.createElement(react_router_1.Link, {to: link, title: renderProps.title}, renderProps.children);
+        }
+        return React.createElement("a", {href: link, title: renderProps.title}, renderProps.children);
     };
     CmMarkdown.prototype.renderHtmlBlock = function (renderProps) {
         var props = this.props;
@@ -79,7 +84,8 @@ var CmMarkdown = (function (_super) {
         var defaultRenderers = ReactMarkdown.renderers;
         var renderers = {
             HtmlBlock: function (props) { return _this.renderHtmlBlock(props); },
-            Link: function (props) { return _this.renderLink(props); }
+            Link: function (props) { return _this.renderLink(props); },
+            CodeBlock: function (props) { return React.createElement(ReactHighlight, {className: props.language}, props.literal); }
         };
         var innerHtml = "";
         if (this.state.content) {

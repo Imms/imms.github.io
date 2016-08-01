@@ -4,7 +4,9 @@ import $ = require('jquery');
 import {At} from '../../react-ext/decorators'
 import ReactDOM = require('react-dom');
 import YAML = require('yamljs');
+import {Link} from "react-router";
 
+let ReactHighlight = require('react-highlight');
 let ReactMarkdown = require('react-markdown');
 
 interface CmMarkdownState {
@@ -61,7 +63,10 @@ export class CmMarkdown extends MyComponent<CmMarkdownProps, CmMarkdownState> {
         if (this.state.apiLinkResolver && apiRefRegex.test(link)) {
             link = this.state.apiLinkResolver(link);
         }
-        return <a href={link} title={renderProps.title} />;
+        if (link && !link.startsWith("http://" && !link.startsWith("/API"))) {
+        	return <Link to={link} title={renderProps.title}>{renderProps.children}</Link>;
+		}
+        return <a href={link} title={renderProps.title}>{renderProps.children}</a>;
     }
 
 
@@ -99,7 +104,10 @@ export class CmMarkdown extends MyComponent<CmMarkdownProps, CmMarkdownState> {
 		let defaultRenderers = ReactMarkdown.renderers;
 		let renderers = {
 			HtmlBlock : props => this.renderHtmlBlock(props),
-            Link : props => this.renderLink(props)
+            Link : props => this.renderLink(props),
+			CodeBlock : props => <ReactHighlight className={props.language}>
+				{props.literal}
+			</ReactHighlight>
 		};
 		let innerHtml = "";
 		if (this.state.content) {

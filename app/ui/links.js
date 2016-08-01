@@ -14,6 +14,10 @@ var Links;
         return "Pages/" + name;
     }
     Links.article = article;
+    function api(relative) {
+        return "API/" + relative;
+    }
+    Links.api = api;
     var External;
     (function (External) {
         External.sources = "https://github.com/Imms/Imms";

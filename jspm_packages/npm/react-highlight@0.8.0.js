@@ -1,0 +1,1 @@
+module.exports = require("npm:react-highlight@0.8.0/index.js");

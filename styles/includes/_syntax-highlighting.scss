@@ -1,13 +1,13 @@
 $comment-color:#dbd9ff;
 
-.highlight {
+.hljs {
 
 	.p {
 		color: #cccee1;
 	}
-	.c     { color: $comment-color; font-style: italic } // Comment
+	.hljs-comment     { color: $comment-color; font-style: italic } // Comment
     .err   { color: #a61717; background-color: #e3d2d2 } // Error
-    .k     { color:blue; } // Keyword
+    .hljs-keyword     { color:blue; } // Keyword
     .o     { font-weight: bold } // Operator
     .cm    { color: $comment-color; font-style: italic } // Comment.Multiline
     .cp    { color: $comment-color; font-weight: bold } // Comment.Preproc

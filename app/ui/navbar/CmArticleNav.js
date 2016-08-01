@@ -30,7 +30,20 @@ var CmArticleEntry = (function (_super) {
             containerClass += " imms-nav-item-w-children";
             list = React.createElement("ul", null, children);
         }
-        var link = this.article.link ? React.createElement(react_router_1.Link, {to: "" + this.article.link}, this.article.text) : React.createElement("span", null, this.article.text);
+        var url = this.article.link;
+        var link;
+        if (url) {
+            if (url.startsWith("@")) {
+                url = url.substr(1);
+                link = React.createElement("a", {href: url}, this.article.text);
+            }
+            else {
+                link = React.createElement(react_router_1.Link, {to: "" + this.article.link}, this.article.text);
+            }
+        }
+        else {
+            link = React.createElement("span", null, this.article.text);
+        }
         var container = React.createElement("li", {className: containerClass}, React.createElement("div", {className: headingClass}, link), list);
         return container;
     };

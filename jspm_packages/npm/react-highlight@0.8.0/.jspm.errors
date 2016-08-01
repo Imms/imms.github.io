@@ -1,0 +1,71 @@
+MultipleErrors: C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/src/optimized.js:52:16: Unexpected token <
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/src/optimized.js:52:17: Semi-colon expected
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/src/optimized.js:52:21: Unexpected token <
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/src/optimized.js:52:22: Semi-colon expected
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/src/optimized.js:52:27: Semi-colon expected
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/src/optimized.js:52:42: Unexpected token this
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/src/optimized.js:52:43: Unexpected token props
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/src/optimized.js:52:59: Unexpected token >
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/src/optimized.js:52:60: Semi-colon expected
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/src/optimized.js:52:81: Unexpected token <
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/src/optimized.js:52:88: Unexpected token <
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/src/optimized.js:52:94: Unexpected token ;
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/src/optimized.js:56:1: Unexpected token }
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/src/optimized.js:56:2: Semi-colon expected
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/src/optimized.js:56:2: Unexpected token )
+
+MultipleErrors: C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:9:7: Unexpected token <
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:9:8: Unexpected token Highlight
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:9:23: Semi-colon expected
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:9:28: Expected '/' in regular expression literal
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:10:5: Unexpected token )
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:16:7: Unexpected token <
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:16:8: Unexpected token Highlight
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:16:23: Semi-colon expected
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:16:28: Expected '/' in regular expression literal
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:17:5: Unexpected token )
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:23:7: Unexpected token <
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:23:8: Unexpected token Highlight
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:23:18: Semi-colon expected
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:23:40: Semi-colon expected
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:23:45: Expected '/' in regular expression literal
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:24:5: Unexpected token )
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:30:7: Unexpected token <
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:30:8: Unexpected token Highlight
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:30:18: Semi-colon expected
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:30:38: Semi-colon expected
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:30:43: Expected '/' in regular expression literal
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:31:5: Unexpected token )
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:37:7: Unexpected token <
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:37:8: Unexpected token Highlight
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:37:18: Semi-colon expected
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:37:33: Unexpected token true
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:37:35: Unexpected token element
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:37:33: Unexpected token }
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:37:55: Unexpected token text
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:37:60: Expected '/' in regular expression literal
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:38:5: Unexpected token )
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:44:7: Unexpected token <
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:44:8: Unexpected token Highlight
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:44:18: Semi-colon expected
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:44:33: Unexpected token true
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:44:34: Unexpected token >
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:44:35: Semi-colon expected
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:44:58: Unexpected token <
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/test/highlight.test.js:45:5: Unexpected token )
+
+MultipleErrors: C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/src/index.js:45:16: Unexpected token <
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/src/index.js:45:17: Semi-colon expected
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/src/index.js:45:21: Unexpected token <
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/src/index.js:45:22: Semi-colon expected
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/src/index.js:45:27: Semi-colon expected
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/src/index.js:45:42: Unexpected token this
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/src/index.js:45:43: Unexpected token props
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/src/index.js:45:59: Unexpected token >
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/src/index.js:45:60: Semi-colon expected
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/src/index.js:45:81: Unexpected token <
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/src/index.js:45:88: Unexpected token <
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/src/index.js:45:94: Unexpected token ;
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/src/index.js:49:1: Unexpected token }
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/src/index.js:49:2: Semi-colon expected
+C:/Users/lifeg/AppData/Local/.jspm/packages/npm/react-highlight@0.8.0/src/index.js:49:2: Unexpected token )
