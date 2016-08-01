@@ -11,7 +11,7 @@ var Links;
     Links.whyImms = "/pages/WhyImms";
     Links.general = "/pages/General";
     function article(name) {
-        return "Pages/" + name;
+        return "pages/" + name;
     }
     Links.article = article;
     function api(relative) {
