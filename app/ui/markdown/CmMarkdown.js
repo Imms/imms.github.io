@@ -34,19 +34,22 @@ var CmMarkdown = (function (_super) {
         props.content.then(function (text) {
             _this.withState(function (s) { return s.content = text; });
         });
-        props.apiLinks.then(function (data) { return _this.withState(function (s) { return s.apiLinkResolver = function (s) { return data[s]; }; }); });
+        props.apiLinks.then(function (data) { return _this.withState(function (s) { return s.apiLinkResolver = function (s) { return ("/API/html/" + data[s] + ".htm"); }; }); });
     };
     CmMarkdown.prototype.componentWillReceiveProps = function (props) {
         if (this.props.content !== props.content) {
             this.downloadUrl(props);
         }
     };
+    CmMarkdown.prototype.runMathjax = function () {
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, document]);
+    };
     CmMarkdown.prototype.renderLink = function (renderProps) {
         var link = renderProps.href;
         if (this.state.apiLinkResolver && apiRefRegex.test(link)) {
             link = this.state.apiLinkResolver(link);
         }
-        if (link && !link.startsWith("http://" && !link.startsWith("/API"))) {
+        if (link && !link.startsWith("http://") && !link.startsWith("/API")) {
             return React.createElement(react_router_1.Link, {to: link, title: renderProps.title}, renderProps.children);
         }
         return React.createElement("a", {href: link, title: renderProps.title}, renderProps.children);
@@ -105,6 +108,10 @@ var CmMarkdown = (function (_super) {
     __decorate([
         decorators_1.At.willReceiveProps()
     ], CmMarkdown.prototype, "componentWillReceiveProps", null);
+    __decorate([
+        decorators_1.At.didMount(),
+        decorators_1.At.didUpdate()
+    ], CmMarkdown.prototype, "runMathjax", null);
     return CmMarkdown;
 }(MyComponent_1.MyComponent));
 exports.CmMarkdown = CmMarkdown;

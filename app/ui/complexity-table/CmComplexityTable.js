@@ -35,7 +35,7 @@ var CmComplexityTable = (function (_super) {
     };
     CmComplexityTable.prototype.doMathjax = function () {
         if (this._root) {
-            MathJax.Hub.Process(this._root, null);
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub, this._root]);
         }
     };
     CmComplexityTable.prototype.render = function () {
@@ -74,7 +74,6 @@ var CmComplexityTable = (function (_super) {
         decorators_1.At.willMount()
     ], CmComplexityTable.prototype, "componentWillMount", null);
     __decorate([
-        decorators_1.At.didMount(),
         decorators_1.At.didUpdate()
     ], CmComplexityTable.prototype, "doMathjax", null);
     return CmComplexityTable;

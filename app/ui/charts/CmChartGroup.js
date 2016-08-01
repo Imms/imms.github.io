@@ -45,7 +45,8 @@ var CmChartGroup = (function (_super) {
         return data;
     };
     CmChartGroup.prototype.render = function () {
-        return React.createElement("div", {className: "cm-chart-group"}, React.createElement("div", {className: "cm-chart-group__header"}, this.props.group.long), React.createElement(CmChart_1.CmChart, {rendering: this.props.rendering, data: this.chartData}));
+        var rendering = this.props.rendering;
+        return React.createElement("div", {className: "cm-chart-group"}, React.createElement("div", {className: "cm-chart-group__header"}, this.props.group.long), React.createElement(CmChart_1.CmChart, {rendering: rendering, data: this.chartData}));
     };
     return CmChartGroup;
 }(React.Component));

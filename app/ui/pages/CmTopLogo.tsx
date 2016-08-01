@@ -1,5 +1,6 @@
 import React = require('react');
 import { Link} from 'react-router';
+import {At} from '../../react-ext/decorators';
 import $ = require('jquery');
 import {Links} from '../links';
 import YAML = require('yamljs');
@@ -188,7 +189,7 @@ const mathjaxDefs = `
     |newcommand{|fastt}{⚡⚡}
     |newcommand{|u}[1]{|underline{ #1}}
     |newcommand{|o}[1]{|overline{ #1}}
-`.replace(/|/g, "\\");
+`.replace(/\|/g, "\\");
 
 interface PgArticleProps {
 	src : string;
@@ -206,7 +207,6 @@ const components = {
 };
 const markdownHeader = /^---$/m;
 export class PgArticle extends React.Component<PgArticleProps, {}> {
-
 
 
 	readHeader(header : any) {

@@ -27,6 +27,7 @@ export class CmChartSuite extends MyComponent<CmChartSuiteProps,  CmChartSuiteSt
 		return this.state.suite.groups.find(x => x.group == this.state.active) || this.state.suite.groups[0];
 	}
 
+
 	@At.didMount()
 	private didMount() {
 		this.loadSuite(this.props);

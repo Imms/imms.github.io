@@ -39,6 +39,7 @@ export class CmChart extends React.Component<CmChartProps, {}> {
 				hover : {
 					mode : "label"
 				},
+				maintainAspectRatio : false, //this makes the charts grow in height when there isn't any width room
 				tooltips: {
 					mode : "label"
 				},

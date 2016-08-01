@@ -50,7 +50,7 @@ var App = (function (_super) {
         this.state = { articles: null };
     }
     App.prototype.render = function () {
-        return React.createElement(react_router_1.Router, {history: react_router_1.hashHistory}, React.createElement(react_router_1.Route, {path: links_1.Links.article(":name"), component: RtArticle}), React.createElement(react_router_1.Route, {path: links_1.Links.api(":page"), component: RtPage}), React.createElement(react_router_1.Redirect, {from: "/", to: links_1.Links.article("index")}));
+        return React.createElement(react_router_1.Router, {history: react_router_1.hashHistory}, React.createElement(react_router_1.Route, {path: links_1.Links.article(":name"), component: RtArticle}), React.createElement(react_router_1.Redirect, {from: "/", to: links_1.Links.article("index")}), React.createElement(react_router_1.Redirect, {from: "/index", to: "/"}));
     };
     return App;
 }(React.Component));

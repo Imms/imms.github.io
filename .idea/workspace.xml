@@ -2,46 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bbc7136-871e-4550-87cb-0c2fea76dd87" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jspm_packages/npm/react-dom@15.2.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jspm_packages/npm/react-dom@15.2.1/.jspm-hash" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jspm_packages/npm/react-dom@15.2.1/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jspm_packages/npm/react-dom@15.2.1/PATENTS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jspm_packages/npm/react-dom@15.2.1/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jspm_packages/npm/react-dom@15.2.1/dist/react-dom-server.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jspm_packages/npm/react-dom@15.2.1/dist/react-dom-server.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jspm_packages/npm/react-dom@15.2.1/dist/react-dom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jspm_packages/npm/react-dom@15.2.1/dist/react-dom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jspm_packages/npm/react-dom@15.2.1/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jspm_packages/npm/react-dom@15.2.1/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jspm_packages/npm/react-dom@15.2.1/package.json.orig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jspm_packages/npm/react-dom@15.2.1/package.json.rej" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jspm_packages/npm/react-dom@15.2.1/server.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/documentation.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/documentation.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/documentation.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/getImms.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/getImms.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/getImms.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/main.css.map" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pages/GetImms.md" afterPath="$PROJECT_DIR$/Pages/GetImms.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/links.js" afterPath="$PROJECT_DIR$/app/ui/links.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/links.js.map" afterPath="$PROJECT_DIR$/app/ui/links.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/links.ts" afterPath="$PROJECT_DIR$/app/ui/links.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/charts/CmChart.js" afterPath="$PROJECT_DIR$/app/ui/charts/CmChart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/charts/CmChart.js.map" afterPath="$PROJECT_DIR$/app/ui/charts/CmChart.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/charts/CmChart.tsx" afterPath="$PROJECT_DIR$/app/ui/charts/CmChart.tsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/charts/CmChartGroup.js" afterPath="$PROJECT_DIR$/app/ui/charts/CmChartGroup.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/charts/CmChartGroup.js.map" afterPath="$PROJECT_DIR$/app/ui/charts/CmChartGroup.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/charts/CmChartGroup.tsx" afterPath="$PROJECT_DIR$/app/ui/charts/CmChartGroup.tsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/charts/CmChartSuite.js.map" afterPath="$PROJECT_DIR$/app/ui/charts/CmChartSuite.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/charts/CmChartSuite.tsx" afterPath="$PROJECT_DIR$/app/ui/charts/CmChartSuite.tsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/complexity-table/CmComplexityTable.js" afterPath="$PROJECT_DIR$/app/ui/complexity-table/CmComplexityTable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/complexity-table/CmComplexityTable.js.map" afterPath="$PROJECT_DIR$/app/ui/complexity-table/CmComplexityTable.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/complexity-table/CmComplexityTable.tsx" afterPath="$PROJECT_DIR$/app/ui/complexity-table/CmComplexityTable.tsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/markdown/CmMarkdown.js" afterPath="$PROJECT_DIR$/app/ui/markdown/CmMarkdown.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/markdown/CmMarkdown.js.map" afterPath="$PROJECT_DIR$/app/ui/markdown/CmMarkdown.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/markdown/CmMarkdown.tsx" afterPath="$PROJECT_DIR$/app/ui/markdown/CmMarkdown.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/navbar/CmArticleNav.js" afterPath="$PROJECT_DIR$/app/ui/navbar/CmArticleNav.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/navbar/CmArticleNav.js.map" afterPath="$PROJECT_DIR$/app/ui/navbar/CmArticleNav.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/navbar/CmArticleNav.tsx" afterPath="$PROJECT_DIR$/app/ui/navbar/CmArticleNav.tsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/pages/CmTopLogo.js" afterPath="$PROJECT_DIR$/app/ui/pages/CmTopLogo.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/pages/CmTopLogo.js.map" afterPath="$PROJECT_DIR$/app/ui/pages/CmTopLogo.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/pages/CmTopLogo.tsx" afterPath="$PROJECT_DIR$/app/ui/pages/CmTopLogo.tsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/routing.js" afterPath="$PROJECT_DIR$/app/ui/routing.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/routing.js.map" afterPath="$PROJECT_DIR$/app/ui/routing.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/routing.tsx" afterPath="$PROJECT_DIR$/app/ui/routing.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.js" afterPath="$PROJECT_DIR$/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/articles.yaml" afterPath="$PROJECT_DIR$/data/articles.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jspm_packages/.dependencies.json" afterPath="$PROJECT_DIR$/jspm_packages/.dependencies.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Maps.md" afterPath="$PROJECT_DIR$/pages/Maps.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Sets.md" afterPath="$PROJECT_DIR$/pages/Sets.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/includes/_syntax-highlighting.scss" afterPath="$PROJECT_DIR$/styles/includes/_syntax-highlighting.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/landing.css" afterPath="$PROJECT_DIR$/styles/landing.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/landing.css.map" afterPath="$PROJECT_DIR$/styles/landing.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/landing.scss" afterPath="$PROJECT_DIR$/styles/landing.scss" />
     </list>
     <ignored path="Imms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,23 +55,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CmTopLogo.tsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CmTopLogo.tsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/ui/pages/CmTopLogo.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="201" column="81" selection-start-line="201" selection-start-column="81" selection-end-line="201" selection-end-column="81" />
+            <state relative-caret-position="571">
+              <caret line="252" column="22" selection-start-line="252" selection-start-column="22" selection-end-line="252" selection-end-column="22" />
               <folding>
-                <marker date="1470049708358" expanded="true" signature="6871:7532" ph="..." />
-                <marker date="1470049708358" expanded="true" signature="6892:6932" ph="..." />
-                <marker date="1470049708358" expanded="true" signature="6983:7146" ph="..." />
-                <marker date="1470049708358" expanded="true" signature="7015:7136" ph="..." />
-                <marker date="1470049708358" expanded="true" signature="7048:7125" ph="..." />
-                <marker date="1470049708358" expanded="true" signature="7184:7460" ph="..." />
-                <marker date="1470049708358" expanded="true" signature="7222:7450" ph="..." />
-                <marker date="1470049708358" expanded="true" signature="7268:7303" ph="..." />
-                <marker date="1470049708358" expanded="true" signature="7339:7439" ph="..." />
-                <marker date="1470049708358" expanded="true" signature="7497:7523" ph="..." />
+                <element signature="e#33#68#0" expanded="true" />
+                <marker date="1470080848174" expanded="true" signature="6920:6927" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routing.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/ui/routing.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="64" column="18" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
+              <folding>
+                <element signature="e#33#115#0" expanded="true" />
+                <element signature="e#202#232#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CmChartSuite.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/ui/charts/CmChartSuite.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CmComplexityTable.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/ui/complexity-table/CmComplexityTable.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-715">
+              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -85,42 +104,12 @@
       <file leaf-file-name="CmMarkdown.tsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/ui/markdown/CmMarkdown.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_syntax-highlighting.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/styles/includes/_syntax-highlighting.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="highlight.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jspm_packages/npm/highlight.js@8.9.1/lib/highlight.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-375">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="-315">
+              <caret line="50" column="117" selection-start-line="50" selection-start-column="117" selection-end-line="50" selection-end-column="117" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cs.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jspm_packages/npm/highlight.js@8.9.1/lib/languages/cs.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="93" column="11" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="11" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <marker date="1470080566155" expanded="true" signature="3606:3647" ph="..." />
+                <marker date="1470080566155" expanded="true" signature="3811:3861" ph="..." />
+                <marker date="1470080566155" expanded="true" signature="3811:3862" ph="..." />
               </folding>
             </state>
           </provider>
@@ -129,54 +118,49 @@
       <file leaf-file-name="landing.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/landing.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="567">
+              <caret line="81" column="23" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CmArticleNav.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/ui/navbar/CmArticleNav.tsx">
+      <file leaf-file-name="landing.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/landing.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="925">
-              <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+            <state relative-caret-position="0">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="articles.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/articles.yaml">
+      <file leaf-file-name="_math.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/includes/_math.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
-              <folding>
-                <marker date="1470061278130" expanded="true" signature="687:703" ph="@/API/inde..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testSuites.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/testSuites.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2138">
-              <caret line="328" column="22" selection-start-line="328" selection-start-column="22" selection-end-line="328" selection-end-column="22" />
+            <state relative-caret-position="100">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Maps.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pages/Maps.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="602">
-                <caret line="111" column="10" selection-start-line="111" selection-start-column="10" selection-end-line="111" selection-end-column="10" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="CmChart.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/ui/charts/CmChart.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="41" column="115" selection-start-line="41" selection-start-column="115" selection-end-line="41" selection-end-column="115" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CmChartGroup.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/ui/charts/CmChartGroup.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -205,9 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pages/GetImms.html" />
-        <option value="$PROJECT_DIR$/pages/Home.md" />
-        <option value="$PROJECT_DIR$/pages/General.md" />
         <option value="$PROJECT_DIR$/pages/WhyImmutable.md" />
         <option value="$PROJECT_DIR$/pages/Sets.md" />
         <option value="$PROJECT_DIR$/pages/Sequentials.md" />
@@ -230,11 +211,9 @@
         <option value="$PROJECT_DIR$/pages/FSharpIntegration.md" />
         <option value="$PROJECT_DIR$/styles/getImms.scss" />
         <option value="$PROJECT_DIR$/styles/documentation.scss" />
-        <option value="$PROJECT_DIR$/styles/landing.scss" />
         <option value="$PROJECT_DIR$/app/ui/charts/types.ts" />
         <option value="$PROJECT_DIR$/data/testSuites.yaml" />
         <option value="$PROJECT_DIR$/app/ui/main.tsx" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/ui/CmMathjaxMacros.tsx" />
         <option value="$PROJECT_DIR$/app/MyComponent.tsx" />
         <option value="$PROJECT_DIR$/Pages/Future.md" />
@@ -244,18 +223,23 @@
         <option value="$PROJECT_DIR$/Pages/GetImms.html" />
         <option value="$PROJECT_DIR$/app/ui/api.tsx" />
         <option value="$PROJECT_DIR$/Pages/Sequentials.md" />
-        <option value="$PROJECT_DIR$/app/ui/complexity-table/CmComplexityTable.tsx" />
-        <option value="$PROJECT_DIR$/app/ui/charts/CmChartSuite.tsx" />
         <option value="$PROJECT_DIR$/Pages/GetImms.md" />
-        <option value="$PROJECT_DIR$/app/ui/pages/CmTopLogo.tsx" />
         <option value="$PROJECT_DIR$/Pages/Sets.md" />
         <option value="$PROJECT_DIR$/Pages/Maps.md" />
         <option value="$PROJECT_DIR$/app/ui/links.ts" />
         <option value="$PROJECT_DIR$/app/ui/navbar/CmArticleNav.tsx" />
-        <option value="$PROJECT_DIR$/app/ui/routing.tsx" />
         <option value="$PROJECT_DIR$/data/articles.yaml" />
-        <option value="$PROJECT_DIR$/app/ui/markdown/CmMarkdown.tsx" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/styles/includes/_syntax-highlighting.scss" />
+        <option value="$PROJECT_DIR$/styles/includes/_main.scss" />
+        <option value="$PROJECT_DIR$/app/ui/charts/CmChartGroup.tsx" />
+        <option value="$PROJECT_DIR$/app/ui/charts/CmChart.tsx" />
+        <option value="$PROJECT_DIR$/app/ui/charts/CmChartSuite.tsx" />
+        <option value="$PROJECT_DIR$/app/ui/complexity-table/CmComplexityTable.tsx" />
+        <option value="$PROJECT_DIR$/app/ui/routing.tsx" />
+        <option value="$PROJECT_DIR$/app/ui/markdown/CmMarkdown.tsx" />
+        <option value="$PROJECT_DIR$/styles/landing.scss" />
+        <option value="$PROJECT_DIR$/app/ui/pages/CmTopLogo.tsx" />
       </list>
     </option>
   </component>
@@ -273,10 +257,10 @@
     <scope name="Hide js and map files" pattern="!file:*.css.map&amp;&amp;!file[Imms]:.sass-cache//*&amp;&amp;!file[Imms]:.idea//*&amp;&amp;!file:.gitmodules&amp;&amp;!file:.jekyll-metadata&amp;&amp;!file:about.md&amp;&amp;!file:feed.xml&amp;&amp;!file[Imms]:Code//*" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-339" />
-    <option name="y" value="612" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="55" />
+    <option name="y" value="-8" />
+    <option name="width" value="1873" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -337,7 +321,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Hide js and map files">
           <PATH>
@@ -388,7 +371,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ImmsSite" />
+              <option name="myItemId" value="Imms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -398,7 +381,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ImmsSite" />
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="landing.scss" />
+              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -412,7 +413,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ImmsSite" />
+              <option name="myItemId" value="Imms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -430,11 +431,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ImmsSite" />
+              <option name="myItemId" value="Imms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jspm_packages" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -444,15 +445,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ImmsSite" />
+              <option name="myItemId" value="Imms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jspm_packages" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="npm" />
+              <option name="myItemId" value="ui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -462,20 +463,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ImmsSite" />
+              <option name="myItemId" value="Imms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jspm_packages" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="npm" />
+              <option name="myItemId" value="ui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="highlight.js@8.9.1" />
+              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CmTopLogo.tsx" />
+              <option name="myItemType" value="com.intellij.lang.typescript.compiler.ui.projectView.TypeScriptNestingTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -484,17 +489,78 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ImmsSite" />
+              <option name="myItemId" value="Imms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="markdown" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CmMarkdown.tsx" />
+              <option name="myItemType" value="com.intellij.lang.typescript.compiler.ui.projectView.TypeScriptNestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="complexity-table" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CmComplexityTable.tsx" />
+              <option name="myItemType" value="com.intellij.lang.typescript.compiler.ui.projectView.TypeScriptNestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Imms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="charts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -816,11 +882,12 @@
       <workItem from="1469969255976" duration="12111000" />
       <workItem from="1470037450091" duration="6668000" />
       <workItem from="1470060220347" duration="5443000" />
+      <workItem from="1470075993868" duration="4827000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="579246000" />
+    <option name="totallyTimeSpent" value="584073000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -832,17 +899,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-339" y="612" width="1936" height="1056" extended-state="0" />
-    <editor active="false" />
+    <frame x="55" y="-8" width="1873" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16684724" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23234984" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06334372" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22997275" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31983384" sideWeight="0.4967033" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29685807" sideWeight="0.5105374" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271028" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23510292" sideWeight="0.49367756" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23468328" sideWeight="0.49367756" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24918212" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10617551" sideWeight="0.48946258" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10597826" sideWeight="0.48946258" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3561786" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -859,19 +926,20 @@
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31983384" sideWeight="0.4967033" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18587747" sideWeight="0.492865" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18587747" sideWeight="0.492865" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25337487" sideWeight="0.5082327" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29685807" sideWeight="0.5105374" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="170" y="92" width="1658" height="896" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271028" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2357217" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.122533746" sideWeight="0.4917673" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22779922" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498621" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32502595" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271028" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23468328" sideWeight="0.49367756" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10597826" sideWeight="0.48946258" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06334372" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22997275" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946696" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32394367" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24918212" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -899,22 +967,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_includes/forkme.html" />
-    <entry file="file://$PROJECT_DIR$/_includes/mathjax-integration.html" />
-    <entry file="file://$PROJECT_DIR$/_includes/top-navbar.html" />
-    <entry file="file://$PROJECT_DIR$/_layouts/main.html" />
-    <entry file="file://$PROJECT_DIR$/_includes/mathjax-extra-macros.html" />
     <entry file="file://$PROJECT_DIR$/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/getImms.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -926,37 +982,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/getImms.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/includes/_math.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/main.css.map">
       <provider editor-type-id="sourcemapFileViewerProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/main.css.map">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ui/charts/CmChart.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/complexity.yaml">
@@ -987,7 +1029,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/WhyImms.md">
+    <entry file="file://$PROJECT_DIR$/pages/WhyImms.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="150">
@@ -997,7 +1039,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/WhyImmutable.md">
+    <entry file="file://$PROJECT_DIR$/pages/WhyImmutable.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1007,7 +1049,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/Specialized.md">
+    <entry file="file://$PROJECT_DIR$/pages/Specialized.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1017,7 +1059,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/Philosopy.md">
+    <entry file="file://$PROJECT_DIR$/pages/Philosopy.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1027,7 +1069,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/General.md">
+    <entry file="file://$PROJECT_DIR$/pages/General.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1036,13 +1083,8 @@
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/FSharpIntegration.md">
+    <entry file="file://$PROJECT_DIR$/pages/FSharpIntegration.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1052,7 +1094,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/blah.md">
+    <entry file="file://$PROJECT_DIR$/pages/blah.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="225">
@@ -1062,7 +1104,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/Future.md">
+    <entry file="file://$PROJECT_DIR$/pages/Future.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="175">
@@ -1079,15 +1121,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/Optional.md">
+    <entry file="file://$PROJECT_DIR$/pages/Optional.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="575">
@@ -1097,7 +1131,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/index.md">
+    <entry file="file://$PROJECT_DIR$/pages/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-375">
@@ -1107,7 +1141,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/NotFound.html">
+    <entry file="file://$PROJECT_DIR$/pages/NotFound.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="2" selection-end-column="6" />
@@ -1130,27 +1164,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/ui/charts/CmChartGroup.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ui/charts/CmChartSuite.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="26" column="109" selection-start-line="26" selection-start-column="109" selection-end-line="26" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ui/complexity-table/CmComplexityTable.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1750">
-          <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/MyComponent.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -1158,15 +1171,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/GetImms.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/pages/GetImms.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="30" />
@@ -1176,8 +1181,21 @@
           <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="30" />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/Sequentials.md">
+    <entry file="file://$PROJECT_DIR$/pages/Sequentials.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="313">
@@ -1186,13 +1204,8 @@
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/Sets.md">
+    <entry file="file://$PROJECT_DIR$/pages/Sets.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="850">
@@ -1207,7 +1220,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1219,31 +1231,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/ui/routing.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
-          <folding>
-            <element signature="e#33#115#0" expanded="true" />
-            <element signature="e#202#232#0" expanded="true" />
-            <marker date="1470060899984" expanded="true" signature="1380:1567" ph="..." />
-            <marker date="1470060899984" expanded="true" signature="1503:1558" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/testSuites.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2138">
+        <state relative-caret-position="8200">
           <caret line="328" column="22" selection-start-line="328" selection-start-column="22" selection-end-line="328" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/Maps.md">
+    <entry file="file://$PROJECT_DIR$/pages/Maps.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="602">
+          <first_editor relative-caret-position="2775">
             <caret line="111" column="10" selection-start-line="111" selection-start-column="10" selection-end-line="111" selection-end-column="10" />
             <folding />
           </first_editor>
@@ -1253,53 +1252,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/articles.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
-          <folding>
-            <marker date="1470061278130" expanded="true" signature="687:703" ph="@/API/inde..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ui/pages/CmTopLogo.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="201" column="81" selection-start-line="201" selection-start-column="81" selection-end-line="201" selection-end-column="81" />
-          <folding>
-            <marker date="1470049708358" expanded="true" signature="6871:7532" ph="..." />
-            <marker date="1470049708358" expanded="true" signature="6892:6932" ph="..." />
-            <marker date="1470049708358" expanded="true" signature="6983:7146" ph="..." />
-            <marker date="1470049708358" expanded="true" signature="7015:7136" ph="..." />
-            <marker date="1470049708358" expanded="true" signature="7048:7125" ph="..." />
-            <marker date="1470049708358" expanded="true" signature="7184:7460" ph="..." />
-            <marker date="1470049708358" expanded="true" signature="7222:7450" ph="..." />
-            <marker date="1470049708358" expanded="true" signature="7268:7303" ph="..." />
-            <marker date="1470049708358" expanded="true" signature="7339:7439" ph="..." />
-            <marker date="1470049708358" expanded="true" signature="7497:7523" ph="..." />
-          </folding>
+        <state relative-caret-position="1000">
+          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/ui/navbar/CmArticleNav.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="925">
-          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ui/markdown/CmMarkdown.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/landing.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -1308,9 +1270,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-375">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1318,17 +1277,152 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
           <caret line="93" column="11" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="11" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/getImms.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/includes/_main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="150" column="13" selection-start-line="150" selection-start-column="1" selection-end-line="150" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/includes/_common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/includes/_bootstrap.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/includes/_articleTree.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-969">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/includes/_syntax-highlighting.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        <state relative-caret-position="100">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/landing.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/includes/_math.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ui/charts/CmChartGroup.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ui/charts/CmChart.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="41" column="115" selection-start-line="41" selection-start-column="115" selection-end-line="41" selection-end-column="115" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ui/charts/CmChartSuite.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ui/markdown/CmMarkdown.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315">
+          <caret line="50" column="117" selection-start-line="50" selection-start-column="117" selection-end-line="50" selection-end-column="117" />
+          <folding>
+            <marker date="1470080566155" expanded="true" signature="3606:3647" ph="..." />
+            <marker date="1470080566155" expanded="true" signature="3811:3861" ph="..." />
+            <marker date="1470080566155" expanded="true" signature="3811:3862" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ui/complexity-table/CmComplexityTable.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-715">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ui/routing.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="64" column="18" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
+          <folding>
+            <element signature="e#33#115#0" expanded="true" />
+            <element signature="e#202#232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/landing.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="81" column="23" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ui/pages/CmTopLogo.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="252" column="22" selection-start-line="252" selection-start-column="22" selection-end-line="252" selection-end-column="22" />
+          <folding>
+            <element signature="e#33#68#0" expanded="true" />
+            <marker date="1470080848174" expanded="true" signature="6920:6927" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

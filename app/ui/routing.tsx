@@ -60,8 +60,8 @@ export class App extends React.Component<{}, {}> {
 	render() {
 		return <Router history={hashHistory}>
 			<Route path={Links.article(":name")} component={RtArticle}  />
-			<Route path={Links.api(":page")} component={RtPage}/>
 			<Redirect from="/" to={Links.article("index")}/>
+			<Redirect from="/index" to="/"/>
 		</Router>;
 	}
 }

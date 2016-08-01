@@ -48,7 +48,7 @@ export class CmMarkdown extends MyComponent<CmMarkdownProps, CmMarkdownState> {
 		props.content.then(text => {
 			this.withState(s => s.content = text)
 		});
-		props.apiLinks.then(data => this.withState(s => s.apiLinkResolver = (s : string) => data[s]))
+		props.apiLinks.then(data => this.withState(s => s.apiLinkResolver = (s : string) => `/API/html/${data[s]}.htm`))
 	}
 
     @At.willReceiveProps()
@@ -58,12 +58,18 @@ export class CmMarkdown extends MyComponent<CmMarkdownProps, CmMarkdownState> {
 		}
 	}
 
+	@At.didMount()
+	@At.didUpdate()
+	runMathjax() {
+		MathJax.Hub.Queue(["Typeset", MathJax.Hub, document]);
+	}
+
     renderLink(renderProps) {
         let link = renderProps.href;
         if (this.state.apiLinkResolver && apiRefRegex.test(link)) {
             link = this.state.apiLinkResolver(link);
         }
-        if (link && !link.startsWith("http://" && !link.startsWith("/API"))) {
+        if (link && !link.startsWith("http://") && !link.startsWith("/API")) {
         	return <Link to={link} title={renderProps.title}>{renderProps.children}</Link>;
 		}
         return <a href={link} title={renderProps.title}>{renderProps.children}</a>;

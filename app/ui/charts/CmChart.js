@@ -37,6 +37,7 @@ var CmChart = (function (_super) {
                 hover: {
                     mode: "label"
                 },
+                maintainAspectRatio: false,
                 tooltips: {
                     mode: "label"
                 },

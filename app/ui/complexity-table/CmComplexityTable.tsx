@@ -75,11 +75,10 @@ export class CmComplexityTable extends MyComponent<CmComplexityTableProps, CmCom
 	}
 	timeout : number;
 
-	@At.didMount()
 	@At.didUpdate()
 	doMathjax() {
 		if (this._root) {
-			MathJax.Hub.Process(this._root, null);
+			MathJax.Hub.Queue(["Typeset", MathJax.Hub, this._root]);
 		}
 	}
 

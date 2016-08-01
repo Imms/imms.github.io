@@ -49,9 +49,10 @@ export class CmChartGroup extends React.Component<ChartGroupProps, {}> {
 }
 
 	render() {
+		let rendering = this.props.rendering;
 		return <div className="cm-chart-group">
 			<div className="cm-chart-group__header">{this.props.group.long}</div>
-				<CmChart rendering={this.props.rendering} data={this.chartData}/>
+				<CmChart rendering={rendering} data={this.chartData}/>
 			</div>
 	}
 
