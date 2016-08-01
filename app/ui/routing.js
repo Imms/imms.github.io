@@ -25,7 +25,7 @@ var RtArticle = (function (_super) {
     }
     RtArticle.prototype.render = function () {
         var params = this.props.params;
-        var path = links_1.Links.article(params.name) + ".md";
+        var path = links_1.Links.article(params.name) + ".markdown";
         var content = $.get(path);
         return React.createElement(CmTopLogo_1.PgArticle, {src: path});
     };

@@ -27,7 +27,7 @@ class RtArticle extends MyComponent<RtArticleProps, {}> {
 
 	render() {
 		let params = this.props.params;
-		let path = Links.article(params.name) + ".md";
+		let path = Links.article(params.name) + ".markdown";
 		let content = $.get(path);
 		return <PgArticle src={path} />;
 	}
