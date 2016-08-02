@@ -6,10 +6,10 @@ var data_1 = require('./data');
 var Links;
 (function (Links) {
     Links.home = "/";
-    Links.getImms = "/content/GetImms.html";
-    Links.whyImmutable = "/content/WhyImmutable";
-    Links.whyImms = "/content/WhyImms";
-    Links.general = "/content/General";
+    Links.getImms = article("get-imms");
+    Links.whyImmutable = article("why-immutable");
+    Links.whyImms = article("why-imms");
+    Links.general = article("general");
     function article(name) {
         return "content/" + name;
     }

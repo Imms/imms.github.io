@@ -4,6 +4,6 @@
  */
 var Data;
 (function (Data) {
-    Data.version = "0.6.0";
+    Data.version = "0.7.0";
 })(Data = exports.Data || (exports.Data = {}));
 //# sourceMappingURL=data.js.map

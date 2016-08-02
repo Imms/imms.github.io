@@ -4,10 +4,10 @@
 import {Data} from './data';
 export module Links {
 	export const home = "/";
-	export const getImms = "/content/GetImms.html";
-	export const whyImmutable = "/content/WhyImmutable";
-	export const whyImms = "/content/WhyImms";
-	export const general = "/content/General";
+	export const getImms = article("get-imms");
+	export const whyImmutable = article("why-immutable");
+	export const whyImms = article("why-imms");
+	export const general = article("general");
 	export function article(name : string) {
 		return `content/${name}`;
 	}
