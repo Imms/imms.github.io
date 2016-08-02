@@ -204,7 +204,6 @@ const components = {
 	CmDownloadOptions : props => <CmDownloadOptions/>
 
 };
-const markdownHeader = /^---$/m;
 export class PgArticle extends React.Component<PgArticleProps, {}> {
 
 
@@ -226,8 +225,8 @@ export class PgArticle extends React.Component<PgArticleProps, {}> {
 
 	render() {
 		let article = $.get(this.props.src).then((text : string) => {
-			if (text.startsWith("---")) {
-				let split = text.split("---", 3);
+			if (text.startsWith("***")) {
+				let split = text.split("***", 3);
 				let headerText = split[1];
 				let header = YAML.parse(headerText.trim());
 				let content = split[2];

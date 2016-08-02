@@ -104,7 +104,6 @@ var components = {
     },
     CmDownloadOptions: function (props) { return React.createElement(CmDownloadOptions, null); }
 };
-var markdownHeader = /^---$/m;
 var PgArticle = (function (_super) {
     __extends(PgArticle, _super);
     function PgArticle() {
@@ -130,8 +129,8 @@ var PgArticle = (function (_super) {
     PgArticle.prototype.render = function () {
         var _this = this;
         var article = $.get(this.props.src).then(function (text) {
-            if (text.startsWith("---")) {
-                var split = text.split("---", 3);
+            if (text.startsWith("***")) {
+                var split = text.split("***", 3);
                 var headerText = split[1];
                 var header = YAML.parse(headerText.trim());
                 var content = split[2];
