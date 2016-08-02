@@ -198,7 +198,7 @@ In addition to the standard LINQ methods, a few interesting additional methods a
 An operation that is similar to `Aggregate`, but returns a collection consisting of the partial results.
 	
 #### Select optional
-This is similar to the `Select` projection and can be used in a query expression. The element projection function returns an [`Optional<S>`](/pages/optional) value, and returns a collection with element type `S`. Only `Some` values are retained in the result.
+This is similar to the `Select` projection and can be used in a query expression. The element projection function returns an [`Optional<S>`](/content/optional) value, and returns a collection with element type `S`. Only `Some` values are retained in the result.
 
 ## Compatibility features
 Imms collections implement various interfaces such as `IList<T>` and others for the sake of compatibility. Other examples of implemented interfaces include: `IReadOnlyList<T>`, and `IList`. Note that mutable collection interfaces throw exceptions when mutation is attempted, which is standard behavior for read-only collections in .NET.

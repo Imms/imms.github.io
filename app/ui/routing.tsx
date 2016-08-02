@@ -3,7 +3,7 @@ import {Route, Router, Redirect ,browserHistory, hashHistory} from 'react-router
 import {ArticleTreeEntry} from './navbar/CmArticleNav';
 import $ = require('jquery');
 import {Links} from './links';
-import {PgArticle} from "./pages/CmTopLogo";
+import {PgArticle} from "./content/CmTopLogo";
 import {MyComponent} from "../MyComponent";
 import {At} from '../react-ext/decorators';
 import {Api} from './api';

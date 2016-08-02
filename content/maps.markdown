@@ -82,7 +82,7 @@ If a selector isn't supplied in this case, the result will be `{a: 5}`, since th
 2. [`Slice`](M:ImmSortedMap'2.Slice), which returns a slice of the map between two keys, which aren't required to be in the map.
 
 ## Map Compatibility
-Compatibility also applies to maps, as discussed in the appropriate section in the [sets page](/pages/Sets#set-compatibility).
+Compatibility also applies to maps, as discussed in the appropriate section in the [sets page](/content/Sets#set-compatibility).
 
 Compatibility is only related to the key, not the value. So theoretically maps can be compatible even if they have different value types. In addition, they could even be compatible with sets, since they can have the same structure.
 
@@ -91,7 +91,7 @@ In practice, at least as of now, maps with different value types aren't compatib
 The exceptions are `Subtract` and `RemoveRange`, which work for compatible maps (regardless of value type), and compatible sets. This can, however, be regarded as an implementation detail rather than a feature.
 
 ## Performance and Complexity
-In Imms, maps and sets are implemented using exactly the same data structures, so their algorithmic complexity is exactly the same. See the [set complexity section](/pages/Sets#complexity) for more information. Much written there is also relevant to maps.
+In Imms, maps and sets are implemented using exactly the same data structures, so their algorithmic complexity is exactly the same. See the [set complexity section](/content/Sets#complexity) for more information. Much written there is also relevant to maps.
 
 Operations such as `Union` are directly paralleled by `Merge` and others.
 

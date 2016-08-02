@@ -12,8 +12,8 @@ Imms is a powerful, high-performance library of immutable and persistent collect
 
 It also has a number of additional, highly useful features, such as an Optional type.
 
-* [What's an immutable and persistent collection?](/pages/WhyImmutable)
-* [Why choose Imms?](/pages/WhyImms)
+* [What's an immutable and persistent collection?](/content/WhyImmutable)
+* [Why choose Imms?](/content/WhyImms)
 
 Currently, Imms requires .NET Framework version 4.5. In the future, versions for 4.0 and 3.5 will also be compiled.
 
@@ -25,7 +25,7 @@ Imms contains 6 basic collection types, which may be used to create other, more 
 
 	A flexible and high-performance double-ended queue, which also supports pretty much every operation you can name, such as fast splitting and concatenation, insertion and removal at an index, and more.
     
-    [Sequential collections](/pages/sequential)
+    [Sequential collections](/content/sequential)
 
 2. ### [ImmVector](T:ImmVector'1)
     Also similar to `List<T>`.
@@ -34,31 +34,31 @@ Imms contains 6 basic collection types, which may be used to create other, more 
     
     Temporarily semi-deprecated. Needs a bit more optimization to be more useful.
     
-    [Sequential collections](/pages/sequential)
+    [Sequential collections](/content/sequential)
 
 3. ### [ImmSet](T:ImmSet'1)
 	Similar to `HashSet<T>`.
 
     A hash set. Supports fast set-theoretic operations and relations, such as `IsSupersetOf` and `Union`.
     
-    [Set collections](/pages/sets)
+    [Set collections](/content/sets)
 
 4. ### [ImmMap](T:ImmMap'2)
 	Similar to `Dictionary<TKey, TValue>`.
 
     A key-value hash map or dictionary. Supports lookup and update by key, as well as advanced operations, such as merging and joining two maps.
     
-    [Map collections](/pages/maps)
+    [Map collections](/content/maps)
 
 5. ### [ImmSortedSet](T:ImmSortedSet'1)
 	A sorted version of `ImmSet`. Supports additional operations such as `ByIndex`, `MaxItem`, and `Slice` (from key to key).
     
-    [More info](/pages/sets)
+    [More info](/content/sets)
 
 6. ### [ImmSortedMap](T:ImmSortedMap'2)
 	A sorted version of `ImmMap`. Supports additional operations, such as `ByIndex`, `MaxItem`, and more.
 
-	[More info](/pages/maps)
+	[More info](/content/maps)
 
 ## Examples
 Here is a bit of code to give you a feel for Imms and its collections.
@@ -89,16 +89,16 @@ ImmMap<int, int> immMap2 =
 ```
 
 ## Getting Started
-Just [get Imms](/pages/GetImms) in whatever form you prefer, reference it from your project, and start coding. Imms has no dependencies.
+Just [get Imms](/content/GetImms) in whatever form you prefer, reference it from your project, and start coding. Imms has no dependencies.
 
 ## Documentation
-Check out the [conceptual documentation](/pages/General) and the [API Reference documentation](/API/index).
+Check out the [conceptual documentation](/content/General) and the [API Reference documentation](/API/index).
 
 In particular, check out the gotchas page.
 
 Imms is (almost) fully documented in a few different ways. Hopefully, they will be better integrated in the future.
 
-This site is the primary source of documentation and has a lot of information, including a rundown of the library's features, overview of each of the collections, explanations of what some of the operations do, as well as performance information. See the [Documentation](/pages/docs) section for more info.
+This site is the primary source of documentation and has a lot of information, including a rundown of the library's features, overview of each of the collections, explanations of what some of the operations do, as well as performance information. See the [Documentation](/content/docs) section for more info.
 
 The library's public API (and some of the internal stuff too) is documented using XML Doc, so you have a lot of information available to you in your IDE.
 
@@ -108,6 +108,6 @@ You can also consult the [API Reference](/API/index.html) section, which contain
 ## Performance
 Due to technical reasons, performance information isn't available in the API documentation, so you'll have to read the collection pages for each of the collection types:
 
-1. [sequential](/pages/sequential)
-2. [sets](/pages/sets)
-3. [maps](/pages/maps)
+1. [sequential](/content/sequential)
+2. [sets](/content/sets)
+3. [maps](/content/maps)

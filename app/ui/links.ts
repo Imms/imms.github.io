@@ -4,12 +4,12 @@
 import {Data} from './data';
 export module Links {
 	export const home = "/";
-	export const getImms = "/pages/GetImms.html";
-	export const whyImmutable = "/pages/WhyImmutable";
-	export const whyImms = "/pages/WhyImms";
-	export const general = "/pages/General";
+	export const getImms = "/content/GetImms.html";
+	export const whyImmutable = "/content/WhyImmutable";
+	export const whyImms = "/content/WhyImms";
+	export const general = "/content/General";
 	export function article(name : string) {
-		return `pages/${name}`;
+		return `content/${name}`;
 	}
 	export function api(relative : string) {
 		return `API/${relative}`;

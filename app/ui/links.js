@@ -6,12 +6,12 @@ var data_1 = require('./data');
 var Links;
 (function (Links) {
     Links.home = "/";
-    Links.getImms = "/pages/GetImms.html";
-    Links.whyImmutable = "/pages/WhyImmutable";
-    Links.whyImms = "/pages/WhyImms";
-    Links.general = "/pages/General";
+    Links.getImms = "/content/GetImms.html";
+    Links.whyImmutable = "/content/WhyImmutable";
+    Links.whyImms = "/content/WhyImms";
+    Links.general = "/content/General";
     function article(name) {
-        return "pages/" + name;
+        return "content/" + name;
     }
     Links.article = article;
     function api(relative) {
