@@ -4,7 +4,6 @@ import {At} from '../../react-ext/decorators';
 import $ = require('jquery');
 import {Links} from '../links';
 import YAML = require('yamljs');
-import {At} from '../../react-ext/decorators';
 import {Data} from '../data';
 import {Api} from '../api';
 import {CmArticleTree, ArticleTreeEntry} from '../navbar/CmArticleNav';

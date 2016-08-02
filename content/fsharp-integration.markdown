@@ -1,10 +1,10 @@
----
+***
 layout: main
 title: Imms for F#
 description: Imms for F#
 styles:
   - documentation.css
----
+***
 # F# Integration
 **Imms** is written primarily in C# and targets that language. But the library has a separate companion assembly, `Imms.FSharp`, that provides various extensions and modules for use with F#.
 
