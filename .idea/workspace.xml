@@ -5,22 +5,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/content/NotFound.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/content/blah.markdown" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/content/fsharp-integration.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/content/future.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/content/general.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/content/get-imms.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/content/index.markdown" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/content/maps.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/content/optional.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/content/philosopy.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/content/sequentials.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/content/sets.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/content/specialized.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/content/why-imms.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/content/why-immutable.markdown" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/pages/CmTopLogo.js" afterPath="$PROJECT_DIR$/app/ui/pages/CmTopLogo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/pages/CmTopLogo.js.map" afterPath="$PROJECT_DIR$/app/ui/pages/CmTopLogo.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/pages/CmTopLogo.tsx" afterPath="$PROJECT_DIR$/app/ui/pages/CmTopLogo.tsx" />
     </list>
     <ignored path="Imms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,7 +51,7 @@
       <file leaf-file-name="articles.yaml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data/articles.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="925">
+            <state relative-caret-position="625">
               <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
               <folding />
             </state>
@@ -788,12 +773,12 @@
       <workItem from="1470060220347" duration="5443000" />
       <workItem from="1470075993868" duration="4858000" />
       <workItem from="1470081344702" duration="2152000" />
-      <workItem from="1470125575181" duration="1219000" />
+      <workItem from="1470125575181" duration="1736000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="587475000" />
+    <option name="totallyTimeSpent" value="587992000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -805,7 +790,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13542795" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1162,7 +1147,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/articles.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
+        <state relative-caret-position="625">
           <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
           <folding />
         </state>
