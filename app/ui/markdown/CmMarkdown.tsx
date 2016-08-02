@@ -69,7 +69,7 @@ export class CmMarkdown extends MyComponent<CmMarkdownProps, CmMarkdownState> {
         if (this.state.apiLinkResolver && apiRefRegex.test(link)) {
             link = this.state.apiLinkResolver(link);
         }
-        if (link && !link.startsWith("http://") && !link.startsWith("/API")) {
+        if (link && !link.startsWith("http") && !link.startsWith("/API")) {
         	return <Link to={link} title={renderProps.title}>{renderProps.children}</Link>;
 		}
         return <a href={link} title={renderProps.title}>{renderProps.children}</a>;

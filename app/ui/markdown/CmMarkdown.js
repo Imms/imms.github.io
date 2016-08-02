@@ -49,7 +49,7 @@ var CmMarkdown = (function (_super) {
         if (this.state.apiLinkResolver && apiRefRegex.test(link)) {
             link = this.state.apiLinkResolver(link);
         }
-        if (link && !link.startsWith("http://") && !link.startsWith("/API")) {
+        if (link && !link.startsWith("http") && !link.startsWith("/API")) {
             return React.createElement(react_router_1.Link, {to: link, title: renderProps.title}, renderProps.children);
         }
         return React.createElement("a", {href: link, title: renderProps.title}, renderProps.children);

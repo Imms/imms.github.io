@@ -8,7 +8,7 @@ var React = require('react');
 var react_router_1 = require('react-router');
 var $ = require('jquery');
 var links_1 = require('./links');
-var CmTopLogo_1 = require("./content/CmTopLogo");
+var CmTopLogo_1 = require("./pages/CmTopLogo");
 var MyComponent_1 = require("../MyComponent");
 var CmRoute = (function (_super) {
     __extends(CmRoute, _super);
