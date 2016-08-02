@@ -15,7 +15,7 @@
       link: /content/get-imms
 
 - text: Collections API
-  link: /content/General
+  link: /content/general
   children:
     - text: Sequentials
       link: /content/sequentials

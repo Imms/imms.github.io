@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bbc7136-871e-4550-87cb-0c2fea76dd87" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/markdown/CmMarkdown.js" afterPath="$PROJECT_DIR$/app/ui/markdown/CmMarkdown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/markdown/CmMarkdown.js.map" afterPath="$PROJECT_DIR$/app/ui/markdown/CmMarkdown.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/markdown/CmMarkdown.tsx" afterPath="$PROJECT_DIR$/app/ui/markdown/CmMarkdown.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/routing.js" afterPath="$PROJECT_DIR$/app/ui/routing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/routing.js.map" afterPath="$PROJECT_DIR$/app/ui/routing.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ui/routing.tsx" afterPath="$PROJECT_DIR$/app/ui/routing.tsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/index.markdown" afterPath="$PROJECT_DIR$/content/index.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/articles.yaml" afterPath="$PROJECT_DIR$/data/articles.yaml" />
     </list>
     <ignored path="Imms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,16 +46,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_articleTree.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/includes/_articleTree.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="routing.tsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/ui/routing.tsx">
           <provider selected="true" editor-type-id="text-editor">
@@ -77,9 +62,35 @@
       <file leaf-file-name="articles.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/articles.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            <state relative-caret-position="400">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.markdown" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/index.markdown">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="248">
+                <caret line="94" column="51" selection-start-line="94" selection-start-column="51" selection-end-line="94" selection-end-column="51" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="maps.markdown" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/content/maps.markdown">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="198">
+                <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -90,23 +101,6 @@
             <state relative-caret-position="529">
               <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CmChartSuite.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/ui/charts/CmChartSuite.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding>
-                <marker date="1470125429508" expanded="false" signature="7:267" ph="..." />
-                <marker date="1470125429508" expanded="true" signature="297:360" ph="..." />
-                <marker date="1470125429508" expanded="true" signature="390:429" ph="..." />
-                <marker date="1470125429508" expanded="true" signature="516:2027" ph="{...}" />
-                <marker date="1470125429508" expanded="true" signature="557:643" ph="{...}" />
-                <marker date="1470125429508" expanded="true" signature="665:773" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -129,7 +123,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CmMarkdown.tsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CmMarkdown.tsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/ui/markdown/CmMarkdown.tsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="347">
@@ -175,7 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pages/Sets.md" />
         <option value="$PROJECT_DIR$/pages/Sequentials.md" />
         <option value="$PROJECT_DIR$/pages/Maps.md" />
         <option value="$PROJECT_DIR$/pages/Future.md" />
@@ -222,10 +215,11 @@
         <option value="$PROJECT_DIR$/styles/landing.scss" />
         <option value="$PROJECT_DIR$/app/ui/links.ts" />
         <option value="$PROJECT_DIR$/app/ui/pages/CmTopLogo.tsx" />
-        <option value="$PROJECT_DIR$/data/articles.yaml" />
         <option value="$PROJECT_DIR$/app/ui/links.js" />
         <option value="$PROJECT_DIR$/app/ui/routing.tsx" />
         <option value="$PROJECT_DIR$/app/ui/markdown/CmMarkdown.tsx" />
+        <option value="$PROJECT_DIR$/data/articles.yaml" />
+        <option value="$PROJECT_DIR$/content/index.markdown" />
       </list>
     </option>
   </component>
@@ -508,19 +502,19 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Projects\Repositories\Imms\app\ui" />
-      <recent name="D:\Projects\Repositories\Imms\pages" />
-      <recent name="D:\Projects\Repositories\Imms\app\ui\pages" />
-      <recent name="D:\Projects\Repositories\Imms" />
-      <recent name="D:\Projects\Repositories\Imms\scripts\ui\chart" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\Repositories\Imms\app\ui\pages" />
       <recent name="D:\Projects\Repositories\Imms\_site" />
       <recent name="D:\Projects\Repositories\Imms\scripts" />
       <recent name="D:\Projects\Repositories\Imms" />
       <recent name="D:\Projects\Repositories\Imms\syntax-highlighting" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\Repositories\Imms\app\ui" />
+      <recent name="D:\Projects\Repositories\Imms\pages" />
+      <recent name="D:\Projects\Repositories\Imms\app\ui\pages" />
+      <recent name="D:\Projects\Repositories\Imms" />
+      <recent name="D:\Projects\Repositories\Imms\scripts\ui\chart" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.Run">
@@ -808,12 +802,12 @@
       <workItem from="1470060220347" duration="5443000" />
       <workItem from="1470075993868" duration="4858000" />
       <workItem from="1470081344702" duration="2152000" />
-      <workItem from="1470125575181" duration="2231000" />
+      <workItem from="1470125575181" duration="2588000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="588487000" />
+    <option name="totallyTimeSpent" value="588844000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -825,7 +819,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13542795" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -893,13 +887,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/complexity.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/Benchmarks/027.log.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1130,17 +1117,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/index.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/general.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1156,14 +1132,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="449">
           <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/articles.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -1203,6 +1171,36 @@
         <state relative-caret-position="347">
           <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/articles.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/index.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="248">
+            <caret line="94" column="51" selection-start-line="94" selection-start-column="51" selection-end-line="94" selection-end-column="51" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/maps.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="198">
+            <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

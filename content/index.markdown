@@ -12,8 +12,8 @@ Imms is a powerful, high-performance library of immutable and persistent collect
 
 It also has a number of additional, highly useful features, such as an Optional type.
 
-* [What's an immutable and persistent collection?](/content/WhyImmutable)
-* [Why choose Imms?](/content/WhyImms)
+* [What's an immutable and persistent collection?](/content/why-immutable)
+* [Why choose Imms?](/content/why-imms)
 
 Currently, Imms requires .NET Framework version 4.5. In the future, versions for 4.0 and 3.5 will also be compiled.
 
@@ -92,7 +92,7 @@ ImmMap<int, int> immMap2 =
 Just [get Imms](/content/GetImms) in whatever form you prefer, reference it from your project, and start coding. Imms has no dependencies.
 
 ## Documentation
-Check out the [conceptual documentation](/content/General) and the [API Reference documentation](/API/index).
+Check out the [conceptual documentation](/content/general) and the [API Reference documentation](/API/index).
 
 In particular, check out the gotchas page.
 
