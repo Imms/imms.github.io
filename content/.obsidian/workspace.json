@@ -1,0 +1,238 @@
+{
+  "main": {
+    "id": "facf0d89674be21b",
+    "type": "split",
+    "children": [
+      {
+        "id": "ad05535373ed81f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "194171b1f52c0bdb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "blah.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e300e1e2708f1fd0",
+    "type": "split",
+    "children": [
+      {
+        "id": "49b7082609847666",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef98642449f2254b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "583270d20b43a720",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "94ebddf3fbdb3334",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c52464b47009ee8a",
+    "type": "split",
+    "children": [
+      {
+        "id": "d8afeb9c9eab3a74",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b3eb7eb62bae7e90",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "blah.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "43e906291b571cea",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "blah.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6eefc884f43a82ab",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d91d1e39e18031c9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "blah.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "floating": {
+    "id": "3786d0bb342a9561",
+    "type": "floating",
+    "children": [
+      {
+        "id": "d0541e9b2127611e",
+        "type": "window",
+        "children": [
+          {
+            "id": "c97af671e073b122",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "dd78e104e464dd91",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 652,
+        "y": 15,
+        "width": 1185,
+        "height": 780,
+        "maximize": true,
+        "zoom": 0
+      },
+      {
+        "id": "ea4b99d0c0c46e3a",
+        "type": "window",
+        "children": [
+          {
+            "id": "ca6a2bada66249ce",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e911a79e372e21be",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Optional.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": -961,
+        "y": 307,
+        "width": 1185,
+        "height": 780,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "194171b1f52c0bdb",
+  "lastOpenFiles": [
+    "Why use Imms.md",
+    "Optional.md",
+    "general.md",
+    "philosopy.md",
+    "maps.md",
+    "API/Operators.md",
+    "API/Indexing.md",
+    "API/Helper.md",
+    "API/FSharp Integration.md",
+    "Conventions.md",
+    "content/maps.md",
+    "Imms.md",
+    "sets.md",
+    "Sequential.md",
+    "content",
+    "API/Comparison.md",
+    "Why use immutable collections.md",
+    "specialized.md",
+    "API",
+    "get-imms.md",
+    "blah.md",
+    "future.md"
+  ]
+}

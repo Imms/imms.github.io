@@ -6,13 +6,10 @@
   link: /index
   children:
     - text: Why Immutable?
-      link: /content/why-immutable
+      link: /content/Why/Immutable collections
 
     - text: Why Imms?
-      link: /content/why-imms
-
-    - text: Get Imms
-      link: /content/get-imms
+      link: /content/Imms
 
 - text: Collections API
   link: /content/general

@@ -61,7 +61,7 @@ export class CmMarkdown extends MyComponent<CmMarkdownProps, CmMarkdownState> {
 	@At.didMount()
 	@At.didUpdate()
 	runMathjax() {
-		MathJax.Hub.Queue(["Typeset", MathJax.Hub, document]);
+
 	}
 
     renderLink(renderProps) {
