@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Imms</title>
+      <link>https://quartz.jzhao.xyz</link>
+      <description>Last 10 notes on Imms</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Not immutable collections</title>
+    <link>https:/quartz.jzhao.xyz/Why/Not-immutable-collections</link>
+    <guid>https:/quartz.jzhao.xyz/Why/Not-immutable-collections</guid>
+    <description>Sometimes, however, you want to use a mutable collection. When mutation is desirable § Perhaps the most obvious reason to avoid immutable collections (at least directly) is that mutation is desirable.</description>
+    <pubDate>Tue, 02 Jan 2024 20:10:10 GMT</pubDate>
+  </item><item>
+    <title>Immutable collections</title>
+    <link>https:/quartz.jzhao.xyz/Why/Immutable-collections</link>
+    <guid>https:/quartz.jzhao.xyz/Why/Immutable-collections</guid>
+    <description>An immutable and persistent collection is one that can’t be changed, but still supports operations such as Add and Remove. Instead of actually changing the collection itself, these operations transform the collection, returning a new one with the desired modifications.</description>
+    <pubDate>Tue, 02 Jan 2024 20:10:10 GMT</pubDate>
+  </item><item>
+    <title>ImmSet</title>
+    <link>https:/quartz.jzhao.xyz/Collections/ImmSet</link>
+    <guid>https:/quartz.jzhao.xyz/Collections/ImmSet</guid>
+    <description>ImmSet is an immutable hash set, implemented as an AVL tree, and it’s the library’s primary set collection. Elements must normally implement IEquatable&lt;T&gt;.</description>
+    <pubDate>Tue, 02 Jan 2024 20:10:10 GMT</pubDate>
+  </item><item>
+    <title>ImmMap</title>
+    <link>https:/quartz.jzhao.xyz/Collections/ImmMap</link>
+    <guid>https:/quartz.jzhao.xyz/Collections/ImmMap</guid>
+    <description>ImmMap is an immutable hash map and the library’s primary map collection. It’s implemented as an AVL tree and uses most of the same code as ImmSet. Keys must normally implement IEquatable&lt;K&gt;, but see more about this here.</description>
+    <pubDate>Tue, 02 Jan 2024 20:10:10 GMT</pubDate>
+  </item><item>
+    <title>ImmList</title>
+    <link>https:/quartz.jzhao.xyz/Collections/ImmList</link>
+    <guid>https:/quartz.jzhao.xyz/Collections/ImmList</guid>
+    <description> Examples See some code! Imms offers a single sequential collection, ImmList. It’s the flagship collection of the library, with support for a large variety of useful operations, optimal time complexities, and blazing fast real-world performance.</description>
+    <pubDate>Tue, 02 Jan 2024 20:10:10 GMT</pubDate>
+  </item><item>
+    <title>PowerLINQ</title>
+    <link>https:/quartz.jzhao.xyz/API/PowerLINQ</link>
+    <guid>https:/quartz.jzhao.xyz/API/PowerLINQ</guid>
+    <description>Imms overrides LINQ operations, such as Select and Where with optimized implementations that return a collection of the same type as the input. This also means that they don’t execute lazily.</description>
+    <pubDate>Tue, 02 Jan 2024 20:10:09 GMT</pubDate>
+  </item><item>
+    <title>Optional</title>
+    <link>https:/quartz.jzhao.xyz/API/Optional</link>
+    <guid>https:/quartz.jzhao.xyz/API/Optional</guid>
+    <description>The Optional&lt;T&gt; type is a really useful feature that indicates an optional value of type T. Why do you need it? § In particular, why not just use null and nullable types? Uniformity/Abstraction § The .</description>
+    <pubDate>Tue, 02 Jan 2024 20:10:09 GMT</pubDate>
+  </item><item>
+    <title>Operators</title>
+    <link>https:/quartz.jzhao.xyz/API/Operators</link>
+    <guid>https:/quartz.jzhao.xyz/API/Operators</guid>
+    <description>Imms brings operators to the world of collections, resulting in more meaningful code. Add § All collections support + to add elements. For maps, the elements are key-value pairs.</description>
+    <pubDate>Tue, 02 Jan 2024 20:10:09 GMT</pubDate>
+  </item><item>
+    <title>Key Semantics</title>
+    <link>https:/quartz.jzhao.xyz/API/Key-Semantics</link>
+    <guid>https:/quartz.jzhao.xyz/API/Key-Semantics</guid>
+    <description>All keyed collections use custom key semantics by providing an IEqualityComparer&lt;T&gt; or IComparer&lt;T&gt; instance. You have to provide on of these unless your key type implements IEquatable&lt;T&gt; or IComparable&lt;T&gt;, in which case the default is used.</description>
+    <pubDate>Tue, 02 Jan 2024 20:10:09 GMT</pubDate>
+  </item><item>
+    <title>Indexing</title>
+    <link>https:/quartz.jzhao.xyz/API/Indexing</link>
+    <guid>https:/quartz.jzhao.xyz/API/Indexing</guid>
+    <description>Imms has several variations for indexing. Negative Indexing § Imms collections support negative indexing, a feature borrowed from other languages such as Python.</description>
+    <pubDate>Tue, 02 Jan 2024 20:10:09 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
