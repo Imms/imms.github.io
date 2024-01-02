@@ -1,7 +1,9 @@
 @use "./variables.scss" as *;
 @use "./syntax.scss";
 @use "./callouts.scss";
-
+img[src*="Bench"] {
+  filter: contrast(4) saturate(50%);
+}
 html {
   scroll-behavior: smooth;
   -webkit-text-size-adjust: none;

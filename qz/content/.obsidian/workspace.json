@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/PowerLINQ.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/PowerLINQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/PowerLINQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +122,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "API/PowerLINQ.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -170,17 +166,20 @@
           }
         ],
         "direction": "vertical",
-        "x": -962,
-        "y": 306,
-        "width": 1189,
-        "height": 786,
+        "x": -963,
+        "y": 305,
+        "width": 1193,
+        "height": 791,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "194171b1f52c0bdb",
+  "active": "e911a79e372e21be",
   "lastOpenFiles": [
+    "index.md",
+    "Images/FotoKilof/Bench_List_Bulk.png",
+    "Images/FotoKilof",
     "API/PowerLINQ.md",
     "API/Optional.md",
     "API/Operators.md",
@@ -190,7 +189,6 @@
     "Collections/ImmList.md",
     "Why/Not immutable collections.md",
     "Why/Immutable collections.md",
-    "index.md",
     "Collections/ImmSet.md",
     "Collections/ImmMap.md",
     "API/Key Semantics.md",
@@ -205,7 +203,6 @@
     "api-docs/Web.Config",
     "api-docs/index.json",
     "api-docs/index.html",
-    "api-docs/WebKI.xml",
     "api-docs/icons/xna.gif",
     "api-docs/icons/TocOpen.gif",
     "api-docs/icons/TocExpanded.gif",
@@ -215,7 +212,6 @@
     "api-docs/icons/slMobile.gif",
     "api-docs/icons/SectionCollapsed.png",
     "api-docs/icons/SectionExpanded.png",
-    "api-docs/icons/Search.png",
     "[Maps.md",
     "Why/Imms.md",
     "Why use Imms.md",
@@ -225,7 +221,6 @@
     "maps.md",
     "Conventions.md",
     "content/maps.md",
-    "sets.md",
-    "Sequential.md"
+    "sets.md"
   ]
 }
