@@ -1,1 +1,0 @@
-module.exports = require("npm:sprintf-js@1.0.3/src/sprintf.js");
