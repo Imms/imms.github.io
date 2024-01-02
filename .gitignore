@@ -20,7 +20,6 @@ null*
 .DS_Store
 node_modules/
 *.map
-*.css
 *.log
 .maybe-resources/
 vault/Resources
