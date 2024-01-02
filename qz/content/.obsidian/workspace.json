@@ -1,0 +1,231 @@
+{
+  "main": {
+    "id": "facf0d89674be21b",
+    "type": "split",
+    "children": [
+      {
+        "id": "ad05535373ed81f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "194171b1f52c0bdb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "API/PowerLINQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e300e1e2708f1fd0",
+    "type": "split",
+    "children": [
+      {
+        "id": "49b7082609847666",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef98642449f2254b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "583270d20b43a720",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "94ebddf3fbdb3334",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c52464b47009ee8a",
+    "type": "split",
+    "children": [
+      {
+        "id": "d8afeb9c9eab3a74",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b3eb7eb62bae7e90",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "API/PowerLINQ.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "43e906291b571cea",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "API/PowerLINQ.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6eefc884f43a82ab",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d91d1e39e18031c9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "API/PowerLINQ.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "floating": {
+    "id": "3786d0bb342a9561",
+    "type": "floating",
+    "children": [
+      {
+        "id": "ea4b99d0c0c46e3a",
+        "type": "window",
+        "children": [
+          {
+            "id": "ca6a2bada66249ce",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e911a79e372e21be",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": -962,
+        "y": 306,
+        "width": 1189,
+        "height": 786,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "194171b1f52c0bdb",
+  "lastOpenFiles": [
+    "API/PowerLINQ.md",
+    "API/Optional.md",
+    "API/Operators.md",
+    "API/Indexing.md",
+    "API/Helper.md",
+    "API/FSharp Integration.md",
+    "Collections/ImmList.md",
+    "Why/Not immutable collections.md",
+    "Why/Immutable collections.md",
+    "index.md",
+    "Collections/ImmSet.md",
+    "Collections/ImmMap.md",
+    "API/Key Semantics.md",
+    "ImmSet.md",
+    "Imms.md",
+    "api-links.js~",
+    "api-docs/SearchHelp.inc.php",
+    "api-docs/SearchHelp.aspx",
+    "api-docs/SearchHelp.php",
+    "api-docs/search.html",
+    "api-docs/WebTOC.xml",
+    "api-docs/Web.Config",
+    "api-docs/index.json",
+    "api-docs/index.html",
+    "api-docs/WebKI.xml",
+    "api-docs/icons/xna.gif",
+    "api-docs/icons/TocOpen.gif",
+    "api-docs/icons/TocExpanded.gif",
+    "api-docs/icons/TocClose.gif",
+    "api-docs/icons/TocCollapsed.gif",
+    "api-docs/icons/static.gif",
+    "api-docs/icons/slMobile.gif",
+    "api-docs/icons/SectionCollapsed.png",
+    "api-docs/icons/SectionExpanded.png",
+    "api-docs/icons/Search.png",
+    "[Maps.md",
+    "Why/Imms.md",
+    "Why use Imms.md",
+    "Optional.md",
+    "general.md",
+    "philosopy.md",
+    "maps.md",
+    "Conventions.md",
+    "content/maps.md",
+    "sets.md",
+    "Sequential.md"
+  ]
+}

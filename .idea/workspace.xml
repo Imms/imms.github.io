@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ce43629-e610-44ff-b73a-d75a60265939" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quartz" beforeDir="false" afterPath="$PROJECT_DIR$/quartz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quartz/content/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quartz/quartz.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/quartz/quartz.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quartz/quartz.layout.ts" beforeDir="false" afterPath="$PROJECT_DIR$/quartz/quartz.layout.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quartz/quartz/components/scripts/darkmode.inline.ts" beforeDir="false" afterPath="$PROJECT_DIR$/quartz/quartz/components/scripts/darkmode.inline.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quartz/quartz/plugins/transformers/ofm.ts" beforeDir="false" afterPath="$PROJECT_DIR$/quartz/quartz/plugins/transformers/ofm.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +25,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/quartz" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -50,7 +45,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "v4",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/codegr/imms.github.io",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -112,6 +107,7 @@
       <workItem from="1704221004268" duration="26000" />
       <workItem from="1704221038705" duration="2925000" />
       <workItem from="1704224181097" duration="651000" />
+      <workItem from="1704226320254" duration="513000" />
     </task>
     <servers />
   </component>
