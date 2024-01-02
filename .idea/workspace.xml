@@ -7,6 +7,36 @@
     <list default="true" id="9ce43629-e610-44ff-b73a-d75a60265939" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qz/content/.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/qz/content/.obsidian/workspace.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qz/content/Images/Bench_List_Bulk.png" beforeDir="false" afterPath="$PROJECT_DIR$/qz/content/Images/Bench_List_Bulk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qz/content/Images/Bench_List_Indexing.png" beforeDir="false" afterPath="$PROJECT_DIR$/qz/content/Images/Bench_List_Indexing.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qz/content/Images/Bench_List_Iteration.png" beforeDir="false" afterPath="$PROJECT_DIR$/qz/content/Images/Bench_List_Iteration.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qz/content/Images/Bench_List_Lookups.png" beforeDir="false" afterPath="$PROJECT_DIR$/qz/content/Images/Bench_List_Lookups.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qz/content/Images/Bench_List_SingleItem.png" beforeDir="false" afterPath="$PROJECT_DIR$/qz/content/Images/Bench_List_SingleItem.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qz/content/Images/Bench_List_Slices.png" beforeDir="false" afterPath="$PROJECT_DIR$/qz/content/Images/Bench_List_Slices.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qz/content/Images/Bench_Maps_Operators.png" beforeDir="false" afterPath="$PROJECT_DIR$/qz/content/Images/Bench_Maps_Operators.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qz/content/Images/Bench_Maps_Single.png" beforeDir="false" afterPath="$PROJECT_DIR$/qz/content/Images/Bench_Maps_Single.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qz/content/Images/Bench_Set_Iterate.png" beforeDir="false" afterPath="$PROJECT_DIR$/qz/content/Images/Bench_Set_Iterate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qz/content/Images/Bench_Set_Operators.png" beforeDir="false" afterPath="$PROJECT_DIR$/qz/content/Images/Bench_Set_Operators.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qz/content/Images/Bench_Sets_Single.png" beforeDir="false" afterPath="$PROJECT_DIR$/qz/content/Images/Bench_Sets_Single.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qz/content/Images/List_Complexity.png" beforeDir="false" afterPath="$PROJECT_DIR$/qz/content/Images/List_Complexity.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qz/content/Images/Sets_Complexity.png" beforeDir="false" afterPath="$PROJECT_DIR$/qz/content/Images/Sets_Complexity.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qz/public/Collections/ImmList.html" beforeDir="false" afterPath="$PROJECT_DIR$/qz/public/Collections/ImmList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qz/public/Images/Bench_List_Bulk.png" beforeDir="false" afterPath="$PROJECT_DIR$/qz/public/Images/Bench_List_Bulk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qz/public/Images/Bench_List_Indexing.png" beforeDir="false" afterPath="$PROJECT_DIR$/qz/public/Images/Bench_List_Indexing.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qz/public/Images/Bench_List_Iteration.png" beforeDir="false" afterPath="$PROJECT_DIR$/qz/public/Images/Bench_List_Iteration.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qz/public/Images/Bench_List_Lookups.png" beforeDir="false" afterPath="$PROJECT_DIR$/qz/public/Images/Bench_List_Lookups.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qz/public/Images/Bench_List_SingleItem.png" beforeDir="false" afterPath="$PROJECT_DIR$/qz/public/Images/Bench_List_SingleItem.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qz/public/Images/Bench_List_Slices.png" beforeDir="false" afterPath="$PROJECT_DIR$/qz/public/Images/Bench_List_Slices.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qz/public/Images/Bench_Maps_Operators.png" beforeDir="false" afterPath="$PROJECT_DIR$/qz/public/Images/Bench_Maps_Operators.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qz/public/Images/Bench_Maps_Single.png" beforeDir="false" afterPath="$PROJECT_DIR$/qz/public/Images/Bench_Maps_Single.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qz/public/Images/Bench_Set_Iterate.png" beforeDir="false" afterPath="$PROJECT_DIR$/qz/public/Images/Bench_Set_Iterate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qz/public/Images/Bench_Set_Operators.png" beforeDir="false" afterPath="$PROJECT_DIR$/qz/public/Images/Bench_Set_Operators.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qz/public/Images/Bench_Sets_Single.png" beforeDir="false" afterPath="$PROJECT_DIR$/qz/public/Images/Bench_Sets_Single.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qz/public/Images/FotoKilof/Bench_List_Bulk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qz/public/Images/List_Complexity.png" beforeDir="false" afterPath="$PROJECT_DIR$/qz/public/Images/List_Complexity.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qz/public/Images/Sets_Complexity.png" beforeDir="false" afterPath="$PROJECT_DIR$/qz/public/Images/Sets_Complexity.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qz/public/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/qz/public/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qz/quartz/styles/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/qz/quartz/styles/base.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +76,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/codegr/imms.github.io",
+    "last_opened_file_path": "C:/codegr/imms.github.io - Copy",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -108,7 +138,7 @@
       <workItem from="1704221038705" duration="2925000" />
       <workItem from="1704224181097" duration="651000" />
       <workItem from="1704226320254" duration="513000" />
-      <workItem from="1704227047260" duration="1256000" />
+      <workItem from="1704227047260" duration="3595000" />
     </task>
     <servers />
   </component>
